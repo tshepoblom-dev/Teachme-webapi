@@ -178,6 +178,35 @@ function updateEndTime(extraMinutes) {
     $('#timefull').val(`${formattedStartTime}-${formattedEndTime}`);
 }
 
+let currentExtraTime = 0; // Stores the current extra time in minutes
+const timeStep = 30; // Step in minutes
+const maxExtraTime = 240; // Optional: max limit
+const minExtraTime = 0; // Optional: min limit (no negative)
+
+function updateTimeDisplay() {
+    $('.js-extra-time-display').text(`${currentExtraTime} min`);
+    updateEndTime(currentExtraTime);
+}
+
+$('.js-time-increase').off('click').on('click', function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (currentExtraTime + timeStep <= maxExtraTime) {
+        currentExtraTime += timeStep;
+        updateTimeDisplay();
+    }
+});
+
+$('.js-time-decrease').off('click').on('click', function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (currentExtraTime - timeStep >= minExtraTime) {
+        currentExtraTime -= timeStep;
+        updateTimeDisplay();
+    }
+});
+
+
             $('.js-finalize-reserve').removeClass('d-none');
 
             const onlineTypeReserve = $('input[value="online"]').closest('.meeting-type-reserve');
