@@ -1,0 +1,1 @@
+[22-Feb-2025 10:17:31 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/teachmea/public_html/app/Mixins/Logs/UserLoginHistoryMixin.php on line 91
