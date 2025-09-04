@@ -28,7 +28,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $homeSections = HomeSection::orderBy('order', 'asc')->get();
+       /* $homeSections = HomeSection::orderBy('order', 'asc')->get();
         $selectedSectionsName = $homeSections->pluck('name')->toArray();
 
         $featureWebinars = null;
@@ -334,13 +334,13 @@ class HomeController extends Controller
         if (in_array(HomeSection::$video_or_image_section, $selectedSectionsName)) {
             $boxVideoOrImage = getHomeVideoOrImageBoxSettings();
         }
-
+*/
         $seoSettings = getSeoMetas('home');
         $pageTitle = !empty($seoSettings['title']) ? $seoSettings['title'] : trans('home.home_title');
         $pageDescription = !empty($seoSettings['description']) ? $seoSettings['description'] : trans('home.home_title');
         $pageRobot = getPageRobot('home');
 
-        $statisticsSettings = getStatisticsSettings();
+    /*    $statisticsSettings = getStatisticsSettings();
 
         $homeDefaultStatistics = null;
         $homeCustomStatistics = null;
@@ -352,11 +352,12 @@ class HomeController extends Controller
                 $homeCustomStatistics = HomePageStatistic::query()->orderBy('order', 'asc')->limit(4)->get();
             }
         }
-
+*/
         $data = [
             'pageTitle' => $pageTitle,
             'pageDescription' => $pageDescription,
-            'pageRobot' => $pageRobot,
+            'pageRobot' => $pageRobot,];
+            /*
             'heroSection' => $heroSection,
             'heroSectionData' => $heroSectionData,
             'homeSections' => $homeSections,
@@ -384,7 +385,7 @@ class HomeController extends Controller
             'rewardProgramSection' => $rewardProgramSection ?? null,
             'becomeInstructorSection' => $becomeInstructorSection ?? null,
             'forumSection' => $forumSection ?? null,
-        ];
+        ];*/
 
         return view(getTemplate() . '.pages.home', $data);
     }

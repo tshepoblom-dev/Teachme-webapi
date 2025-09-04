@@ -34,7 +34,7 @@ mix
 // scripts
 // .js('resources/js/parts/main.js', 'public/assets/default/js/parts/main.min.js')
 // .js('resources/js/parts/cookie-security.js', 'public/assets/default/js/parts/cookie-security.min.js')
-// .js('resources/js/parts/home.js', 'public/assets/default/js/parts/home.min.js')
+ .js('resources/js/parts/home.js', 'public/assets/default/js/parts/home.min.js')
 // .js('resources/js/parts/webinar_show.js', 'public/assets/default/js/parts/webinar_show.min.js')
 // .js('resources/js/parts/upcoming_course_show.js', 'public/assets/default/js/parts/upcoming_course_show.min.js')
 // .js('resources/js/parts/video_player_helpers.js', 'public/assets/default/js/parts/video_player_helpers.min.js')
@@ -91,11 +91,11 @@ mix
 // .js('resources/js/panel/marketing/promotions.js', 'public/assets/default/js/panel/marketing/promotions.min.js')
 // .js('resources/js/panel/marketing/special_offers.js', 'public/assets/default/js/panel/marketing/special_offers.min.js')
 
- .js('resources/js/panel/meeting/meeting.js', 'public/assets/default/js/panel/meeting/meeting.min.js')
+// .js('resources/js/panel/meeting/meeting.js', 'public/assets/default/js/panel/meeting/meeting.min.js')
 //.js('resources/js/panel/meeting/reserve_meeting.js', 'public/assets/default/js/panel/meeting/reserve_meeting.min.js')
 // .js('resources/js/panel/meeting/contact-info.js', 'public/assets/default/js/panel/meeting/contact-info.min.js')
 // .js('resources/js/panel/meeting/join_modal.js', 'public/assets/default/js/panel/meeting/join_modal.min.js')
- .js('resources/js/panel/meeting/requests.js', 'public/assets/default/js/panel/meeting/requests.min.js')
+//.js('resources/js/panel/meeting/requests.js', 'public/assets/default/js/panel/meeting/requests.min.js')
 //
 // .js('resources/js/panel/noticeboard.js', 'public/assets/default/js/panel/noticeboard.min.js')
 // .js('resources/js/panel/notifications.js', 'public/assets/default/js/panel/notifications.min.js')

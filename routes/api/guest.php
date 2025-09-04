@@ -4,7 +4,7 @@ use App\Mixins\Financial\MultiCurrency;
 use Illuminate\Support\Facades\Route;
 
 Route::group([], function () {
-
+/*
     Route::group(['prefix' => 'courses'], function () {
 
         Route::get('/', ['uses' => 'WebinarController@index']);
@@ -27,6 +27,7 @@ Route::group([], function () {
     Route::get('certificate_validation', ['uses' => 'CertificatesController@checkValidate', 'middleware' => 'api.request.type']);
 
     Route::get('featured-courses', ['uses' => 'FeatureWebinarController@index']);
+    */
     Route::get('categories', ['uses' => 'CategoriesController@index']);
     Route::get('categories/{id}/webinars', ['uses' => 'CategoriesController@categoryWebinar']);
     Route::get('trend-categories', ['uses' => 'CategoriesController@trendCategory']);
@@ -50,7 +51,7 @@ Route::group([], function () {
 
 
     Route::get('/files/{file_id}/download', ['uses' => 'FilesController@download']);
-
+/*
     Route::group(['prefix' => 'blogs'], function () {
         Route::get('/', ['uses' => 'BlogController@index']);
         Route::get('/categories', ['uses' => 'BlogCategoryController@index']);
@@ -59,7 +60,7 @@ Route::group([], function () {
     });
 
     Route::get('advertising-banner', ['uses' => 'AdvertisingBannerController@list']);
-
+*/
     Route::get('/subscribe', ['uses' => 'SubscribesController@list']);
 
     Route::get('instructors', ['uses' => 'UserController@instructors']);
@@ -79,20 +80,23 @@ Route::group([], function () {
     Route::get('timezones', ['uses' => 'TimeZonesController@index']);
 
     /******  Bundles ******/
+    /*
     Route::group(['prefix' => 'bundles'], function () {
         Route::get('/', ['uses' => 'BundleController@index']);
         Route::get('/{id}/webinars', ['uses' => 'BundleWebinarController@index']);
         Route::post('/{id}/free', ['uses' => 'BundleWebinarController@free']);
         Route::get('/{id}', ['uses' => 'BundleController@show']);
     });
-
+*/
     /******  Products ******/
+    /*
     Route::group(['prefix' => 'products'], function () {
         Route::get('/', ['uses' => 'ProductController@index']);
         Route::get('/{id}', ['uses' => 'ProductController@show']);
 
     });
     Route::get('/product_categories', ['uses' => 'ProductCategoryController@index']);
+    */
     //New API
 
     //get Countries Mobile Code

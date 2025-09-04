@@ -161,11 +161,11 @@
         }
     });
 
-    $(document).ready(function () {
+  /*  $(document).ready(function () {
         for (var i = 1; i <= 6; i++) {
             new Parallax(document.getElementById('parallax' + i), {
                 relativeInput: true
             });
         }
-    });
+    });*/
 })(jQuery);

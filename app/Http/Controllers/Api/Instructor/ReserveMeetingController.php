@@ -11,6 +11,7 @@ use App\Models\Role;
 use App\Models\Session;
 use App\Models\Translation\SessionTranslation;
 use App\User;
+use App\Models\Cart;
 use \Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use App\Http\Controllers\Api\Panel\ReserveMeetingsController;
@@ -64,8 +65,8 @@ class ReserveMeetingController extends Controller
 
         $meetingIds = Meeting::where('creator_id', $user->id)->pluck('id');
 
-        $ReserveMeeting = \App\Models\Api\ReserveMeeting::where('id', $id)
-            ->where(function ($query) use ($user, $meetingIds) {
+        $ReserveMeeting = \App\Models\Api\ReserveMeeting::with(['user', 'meeting.creator'])
+           ->where(function ($query) use ($user, $meetingIds) {
                 $query->where('user_id', $user->id)
                     ->orWhereIn('meeting_id', $meetingIds);
             })
@@ -75,6 +76,9 @@ class ReserveMeetingController extends Controller
             $ReserveMeeting->update([
                 'status' => ReserveMeeting::$finished
             ]);
+
+        // Delete any related cart entry
+                \App\Models\Cart::where('reserve_meeting_id', $ReserveMeeting->id)->delete();
 
             $notifyOptions = [
                 '[student.name]' => $ReserveMeeting->user->full_name,
@@ -114,9 +118,10 @@ class ReserveMeetingController extends Controller
                 'creator_id' => $user->id,
                 'reserve_meeting_id' => $ReserveMeeting->id,
             ], [
-                'date' => time(), // can start now
+                //'date' => time(), // can start now
+                'date' => $ReserveMeeting->start_at,
                 'duration' => (($ReserveMeeting->end_at - $ReserveMeeting->start_at) / 60),
-                'link' => null,
+                'link' => $this->getJoinLink(),
                 'session_api' => 'agora',
                 'agora_settings' => json_encode($agoraSettings),
                 'check_previous_parts' => false,
@@ -139,7 +144,7 @@ class ReserveMeetingController extends Controller
                 ]);
 
                 $notifyOptions = [
-                   // '[link]' => $session->getJoinLink(),
+                    '[link]' => $session->getJoinLink(),
                     '[instructor.name]' => $user->full_name,
                     '[time.date]' => dateTimeFormat($session->date, 'j M Y H:i'),
                 ];
@@ -153,7 +158,73 @@ class ReserveMeetingController extends Controller
 
         return response()->json([], 422);
     }
+    public function acceptMeetingRequest($id)
+    {
+        try{
+        $ReserveMeeting = ReserveMeeting::with(['meeting', 'user'])->find($id);
 
+        if (!empty($ReserveMeeting)) {
+            $user = auth()->user();
+
+            // Ensure the authenticated user is the creator of the meeting
+            if ($ReserveMeeting->meeting->creator_id != $user->id) {
+                return response()->json([
+                    'code' => 403,
+                    'title' => trans('public.forbidden'),
+                    'msg' => trans('meeting.not_authorized'),
+                ], 403);
+            }
+
+            // Accept the meeting request
+            $ReserveMeeting->update([
+                'status' => ReserveMeeting::$accepted,
+            ]);
+
+            // Create a cart entry for the student
+            $existingCart = Cart::where('creator_id', $ReserveMeeting->user_id)
+                ->where('reserve_meeting_id', $ReserveMeeting->id)
+                ->first();
+
+            if (empty($existingCart)) {
+                Cart::UpdateOrCreate([
+                    'creator_id' => $ReserveMeeting->user_id,
+                    'reserve_meeting_id' => $ReserveMeeting->id,
+                    'created_at' => time(),
+                ]);
+            }
+
+            // Notify the student
+            $notifyOptions = [
+                '[student.name]' => $ReserveMeeting->user->full_name,
+                '[instructor.name]' => $user->full_name,
+                '[time.date]' => $ReserveMeeting->day,
+            ];
+
+            sendNotification('meeting_accepted', $notifyOptions, $ReserveMeeting->user_id);
+
+            return response()->json([
+                'code' => 200,
+                'title' => trans('public.success'),
+                'msg' => trans('meeting.meeting_request_accepted'),
+            ], 200);
+        }
+
+        return response()->json([
+            'code' => 404,
+            'title' => trans('public.error'),
+            'msg' => trans('meeting.not_found'),
+        ], 404);
+        }
+        catch(\Exception $ex){
+            return response()->json([
+                'code' => 404,
+                'title' => trans('public.error'),
+                'msg' => $ex->getMessage(),
+            ]);
+        }
+    }
+
+/*
     public function acceptMeetingRequest($id)
     {
         $ReserveMeeting = ReserveMeeting::find($id);
@@ -195,4 +266,5 @@ class ReserveMeetingController extends Controller
             'msg' => trans('meeting.not_found'),
         ], 404);
     }
+        */
 }

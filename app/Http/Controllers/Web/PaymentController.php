@@ -10,9 +10,12 @@ use App\Models\BecomeInstructor;
 use App\Models\Cart;
 use App\Models\Order;
 use App\Models\OrderItem;
+use App\User;
 use App\Models\PaymentChannel;
 use App\Models\Product;
 use App\Models\ProductOrder;
+use App\Models\Translation\SessionTranslation;
+use App\Models\Session;
 use App\Models\ReserveMeeting;
 use App\Models\Reward;
 use App\Models\RewardAccounting;
@@ -144,6 +147,70 @@ class PaymentController extends Controller
                 $this->setPaymentAccounting($order);
 
                 $order->update(['status' => Order::$paid]);
+                // Create live session for meetings after successful payment: TBLOM 16JULY2025
+
+                    $orderItem = OrderItem::where('order_id', $order->id)->first();
+
+                    if ($orderItem && $orderItem->reserve_meeting_id) {
+                        $reserveMeeting = ReserveMeeting::with('meeting')->find($orderItem->reserve_meeting_id);
+
+                        if ($reserveMeeting) {
+                            // Create session
+                            $user = $order->user ?? auth()->user(); // fallback to authenticated user
+                            $agoraSettings = [
+                                'chat' => true,
+                                'record' => true,
+                                'users_join' => true
+                            ];
+
+                            $session = Session::updateOrCreate([
+                                //'creator_id' => $user->id,
+                                'creator_id' => $reserveMeeting->meeting->creator_id,
+                                'reserve_meeting_id' => $reserveMeeting->id,
+                            ], [
+                                'date' => $reserveMeeting->start_at,
+                                'duration' => (($reserveMeeting->end_at - $reserveMeeting->start_at) / 60),
+                                'link' => null,
+                                'session_api' => 'agora',
+                                'agora_settings' => json_encode($agoraSettings),
+                                'check_previous_parts' => false,
+                                'status' => Session::$Active,
+                                'created_at' => time()
+                            ]);
+
+                            if ($session) {
+                                SessionTranslation::updateOrCreate([
+                                    'session_id' => $session->id,
+                                    'locale' => mb_strtolower(app()->getLocale()),
+                                ], [
+                                    'title' => trans('update.new_in-app_call_session'),
+                                    'description' => trans('update.new_in-app_call_session'),
+                                ]);
+
+                                // Unlock and open the meeting
+                                $reserveMeeting->update([
+                                    'locked_at' => null,
+                                    'link' => $session->getJoinLink(),
+                                    'status' => ReserveMeeting::$open,
+                                ]);
+                            // Clear cart entries linked to this reserve meeting
+                          /*          $orderItem = OrderItem::where('reserve_meeting_id', $reserveMeeting->id)->first();
+                                    if ($orderItem) {
+                                        Cart::where('order_item_id', $orderItem->id)->delete();
+                                    }*/
+                                // Notify users
+                                $notifyOptions = [
+                                    '[link]' => $session->getJoinLink(),
+                                    '[instructor.name]' => $user->full_name,
+                                    '[time.date]' => dateTimeFormat($session->date, 'j M Y H:i'),
+                                ];
+                                sendNotification('new_appointment_session', $notifyOptions, $reserveMeeting->user_id);
+                                sendNotification('new_appointment_session', $notifyOptions, $reserveMeeting->meeting->creator_id);
+                            }
+                        }
+                    }
+
+
             } else {
                 if ($order->type === Order::$meeting) {
                     $orderItem = OrderItem::where('order_id', $order->id)->first();

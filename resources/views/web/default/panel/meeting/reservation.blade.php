@@ -127,6 +127,32 @@
     </section>
 
 
+    @if($meetingsInCart->isNotEmpty())
+    <section class="mt-30">
+        <h2 class="section-title">Meetings Awaiting Payment</h2>
+
+        <div class="panel-section-card py-15 px-20">
+            <ul class="list-group">
+                @foreach($meetingsInCart as $cartMeeting)
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div>
+                            <strong>{{ $cartMeeting->meeting->creator->full_name }}</strong>
+                            <div class="text-gray font-14 mt-1">
+                                {{ dateTimeFormat($cartMeeting->start_at, 'j M Y H:i') }}
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a href="/cart" class="btn btn-sm btn-primary mr-2">Pay Now</a>
+                            <button data-id="{{$cartMeeting->id }}" class="js-finish-meeting-reserve btn btn-sm btn-danger">Cancel</button>
+                        </div>
+                    </li>
+                @endforeach
+            </ul>
+        </div>
+    </section>
+@endif
+
+
     <section class="mt-35">
         <div class="d-flex align-items-start align-items-md-center justify-content-between flex-column flex-md-row">
             <h2 class="section-title">{{ trans('panel.meeting_list') }}</h2>
@@ -212,6 +238,9 @@
                                                 @case(\App\Models\ReserveMeeting::$open)
                                                     <span class="text-gray font-weight-500">{{ trans('public.open') }}</span>
                                                     @break
+                                                @case(\App\Models\ReserveMeeting::$accepted)
+                                                    <span class="font-weight-500 text-primary">Accepted</span>
+                                                    @break
                                                 @case(\App\Models\ReserveMeeting::$finished)
                                                     <span class="font-weight-500 text-primary">{{ trans('public.finished') }}</span>
                                                     @break
@@ -236,18 +265,19 @@
                                                         <i data-feather="more-vertical" height="20"></i>
                                                     </button>
                                                     <div class="dropdown-menu menu-lg">
-
                                                         @if(getFeaturesSettings('agora_for_meeting') and $ReserveMeeting->meeting_type != 'in_person' and $ReserveMeeting->status == \App\Models\ReserveMeeting::$open)
                                                             @if(!empty($ReserveMeeting->session))
                                                                 <button type="button" data-item-id="{{ $ReserveMeeting->id }}" data-date="{{ dateTimeFormat($ReserveMeeting->start_at, 'j M Y H:i') }}" data-link="{{ $ReserveMeeting->session->getJoinLink() }}"
                                                                         class="js-join-meeting-session btn-transparent webinar-actions d-block mt-10 text-primary">{{ trans('update.join_to_session') }}</button>
                                                             @endif
-                                                        @endif
-
-                                                        @if($ReserveMeeting->link and $ReserveMeeting->status == \App\Models\ReserveMeeting::$open)
+                                                        @elseif($ReserveMeeting->link and $ReserveMeeting->status == \App\Models\ReserveMeeting::$open)
                                                             <button type="button" data-reserve-id="{{ $ReserveMeeting->id }}"
                                                                     class="js-join-reserve btn-transparent webinar-actions d-block mt-10">{{ trans('footer.join') }}</button>
                                                         @endif
+                                                        {{--
+                                                        @if($ReserveMeeting->status == \App\Models\ReserveMeeting::$accepted)
+                                                            <a href="/cart" class="align-items-center rounded py-5 px-5 font-14 btn-primary font-weight-500 webinar-actions d-block mt-10">Pay for Session</a>
+                                                        @endif --}}
 
                                                         <a href="{{ $ReserveMeeting->addToCalendarLink() }}" target="_blank"
                                                            class="webinar-actions d-block mt-10 font-weight-normal">{{ trans('public.add_to_calendar') }}</a>
@@ -262,11 +292,11 @@
                                                     </div>
                                                 </div>
                                             @elseif (in_array($ReserveMeeting->status, [\App\Models\ReserveMeeting::$finished, \App\Models\ReserveMeeting::$canceled]))
-                                             <td class="align-middle">
-                                                <div class="d-inline-flex align-items-center rounded py-5 px-5 font-14 btn-primary font-weight-500">
+
+                                                <div class="align-items-center rounded py-5 px-5 font-14 btn-primary font-weight-500">
                                                     <a href="{{ $ReserveMeeting->meeting->creator->getProfileUrl() }}{{ '?tab=appointments' }}" class="text-white">Rebook Tutor</a>
                                                 </div>
-                                             </td>
+
                                             @endif
 
                                         </td>

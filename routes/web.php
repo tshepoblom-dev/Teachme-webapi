@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Artisan;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,12 +13,72 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/phpinfo', function(){
+   try{
+
+       $content = phpinfo();
+       return response()->json(['content' => $content]);
+   }
+   catch(Exception $ex){
+       return response()->json(['error' => $ex->getTraceAsString()]);
+   }
+});
+
+Route::get('/set-cache', function () {
+
+    try{
+    $commands = [ 'route:cache', 'config:cache', 'view:cache', 'route:cache'];
+
+    foreach ($commands as $command) {
+        Artisan::call($command);
+    }
+
+    return response()->json([
+        'status' => 'success',
+        'message' => 'All config commands executed successfully.'
+    ]);
+    }
+    catch(Exception $ex){
+         return response()->json([
+            'status' => 'error',
+            'message' => $ex->getMessage(),
+            'file' => $ex->getFile(),
+            'line' => $ex->getLine(),
+            'trace' => $ex->getTraceAsString(),
+        ]);
+    }
+});
+
+Route::get('/run-clear', function () {
+
+    try{
+    $commands = ['config:clear', 'route:clear', 'cache:clear', 'view:clear'];
+
+    foreach ($commands as $command) {
+        Artisan::call($command);
+    }
+
+    return response()->json([
+        'status' => 'success',
+        'message' => 'All clear commands executed successfully.'
+    ]);
+    }
+    catch(Exception $ex){
+         return response()->json([
+            'status' => 'error',
+            'message' => $ex->getMessage()
+        ]);
+    }
+});
 Route::group(['prefix' => 'my_api', 'namespace' => 'Api\Panel', 'middleware' => ['signed', 'x_frame_headers'], 'as' => 'my_api.web.'], function () {
     Route::get('checkout/{user}', 'CartController@webCheckoutRender')->name('checkout');
     Route::get('/charge/{user}', 'PaymentsController@webChargeRender')->name('charge');
     Route::get('/subscribe/{user}/{subscribe}', 'SubscribesController@webPayRender')->name('subscribe');
     Route::get('/registration_packages/{user}/{package}', 'RegistrationPackagesController@webPayRender')->name('registration_packages');
     Route::get('/courses/learning_file/{user}', 'CoursesLearningContent@renderWebUrl')->name('courses_learning_file');
+    //Route::get('direct_checkout', 'CartController@directCheckout')->middleware('signed')->name('direct_checkout');
+    //Route::post('direct_checkout_link', 'CartController@directCheckoutLink')->name('direct_checkout_link');
+    Route::get('direct_checkout', 'CartController@directCheckout')->middleware('signed')->name('direct_checkout');
 });
 
 Route::group(['prefix' => 'api_sessions'], function () {
@@ -99,7 +160,7 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
     Route::get('/download-app', 'HomeController@downloadApk');
 
     Route::get('/getDefaultAvatar', 'DefaultAvatarController@make');
-
+/*
     Route::group(['prefix' => 'course'], function () {
         Route::get('/{slug}', 'WebinarController@course');
         Route::get('/{slug}/file/{file_id}/download', 'WebinarController@downloadFile');
@@ -153,7 +214,7 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
         Route::get('/', 'CertificateValidationController@index');
         Route::post('/validate', 'CertificateValidationController@checkValidate');
     });
-
+*/
 
     Route::group(['prefix' => 'cart'], function () {
         Route::post('/store', 'CartManagerController@store');
@@ -162,10 +223,10 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
 
     Route::group(['middleware' => 'web.auth'], function () {
 
-        Route::group(['prefix' => 'laravel-filemanager'], function () {
+     /*   Route::group(['prefix' => 'laravel-filemanager'], function () {
             \UniSharp\LaravelFilemanager\Lfm::routes();
-        });
-
+        }); */
+/*
         Route::group(['prefix' => 'reviews'], function () {
             Route::post('/store', 'WebinarReviewController@store');
             Route::post('/store-reply-comment', 'WebinarReviewController@storeReplyComment');
@@ -186,7 +247,7 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
             Route::post('/{id}/report', 'CommentController@report');
             Route::get('/{id}/delete', 'CommentController@destroy');
         });
-
+*/
         Route::group(['prefix' => 'cart'], function () {
             Route::get('/', 'CartController@index');
 
@@ -221,8 +282,8 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
 
     Route::group(['prefix' => 'payments'], function () {
         Route::post('/payment-request', 'PaymentController@paymentRequest');
-        Route::get('/verify/{gateway}', ['as' => 'payment_verify', 'uses' => 'PaymentController@paymentVerify']);
-        Route::post('/verify/{gateway}', ['as' => 'payment_verify_post', 'uses' => 'PaymentController@paymentVerify']);
+        Route::get('/verify/{gateway}', ['as' => 'payment_verify_web', 'uses' => 'PaymentController@paymentVerify']);
+        Route::post('/verify/{gateway}', ['as' => 'payment_verify_post_web', 'uses' => 'PaymentController@paymentVerify']);
         Route::get('/status', 'PaymentController@payStatus');
         Route::get('/payku/callback/{id}', 'PaymentController@paykuPaymentVerify')->name('payku.result');
         Route::get('/chapa/callback/{reference}', 'PaymentController@chapaPaymentVerify')->name('chapa.callback');
@@ -245,16 +306,16 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
         Route::get('/{categoryTitle}/{subCategoryTitle?}', 'CategoriesController@index');
     });
 
-    Route::get('/classes', 'ClassesController@index');
+ //   Route::get('/classes', 'ClassesController@index');
 
-    Route::get('/reward-courses', 'RewardCoursesController@index');
-
+ //   Route::get('/reward-courses', 'RewardCoursesController@index');
+/*
     Route::group(['prefix' => 'blog'], function () {
         Route::get('/', 'BlogController@index');
         Route::get('/categories/{category}', 'BlogController@index');
         Route::get('/{slug}', 'BlogController@show');
     });
-
+*/
     Route::group(['prefix' => 'contact'], function () {
         Route::get('/', 'ContactController@index');
         Route::post('/store', 'ContactController@store');
@@ -287,12 +348,12 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
     });
 
     Route::post('/newsletters', 'UserController@makeNewsletter');
-
+/*
     Route::group(['prefix' => 'jobs'], function () {
         Route::get('/{methodName}', 'JobsController@index');
         Route::post('/{methodName}', 'JobsController@index');
     });
-
+*/
     Route::group(['prefix' => 'regions'], function () {
         Route::get('/provincesByCountry/{countryId}', 'RegionController@provincesByCountry');
         Route::get('/citiesByProvince/{provinceId}', 'RegionController@citiesByProvince');
@@ -303,7 +364,7 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
         Route::get('/', 'InstructorFinderController@index');
         Route::get('/wizard', 'InstructorFinderController@wizard');
     });
-
+/*
     Route::group(['prefix' => 'products'], function () {
         Route::get('/', 'ProductController@searchLists');
         Route::get('/{slug}', 'ProductController@show');
@@ -400,9 +461,8 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
         });
     });
 
-    /* Forms */
     Route::get('/forms/{url}', 'FormsController@index');
     Route::post('/forms/{url}/store', 'FormsController@store');
-
+*/
 });
 

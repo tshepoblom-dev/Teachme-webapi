@@ -183,7 +183,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
         Cviebrock\EloquentSluggable\ServiceProvider::class,
-        Barryvdh\Debugbar\ServiceProvider::class,
+        //Barryvdh\Debugbar\ServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -209,12 +209,12 @@ return [
         \Torann\GeoIP\GeoIPServiceProvider::class,
         niklasravnsborg\LaravelPdf\PdfServiceProvider::class,
         Kavenegar\Laravel\ServiceProvider::class,
-        MoemenGaballah\Msegat\MsegatServiceProvider::class,
-        Craftsys\Msg91\Msg91LaravelServiceProvider::class,
+       // MoemenGaballah\Msegat\MsegatServiceProvider::class,
+       // Craftsys\Msg91\Msg91LaravelServiceProvider::class,
         Kreait\Laravel\Firebase\ServiceProvider::class,
-        Paytabscom\Laravel_paytabs\PaypageServiceProvider::class,
-        PayMob\PayMobServiceProvider::class,
-        Clickpaysa\Laravel_package\PaypageServiceProvider::class,
+        //Paytabscom\Laravel_paytabs\PaypageServiceProvider::class,
+        //PayMob\PayMobServiceProvider::class,
+        //Clickpaysa\Laravel_package\PaypageServiceProvider::class,
     ],
 
     /*

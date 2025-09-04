@@ -133,7 +133,7 @@
 </script>
 
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
+<!--<script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
     var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -143,7 +143,27 @@
     s1.setAttribute('crossorigin','*');
     s0.parentNode.insertBefore(s1,s0);
     })();
-    </script>
+    </script>-->
     <!--End of Tawk.to Script-->
+ <script>
+  function loadTawk() {
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/67c5cb6d145462190bce7880/1ilea59ul';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+  }
+
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(loadTawk);
+  } else {
+    window.addEventListener('load', function () {
+      setTimeout(loadTawk, 1000);
+    });
+  }
+  </script>
+
 </body>
 </html>

@@ -6,6 +6,11 @@ use App\Models\PaymentChannel;
 use App\PaymentChannels\BasePaymentChannel;
 use Illuminate\Http\Request;
 use App\PaymentChannels\IChannel;
+use App\User;
+use App\Models\ReserveMeeting;
+use App\Models\Cart;
+use App\Models\OrderItem;
+use Auth;
 use Exception;
 
 class Channel extends BasePaymentChannel implements IChannel
@@ -44,15 +49,28 @@ class Channel extends BasePaymentChannel implements IChannel
         session()->put($this->order_session_key, $order->id);
         $amount = $this->makeAmountByCurrency($order->total_amount, $order->currency);
         $passphrase = $this->test_mode ? 'Teachmeapp2024' : $this->passphrase;
+
+        // Detect if request is for API or Web
+        $isApi = request()->is('api/*') || request()->is('api/development/*');
+        $verifyPath = $isApi
+                    ? "/api/development/panel/payments/verify/PayFast"
+                    : "/payments/verify/PayFast";
+        $cancelPath = $isApi
+                    ? "/api/development/panel/payments/status"
+                    : "/payments/verify/PayFast";
+        $returnPath = $isApi
+                    ? "/api/development/panel/payments/status"
+                    : "/payments/verify/PayFast";
         $data = [
             'merchant_id' => $this->test_mode ? '10011546' : $this->merchant_id,
             'merchant_key' => $this->test_mode ? 'ru0uwhy438i6k' : $this->merchant_key,
-            'return_url' => url("/payments/verify/PayFast"),
-            'cancel_url' => url("/payments/verify/PayFast"),
-            'notify_url' => url("/payments/verify/PayFast"),
+            'return_url' => url($returnPath),
+            'cancel_url' => url($cancelPath),
+            'notify_url' => url($verifyPath),
             'm_payment_id' => $order->id,
             'amount' => $amount,
-            'item_name' => 'Meeting reservation'
+            'item_name' => 'Meeting reservation',
+            'custom_int1' => $order->user->id
         ];
 
         $updatedData = $this->convertToHttpsUrls($data);
@@ -102,8 +120,6 @@ class Channel extends BasePaymentChannel implements IChannel
         try
         {
             $ITN_Payload = $request->all();
-
-
             if(isset($ITN_Payload['payment_status'])){
                 switch($ITN_Payload['payment_status']){
                     case "COMPLETE":
@@ -114,12 +130,14 @@ class Channel extends BasePaymentChannel implements IChannel
                         $signature = $ITN_Payload['signature'];
                         $merchantid = $ITN_Payload['merchant_id'];
                         $m_payment_id =  $ITN_Payload['m_payment_id'];
-                        $user = auth()->user();
+                        $user = auth()->user() ?? User::find($ITN_Payload['custom_int1']);
+                        Auth::login($user);
                         $order = Order::where('id', $m_payment_id)->first();
                         $order->update(['product_delivery_fee' =>abs($amount_fee),
                                         'amount' => $amount_net,
                                         'reference_id' => $pf_payment_id,
                                         'status' => 'paying']);
+
                         return $order;
                         break;
                     case "CANCELLED":

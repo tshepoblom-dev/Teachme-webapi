@@ -26,11 +26,34 @@ class ReserveMeetingController extends Controller
         $this->authorize("panel_meetings_my_reservation");
 
         $user = auth()->user();
+        /*
         $reserveMeetingsQuery = ReserveMeeting::where('user_id', $user->id)
             ->whereNotNull('reserved_at')
             ->whereHas('sale', function ($query) {
-                //$query->whereNull('refund_at');
+                $query->whereNull('refund_at');
             });
+            */
+        $reserveMeetingsQuery = ReserveMeeting::whereNotNull('reserved_at')
+        ->whereHas('sale', function ($query) {
+            $query->whereNull('refund_at');
+        })
+        ->where(function ($query) use ($user) {
+            $query->where('user_id', $user->id) // viewer is the student
+                ->orWhereHas('meeting', function ($q) use ($user) {
+                    $q->where('creator_id', $user->id); // viewer is the teacher
+                });
+        });
+
+        // Get cart item meetings awaiting payment
+        $cartMeetingIds = Cart::where('creator_id', $user->id)
+            ->whereNotNull('reserve_meeting_id')
+            ->pluck('reserve_meeting_id')
+            ->toArray();
+
+        $meetingsInCart = ReserveMeeting::with(['meeting.creator'])
+            ->whereIn('id', $cartMeetingIds)
+            ->where('status', ReserveMeeting::$accepted)
+            ->get();
 
         $openReserveCount = deepClone($reserveMeetingsQuery)->where('status', \App\models\ReserveMeeting::$open)->count();
         $totalReserveCount = deepClone($reserveMeetingsQuery)->count();
@@ -86,6 +109,7 @@ class ReserveMeetingController extends Controller
             'openReserveCount' => $openReserveCount,
             'totalReserveCount' => $totalReserveCount,
             'activeHoursCount' => round($activeHoursCount / 3600, 2),
+            'meetingsInCart' => $meetingsInCart, // Pass to view
         ];
 
         return view(getTemplate() . '.panel.meeting.reservation', $data);
@@ -390,7 +414,7 @@ class ReserveMeetingController extends Controller
                 ]);
 
                 $notifyOptions = [
-                    //'[link]' => $session->getJoinLink(),
+                    '[link]' => $session->getJoinLink(),
                     '[instructor.name]' => $user->full_name,
                     '[time.date]' => dateTimeFormat($session->date, 'j M Y H:i'),
                 ];
@@ -425,6 +449,20 @@ class ReserveMeetingController extends Controller
                     'status' => ReserveMeeting::$accepted,
                 ]);
 
+                //create cart item when meeting accepted
+                $cart = Cart::where('creator_id', $user->id)
+                                ->where('reserve_meeting_id', $ReserveMeeting->id)
+                                ->first();
+
+                if (empty($cart)) {
+                    Cart::create([
+                       //'creator_id' => $user->id,
+                       //'reserve_meeting_id' => $ReserveMeeting->id,
+                        'creator_id' => $ReserveMeeting->user_id,
+                        'reserve_meeting_id' => $ReserveMeeting->id,
+                       'created_at' => time()
+                        ]);
+                }
                 // Optionally notify the student
                 $notifyOptions = [
                     '[link]' => 'academyapp://cart',

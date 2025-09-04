@@ -95,7 +95,7 @@ class MeetingsController extends Controller
                                 'discount' => $meetingTime->meeting->discount,
                                 'created_at' => time(),
                             ]);
-
+/*
                             $cart = Cart::where('creator_id', $user->id)
                                 ->where('reserve_meeting_id', $reserveMeeting->id)
                                 ->first();
@@ -107,16 +107,16 @@ class MeetingsController extends Controller
                                     'created_at' => time()
                                 ]);
                             }
+                                */
                         }
                                 //send notification to tutor about new meeting
 
-                $notifyOptions = [
-                    // '[link]' => $session->getJoinLink(),
-                     '[instructor.name]' => $user->full_name,
-                     '[time.date]' => dateTimeFormat($reserveMeeting->startAt, 'j M Y H:i'),
-                 ];
-                 sendNotification('new_appointment', $notifyOptions, $meeting->creator_id);
-
+                        $notifyOptions = [
+                            // '[link]' => $session->getJoinLink(),
+                            '[instructor.name]' => $user->full_name,
+                            '[time.date]' => dateTimeFormat($reserveMeeting->startAt, 'j M Y H:i'),
+                        ];
+                        sendNotification('new_appointment', $notifyOptions, $meeting->creator_id);
 
                         return apiResponse2(1, 'created', 'This time reserved successfully.');
                     } else {

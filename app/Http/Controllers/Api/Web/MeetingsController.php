@@ -116,7 +116,7 @@ class MeetingsController extends Controller
                             'description' => $description,
                             'created_at' => time(),
                         ]);
-
+/*
                         $cart = Cart::where('creator_id', $user->id)
                             ->where('reserve_meeting_id', $reserveMeeting->id)
                             ->first();
@@ -128,6 +128,7 @@ class MeetingsController extends Controller
                                 'created_at' => time()
                             ]);
                         }
+                            */
                         //send notification to tutor about new meeting
 
                 $notifyOptions = [

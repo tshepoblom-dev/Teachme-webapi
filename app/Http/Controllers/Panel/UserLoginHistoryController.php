@@ -30,6 +30,7 @@ class UserLoginHistoryController extends Controller
                $user->update([
                    'logged_count' => $user->logged_count - 1
            ]);
+          }
 
         }
 
@@ -40,4 +41,5 @@ class UserLoginHistoryController extends Controller
             'text' => trans('update.login_session_successful_deleted'),
         ]);
     }
+
 }

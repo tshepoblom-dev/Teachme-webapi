@@ -22,9 +22,9 @@ class UpcomingCoursesController extends Controller
 
     public function __construct()
     {
-        if (empty(getFeaturesSettings('upcoming_courses_status'))) {
+       /* if (empty(getFeaturesSettings('upcoming_courses_status'))) {
             abort(404);
-        }
+        }*/
     }
 
     public function index(Request $request)

@@ -10,6 +10,8 @@ use App\Models\OrderItem;
 use App\Models\PaymentChannel;
 use App\Models\ReserveMeeting;
 use App\Models\Sale;
+use App\Models\Session;
+use App\Models\Translation\SessionTranslation;
 use App\Models\TicketUser;
 use App\PaymentChannels\ChannelManager;
 use App\User;
@@ -78,6 +80,11 @@ class PaymentsController extends Controller
     public function paymentRequest(Request $request)
     {
         $user = apiAuth();
+        if($user == null){
+            $userid = $request->input('userid');
+            $user = User::find($userid);
+            Auth::login($user);
+        }
         validateParam($request->all(), [
             'gateway_id' => ['required',
                 Rule::exists('payment_channels', 'id')
@@ -106,7 +113,6 @@ class PaymentsController extends Controller
             $reserveMeeting->update(['locked_at' => time()]);
         }
 
-
         $paymentChannel = PaymentChannel::where('id', $gateway)
             ->where('status', 'active')
             ->first();
@@ -128,7 +134,7 @@ class PaymentsController extends Controller
                 return $redirect_url;
             }
 
-            return $redirect_url;
+            //return $redirect_url;
             //      dd($redirect_url) ;
             return Redirect::away($redirect_url);
 
@@ -153,6 +159,8 @@ class PaymentsController extends Controller
             $order = $channelManager->verify($request);
 
             if (!empty($order)) {
+                session()->put($this->order_session_key, $order->id);
+
                 $orderItem = OrderItem::where('order_id', $order->id)->first();
 
                 $reserveMeeting = null;
@@ -164,15 +172,70 @@ class PaymentsController extends Controller
                     $this->setPaymentAccounting($order);
 
                     $order->update(['status' => Order::$paid]);
+                      // Create Live Session here: TBLOM 16JULY2025
+                    if ($reserveMeeting) {
+                        $user = $reserveMeeting->user ?? apiAuth(); // fallback in case user is not set
+                        $agoraSettings = [
+                            'chat' => true,
+                            'record' => true,
+                            'users_join' => true
+                        ];
+
+                        $session = Session::updateOrCreate([
+                            //'creator_id' => $user->id,
+                            'creator_id' => $reserveMeeting->meeting->creator_id,
+                            'reserve_meeting_id' => $reserveMeeting->id,
+                        ], [
+                            'date' => $reserveMeeting->start_at,
+                            'duration' => (($reserveMeeting->end_at - $reserveMeeting->start_at) / 60),
+                            'link' => $this->getJoinLink(),
+                            'session_api' => 'agora',
+                            'agora_settings' => json_encode($agoraSettings),
+                            'check_previous_parts' => false,
+                            'status' => Session::$Active,
+                            'created_at' => time()
+                        ]);
+
+                        if ($session) {
+                            SessionTranslation::updateOrCreate([
+                                'session_id' => $session->id,
+                                'locale' => mb_strtolower(app()->getLocale()),
+                            ], [
+                                'title' => trans('update.new_in-app_call_session'),
+                                'description' => trans('update.new_in-app_call_session'),
+                            ]);
+
+                            $reserveMeeting->update([
+                                'status' => ReserveMeeting::$open,
+                                'link' => $session->getJoinLink(),
+                                'locked_at' => null,
+                            ]);
+
+                            // Clear cart entries linked to this reserve meeting
+                          /*  $orderItem = OrderItem::where('reserve_meeting_id', $reserveMeeting->id)->first();
+                            if ($orderItem) {
+                                Cart::where('order_item_id', $orderItem->id)->delete();
+                            }*/
+
+                            $notifyOptions = [
+                                '[link]' => $session->getJoinLink(),
+                                '[instructor.name]' => $user->full_name,
+                                '[time.date]' => dateTimeFormat($session->date, 'j M Y H:i'),
+                            ];
+                            sendNotification('new_appointment_session', $notifyOptions, $reserveMeeting->user_id);
+                            sendNotification('new_appointment_session', $notifyOptions, $reserveMeeting->meeting->creator_id);
+                        }
+                    }
+
                 } else {
                     if ($order->type === Order::$meeting) {
                         $reserveMeeting->update(['locked_at' => null]);
                     }
                 }
 
-                session()->put($this->order_session_key, $order->id);
+                //session()->put($this->order_session_key, $order->id);
 
-                return redirect('/payments/status');
+               // return redirect('/payments/status');
             } else {
                 $toastData = [
                     'title' => trans('cart.fail_purchase'),
@@ -282,7 +345,6 @@ class PaymentsController extends Controller
         $gateway_id = $request->input('gateway_id');
         $amount = $request->input('amount');
 
-
         $userAuth = apiAuth();
 
         $paymentChannel = PaymentChannel::find($gateway_id);
@@ -328,6 +390,143 @@ class PaymentsController extends Controller
         }
     }
 
+    // In PaymentsController.php
+    public function api_charge(Request $request)
+    {
+        validateParam($request->all(), [
+            'amount' => 'required|numeric|min:1',
+            'gateway_id' => ['required',
+                Rule::exists('payment_channels', 'id')->where('status', 'active')
+            ]
+            ,
+        ]);
+
+
+        $gateway_id = $request->input('gateway_id');
+        $amount = $request->input('amount');
+        $userAuth = apiAuth();
+
+        $paymentChannel = PaymentChannel::find($gateway_id);
+
+        if (!$paymentChannel) {
+            return apiResponse2(0, 'invalid_gateway', trans('api.payment.invalid_gateway'));
+        }
+        $order = Order::create([
+            'user_id' => $userAuth->id,
+            'status' => Order::$pending,
+            'payment_method' => Order::$paymentChannel,
+            'is_charge_account' => true,
+            'total_amount' => $amount,
+            'amount' => $amount,
+            'created_at' => time(),
+            'type' => Order::$charge,
+        ]);
+
+
+        OrderItem::updateOrCreate([
+            'user_id' => $userAuth->id,
+            'order_id' => $order->id,
+        ], [
+            'amount' => $amount,
+            'total_amount' => $amount,
+            'tax' => 0,
+            'tax_price' => 0,
+            'commission' => 0,
+            'commission_price' => 0,
+            'created_at' => time(),
+        ]);
+
+        // Set payment method and save order
+        $order->payment_method = Order::$paymentChannel;
+        $order->save();
+
+        try {
+            $channelManager = ChannelManager::makeChannel($paymentChannel);
+            $redirect_url = $channelManager->paymentRequest($order);
+
+            return Redirect::away($redirect_url);
+            // Return the redirect URL for webview
+         /*   return apiResponse2(1, 'payment_redirect', trans('api.payment.redirect_url'), [
+                'redirect_url' => $redirect_url,
+                'order_id' => $order->id,
+                'gateway' => $paymentChannel->class_name
+            ]);*/
+
+        } catch (\Exception $exception) {
+            return apiResponse2(0, 'gateway_error', trans('api.payment.gateway_error'));
+        }
+    }
+
+    public function getPaymentChannels(Request $request){
+        try
+        {
+            $paymentChannels = PaymentChannel::where('status', 'active')->get();
+            $data = [
+                'paymentChannels' => $paymentChannels
+            ];
+
+            return apiResponse2(1, 'charge', 'payment channels', $data);
+
+        }
+        catch(\Exception $ex){
+            return apiResponse2(0, 'charge_failed', 'Failed to get payment channels');
+        }
+    }
+    // Add a new method to handle charge verification
+    public function chargeVerify(Request $request, $gateway)
+    {
+        $paymentChannel = PaymentChannel::where('class_name', $gateway)
+            ->where('status', 'active')
+            ->first();
+
+        if (!$paymentChannel) {
+            return apiResponse2(0, 'invalid_gateway', trans('api.payment.invalid_gateway'));
+        }
+
+        try {
+            $channelManager = ChannelManager::makeChannel($paymentChannel);
+            $order = $channelManager->verify($request);
+
+            if (!empty($order) && $order->type === Order::$charge) {
+                if ($order->status == Order::$paying) {
+                    $this->setPaymentAccounting($order);
+                    $order->update(['status' => Order::$paid]);
+
+                    return apiResponse2(1, 'charge_success', trans('api.payment.charge_success'), [
+                        'order_id' => $order->id,
+                        'amount' => $order->amount
+                    ]);
+                }
+            }
+
+            return apiResponse2(0, 'charge_failed', trans('api.payment.charge_failed'));
+
+        } catch (\Exception $exception) {
+            return apiResponse2(0, 'verification_error', trans('api.payment.verification_error'));
+        }
+    }
+    private function prepareRazorpayMobilePayment($order)
+    {
+        $razorpayKey = env('RAZORPAY_API_KEY');
+        $amountInPaise = (int)($order->total_amount * 100);
+
+        return apiResponse2(1, 'razorpay_data', trans('api.payment.razorpay_data'), [
+            'key' => $razorpayKey,
+            'amount' => $amountInPaise,
+            'currency' => currency(),
+            'order_id' => $order->id,
+            'name' => $order->user->full_name,
+            'email' => $order->user->email,
+            'prefill' => [
+                'contact' => $order->user->mobile ?? '',
+                'email' => $order->user->email
+            ],
+            'notes' => [
+                'user_id' => $order->user->id,
+                'order_id' => $order->id
+            ]
+        ]);
+    }
     private function echoRozerpayForm($order)
     {
         $generalSettings = getGeneralSettings();

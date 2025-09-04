@@ -25,7 +25,7 @@ class CommentsController extends Controller
 
     public function __construct(Request $request)
     {
-        $page = Route::current()->parameter('page');
+      /*  $page = Route::current()->parameter('page');
         $this->page = $page;
 
         if ($page == 'webinars') {
@@ -46,7 +46,7 @@ class CommentsController extends Controller
         } else {
             $this->item = 'blog';
             $this->item_column = 'blog_id';
-        }
+        }*/
     }
 
     public function index(Request $request)

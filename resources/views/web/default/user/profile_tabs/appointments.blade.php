@@ -109,15 +109,16 @@
 
                 </div>
 
-                <div class="js-add-time-options d-none">
-                    <p>Select Extra Time:</p>
-                    <button type="button" class="js-add-time-btn btn btn-primary" data-extra-time="0">+0 min</button>
-                    <button type="button" class="js-add-time-btn btn btn-primary" data-extra-time="15">+15 min</button>
-                    <button type="button" class="js-add-time-btn btn btn-primary" data-extra-time="30">+30 min</button>
-                    <button type="button" class="js-add-time-btn btn btn-primary" data-extra-time="60">+60 min</button>
-                    <button type="button" class="js-add-time-btn btn btn-primary" data-extra-time="90">+90 min</button>
-                    <button type="button" class="js-add-time-btn btn btn-primary" data-extra-time="120">+120 min</button>
-                </div>
+              <div class="js-add-time-options d-flex align-items-center gap-2">
+                <p class="mb-0 mr-3">Select Extra Time:</p>
+
+                <button type="button" class="btn btn-outline-secondary js-time-step" data-direction="decrease">-</button>
+                <input type="hidden" class="js-extra-time-input" value="0" />
+                <span class="ml-2 js-extra-time-display">0 min</span>
+
+                <button type="button" class="btn btn-outline-secondary js-time-step" data-direction="increase">+</button>
+            </div>
+
 
                 <div class="js-time-description-card d-none mt-25 rounded-sm border p-10">
 
@@ -127,6 +128,8 @@
                     <h3 class="font-16 font-weight-bold text-dark-blue">{{ trans('update.finalize_your_meeting') }}</h3>
                     <span class="selected-date-time font-14 text-gray font-weight-500">{{ trans('update.meeting_time') }}: <span></span></span>
 
+                    <input type="hidden"  name="meeting_type" id="meetingTypeOnline" value="in_person">
+                  {{--
                     <div class="mt-15">
                         <span class="font-16 font-weight-500 text-dark-blue">{{ trans('update.meeting_type') }}</span>
 
@@ -142,6 +145,7 @@
                             </div>
                         </div>
                     </div>
+                    --}}
 
                     @if($meeting->group_meeting)
                         <div class="js-group-meeting-switch d-none align-items-center mt-20">

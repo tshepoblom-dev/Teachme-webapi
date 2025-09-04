@@ -25,17 +25,19 @@ class MeetingController extends Controller
             $timeId = $request->input('time');
             $timeDur = $request->input('timefull'); //example 05:30 am-06:30 am
             $day = $request->input('day');
-            $studentCount = $request->get('student_count', 1);
-            $selectedMeetingType = $request->get('meeting_type', 'online');
+           // $studentCount = $request->get('student_count', 1);
+           // $selectedMeetingType = $request->get('meeting_type', 'online');
             $description = $request->get('description');
 
-            if (empty($studentCount)) {
+                $selectedMeetingType = 'online';
+                $studentCount = 1;
+         /*   if (empty($studentCount)) {
                 $studentCount = 1;
             }
 
             if (!in_array($selectedMeetingType, ['in_person', 'online'])) {
                 $selectedMeetingType = 'online';
-            }
+            }*/
 
             if (!empty($timeId)) {
                 $meetingTime = MeetingTime::where('id', $timeId)
@@ -115,7 +117,7 @@ class MeetingController extends Controller
                                 'description' => $description,
                                 'created_at' => time(),
                             ]);
-
+/*
                             $cart = Cart::where('creator_id', $user->id)
                                 ->where('reserve_meeting_id', $reserveMeeting->id)
                                 ->first();
@@ -127,7 +129,7 @@ class MeetingController extends Controller
                                     'created_at' => time()
                                 ]);
                             }
-
+*/
                             $toastData = [
                                 'status' => 'success',
                                 'title' => trans('public.request_success'),

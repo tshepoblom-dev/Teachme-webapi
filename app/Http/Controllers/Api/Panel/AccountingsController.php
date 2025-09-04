@@ -20,6 +20,8 @@ class AccountingsController extends Controller
 {
     public function summary()
     {
+        try{
+
         $user = apiAuth();
         $accountings = Accounting::where('user_id', $user->id)
             ->where('system', false)
@@ -35,6 +37,11 @@ class AccountingsController extends Controller
             'balance'=> $user->getAccountingBalance() ,
             'history'=>$accountings
         ]);
+
+        }
+        catch(\Exception $ex){
+            dd($ex);
+        }
 
     }
 

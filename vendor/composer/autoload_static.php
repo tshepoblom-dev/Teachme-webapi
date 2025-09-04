@@ -73,53 +73,53 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
     );
 
     public static $prefixLengthsPsr4 = array (
-        'v' =>
+        'v' => 
         array (
             'voku\\' => 5,
         ),
-        's' =>
+        's' => 
         array (
             'setasign\\Fpdi\\' => 14,
         ),
-        'p' =>
+        'p' => 
         array (
             'phpseclib3\\' => 11,
         ),
-        'n' =>
+        'n' => 
         array (
             'niklasravnsborg\\LaravelPdf\\' => 27,
         ),
-        'Z' =>
+        'Z' => 
         array (
             'ZipStream\\' => 10,
         ),
-        'Y' =>
+        'Y' => 
         array (
             'YandexCheckout\\' => 15,
         ),
-        'X' =>
+        'X' => 
         array (
             'Xendit\\' => 7,
         ),
-        'W' =>
+        'W' => 
         array (
             'WpOrg\\Requests\\' => 15,
             'Whoops\\' => 7,
             'Webmozart\\Assert\\' => 17,
         ),
-        'V' =>
+        'V' => 
         array (
             'Vrajroham\\LaravelBitpay\\' => 24,
             'Vonage\\NexmoBridge\\' => 19,
             'Vonage\\Laravel\\' => 15,
             'Vonage\\' => 7,
         ),
-        'U' =>
+        'U' => 
         array (
             'Unicodeveloper\\Paystack\\' => 24,
             'UniSharp\\LaravelFilemanager\\' => 28,
         ),
-        'T' =>
+        'T' => 
         array (
             'Tzsk\\Payu\\' => 10,
             'Tymon\\JWTAuth\\' => 14,
@@ -130,7 +130,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Tests\\' => 6,
             'Termwind\\' => 9,
         ),
-        'S' =>
+        'S' => 
         array (
             'Symfony\\Polyfill\\Uuid\\' => 22,
             'Symfony\\Polyfill\\Php83\\' => 23,
@@ -183,7 +183,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Saade\\BladeIconsax\\' => 19,
             'SVG\\' => 4,
         ),
-        'R' =>
+        'R' => 
         array (
             'Rize\\' => 5,
             'Redsys\\' => 7,
@@ -192,7 +192,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Ramsey\\Uuid\\' => 12,
             'Ramsey\\Collection\\' => 18,
         ),
-        'P' =>
+        'P' => 
         array (
             'Psy\\' => 4,
             'Psr\\SimpleCache\\' => 16,
@@ -213,7 +213,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'PayMob\\' => 7,
             'ParagonIE\\ConstantTime\\' => 23,
         ),
-        'O' =>
+        'O' => 
         array (
             'Overtrue\\Pinyin\\' => 16,
             'OpenAI\\Laravel\\' => 15,
@@ -225,11 +225,11 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Omnipay\\Common\\' => 15,
             'Omnipay\\Braintree\\' => 18,
         ),
-        'N' =>
+        'N' => 
         array (
             'NunoMaduro\\Collision\\' => 21,
         ),
-        'M' =>
+        'M' => 
         array (
             'MyOnlineStore\\Tests\\Omnipay\\KlarnaCheckout\\' => 43,
             'MyOnlineStore\\Omnipay\\KlarnaCheckout\\' => 37,
@@ -248,7 +248,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Masterminds\\' => 12,
             'Maatwebsite\\Excel\\' => 18,
         ),
-        'L' =>
+        'L' => 
         array (
             'League\\OAuth1\\Client\\' => 21,
             'League\\MimeTypeDetection\\' => 25,
@@ -270,7 +270,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Laravel\\Sail\\' => 13,
             'Laminas\\Diactoros\\' => 18,
         ),
-        'K' =>
+        'K' => 
         array (
             'Kreait\\Laravel\\Firebase\\' => 24,
             'Kreait\\Firebase\\JWT\\' => 20,
@@ -278,7 +278,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Kavenegar\\Laravel\\' => 18,
             'Kavenegar\\' => 10,
         ),
-        'J' =>
+        'J' => 
         array (
             'Jubaer\\Zoom\\' => 12,
             'Jorenvh\\Share\\' => 14,
@@ -287,7 +287,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Jenssegers\\Agent\\' => 17,
             'Jaybizzle\\CrawlerDetect\\' => 24,
         ),
-        'I' =>
+        'I' => 
         array (
             'Iyzipay\\' => 8,
             'Intervention\\Image\\' => 19,
@@ -298,7 +298,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Illuminate\\' => 11,
             'IPay88\\' => 7,
         ),
-        'H' =>
+        'H' => 
         array (
             'Http\\Promise\\' => 13,
             'Http\\Message\\MultipartStream\\' => 29,
@@ -307,7 +307,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Http\\Client\\' => 12,
             'Http\\Adapter\\Guzzle7\\' => 21,
         ),
-        'G' =>
+        'G' => 
         array (
             'GuzzleHttp\\UriTemplate\\' => 23,
             'GuzzleHttp\\Psr7\\' => 16,
@@ -342,7 +342,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'GPBMetadata\\Google\\Api\\' => 23,
             'GPBMetadata\\ApiCore\\' => 20,
         ),
-        'F' =>
+        'F' => 
         array (
             'Fruitcake\\Cors\\' => 15,
             'FontLib\\' => 8,
@@ -351,12 +351,12 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Fideloper\\Proxy\\' => 16,
             'Faker\\' => 6,
         ),
-        'E' =>
+        'E' => 
         array (
             'Essam\\TapPayment\\' => 17,
             'Egulias\\EmailValidator\\' => 23,
         ),
-        'D' =>
+        'D' => 
         array (
             'Dotenv\\' => 7,
             'Dompdf\\' => 7,
@@ -370,7 +370,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Database\\Factories\\' => 19,
             'DASPRiD\\Enum\\' => 13,
         ),
-        'C' =>
+        'C' => 
         array (
             'Cviebrock\\EloquentSluggable\\' => 28,
             'Cron\\' => 5,
@@ -385,7 +385,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
         ),
-        'B' =>
+        'B' => 
         array (
             'Brick\\Math\\' => 11,
             'Braintree\\' => 10,
@@ -398,7 +398,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
             'Barryvdh\\Debugbar\\' => 18,
             'BaconQrCode\\' => 12,
         ),
-        'A' =>
+        'A' => 
         array (
             'Aws\\' => 4,
             'Astrotomic\\Translatable\\' => 24,
@@ -409,1001 +409,1001 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
     );
 
     public static $prefixDirsPsr4 = array (
-        'voku\\' =>
+        'voku\\' => 
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
         ),
-        'setasign\\Fpdi\\' =>
+        'setasign\\Fpdi\\' => 
         array (
             0 => __DIR__ . '/..' . '/setasign/fpdi/src',
         ),
-        'phpseclib3\\' =>
+        'phpseclib3\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
         ),
-        'niklasravnsborg\\LaravelPdf\\' =>
+        'niklasravnsborg\\LaravelPdf\\' => 
         array (
             0 => __DIR__ . '/..' . '/niklasravnsborg/laravel-pdf/src/LaravelPdf',
         ),
-        'ZipStream\\' =>
+        'ZipStream\\' => 
         array (
             0 => __DIR__ . '/..' . '/maennchen/zipstream-php/src',
         ),
-        'YandexCheckout\\' =>
+        'YandexCheckout\\' => 
         array (
             0 => __DIR__ . '/..' . '/yandex-money/yandex-checkout-sdk-php/lib',
         ),
-        'Xendit\\' =>
+        'Xendit\\' => 
         array (
             0 => __DIR__ . '/..' . '/xendit/xendit-php/lib',
         ),
-        'WpOrg\\Requests\\' =>
+        'WpOrg\\Requests\\' => 
         array (
             0 => __DIR__ . '/..' . '/rmccue/requests/src',
         ),
-        'Whoops\\' =>
+        'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
         ),
-        'Webmozart\\Assert\\' =>
+        'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
-        'Vrajroham\\LaravelBitpay\\' =>
+        'Vrajroham\\LaravelBitpay\\' => 
         array (
             0 => __DIR__ . '/..' . '/vrajroham/laravel-bitpay/src',
         ),
-        'Vonage\\NexmoBridge\\' =>
+        'Vonage\\NexmoBridge\\' => 
         array (
             0 => __DIR__ . '/..' . '/vonage/nexmo-bridge/src',
         ),
-        'Vonage\\Laravel\\' =>
+        'Vonage\\Laravel\\' => 
         array (
             0 => __DIR__ . '/..' . '/vonage/vonage-laravel/src',
         ),
-        'Vonage\\' =>
+        'Vonage\\' => 
         array (
             0 => __DIR__ . '/..' . '/vonage/client-core/src',
             1 => __DIR__ . '/..' . '/vonage/jwt/src',
         ),
-        'Unicodeveloper\\Paystack\\' =>
+        'Unicodeveloper\\Paystack\\' => 
         array (
             0 => __DIR__ . '/..' . '/unicodeveloper/laravel-paystack/src',
         ),
-        'UniSharp\\LaravelFilemanager\\' =>
+        'UniSharp\\LaravelFilemanager\\' => 
         array (
             0 => __DIR__ . '/..' . '/unisharp/laravel-filemanager/src',
         ),
-        'Tzsk\\Payu\\' =>
+        'Tzsk\\Payu\\' => 
         array (
             0 => __DIR__ . '/..' . '/tzsk/payu/src',
         ),
-        'Tymon\\JWTAuth\\' =>
+        'Tymon\\JWTAuth\\' => 
         array (
             0 => __DIR__ . '/..' . '/tymon/jwt-auth/src',
         ),
-        'Twilio\\' =>
+        'Twilio\\' => 
         array (
             0 => __DIR__ . '/..' . '/twilio/sdk/src/Twilio',
         ),
-        'ToshY\\BunnyNet\\' =>
+        'ToshY\\BunnyNet\\' => 
         array (
             0 => __DIR__ . '/..' . '/toshy/bunnynet-php/src',
         ),
-        'Torann\\GeoIP\\' =>
+        'Torann\\GeoIP\\' => 
         array (
             0 => __DIR__ . '/..' . '/torann/geoip/src',
         ),
-        'TijsVerkoyen\\CssToInlineStyles\\' =>
+        'TijsVerkoyen\\CssToInlineStyles\\' => 
         array (
             0 => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src',
         ),
-        'Tests\\' =>
+        'Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
         ),
-        'Termwind\\' =>
+        'Termwind\\' => 
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/termwind/src',
         ),
-        'Symfony\\Polyfill\\Uuid\\' =>
+        'Symfony\\Polyfill\\Uuid\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-uuid',
         ),
-        'Symfony\\Polyfill\\Php83\\' =>
+        'Symfony\\Polyfill\\Php83\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php83',
         ),
-        'Symfony\\Polyfill\\Php80\\' =>
+        'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
         ),
-        'Symfony\\Polyfill\\Mbstring\\' =>
+        'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Symfony\\Polyfill\\Intl\\Normalizer\\' =>
+        'Symfony\\Polyfill\\Intl\\Normalizer\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer',
         ),
-        'Symfony\\Polyfill\\Intl\\Idn\\' =>
+        'Symfony\\Polyfill\\Intl\\Idn\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-idn',
         ),
-        'Symfony\\Polyfill\\Intl\\Grapheme\\' =>
+        'Symfony\\Polyfill\\Intl\\Grapheme\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme',
         ),
-        'Symfony\\Polyfill\\Ctype\\' =>
+        'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
-        'Symfony\\Contracts\\Translation\\' =>
+        'Symfony\\Contracts\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation-contracts',
         ),
-        'Symfony\\Contracts\\Service\\' =>
+        'Symfony\\Contracts\\Service\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/service-contracts',
         ),
-        'Symfony\\Contracts\\HttpClient\\' =>
+        'Symfony\\Contracts\\HttpClient\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/http-client-contracts',
         ),
-        'Symfony\\Contracts\\EventDispatcher\\' =>
+        'Symfony\\Contracts\\EventDispatcher\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/event-dispatcher-contracts',
         ),
-        'Symfony\\Contracts\\Cache\\' =>
+        'Symfony\\Contracts\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/cache-contracts',
         ),
-        'Symfony\\Component\\Yaml\\' =>
+        'Symfony\\Component\\Yaml\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
         ),
-        'Symfony\\Component\\VarExporter\\' =>
+        'Symfony\\Component\\VarExporter\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/var-exporter',
         ),
-        'Symfony\\Component\\VarDumper\\' =>
+        'Symfony\\Component\\VarDumper\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
-        'Symfony\\Component\\Uid\\' =>
+        'Symfony\\Component\\Uid\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/uid',
         ),
-        'Symfony\\Component\\Translation\\' =>
+        'Symfony\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
         ),
-        'Symfony\\Component\\String\\' =>
+        'Symfony\\Component\\String\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/string',
         ),
-        'Symfony\\Component\\Routing\\' =>
+        'Symfony\\Component\\Routing\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/routing',
         ),
-        'Symfony\\Component\\Process\\' =>
+        'Symfony\\Component\\Process\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/process',
         ),
-        'Symfony\\Component\\Mime\\' =>
+        'Symfony\\Component\\Mime\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/mime',
         ),
-        'Symfony\\Component\\Mailer\\' =>
+        'Symfony\\Component\\Mailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/mailer',
         ),
-        'Symfony\\Component\\HttpKernel\\' =>
+        'Symfony\\Component\\HttpKernel\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/http-kernel',
         ),
-        'Symfony\\Component\\HttpFoundation\\' =>
+        'Symfony\\Component\\HttpFoundation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
         ),
-        'Symfony\\Component\\HttpClient\\' =>
+        'Symfony\\Component\\HttpClient\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/http-client',
         ),
-        'Symfony\\Component\\Finder\\' =>
+        'Symfony\\Component\\Finder\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/finder',
         ),
-        'Symfony\\Component\\EventDispatcher\\' =>
+        'Symfony\\Component\\EventDispatcher\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
         ),
-        'Symfony\\Component\\ErrorHandler\\' =>
+        'Symfony\\Component\\ErrorHandler\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/error-handler',
         ),
-        'Symfony\\Component\\CssSelector\\' =>
+        'Symfony\\Component\\CssSelector\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/css-selector',
         ),
-        'Symfony\\Component\\Console\\' =>
+        'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
-        'Symfony\\Component\\Cache\\' =>
+        'Symfony\\Component\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/cache',
         ),
-        'Svg\\' =>
+        'Svg\\' => 
         array (
             0 => __DIR__ . '/..' . '/phenx/php-svg-lib/src/Svg',
         ),
-        'Stripe\\' =>
+        'Stripe\\' => 
         array (
             0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
         ),
-        'StijnVanouplines\\BladeCountryFlags\\' =>
+        'StijnVanouplines\\BladeCountryFlags\\' => 
         array (
             0 => __DIR__ . '/..' . '/stijnvanouplines/blade-country-flags/src',
         ),
-        'Stichoza\\GoogleTranslate\\' =>
+        'Stichoza\\GoogleTranslate\\' => 
         array (
             0 => __DIR__ . '/..' . '/stichoza/google-translate-php/src',
         ),
-        'Ssheduardo\\Redsys\\' =>
+        'Ssheduardo\\Redsys\\' => 
         array (
             0 => __DIR__ . '/..' . '/ssheduardo/redsys-laravel/src',
         ),
-        'Spatie\\LaravelIgnition\\' =>
+        'Spatie\\LaravelIgnition\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/error-solutions/legacy/laravel-ignition',
             1 => __DIR__ . '/..' . '/spatie/laravel-ignition/src',
         ),
-        'Spatie\\Ignition\\' =>
+        'Spatie\\Ignition\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/error-solutions/legacy/ignition',
             1 => __DIR__ . '/..' . '/spatie/ignition/src',
         ),
-        'Spatie\\GoogleCalendar\\' =>
+        'Spatie\\GoogleCalendar\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/laravel-google-calendar/src',
         ),
-        'Spatie\\FlareClient\\' =>
+        'Spatie\\FlareClient\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/flare-client-php/src',
         ),
-        'Spatie\\ErrorSolutions\\' =>
+        'Spatie\\ErrorSolutions\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/error-solutions/src',
         ),
-        'Spatie\\CalendarLinks\\' =>
+        'Spatie\\CalendarLinks\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/calendar-links/src',
         ),
-        'Spatie\\Backtrace\\' =>
+        'Spatie\\Backtrace\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/backtrace/src',
         ),
-        'SimpleSoftwareIO\\QrCode\\' =>
+        'SimpleSoftwareIO\\QrCode\\' => 
         array (
             0 => __DIR__ . '/..' . '/simplesoftwareio/simple-qrcode/src',
         ),
-        'Sermepa\\Tpv\\' =>
+        'Sermepa\\Tpv\\' => 
         array (
             0 => __DIR__ . '/..' . '/sermepa/sermepa/src/Sermepa/Tpv',
         ),
-        'SebaCarrasco93\\LaravelPayku\\' =>
+        'SebaCarrasco93\\LaravelPayku\\' => 
         array (
             0 => __DIR__ . '/..' . '/sebacarrasco93/laravel-payku/src',
         ),
-        'Sabberworm\\CSS\\' =>
+        'Sabberworm\\CSS\\' => 
         array (
             0 => __DIR__ . '/..' . '/sabberworm/php-css-parser/src',
         ),
-        'Saade\\BladeIconsax\\' =>
+        'Saade\\BladeIconsax\\' => 
         array (
             0 => __DIR__ . '/..' . '/saade/blade-iconsax/src',
         ),
-        'SVG\\' =>
+        'SVG\\' => 
         array (
             0 => __DIR__ . '/..' . '/meyfa/php-svg/src',
         ),
-        'Rize\\' =>
+        'Rize\\' => 
         array (
             0 => __DIR__ . '/..' . '/rize/uri-template/src/Rize',
         ),
-        'Redsys\\' =>
+        'Redsys\\' => 
         array (
             0 => __DIR__ . '/..' . '/sermepa/sermepa/src/Redsys',
         ),
-        'Razorpay\\Tests\\' =>
+        'Razorpay\\Tests\\' => 
         array (
             0 => __DIR__ . '/..' . '/razorpay/razorpay/tests',
         ),
-        'Razorpay\\Api\\' =>
+        'Razorpay\\Api\\' => 
         array (
             0 => __DIR__ . '/..' . '/razorpay/razorpay/src',
         ),
-        'Ramsey\\Uuid\\' =>
+        'Ramsey\\Uuid\\' => 
         array (
             0 => __DIR__ . '/..' . '/ramsey/uuid/src',
         ),
-        'Ramsey\\Collection\\' =>
+        'Ramsey\\Collection\\' => 
         array (
             0 => __DIR__ . '/..' . '/ramsey/collection/src',
         ),
-        'Psy\\' =>
+        'Psy\\' => 
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src',
         ),
-        'Psr\\SimpleCache\\' =>
+        'Psr\\SimpleCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
         ),
-        'Psr\\Log\\' =>
+        'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
-        'Psr\\Http\\Message\\' =>
+        'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
             1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
-        'Psr\\Http\\Client\\' =>
+        'Psr\\Http\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
-        'Psr\\EventDispatcher\\' =>
+        'Psr\\EventDispatcher\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/event-dispatcher/src',
         ),
-        'Psr\\Container\\' =>
+        'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'Psr\\Clock\\' =>
+        'Psr\\Clock\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/clock/src',
         ),
-        'Psr\\Cache\\' =>
+        'Psr\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
-        'Pishran\\Zarinpal\\' =>
+        'Pishran\\Zarinpal\\' => 
         array (
             0 => __DIR__ . '/..' . '/pishran/zarinpal/src',
         ),
-        'PhpParser\\' =>
+        'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'PhpOption\\' =>
+        'PhpOption\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
         ),
-        'PhpOffice\\PhpSpreadsheet\\' =>
+        'PhpOffice\\PhpSpreadsheet\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet',
         ),
-        'Paytabscom\\Laravel_paytabs\\' =>
+        'Paytabscom\\Laravel_paytabs\\' => 
         array (
             0 => __DIR__ . '/..' . '/paytabscom/laravel_paytabs/src',
         ),
-        'Paymob\\' =>
+        'Paymob\\' => 
         array (
             0 => __DIR__ . '/..' . '/samir-hussein/paymob/paymob',
         ),
-        'Paylink\\' =>
+        'Paylink\\' => 
         array (
             0 => __DIR__ . '/..' . '/irakan/paylink/src',
         ),
-        'PayMob\\' =>
+        'PayMob\\' => 
         array (
             0 => __DIR__ . '/..' . '/samir-hussein/paymob/paymob/laravel',
         ),
-        'ParagonIE\\ConstantTime\\' =>
+        'ParagonIE\\ConstantTime\\' => 
         array (
             0 => __DIR__ . '/..' . '/paragonie/constant_time_encoding/src',
         ),
-        'Overtrue\\Pinyin\\' =>
+        'Overtrue\\Pinyin\\' => 
         array (
             0 => __DIR__ . '/..' . '/overtrue/pinyin/src',
         ),
-        'OpenAI\\Laravel\\' =>
+        'OpenAI\\Laravel\\' => 
         array (
             0 => __DIR__ . '/..' . '/openai-php/laravel/src',
         ),
-        'OpenAI\\' =>
+        'OpenAI\\' => 
         array (
             0 => __DIR__ . '/..' . '/openai-php/client/src',
         ),
-        'Omnipay\\Yandex\\' =>
+        'Omnipay\\Yandex\\' => 
         array (
             0 => __DIR__ . '/..' . '/ptuchik/omnipay-yandex/src',
         ),
-        'Omnipay\\RoboKassa\\' =>
+        'Omnipay\\RoboKassa\\' => 
         array (
             0 => __DIR__ . '/..' . '/hiqdev/omnipay-robokassa/src',
         ),
-        'Omnipay\\Mollie\\' =>
+        'Omnipay\\Mollie\\' => 
         array (
             0 => __DIR__ . '/..' . '/omnipay/mollie/src',
         ),
-        'Omnipay\\GlobalAlipay\\' =>
+        'Omnipay\\GlobalAlipay\\' => 
         array (
             0 => __DIR__ . '/..' . '/lokielse/omnipay-global-alipay/src',
         ),
-        'Omnipay\\Common\\' =>
+        'Omnipay\\Common\\' => 
         array (
             0 => __DIR__ . '/..' . '/omnipay/common/src/Common',
         ),
-        'Omnipay\\Braintree\\' =>
+        'Omnipay\\Braintree\\' => 
         array (
             0 => __DIR__ . '/..' . '/omnipay/braintree/src',
         ),
-        'NunoMaduro\\Collision\\' =>
+        'NunoMaduro\\Collision\\' => 
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/collision/src',
         ),
-        'MyOnlineStore\\Tests\\Omnipay\\KlarnaCheckout\\' =>
+        'MyOnlineStore\\Tests\\Omnipay\\KlarnaCheckout\\' => 
         array (
             0 => __DIR__ . '/..' . '/myonlinestore/omnipay-klarna-checkout/tests',
         ),
-        'MyOnlineStore\\Omnipay\\KlarnaCheckout\\' =>
+        'MyOnlineStore\\Omnipay\\KlarnaCheckout\\' => 
         array (
             0 => __DIR__ . '/..' . '/myonlinestore/omnipay-klarna-checkout/src',
         ),
-        'Mpdf\\PsrLogAwareTrait\\' =>
+        'Mpdf\\PsrLogAwareTrait\\' => 
         array (
             0 => __DIR__ . '/..' . '/mpdf/psr-log-aware-trait/src',
         ),
-        'Mpdf\\PsrHttpMessageShim\\' =>
+        'Mpdf\\PsrHttpMessageShim\\' => 
         array (
             0 => __DIR__ . '/..' . '/mpdf/psr-http-message-shim/src',
         ),
-        'Mpdf\\' =>
+        'Mpdf\\' => 
         array (
             0 => __DIR__ . '/..' . '/mpdf/mpdf/src',
         ),
-        'Monolog\\' =>
+        'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
-        'Money\\' =>
+        'Money\\' => 
         array (
             0 => __DIR__ . '/..' . '/moneyphp/money/src',
         ),
-        'MoemenGaballah\\Msegat\\' =>
+        'MoemenGaballah\\Msegat\\' => 
         array (
             0 => __DIR__ . '/..' . '/moemengaballah/msegat/src',
         ),
-        'Mockery\\' =>
+        'Mockery\\' => 
         array (
             0 => __DIR__ . '/..' . '/mockery/mockery/library/Mockery',
         ),
-        'Midtrans\\' =>
+        'Midtrans\\' => 
         array (
             0 => __DIR__ . '/..' . '/midtrans/midtrans-php/Midtrans',
         ),
-        'Mews\\Purifier\\' =>
+        'Mews\\Purifier\\' => 
         array (
             0 => __DIR__ . '/..' . '/mews/purifier/src',
         ),
-        'Mews\\Captcha\\' =>
+        'Mews\\Captcha\\' => 
         array (
             0 => __DIR__ . '/..' . '/mews/captcha/src',
         ),
-        'Mccarlosen\\LaravelMpdf\\' =>
+        'Mccarlosen\\LaravelMpdf\\' => 
         array (
             0 => __DIR__ . '/..' . '/carlos-meneses/laravel-mpdf/src',
         ),
-        'Matrix\\' =>
+        'Matrix\\' => 
         array (
             0 => __DIR__ . '/..' . '/markbaker/matrix/classes/src',
         ),
-        'Masterminds\\' =>
+        'Masterminds\\' => 
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
         ),
-        'Maatwebsite\\Excel\\' =>
+        'Maatwebsite\\Excel\\' => 
         array (
             0 => __DIR__ . '/..' . '/maatwebsite/excel/src',
         ),
-        'League\\OAuth1\\Client\\' =>
+        'League\\OAuth1\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/oauth1-client/src',
         ),
-        'League\\MimeTypeDetection\\' =>
+        'League\\MimeTypeDetection\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/mime-type-detection/src',
         ),
-        'League\\Flysystem\\Local\\' =>
+        'League\\Flysystem\\Local\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/flysystem-local',
         ),
-        'League\\Flysystem\\AwsS3V3\\' =>
+        'League\\Flysystem\\AwsS3V3\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/flysystem-aws-s3-v3',
         ),
-        'League\\Flysystem\\' =>
+        'League\\Flysystem\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/flysystem/src',
         ),
-        'League\\Config\\' =>
+        'League\\Config\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/config/src',
         ),
-        'League\\CommonMark\\' =>
+        'League\\CommonMark\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/commonmark/src',
         ),
-        'Lcobucci\\JWT\\' =>
+        'Lcobucci\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/lcobucci/jwt/src',
         ),
-        'Lcobucci\\Clock\\' =>
+        'Lcobucci\\Clock\\' => 
         array (
             0 => __DIR__ . '/..' . '/lcobucci/clock/src',
         ),
-        'LasseRafn\\Initials\\' =>
+        'LasseRafn\\Initials\\' => 
         array (
             0 => __DIR__ . '/..' . '/lasserafn/php-initials/src',
         ),
-        'LasseRafn\\InitialAvatarGenerator\\' =>
+        'LasseRafn\\InitialAvatarGenerator\\' => 
         array (
             0 => __DIR__ . '/..' . '/lasserafn/php-initial-avatar-generator/src',
         ),
-        'LasseRafn\\' =>
+        'LasseRafn\\' => 
         array (
             0 => __DIR__ . '/..' . '/lasserafn/php-string-script-language/src',
         ),
-        'Laravel\\Ui\\' =>
+        'Laravel\\Ui\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/ui/src',
         ),
-        'Laravel\\Tinker\\' =>
+        'Laravel\\Tinker\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/tinker/src',
         ),
-        'Laravel\\Socialite\\' =>
+        'Laravel\\Socialite\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/socialite/src',
         ),
-        'Laravel\\SerializableClosure\\' =>
+        'Laravel\\SerializableClosure\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/serializable-closure/src',
         ),
-        'Laravel\\Sanctum\\' =>
+        'Laravel\\Sanctum\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/sanctum/src',
         ),
-        'Laravel\\Sail\\' =>
+        'Laravel\\Sail\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/sail/src',
         ),
-        'Laminas\\Diactoros\\' =>
+        'Laminas\\Diactoros\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-diactoros/src',
         ),
-        'Kreait\\Laravel\\Firebase\\' =>
+        'Kreait\\Laravel\\Firebase\\' => 
         array (
             0 => __DIR__ . '/..' . '/kreait/laravel-firebase/src',
         ),
-        'Kreait\\Firebase\\JWT\\' =>
+        'Kreait\\Firebase\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/kreait/firebase-tokens/src/JWT',
         ),
-        'Kreait\\Firebase\\' =>
+        'Kreait\\Firebase\\' => 
         array (
             0 => __DIR__ . '/..' . '/kreait/firebase-php/src/Firebase',
         ),
-        'Kavenegar\\Laravel\\' =>
+        'Kavenegar\\Laravel\\' => 
         array (
             0 => __DIR__ . '/..' . '/kavenegar/laravel/src',
         ),
-        'Kavenegar\\' =>
+        'Kavenegar\\' => 
         array (
             0 => __DIR__ . '/..' . '/kavenegar/php/src',
         ),
-        'Jubaer\\Zoom\\' =>
+        'Jubaer\\Zoom\\' => 
         array (
             0 => __DIR__ . '/..' . '/jubaer/zoom-laravel/src',
         ),
-        'Jorenvh\\Share\\' =>
+        'Jorenvh\\Share\\' => 
         array (
             0 => __DIR__ . '/..' . '/jorenvanhocht/laravel-share/src',
         ),
-        'JoisarJignesh\\Bigbluebutton\\' =>
+        'JoisarJignesh\\Bigbluebutton\\' => 
         array (
             0 => __DIR__ . '/..' . '/joisarjignesh/bigbluebutton/src',
         ),
-        'JmesPath\\' =>
+        'JmesPath\\' => 
         array (
             0 => __DIR__ . '/..' . '/mtdowling/jmespath.php/src',
         ),
-        'Jenssegers\\Agent\\' =>
+        'Jenssegers\\Agent\\' => 
         array (
             0 => __DIR__ . '/..' . '/jenssegers/agent/src',
         ),
-        'Jaybizzle\\CrawlerDetect\\' =>
+        'Jaybizzle\\CrawlerDetect\\' => 
         array (
             0 => __DIR__ . '/..' . '/jaybizzle/crawler-detect/src',
         ),
-        'Iyzipay\\' =>
+        'Iyzipay\\' => 
         array (
             0 => __DIR__ . '/..' . '/iyzico/iyzipay-php/src/Iyzipay',
         ),
-        'Intervention\\Image\\' =>
+        'Intervention\\Image\\' => 
         array (
             0 => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image',
         ),
-        'Instamojo\\Exceptions\\' =>
+        'Instamojo\\Exceptions\\' => 
         array (
             0 => __DIR__ . '/..' . '/instamojo/instamojo-php/src/Exceptions',
         ),
-        'Instamojo\\' =>
+        'Instamojo\\' => 
         array (
             0 => __DIR__ . '/..' . '/instamojo/instamojo-php/src',
         ),
-        'Illuminate\\Support\\' =>
+        'Illuminate\\Support\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Macroable',
             1 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Collections',
             2 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Conditionable',
         ),
-        'Illuminate\\Foundation\\Auth\\' =>
+        'Illuminate\\Foundation\\Auth\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/ui/auth-backend',
         ),
-        'Illuminate\\' =>
+        'Illuminate\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
         ),
-        'IPay88\\' =>
+        'IPay88\\' => 
         array (
             0 => __DIR__ . '/..' . '/kyrax324/laravel-ipay88/src',
         ),
-        'Http\\Promise\\' =>
+        'Http\\Promise\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-http/promise/src',
         ),
-        'Http\\Message\\MultipartStream\\' =>
+        'Http\\Message\\MultipartStream\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-http/multipart-stream-builder/src',
         ),
-        'Http\\Message\\' =>
+        'Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-http/message/src',
             1 => __DIR__ . '/..' . '/php-http/message-factory/src',
         ),
-        'Http\\Discovery\\' =>
+        'Http\\Discovery\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-http/discovery/src',
         ),
-        'Http\\Client\\' =>
+        'Http\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-http/httplug/src',
         ),
-        'Http\\Adapter\\Guzzle7\\' =>
+        'Http\\Adapter\\Guzzle7\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-http/guzzle7-adapter/src',
         ),
-        'GuzzleHttp\\UriTemplate\\' =>
+        'GuzzleHttp\\UriTemplate\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/uri-template/src',
         ),
-        'GuzzleHttp\\Psr7\\' =>
+        'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
         ),
-        'GuzzleHttp\\Promise\\' =>
+        'GuzzleHttp\\Promise\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
         ),
-        'GuzzleHttp\\' =>
+        'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Guysolamour\\Cinetpay\\' =>
+        'Guysolamour\\Cinetpay\\' => 
         array (
             0 => __DIR__ . '/..' . '/guysolamour/laravel-cinetpay/src',
         ),
-        'Grpc\\Gcp\\' =>
+        'Grpc\\Gcp\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/grpc-gcp/src',
         ),
-        'Grpc\\' =>
+        'Grpc\\' => 
         array (
             0 => __DIR__ . '/..' . '/grpc/grpc/src/lib',
         ),
-        'GrahamCampbell\\ResultType\\' =>
+        'GrahamCampbell\\ResultType\\' => 
         array (
             0 => __DIR__ . '/..' . '/graham-campbell/result-type/src',
         ),
-        'Google\\Type\\' =>
+        'Google\\Type\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/common-protos/src/Type',
         ),
-        'Google\\Service\\' =>
+        'Google\\Service\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/apiclient-services/src',
         ),
-        'Google\\Rpc\\' =>
+        'Google\\Rpc\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/common-protos/src/Rpc',
         ),
-        'Google\\Protobuf\\' =>
+        'Google\\Protobuf\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/protobuf/src/Google/Protobuf',
         ),
-        'Google\\LongRunning\\' =>
+        'Google\\LongRunning\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/longrunning/src/LongRunning',
         ),
-        'Google\\Iam\\' =>
+        'Google\\Iam\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/common-protos/src/Iam',
         ),
-        'Google\\Cloud\\Storage\\' =>
+        'Google\\Cloud\\Storage\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/cloud-storage/src',
         ),
-        'Google\\Cloud\\Core\\' =>
+        'Google\\Cloud\\Core\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/cloud-core/src',
         ),
-        'Google\\Cloud\\' =>
+        'Google\\Cloud\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/common-protos/src/Cloud',
         ),
-        'Google\\Auth\\' =>
+        'Google\\Auth\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/auth/src',
         ),
-        'Google\\Api\\' =>
+        'Google\\Api\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/common-protos/src/Api',
         ),
-        'Google\\ApiCore\\LongRunning\\' =>
+        'Google\\ApiCore\\LongRunning\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/longrunning/src/ApiCore/LongRunning',
         ),
-        'Google\\ApiCore\\' =>
+        'Google\\ApiCore\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/gax/src',
         ),
-        'Google\\' =>
+        'Google\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/apiclient/src',
         ),
-        'Gizemsever\\LaravelPaytr\\' =>
+        'Gizemsever\\LaravelPaytr\\' => 
         array (
             0 => __DIR__ . '/..' . '/gizemsever/laravel-paytr/src',
         ),
-        'GPBMetadata\\Google\\Type\\' =>
+        'GPBMetadata\\Google\\Type\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/common-protos/metadata/Type',
         ),
-        'GPBMetadata\\Google\\Rpc\\' =>
+        'GPBMetadata\\Google\\Rpc\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/common-protos/metadata/Rpc',
         ),
-        'GPBMetadata\\Google\\Protobuf\\' =>
+        'GPBMetadata\\Google\\Protobuf\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/protobuf/src/GPBMetadata/Google/Protobuf',
         ),
-        'GPBMetadata\\Google\\Longrunning\\' =>
+        'GPBMetadata\\Google\\Longrunning\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/longrunning/metadata/Longrunning',
         ),
-        'GPBMetadata\\Google\\Logging\\' =>
+        'GPBMetadata\\Google\\Logging\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/common-protos/metadata/Logging',
         ),
-        'GPBMetadata\\Google\\Iam\\' =>
+        'GPBMetadata\\Google\\Iam\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/common-protos/metadata/Iam',
         ),
-        'GPBMetadata\\Google\\Cloud\\' =>
+        'GPBMetadata\\Google\\Cloud\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/common-protos/metadata/Cloud',
         ),
-        'GPBMetadata\\Google\\Api\\' =>
+        'GPBMetadata\\Google\\Api\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/common-protos/metadata/Api',
         ),
-        'GPBMetadata\\ApiCore\\' =>
+        'GPBMetadata\\ApiCore\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/gax/metadata/ApiCore',
         ),
-        'Fruitcake\\Cors\\' =>
+        'Fruitcake\\Cors\\' => 
         array (
             0 => __DIR__ . '/..' . '/fruitcake/laravel-cors/src',
             1 => __DIR__ . '/..' . '/fruitcake/php-cors/src',
         ),
-        'FontLib\\' =>
+        'FontLib\\' => 
         array (
             0 => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib',
         ),
-        'Firebase\\JWT\\' =>
+        'Firebase\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
         ),
-        'Fig\\Http\\Message\\' =>
+        'Fig\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/fig/http-message-util/src',
         ),
-        'Fideloper\\Proxy\\' =>
+        'Fideloper\\Proxy\\' => 
         array (
             0 => __DIR__ . '/..' . '/fideloper/proxy/src',
         ),
-        'Faker\\' =>
+        'Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/fakerphp/faker/src/Faker',
         ),
-        'Essam\\TapPayment\\' =>
+        'Essam\\TapPayment\\' => 
         array (
             0 => __DIR__ . '/..' . '/haggag/laravel-tap-payment/src',
         ),
-        'Egulias\\EmailValidator\\' =>
+        'Egulias\\EmailValidator\\' => 
         array (
             0 => __DIR__ . '/..' . '/egulias/email-validator/src',
         ),
-        'Dotenv\\' =>
+        'Dotenv\\' => 
         array (
             0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
-        'Dompdf\\' =>
+        'Dompdf\\' => 
         array (
             0 => __DIR__ . '/..' . '/dompdf/dompdf/src',
         ),
-        'Doctrine\\Instantiator\\' =>
+        'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
         ),
-        'Doctrine\\Inflector\\' =>
+        'Doctrine\\Inflector\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
         ),
-        'Doctrine\\Common\\Lexer\\' =>
+        'Doctrine\\Common\\Lexer\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/lexer/src',
         ),
-        'Dflydev\\DotAccessData\\' =>
+        'Dflydev\\DotAccessData\\' => 
         array (
             0 => __DIR__ . '/..' . '/dflydev/dot-access-data/src',
         ),
-        'DeepCopy\\' =>
+        'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
-        'DebugBar\\' =>
+        'DebugBar\\' => 
         array (
             0 => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar',
         ),
-        'Database\\Seeders\\' =>
+        'Database\\Seeders\\' => 
         array (
             0 => __DIR__ . '/../..' . '/database/seeders',
             1 => __DIR__ . '/..' . '/laravel/pint/database/seeders',
         ),
-        'Database\\Factories\\' =>
+        'Database\\Factories\\' => 
         array (
             0 => __DIR__ . '/../..' . '/database/factories',
             1 => __DIR__ . '/..' . '/laravel/pint/database/factories',
         ),
-        'DASPRiD\\Enum\\' =>
+        'DASPRiD\\Enum\\' => 
         array (
             0 => __DIR__ . '/..' . '/dasprid/enum/src',
         ),
-        'Cviebrock\\EloquentSluggable\\' =>
+        'Cviebrock\\EloquentSluggable\\' => 
         array (
             0 => __DIR__ . '/..' . '/cviebrock/eloquent-sluggable/src',
         ),
-        'Cron\\' =>
+        'Cron\\' => 
         array (
             0 => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron',
         ),
-        'Craftsys\\Msg91\\' =>
+        'Craftsys\\Msg91\\' => 
         array (
             0 => __DIR__ . '/..' . '/craftsys/msg91-laravel/src',
             1 => __DIR__ . '/..' . '/craftsys/msg91-php/src',
         ),
-        'Composer\\Semver\\' =>
+        'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
         ),
-        'Complex\\' =>
+        'Complex\\' => 
         array (
             0 => __DIR__ . '/..' . '/markbaker/complex/classes/src',
         ),
-        'Cocur\\Slugify\\' =>
+        'Cocur\\Slugify\\' => 
         array (
             0 => __DIR__ . '/..' . '/cocur/slugify/src',
         ),
-        'Clue\\StreamFilter\\' =>
+        'Clue\\StreamFilter\\' => 
         array (
             0 => __DIR__ . '/..' . '/clue/stream-filter/src',
         ),
-        'Clickpaysa\\Laravel_package\\' =>
+        'Clickpaysa\\Laravel_package\\' => 
         array (
             0 => __DIR__ . '/..' . '/clickpaysa/laravel_package/src',
         ),
-        'Chapa\\Chapa\\' =>
+        'Chapa\\Chapa\\' => 
         array (
             0 => __DIR__ . '/..' . '/chapa/chapa-laravel/src',
         ),
-        'CashUAony\\Phpanonymous\\' =>
+        'CashUAony\\Phpanonymous\\' => 
         array (
             0 => __DIR__ . '/..' . '/cashuanony/phpanonymous/src',
         ),
-        'Carbon\\Doctrine\\' =>
+        'Carbon\\Doctrine\\' => 
         array (
             0 => __DIR__ . '/..' . '/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine',
         ),
-        'Carbon\\' =>
+        'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
         ),
-        'Brick\\Math\\' =>
+        'Brick\\Math\\' => 
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
         ),
-        'Braintree\\' =>
+        'Braintree\\' => 
         array (
             0 => __DIR__ . '/..' . '/braintree/braintree_php/lib/Braintree',
         ),
-        'BladeUI\\Icons\\' =>
+        'BladeUI\\Icons\\' => 
         array (
             0 => __DIR__ . '/..' . '/blade-ui-kit/blade-icons/src',
         ),
-        'BitPaySDK\\' =>
+        'BitPaySDK\\' => 
         array (
             0 => __DIR__ . '/..' . '/bitpay/sdk/src/BitPaySDK',
         ),
-        'BigBlueButton\\' =>
+        'BigBlueButton\\' => 
         array (
             0 => __DIR__ . '/..' . '/littleredbutton/bigbluebutton-api-php/src',
             1 => __DIR__ . '/..' . '/littleredbutton/bigbluebutton-api-php/tests/integration',
         ),
-        'Beste\\Clock\\' =>
+        'Beste\\Clock\\' => 
         array (
             0 => __DIR__ . '/..' . '/beste/clock/src/Clock',
         ),
-        'Beste\\Cache\\' =>
+        'Beste\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/beste/in-memory-cache/src',
         ),
-        'Barryvdh\\DomPDF\\' =>
+        'Barryvdh\\DomPDF\\' => 
         array (
             0 => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src',
         ),
-        'Barryvdh\\Debugbar\\' =>
+        'Barryvdh\\Debugbar\\' => 
         array (
             0 => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src',
         ),
-        'BaconQrCode\\' =>
+        'BaconQrCode\\' => 
         array (
             0 => __DIR__ . '/..' . '/bacon/bacon-qr-code/src',
         ),
-        'Aws\\' =>
+        'Aws\\' => 
         array (
             0 => __DIR__ . '/..' . '/aws/aws-sdk-php/src',
         ),
-        'Astrotomic\\Translatable\\' =>
+        'Astrotomic\\Translatable\\' => 
         array (
             0 => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable',
         ),
-        'App\\' =>
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
             1 => __DIR__ . '/..' . '/akcybex/laravel-jazzcash/app',
             2 => __DIR__ . '/..' . '/laravel/pint/app',
         ),
-        'Anand\\LaravelPaytmWallet\\' =>
+        'Anand\\LaravelPaytmWallet\\' => 
         array (
             0 => __DIR__ . '/..' . '/anandsiddharth/laravel-paytm-wallet/src',
         ),
-        'AKCybex\\JazzCash\\' =>
+        'AKCybex\\JazzCash\\' => 
         array (
             0 => __DIR__ . '/..' . '/akcybex/laravel-jazzcash/src',
         ),
@@ -1415,30 +1415,30 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
     );
 
     public static $prefixesPsr0 = array (
-        'P' =>
+        'P' => 
         array (
-            'PayPal' =>
+            'PayPal' => 
             array (
                 0 => __DIR__ . '/..' . '/paypal/rest-api-sdk-php/lib',
             ),
         ),
-        'H' =>
+        'H' => 
         array (
-            'HTMLPurifier' =>
+            'HTMLPurifier' => 
             array (
                 0 => __DIR__ . '/..' . '/ezyang/htmlpurifier/library',
             ),
         ),
-        'D' =>
+        'D' => 
         array (
-            'Detection' =>
+            'Detection' => 
             array (
                 0 => __DIR__ . '/..' . '/mobiledetect/mobiledetectlib/namespaced',
             ),
         ),
-        'C' =>
+        'C' => 
         array (
-            'CinetPay' =>
+            'CinetPay' => 
             array (
                 0 => __DIR__ . '/..' . '/cinetpay/cinetpay-php/src',
             ),
@@ -1501,10 +1501,12 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'App\\Bitwise\\UserLevelOfTraining' => __DIR__ . '/../..' . '/app/Bitwise/UserLevelOfTraining.php',
         'App\\Channels\\AgoraDynamicKey' => __DIR__ . '/../..' . '/app/Channels/AgoraDynamicKey.php',
         'App\\Channels\\SMSChannel' => __DIR__ . '/../..' . '/app/Channels/SMSChannel.php',
+        'App\\Channels\\TwilioSMSChannel' => __DIR__ . '/../..' . '/app/Channels/TwilioSMSChannel.php',
         'App\\Console\\Commands\\clearAll' => __DIR__ . '/../..' . '/app/Console/Commands/clearAll.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\CustomStorage\\CustomMinioAdapter' => __DIR__ . '/../..' . '/app/CustomStorage/CustomMinioAdapter.php',
         'App\\Enums\\AiTextServices' => __DIR__ . '/../..' . '/app/Enums/AiTextServices.php',
+        'App\\Enums\\UploadSource' => __DIR__ . '/../..' . '/app/Enums/UploadSource.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Exports\\AbandonedUsersCartExport' => __DIR__ . '/../..' . '/app/Exports/AbandonedUsersCartExport.php',
         'App\\Exports\\AgoraHistoryExport' => __DIR__ . '/../..' . '/app/Exports/AgoraHistoryExport.php',
@@ -1830,6 +1832,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'App\\Http\\Controllers\\Panel\\UpcomingCoursesController' => __DIR__ . '/../..' . '/app/Http/Controllers/Panel/UpcomingCoursesController.php',
         'App\\Http\\Controllers\\Panel\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/Panel/UserController.php',
         'App\\Http\\Controllers\\Panel\\UserLoginHistoryController' => __DIR__ . '/../..' . '/app/Http/Controllers/Panel/UserLoginHistoryController.php',
+        'App\\Http\\Controllers\\Panel\\UserProfileAttachmentsController' => __DIR__ . '/../..' . '/app/Http/Controllers/Panel/UserProfileAttachmentsController.php',
         'App\\Http\\Controllers\\Panel\\WebinarCertificateController' => __DIR__ . '/../..' . '/app/Http/Controllers/Panel/WebinarCertificateController.php',
         'App\\Http\\Controllers\\Panel\\WebinarController' => __DIR__ . '/../..' . '/app/Http/Controllers/Panel/WebinarController.php',
         'App\\Http\\Controllers\\Panel\\WebinarExtraDescriptionController' => __DIR__ . '/../..' . '/app/Http/Controllers/Panel/WebinarExtraDescriptionController.php',
@@ -1909,6 +1912,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'App\\Http\\Middleware\\CheckRestriction' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckRestriction.php',
         'App\\Http\\Middleware\\DebugBar' => __DIR__ . '/../..' . '/app/Http/Middleware/DebugBar.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
+        'App\\Http\\Middleware\\EnsureUserIsVerified' => __DIR__ . '/../..' . '/app/Http/Middleware/EnsureUserIsVerified.php',
         'App\\Http\\Middleware\\Impersonate' => __DIR__ . '/../..' . '/app/Http/Middleware/Impersonate.php',
         'App\\Http\\Middleware\\PanelAuthenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/PanelAuthenticate.php',
         'App\\Http\\Middleware\\PreventRequestsDuringMaintenance' => __DIR__ . '/../..' . '/app/Http/Middleware/PreventRequestsDuringMaintenance.php',
@@ -1971,6 +1975,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'App\\Mixins\\Logs\\UserLoginHistoryMixin' => __DIR__ . '/../..' . '/app/Mixins/Logs/UserLoginHistoryMixin.php',
         'App\\Mixins\\Notifications\\SendSMS' => __DIR__ . '/../..' . '/app/Mixins/Notifications/SendSMS.php',
         'App\\Mixins\\OpenAI\\AiContentGenerator' => __DIR__ . '/../..' . '/app/Mixins/OpenAI/AiContentGenerator.php',
+        'App\\Mixins\\Panel\\SidebarItems' => __DIR__ . '/../..' . '/app/Mixins/Panel/SidebarItems.php',
         'App\\Mixins\\PurchaseNotifications\\PurchaseNotificationsHelper' => __DIR__ . '/../..' . '/app/Mixins/PurchaseNotifications/PurchaseNotificationsHelper.php',
         'App\\Mixins\\RegistrationBonus\\RegistrationBonusAccounting' => __DIR__ . '/../..' . '/app/Mixins/RegistrationBonus/RegistrationBonusAccounting.php',
         'App\\Mixins\\RegistrationPackage\\UserPackage' => __DIR__ . '/../..' . '/app/Mixins/RegistrationPackage/UserPackage.php',
@@ -2256,6 +2261,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'App\\Models\\Translation\\UpcomingCourseTranslation' => __DIR__ . '/../..' . '/app/Models/Translation/UpcomingCourseTranslation.php',
         'App\\Models\\Translation\\UserBankSpecificationTranslation' => __DIR__ . '/../..' . '/app/Models/Translation/UserBankSpecificationTranslation.php',
         'App\\Models\\Translation\\UserBankTranslation' => __DIR__ . '/../..' . '/app/Models/Translation/UserBankTranslation.php',
+        'App\\Models\\Translation\\UserProfileAttachmentTranslation' => __DIR__ . '/../..' . '/app/Models/Translation/UserProfileAttachmentTranslation.php',
         'App\\Models\\Translation\\WebinarAssignmentTranslation' => __DIR__ . '/../..' . '/app/Models/Translation/WebinarAssignmentTranslation.php',
         'App\\Models\\Translation\\WebinarChapterTranslation' => __DIR__ . '/../..' . '/app/Models/Translation/WebinarChapterTranslation.php',
         'App\\Models\\Translation\\WebinarExtraDescriptionTranslation' => __DIR__ . '/../..' . '/app/Models/Translation/WebinarExtraDescriptionTranslation.php',
@@ -2274,6 +2280,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'App\\Models\\UserLoginHistory' => __DIR__ . '/../..' . '/app/Models/UserLoginHistory.php',
         'App\\Models\\UserMeta' => __DIR__ . '/../..' . '/app/Models/UserMeta.php',
         'App\\Models\\UserOccupation' => __DIR__ . '/../..' . '/app/Models/UserOccupation.php',
+        'App\\Models\\UserProfileAttachment' => __DIR__ . '/../..' . '/app/Models/UserProfileAttachment.php',
         'App\\Models\\UserRegistrationPackage' => __DIR__ . '/../..' . '/app/Models/UserRegistrationPackage.php',
         'App\\Models\\UserSelectedBank' => __DIR__ . '/../..' . '/app/Models/UserSelectedBank.php',
         'App\\Models\\UserSelectedBankSpecification' => __DIR__ . '/../..' . '/app/Models/UserSelectedBankSpecification.php',
@@ -2315,8 +2322,11 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'App\\PaymentChannels\\Drivers\\MercadoPago\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/MercadoPago/Channel.php',
         'App\\PaymentChannels\\Drivers\\MercadoPago\\Channel1' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/MercadoPago/Channel1.php',
         'App\\PaymentChannels\\Drivers\\MercadoPago\\ChannelCopy' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/MercadoPago/ChannelCopy.php',
+        'App\\PaymentChannels\\Drivers\\Midtrans\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/Midtrans/Channel.php',
         'App\\PaymentChannels\\Drivers\\Mollie\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/Mollie/Channel.php',
         'App\\PaymentChannels\\Drivers\\Ngenius\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/Ngenius/Channel.php',
+        'App\\PaymentChannels\\Drivers\\Ozow\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/Ozow/Channel.php',
+        'App\\PaymentChannels\\Drivers\\PayFast\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/PayFast/Channel.php',
         'App\\PaymentChannels\\Drivers\\Payfort\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/Payfort/Channel.php',
         'App\\PaymentChannels\\Drivers\\Payhere\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/Payhere/Channel.php',
         'App\\PaymentChannels\\Drivers\\Payku\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/Payku/Channel.php',
@@ -2342,6 +2352,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'App\\PaymentChannels\\Drivers\\Toyyibpay\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/Toyyibpay/Channel.php',
         'App\\PaymentChannels\\Drivers\\Voguepay\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/Voguepay/Channel.php',
         'App\\PaymentChannels\\Drivers\\Xendit\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/Xendit/Channel.php',
+        'App\\PaymentChannels\\Drivers\\YandexCheckout\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/YandexCheckout/Channel.php',
         'App\\PaymentChannels\\Drivers\\Zarinpal\\Channel' => __DIR__ . '/../..' . '/app/PaymentChannels/Drivers/Zarinpal/Channel.php',
         'App\\PaymentChannels\\IChannel' => __DIR__ . '/../..' . '/app/PaymentChannels/IChannel.php',
         'App\\Policies\\CourseForumAnswerPolicy' => __DIR__ . '/../..' . '/app/Policies/CourseForumAnswerPolicy.php',
@@ -2379,6 +2390,8 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Aws\\Account\\Exception\\AccountException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/Account/Exception/AccountException.php',
         'Aws\\Acm\\AcmClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/Acm/AcmClient.php',
         'Aws\\Acm\\Exception\\AcmException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/Acm/Exception/AcmException.php',
+        'Aws\\AlexaForBusiness\\AlexaForBusinessClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/AlexaForBusiness/AlexaForBusinessClient.php',
+        'Aws\\AlexaForBusiness\\Exception\\AlexaForBusinessException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/AlexaForBusiness/Exception/AlexaForBusinessException.php',
         'Aws\\AmplifyBackend\\AmplifyBackendClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/AmplifyBackend/AmplifyBackendClient.php',
         'Aws\\AmplifyBackend\\Exception\\AmplifyBackendException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/AmplifyBackend/Exception/AmplifyBackendException.php',
         'Aws\\AmplifyUIBuilder\\AmplifyUIBuilderClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/AmplifyUIBuilder/AmplifyUIBuilderClient.php',
@@ -2508,6 +2521,8 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Aws\\BackupGateway\\Exception\\BackupGatewayException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/BackupGateway/Exception/BackupGatewayException.php',
         'Aws\\BackupSearch\\BackupSearchClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/BackupSearch/BackupSearchClient.php',
         'Aws\\BackupSearch\\Exception\\BackupSearchException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/BackupSearch/Exception/BackupSearchException.php',
+        'Aws\\BackupStorage\\BackupStorageClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/BackupStorage/BackupStorageClient.php',
+        'Aws\\BackupStorage\\Exception\\BackupStorageException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/BackupStorage/Exception/BackupStorageException.php',
         'Aws\\Backup\\BackupClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/Backup/BackupClient.php',
         'Aws\\Backup\\Exception\\BackupException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/Backup/Exception/BackupException.php',
         'Aws\\Batch\\BatchClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/Batch/BatchClient.php',
@@ -2622,6 +2637,8 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Aws\\CodePipeline\\Exception\\CodePipelineException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/CodePipeline/Exception/CodePipelineException.php',
         'Aws\\CodeStarNotifications\\CodeStarNotificationsClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/CodeStarNotifications/CodeStarNotificationsClient.php',
         'Aws\\CodeStarNotifications\\Exception\\CodeStarNotificationsException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/CodeStarNotifications/Exception/CodeStarNotificationsException.php',
+        'Aws\\CodeStar\\CodeStarClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/CodeStar/CodeStarClient.php',
+        'Aws\\CodeStar\\Exception\\CodeStarException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/CodeStar/Exception/CodeStarException.php',
         'Aws\\CodeStarconnections\\CodeStarconnectionsClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/CodeStarconnections/CodeStarconnectionsClient.php',
         'Aws\\CodeStarconnections\\Exception\\CodeStarconnectionsException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/CodeStarconnections/Exception/CodeStarconnectionsException.php',
         'Aws\\CognitoIdentityProvider\\CognitoIdentityProviderClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/CognitoIdentityProvider/CognitoIdentityProviderClient.php',
@@ -2909,6 +2926,8 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Aws\\Health\\Exception\\HealthException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/Health/Exception/HealthException.php',
         'Aws\\Health\\HealthClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/Health/HealthClient.php',
         'Aws\\History' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/History.php',
+        'Aws\\Honeycode\\Exception\\HoneycodeException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/Honeycode/Exception/HoneycodeException.php',
+        'Aws\\Honeycode\\HoneycodeClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/Honeycode/HoneycodeClient.php',
         'Aws\\IVSRealTime\\Exception\\IVSRealTimeException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/IVSRealTime/Exception/IVSRealTimeException.php',
         'Aws\\IVSRealTime\\IVSRealTimeClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/IVSRealTime/IVSRealTimeClient.php',
         'Aws\\IVS\\Exception\\IVSException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/IVS/Exception/IVSException.php',
@@ -2954,6 +2973,8 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Aws\\IoTFleetWise\\IoTFleetWiseClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/IoTFleetWise/IoTFleetWiseClient.php',
         'Aws\\IoTJobsDataPlane\\Exception\\IoTJobsDataPlaneException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/IoTJobsDataPlane/Exception/IoTJobsDataPlaneException.php',
         'Aws\\IoTJobsDataPlane\\IoTJobsDataPlaneClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/IoTJobsDataPlane/IoTJobsDataPlaneClient.php',
+        'Aws\\IoTRoboRunner\\Exception\\IoTRoboRunnerException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/IoTRoboRunner/Exception/IoTRoboRunnerException.php',
+        'Aws\\IoTRoboRunner\\IoTRoboRunnerClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/IoTRoboRunner/IoTRoboRunnerClient.php',
         'Aws\\IoTSecureTunneling\\Exception\\IoTSecureTunnelingException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/IoTSecureTunneling/Exception/IoTSecureTunnelingException.php',
         'Aws\\IoTSecureTunneling\\IoTSecureTunnelingClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/IoTSecureTunneling/IoTSecureTunnelingClient.php',
         'Aws\\IoTSiteWise\\Exception\\IoTSiteWiseException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/IoTSiteWise/Exception/IoTSiteWiseException.php',
@@ -3094,6 +3115,8 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Aws\\MigrationHubStrategyRecommendations\\MigrationHubStrategyRecommendationsClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/MigrationHubStrategyRecommendations/MigrationHubStrategyRecommendationsClient.php',
         'Aws\\MigrationHub\\Exception\\MigrationHubException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/MigrationHub/Exception/MigrationHubException.php',
         'Aws\\MigrationHub\\MigrationHubClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/MigrationHub/MigrationHubClient.php',
+        'Aws\\Mobile\\Exception\\MobileException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/Mobile/Exception/MobileException.php',
+        'Aws\\Mobile\\MobileClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/Mobile/MobileClient.php',
         'Aws\\MockHandler' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/MockHandler.php',
         'Aws\\MonitoringEventsInterface' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/MonitoringEventsInterface.php',
         'Aws\\MultiRegionClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/MultiRegionClient.php',
@@ -3114,6 +3137,8 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Aws\\NetworkManager\\NetworkManagerClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/NetworkManager/NetworkManagerClient.php',
         'Aws\\NetworkMonitor\\Exception\\NetworkMonitorException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/NetworkMonitor/Exception/NetworkMonitorException.php',
         'Aws\\NetworkMonitor\\NetworkMonitorClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/NetworkMonitor/NetworkMonitorClient.php',
+        'Aws\\NimbleStudio\\Exception\\NimbleStudioException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/NimbleStudio/Exception/NimbleStudioException.php',
+        'Aws\\NimbleStudio\\NimbleStudioClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/NimbleStudio/NimbleStudioClient.php',
         'Aws\\NotificationsContacts\\Exception\\NotificationsContactsException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/NotificationsContacts/Exception/NotificationsContactsException.php',
         'Aws\\NotificationsContacts\\NotificationsContactsClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/NotificationsContacts/NotificationsContactsClient.php',
         'Aws\\Notifications\\Exception\\NotificationsException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/Notifications/Exception/NotificationsException.php',
@@ -3465,6 +3490,8 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Aws\\WellArchitected\\WellArchitectedClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/WellArchitected/WellArchitectedClient.php',
         'Aws\\WorkDocs\\Exception\\WorkDocsException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/WorkDocs/Exception/WorkDocsException.php',
         'Aws\\WorkDocs\\WorkDocsClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/WorkDocs/WorkDocsClient.php',
+        'Aws\\WorkLink\\Exception\\WorkLinkException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/WorkLink/Exception/WorkLinkException.php',
+        'Aws\\WorkLink\\WorkLinkClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/WorkLink/WorkLinkClient.php',
         'Aws\\WorkMailMessageFlow\\Exception\\WorkMailMessageFlowException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/WorkMailMessageFlow/Exception/WorkMailMessageFlowException.php',
         'Aws\\WorkMailMessageFlow\\WorkMailMessageFlowClient' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/WorkMailMessageFlow/WorkMailMessageFlowClient.php',
         'Aws\\WorkMail\\Exception\\WorkMailException' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/WorkMail/Exception/WorkMailException.php',
@@ -3570,6 +3597,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Barryvdh\\Debugbar\\DataCollector\\ModelsCollector' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/DataCollector/ModelsCollector.php',
         'Barryvdh\\Debugbar\\DataCollector\\MultiAuthCollector' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/DataCollector/MultiAuthCollector.php',
         'Barryvdh\\Debugbar\\DataCollector\\PennantCollector' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/DataCollector/PennantCollector.php',
+        'Barryvdh\\Debugbar\\DataCollector\\PhpInfoCollector' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/DataCollector/PhpInfoCollector.php',
         'Barryvdh\\Debugbar\\DataCollector\\QueryCollector' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/DataCollector/QueryCollector.php',
         'Barryvdh\\Debugbar\\DataCollector\\RequestCollector' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/DataCollector/RequestCollector.php',
         'Barryvdh\\Debugbar\\DataCollector\\RouteCollector' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/DataCollector/RouteCollector.php',
@@ -3594,7 +3622,12 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Barryvdh\\Debugbar\\SymfonyHttpDriver' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/SymfonyHttpDriver.php',
         'Barryvdh\\Debugbar\\Twig\\Extension\\Debug' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/Extension/Debug.php',
         'Barryvdh\\Debugbar\\Twig\\Extension\\Dump' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/Extension/Dump.php',
+        'Barryvdh\\Debugbar\\Twig\\Extension\\Extension' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/Extension/Extension.php',
         'Barryvdh\\Debugbar\\Twig\\Extension\\Stopwatch' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/Extension/Stopwatch.php',
+        'Barryvdh\\Debugbar\\Twig\\Node\\Node' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/Node/Node.php',
+        'Barryvdh\\Debugbar\\Twig\\Node\\StopwatchNode' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/Node/StopwatchNode.php',
+        'Barryvdh\\Debugbar\\Twig\\TokenParser\\StopwatchTokenParser' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/TokenParser/StopwatchTokenParser.php',
+        'Barryvdh\\Debugbar\\Twig\\TokenParser\\TokenParser' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/TokenParser/TokenParser.php',
         'Barryvdh\\DomPDF\\Facade\\Pdf' => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src/Facade/Pdf.php',
         'Barryvdh\\DomPDF\\PDF' => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src/PDF.php',
         'Barryvdh\\DomPDF\\ServiceProvider' => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src/ServiceProvider.php',
@@ -6456,19 +6489,47 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Google\\Service\\Advisorynotifications\\Resource\\ProjectsLocations' => __DIR__ . '/..' . '/google/apiclient-services/src/Advisorynotifications/Resource/ProjectsLocations.php',
         'Google\\Service\\Advisorynotifications\\Resource\\ProjectsLocationsNotifications' => __DIR__ . '/..' . '/google/apiclient-services/src/Advisorynotifications/Resource/ProjectsLocationsNotifications.php',
         'Google\\Service\\Aiplatform' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform.php',
+        'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionEmbedVideoResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionEmbedVideoResponse.php',
         'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionFilteredText' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionFilteredText.php',
         'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionGenerateVideoResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionGenerateVideoResponse.php',
         'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionImage' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionImage.php',
         'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionImageImageSize' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionImageImageSize.php',
         'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionImageRAIScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionImageRAIScores.php',
         'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionMedia' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionMedia.php',
+        'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionMediaGenerateContentResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionMediaGenerateContentResponse.php',
         'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionNamedBoundingBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionNamedBoundingBox.php',
         'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionRaiInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionRaiInfo.php',
         'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionRaiInfoDetectedLabels' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionRaiInfoDetectedLabels.php',
         'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionRaiInfoDetectedLabelsBoundingBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionRaiInfoDetectedLabelsBoundingBox.php',
         'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionRaiInfoDetectedLabelsEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionRaiInfoDetectedLabelsEntity.php',
+        'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionReasonVideoResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionReasonVideoResponse.php',
+        'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionReasonVideoResponseTextResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionReasonVideoResponseTextResponse.php',
+        'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionRelativeTemporalPartition' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionRelativeTemporalPartition.php',
         'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionSemanticFilterResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionSemanticFilterResponse.php',
         'Google\\Service\\Aiplatform\\CloudAiLargeModelsVisionVideo' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiLargeModelsVisionVideo.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceCandidate' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceCandidate.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceCitation' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceCitation.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceCitationMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceCitationMetadata.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceContent' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceContent.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceFact' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceFact.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceFunctionCall' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceFunctionCall.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceFunctionResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceFunctionResponse.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceGenerateMultiModalResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceGenerateMultiModalResponse.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceMessageMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceMessageMetadata.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServicePart' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServicePart.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServicePartBlob' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServicePartBlob.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServicePartDocumentMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServicePartDocumentMetadata.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServicePartFileData' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServicePartFileData.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServicePartLMRootMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServicePartLMRootMetadata.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServicePartVideoMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServicePartVideoMetadata.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServicePartVideoMetadataModelLevelMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServicePartVideoMetadataModelLevelMetadata.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServicePromptFeedback' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServicePromptFeedback.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceRaiResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceRaiResult.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceRaiSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceRaiSignal.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceRaiSignalInfluentialTerm' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceRaiSignalInfluentialTerm.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceSafetyRating' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceSafetyRating.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceSafetyRatingInfluentialTerm' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceSafetyRatingInfluentialTerm.php',
+        'Google\\Service\\Aiplatform\\CloudAiNlLlmProtoServiceUsageMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiNlLlmProtoServiceUsageMetadata.php',
         'Google\\Service\\Aiplatform\\CloudAiPlatformCommonCreatePipelineJobApiErrorDetail' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/CloudAiPlatformCommonCreatePipelineJobApiErrorDetail.php',
         'Google\\Service\\Aiplatform\\GoogleApiHttpBody' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleApiHttpBody.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1ActiveLearningConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1ActiveLearningConfig.php',
@@ -6713,6 +6774,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureOnlineStoreBigtable' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureOnlineStoreBigtable.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureOnlineStoreBigtableAutoScaling' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureOnlineStoreBigtableAutoScaling.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureOnlineStoreDedicatedServingEndpoint' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureOnlineStoreDedicatedServingEndpoint.php',
+        'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureOnlineStoreEmbeddingManagement' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureOnlineStoreEmbeddingManagement.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureOnlineStoreOptimized' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureOnlineStoreOptimized.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureSelector' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureSelector.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureStatsAnomaly' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureStatsAnomaly.php',
@@ -6733,6 +6795,9 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureViewSync' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureViewSync.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureViewSyncConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureViewSyncConfig.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureViewSyncSyncSummary' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureViewSyncSyncSummary.php',
+        'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureViewVectorSearchConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureViewVectorSearchConfig.php',
+        'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureViewVectorSearchConfigBruteForceConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureViewVectorSearchConfigBruteForceConfig.php',
+        'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureViewVectorSearchConfigTreeAHConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureViewVectorSearchConfigTreeAHConfig.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeatureViewVertexRagSource' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeatureViewVertexRagSource.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1Featurestore' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1Featurestore.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1FeaturestoreMonitoringConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1FeaturestoreMonitoringConfig.php',
@@ -6999,7 +7064,9 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1PipelineJob' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1PipelineJob.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1PipelineJobDetail' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1PipelineJobDetail.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1PipelineJobRuntimeConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1PipelineJobRuntimeConfig.php',
+        'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1PipelineJobRuntimeConfigDefaultRuntime' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1PipelineJobRuntimeConfigDefaultRuntime.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1PipelineJobRuntimeConfigInputArtifact' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1PipelineJobRuntimeConfigInputArtifact.php',
+        'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1PipelineJobRuntimeConfigPersistentResourceRuntimeDetail' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1PipelineJobRuntimeConfigPersistentResourceRuntimeDetail.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1PipelineTaskDetail' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1PipelineTaskDetail.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1PipelineTaskDetailArtifactList' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1PipelineTaskDetailArtifactList.php',
         'Google\\Service\\Aiplatform\\GoogleCloudAiplatformV1PipelineTaskDetailPipelineTaskStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/GoogleCloudAiplatformV1PipelineTaskDetailPipelineTaskStatus.php',
@@ -7549,6 +7616,73 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Google\\Service\\Aiplatform\\IntelligenceCloudAutomlXpsMetricEntry' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/IntelligenceCloudAutomlXpsMetricEntry.php',
         'Google\\Service\\Aiplatform\\IntelligenceCloudAutomlXpsMetricEntryLabel' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/IntelligenceCloudAutomlXpsMetricEntryLabel.php',
         'Google\\Service\\Aiplatform\\IntelligenceCloudAutomlXpsReportingMetrics' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/IntelligenceCloudAutomlXpsReportingMetrics.php',
+        'Google\\Service\\Aiplatform\\LanguageLabsAidaTrustRecitationProtoDocAttribution' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LanguageLabsAidaTrustRecitationProtoDocAttribution.php',
+        'Google\\Service\\Aiplatform\\LanguageLabsAidaTrustRecitationProtoRecitationResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LanguageLabsAidaTrustRecitationProtoRecitationResult.php',
+        'Google\\Service\\Aiplatform\\LanguageLabsAidaTrustRecitationProtoSegmentResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LanguageLabsAidaTrustRecitationProtoSegmentResult.php',
+        'Google\\Service\\Aiplatform\\LanguageLabsAidaTrustRecitationProtoStreamRecitationResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LanguageLabsAidaTrustRecitationProtoStreamRecitationResult.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRecitationDocAttribution' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRecitationDocAttribution.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRecitationRecitationResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRecitationRecitationResult.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRecitationSegmentResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRecitationSegmentResult.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootCalculationType' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootCalculationType.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootClassifierOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootClassifierOutput.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootClassifierOutputSummary' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootClassifierOutputSummary.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootClassifierState' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootClassifierState.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootCodeyChatMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootCodeyChatMetadata.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootCodeyCheckpoint' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootCodeyCheckpoint.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootCodeyCompletionMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootCodeyCompletionMetadata.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootCodeyGenerationMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootCodeyGenerationMetadata.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootCodeyOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootCodeyOutput.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootCodeyTruncatorMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootCodeyTruncatorMetadata.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootControlDecodingConfigThreshold' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootControlDecodingConfigThreshold.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootControlDecodingRecord' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootControlDecodingRecord.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootControlDecodingRecordPolicyScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootControlDecodingRecordPolicyScore.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootControlDecodingRecords' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootControlDecodingRecords.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootDataProviderOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootDataProviderOutput.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootFilterMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootFilterMetadata.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootFilterMetadataFilterDebugInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootFilterMetadataFilterDebugInfo.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootGroundingMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootGroundingMetadata.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootGroundingMetadataCitation' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootGroundingMetadataCitation.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootHarm' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootHarm.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootHarmGrailImageHarmType' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootHarmGrailImageHarmType.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootHarmGrailTextHarmType' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootHarmGrailTextHarmType.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootHarmSafetyCatCategories' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootHarmSafetyCatCategories.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootHarmSpiiFilter' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootHarmSpiiFilter.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootInternalMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootInternalMetadata.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootLanguageFilterResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootLanguageFilterResult.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootMetricOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootMetricOutput.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootPerRequestProcessorDebugMetadataFactualityDebugMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootPerRequestProcessorDebugMetadataFactualityDebugMetadata.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootRAIOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootRAIOutput.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootRegexTakedownResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootRegexTakedownResult.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootRequestResponseTakedownResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootRequestResponseTakedownResult.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootRoutingDecision' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootRoutingDecision.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootRoutingDecisionMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootRoutingDecisionMetadata.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootRoutingDecisionMetadataScoreBased' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootRoutingDecisionMetadataScoreBased.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootRoutingDecisionMetadataTokenLengthBased' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootRoutingDecisionMetadataTokenLengthBased.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootRoutingDecisionMetadataTokenLengthBasedModelInputTokenMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootRoutingDecisionMetadataTokenLengthBasedModelInputTokenMetadata.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootRoutingDecisionMetadataTokenLengthBasedModelMaxTokenMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootRoutingDecisionMetadataTokenLengthBasedModelMaxTokenMetadata.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootRuleOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootRuleOutput.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootScore.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootScoreBasedRoutingConfigRule' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootScoreBasedRoutingConfigRule.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootScoredSimilarityTakedownPhrase' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootScoredSimilarityTakedownPhrase.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootScoredToken' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootScoredToken.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootSimilarityTakedownPhrase' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootSimilarityTakedownPhrase.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootSimilarityTakedownResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootSimilarityTakedownResult.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootTakedownResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootTakedownResult.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootThresholdType' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootThresholdType.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootTokensAndLogProbPerDecodingStep' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootTokensAndLogProbPerDecodingStep.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootTokensAndLogProbPerDecodingStepCandidate' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootTokensAndLogProbPerDecodingStepCandidate.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootTokensAndLogProbPerDecodingStepTopCandidates' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootTokensAndLogProbPerDecodingStepTopCandidates.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootToxicityResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootToxicityResult.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootToxicitySignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootToxicitySignal.php',
+        'Google\\Service\\Aiplatform\\LearningGenaiRootTranslationRequestInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningGenaiRootTranslationRequestInfo.php',
+        'Google\\Service\\Aiplatform\\LearningServingLlmLanguageFilterResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningServingLlmLanguageFilterResult.php',
+        'Google\\Service\\Aiplatform\\LearningServingLlmMessageMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/LearningServingLlmMessageMetadata.php',
+        'Google\\Service\\Aiplatform\\NlpSaftLangIdLocalesResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/NlpSaftLangIdLocalesResult.php',
+        'Google\\Service\\Aiplatform\\NlpSaftLangIdLocalesResultLocale' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/NlpSaftLangIdLocalesResultLocale.php',
+        'Google\\Service\\Aiplatform\\NlpSaftLangIdResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/NlpSaftLangIdResult.php',
+        'Google\\Service\\Aiplatform\\NlpSaftLanguageSpan' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/NlpSaftLanguageSpan.php',
+        'Google\\Service\\Aiplatform\\NlpSaftLanguageSpanSequence' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/NlpSaftLanguageSpanSequence.php',
+        'Google\\Service\\Aiplatform\\Proto2BridgeMessageSet' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/Proto2BridgeMessageSet.php',
         'Google\\Service\\Aiplatform\\Resource\\Datasets' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/Resource/Datasets.php',
         'Google\\Service\\Aiplatform\\Resource\\DatasetsDatasetVersions' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/Resource/DatasetsDatasetVersions.php',
         'Google\\Service\\Aiplatform\\Resource\\Endpoints' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/Resource/Endpoints.php',
@@ -7659,6 +7793,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Google\\Service\\Aiplatform\\Resource\\ProjectsLocationsTuningJobsOperations' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/Resource/ProjectsLocationsTuningJobsOperations.php',
         'Google\\Service\\Aiplatform\\Resource\\Publishers' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/Resource/Publishers.php',
         'Google\\Service\\Aiplatform\\Resource\\PublishersModels' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/Resource/PublishersModels.php',
+        'Google\\Service\\Aiplatform\\UtilStatusProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Aiplatform/UtilStatusProto.php',
         'Google\\Service\\AirQuality' => __DIR__ . '/..' . '/google/apiclient-services/src/AirQuality.php',
         'Google\\Service\\AirQuality\\AdditionalInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/AirQuality/AdditionalInfo.php',
         'Google\\Service\\AirQuality\\AirQualityIndex' => __DIR__ . '/..' . '/google/apiclient-services/src/AirQuality/AirQualityIndex.php',
@@ -18153,6 +18288,583 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Google\\Service\\Container\\WorkloadMetadataConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Container/WorkloadMetadataConfig.php',
         'Google\\Service\\Container\\WorkloadPolicyConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Container/WorkloadPolicyConfig.php',
         'Google\\Service\\Contentwarehouse' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamAbuseType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamAbuseType.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamAgeRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamAgeRestriction.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamAndRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamAndRestriction.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamClient' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamClient.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamClusterEvaluationContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamClusterEvaluationContext.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamConstantRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamConstantRestriction.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamContentRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamContentRestriction.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamEvaluation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamEvaluation.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamFeature.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamGeoRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamGeoRestriction.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamGeoRestrictionLocale' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamGeoRestrictionLocale.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamHash' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamHash.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamManualReviewEvaluationInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamManualReviewEvaluationInfo.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamManualReviewTool' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamManualReviewTool.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamManualReviewerInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamManualReviewerInfo.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamNameValuePair' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamNameValuePair.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamNotRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamNotRestriction.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamOrRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamOrRestriction.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamRegion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamRegion.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamSpecialRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamSpecialRestriction.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamTarget' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamTarget.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamUserNotification' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamUserNotification.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamUserRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamUserRestriction.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamVerdict' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamVerdict.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamVerdictRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamVerdictRestriction.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamVerdictRestrictionContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamVerdictRestrictionContext.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamVideoReviewData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamVideoReviewData.php',
+        'Google\\Service\\Contentwarehouse\\AbuseiamVideoReviewer' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AbuseiamVideoReviewer.php',
+        'Google\\Service\\Contentwarehouse\\AdsShoppingReportingOffersSerializedSoriId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AdsShoppingReportingOffersSerializedSoriId.php',
+        'Google\\Service\\Contentwarehouse\\Anchors' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/Anchors.php',
+        'Google\\Service\\Contentwarehouse\\AnchorsAnchor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AnchorsAnchor.php',
+        'Google\\Service\\Contentwarehouse\\AnchorsAnchorSource' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AnchorsAnchorSource.php',
+        'Google\\Service\\Contentwarehouse\\AnchorsRedundantAnchorInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AnchorsRedundantAnchorInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsDynamiteCustomerId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsDynamiteCustomerId.php',
+        'Google\\Service\\Contentwarehouse\\AppsDynamiteSharedOrganizationInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsDynamiteSharedOrganizationInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsDynamiteSharedOrganizationInfoConsumerInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsDynamiteSharedOrganizationInfoConsumerInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsDynamiteSharedOrganizationInfoCustomerInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsDynamiteSharedOrganizationInfoCustomerInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsDynamiteSharedSegmentedMembershipCount' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsDynamiteSharedSegmentedMembershipCount.php',
+        'Google\\Service\\Contentwarehouse\\AppsDynamiteSharedSegmentedMembershipCounts' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsDynamiteSharedSegmentedMembershipCounts.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleActivityBackendDestinationStream' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleActivityBackendDestinationStream.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleActivityStreamqualityDistillerEngagements' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleActivityStreamqualityDistillerEngagements.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiAbout' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiAbout.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiAboutMeExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiAboutMeExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiAboutMeExtendedDataNameDisplayOptions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiAboutMeExtendedDataNameDisplayOptions.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiAboutMeExtendedDataPhotosCompareData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiAboutMeExtendedDataPhotosCompareData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiAboutMeExtendedDataPhotosCompareDataDiffData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiAboutMeExtendedDataPhotosCompareDataDiffData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiAboutMeExtendedDataProfileEditability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiAboutMeExtendedDataProfileEditability.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiAboutMeExtendedDataProfileNameModificationHistory' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiAboutMeExtendedDataProfileNameModificationHistory.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiAccountEmail' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiAccountEmail.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiAdditionalContainerInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiAdditionalContainerInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiAddress' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiAddress.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiAffinity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiAffinity.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiAgeRangeType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiAgeRangeType.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiAppUniqueInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiAppUniqueInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiBestDisplayName' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiBestDisplayName.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiBirthday' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiBirthday.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiBirthdayAgeDisableGracePeriod' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiBirthdayAgeDisableGracePeriod.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiBirthdayAgeDisableGracePeriodManualGracePeriodInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiBirthdayAgeDisableGracePeriodManualGracePeriodInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiBraggingRights' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiBraggingRights.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiCalendar' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiCalendar.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiCallerIdExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiCallerIdExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiCallerIdExtendedDataCallerIdSource' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiCallerIdExtendedDataCallerIdSource.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiCertifiedBornBefore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiCertifiedBornBefore.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiChannelData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiChannelData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiCircleMembership' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiCircleMembership.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiClientData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiClientData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiCommunicationEmail' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiCommunicationEmail.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiConnectionReminder' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiConnectionReminder.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiContactCreateContextInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiContactCreateContextInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiContactEditContextInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiContactEditContextInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiContactGroupMembership' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiContactGroupMembership.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiContactPromptSettingsInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiContactPromptSettingsInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiContactStateInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiContactStateInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiCoverPhoto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiCoverPhoto.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiCustomSchemaField' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiCustomSchemaField.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiCustomerInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiCustomerInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiDedupedContainerInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiDedupedContainerInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiDelegatedGroupInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiDelegatedGroupInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiDeviceContactExtraMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiDeviceContactExtraMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiDeviceContactId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiDeviceContactId.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiDeviceContactInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiDeviceContactInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiEdgeKeyInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiEdgeKeyInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiEdgeKeyInfoExtensionData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiEdgeKeyInfoExtensionData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiEmail' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiEmail.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiEmailCertificate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiEmailCertificate.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiEmailCertificateCertificateStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiEmailCertificateCertificateStatus.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiEmailContactGroupPreference' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiEmailContactGroupPreference.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiEmailExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiEmailExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiEmailSignupEmailMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiEmailSignupEmailMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiEmergencyInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiEmergencyInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiEvent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiEvent.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiExternalId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiExternalId.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiFieldAcl' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiFieldAcl.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiFieldAclAclEntry' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiFieldAclAclEntry.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiFieldAclAclEntryScope' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiFieldAclAclEntryScope.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiFieldAclAclEntryScopeMembershipAcl' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiFieldAclAclEntryScopeMembershipAcl.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiFieldAclAclEntryScopeMembershipAclCircleAcl' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiFieldAclAclEntryScopeMembershipAclCircleAcl.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiFieldAclAclEntryScopeMembershipAclContactGroupAcl' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiFieldAclAclEntryScopeMembershipAclContactGroupAcl.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiFieldAclAclEntryScopePersonAcl' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiFieldAclAclEntryScopePersonAcl.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiFieldEmergencyInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiFieldEmergencyInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiFileAs' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiFileAs.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiGPayExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiGPayExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiGender' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiGender.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiGplusExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiGplusExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiHangoutsExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiHangoutsExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiIdentityInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiIdentityInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiIm' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiIm.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiInAppNotificationTarget' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiInAppNotificationTarget.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiInAppNotificationTargetClientData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiInAppNotificationTargetClientData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiInAppNotificationTargetOriginatingField' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiInAppNotificationTargetOriginatingField.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiInAppReachability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiInAppReachability.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiInAppReachabilityReachabilityKey' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiInAppReachabilityReachabilityKey.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiInteractionSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiInteractionSettings.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiInterest' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiInterest.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiLanguage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiLanguage.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiLatLng' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiLatLng.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiLegacyFields' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiLegacyFields.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiLimitedProfileSettingsField' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiLimitedProfileSettingsField.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiLocation.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiLocationExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiLocationExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiManagementUpchain' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiManagementUpchain.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiManagementUpchainIndirectManager' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiManagementUpchainIndirectManager.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiMapsExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiMapsExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiMapsProfile' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiMapsProfile.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiMapsProfileFieldRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiMapsProfileFieldRestriction.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiMapsProfileUrlLink' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiMapsProfileUrlLink.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiMatchInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiMatchInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiMatchInfoLookupTokenMatch' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiMatchInfoLookupTokenMatch.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiMembership' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiMembership.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiMission' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiMission.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiName' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiName.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiNamePronunciationAudioMetadataInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiNamePronunciationAudioMetadataInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiNickname' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiNickname.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiOccupation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiOccupation.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiOpeningHours' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiOpeningHours.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiOpeningHoursEndpoint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiOpeningHoursEndpoint.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiOpeningHoursPeriod' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiOpeningHoursPeriod.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiOrganization' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiOrganization.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiOrganizationAssignment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiOrganizationAssignment.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiOrganizationProject' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiOrganizationProject.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiOtherKeyword' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiOtherKeyword.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPerson' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPerson.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPersonAttribute' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPersonAttribute.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPersonExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPersonExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPersonFieldMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPersonFieldMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPersonListWithTotalNumber' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPersonListWithTotalNumber.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPersonMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPersonMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPersonMetadataScoringInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPersonMetadataScoringInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPersonMetadataScoringInfoStExpressionResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPersonMetadataScoringInfoStExpressionResult.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPhone' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPhone.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPhoneExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPhoneExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPhoto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPhoto.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPhotoPhotoStorageId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPhotoPhotoStorageId.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPlaceDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPlaceDetails.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPlayGamesExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPlayGamesExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPlayGamesExtendedDataAchievement' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPlayGamesExtendedDataAchievement.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPlusPageInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPlusPageInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPointSpec' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPointSpec.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPosixAccount' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPosixAccount.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiProductMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiProductMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiProductProfileFailure' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiProductProfileFailure.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiProfileOwnerStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiProfileOwnerStats.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiProfileUrl' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiProfileUrl.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiPronoun' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiPronoun.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiRawDeviceContactAnalyticalInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiRawDeviceContactAnalyticalInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiRawDeviceContactInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiRawDeviceContactInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiReadOnlyProfileInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiReadOnlyProfileInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiReadOnlyProfileInfoDomainInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiReadOnlyProfileInfoDomainInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiRelation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiRelation.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiRelationRelationDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiRelationRelationDetails.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiRelationshipInterest' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiRelationshipInterest.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiRelationshipStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiRelationshipStatus.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiRightOfPublicityState' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiRightOfPublicityState.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiRosterDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiRosterDetails.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiRosterMember' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiRosterMember.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiRosterMemberCount' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiRosterMemberCount.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiSearchProfile' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiSearchProfile.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiSipAddress' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiSipAddress.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiSkills' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiSkills.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiSocialConnection' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiSocialConnection.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiSortKeys' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiSortKeys.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiSourceIdentity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiSourceIdentity.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiSshPublicKey' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiSshPublicKey.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiStructuredPhone' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiStructuredPhone.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiStructuredPhonePhoneNumber' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiStructuredPhonePhoneNumber.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiStructuredPhonePhoneNumberI18nData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiStructuredPhonePhoneNumberI18nData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiStructuredPhoneShortCode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiStructuredPhoneShortCode.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiTagline' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiTagline.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiTeamsExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiTeamsExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiUserDefined' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiUserDefined.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiUserVisibleStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiUserVisibleStats.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiVisibleToGuests' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiVisibleToGuests.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiWebContactsExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiWebContactsExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiWebsite' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiWebsite.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiWebsiteRelationshipInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiWebsiteRelationshipInfo.php',
+        'Google\\Service\\Contentwarehouse\\AppsPeopleOzExternalMergedpeopleapiYoutubeExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AppsPeopleOzExternalMergedpeopleapiYoutubeExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiAccessControlOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiAccessControlOutput.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiActionV2SupportedFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiActionV2SupportedFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiAndroidIntentCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiAndroidIntentCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiAndroidIntentCapabilitiesAndroidIntentCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiAndroidIntentCapabilitiesAndroidIntentCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiAppCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiAppCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiAppCapabilitiesDelta' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiAppCapabilitiesDelta.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiAppControlSupport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiAppControlSupport.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiAppIntegrationsSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiAppIntegrationsSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiAssistantContinuedPresenceSupport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiAssistantContinuedPresenceSupport.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiAudioInput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiAudioInput.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiAudioOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiAudioOutput.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiBluetoothCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiBluetoothCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCallCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCallCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCameraCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCameraCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCameraReceiverCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCameraReceiverCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCapabilitiesHomeAppCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCapabilitiesHomeAppCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCarAssistantCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCarAssistantCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCarSettingsCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCarSettingsCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCastAssistantSettingLinkingResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCastAssistantSettingLinkingResult.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCastCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCastCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiClientOpPropertiesDeviceModifySettingClientOpProperty' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiClientOpPropertiesDeviceModifySettingClientOpProperty.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiClientOpPropertiesProviderOpenClientOpProperty' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiClientOpPropertiesProviderOpenClientOpProperty.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiClockCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiClockCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCommunicationUiCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCommunicationUiCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiContactLookupCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiContactLookupCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesAndroidAppInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesAndroidAppInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesAndroidAppInfoActivityInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesAndroidAppInfoActivityInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesAndroidAppInfoActivityInfoActivity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesAndroidAppInfoActivityInfoActivity.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesAndroidAppInfoDelta' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesAndroidAppInfoDelta.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesCalendarEvent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesCalendarEvent.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesCalendarEventAttendee' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesCalendarEventAttendee.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesCalendarEventMeetingContact' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesCalendarEventMeetingContact.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesCalendarEventRoom' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesCalendarEventRoom.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesCalendarEventRoomRoomLocationDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesCalendarEventRoomRoomLocationDetails.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesCalendarEventWrapper' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesCalendarEventWrapper.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesCastAppInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesCastAppInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesChromeOsAppInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesChromeOsAppInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesCloudProviderInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesCloudProviderInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesCloudProviderInfoAgentStyle' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesCloudProviderInfoAgentStyle.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesColor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesColor.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesDeviceConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesDeviceConfig.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesDeviceId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesDeviceId.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesDeviceUserIdentity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesDeviceUserIdentity.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesGovernedColor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesGovernedColor.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesGovernedDeviceConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesGovernedDeviceConfig.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesGovernedDeviceId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesGovernedDeviceId.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesGovernedRingtoneTaskMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesGovernedRingtoneTaskMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesGovernedRingtoneTaskMetadataCharacterAlarmMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesGovernedRingtoneTaskMetadataCharacterAlarmMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesGovernedRingtoneTaskMetadataFuntimeMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesGovernedRingtoneTaskMetadataFuntimeMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesGovernedRingtoneTaskMetadataGenMlAlarmMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesGovernedRingtoneTaskMetadataGenMlAlarmMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesGovernedRingtoneTaskMetadataGentleWakeInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesGovernedRingtoneTaskMetadataGentleWakeInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesGovernedRingtoneTaskMetadataOnDeviceAlarmMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesGovernedRingtoneTaskMetadataOnDeviceAlarmMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesGovernedRingtoneTaskMetadataRoutineAlarmMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesGovernedRingtoneTaskMetadataRoutineAlarmMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesGovernedSurfaceIdentity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesGovernedSurfaceIdentity.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesGovernedSurfaceVersion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesGovernedSurfaceVersion.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesHomeAppInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesHomeAppInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesImage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesImage.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesInternalProviderInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesInternalProviderInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesIosAppInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesIosAppInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesKaiOsAppInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesKaiOsAppInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesLocationCoordinates' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesLocationCoordinates.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesMessageNotification' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesMessageNotification.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesMessageNotificationNotificationEntry' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesMessageNotificationNotificationEntry.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesMessageNotificationPerson' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesMessageNotificationPerson.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesProvider' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesProvider.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesProviderDelta' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesProviderDelta.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesRingtoneTaskMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesRingtoneTaskMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesRingtoneTaskMetadataCharacterAlarmMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesRingtoneTaskMetadataCharacterAlarmMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesRingtoneTaskMetadataFuntimeMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesRingtoneTaskMetadataFuntimeMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesRingtoneTaskMetadataGenMlAlarmMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesRingtoneTaskMetadataGenMlAlarmMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesRingtoneTaskMetadataGentleWakeInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesRingtoneTaskMetadataGentleWakeInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesRingtoneTaskMetadataOnDeviceAlarmMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesRingtoneTaskMetadataOnDeviceAlarmMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesRingtoneTaskMetadataRoutineAlarmMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesRingtoneTaskMetadataRoutineAlarmMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesSipProviderInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesSipProviderInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesSurfaceIdentity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesSurfaceIdentity.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesSurfaceType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesSurfaceType.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesSurfaceVersion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesSurfaceVersion.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesWebProviderInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesWebProviderInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCoreTypesWebProviderInfoThirdPartyCustomNluInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCoreTypesWebProviderInfoThirdPartyCustomNluInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiCrossDeviceExecutionCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiCrossDeviceExecutionCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiDataValidateCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiDataValidateCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiDate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiDate.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiDateTime' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiDateTime.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiDateTimeRange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiDateTimeRange.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiDeviceCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiDeviceCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiDuration' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiDuration.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiFeatureSpecificActionSupport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiFeatureSpecificActionSupport.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiFitnessFeatureSupport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiFitnessFeatureSupport.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiFluidActionsSupport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiFluidActionsSupport.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiGacsCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiGacsCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiGcmCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiGcmCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiGestureCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiGestureCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiGuestAccessOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiGuestAccessOutput.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiImmersiveCanvasSupport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiImmersiveCanvasSupport.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiJwnCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiJwnCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLensPerceptionCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLensPerceptionCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLensPerceptionCapabilitiesLensCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLensPerceptionCapabilitiesLensCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLensPerceptionCapabilitiesLensCapabilitiesDining' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLensPerceptionCapabilitiesLensCapabilitiesDining.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLensPerceptionCapabilitiesLensCapabilitiesEducation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLensPerceptionCapabilitiesLensCapabilitiesEducation.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLensPerceptionCapabilitiesLensCapabilitiesOutdoor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLensPerceptionCapabilitiesLensCapabilitiesOutdoor.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLensPerceptionCapabilitiesLensCapabilitiesShopping' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLensPerceptionCapabilitiesLensCapabilitiesShopping.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLensPerceptionCapabilitiesLensCapabilitiesText' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLensPerceptionCapabilitiesLensCapabilitiesText.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLensPerceptionCapabilitiesLensCapabilitiesTranslate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLensPerceptionCapabilitiesLensCapabilitiesTranslate.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLiveTvChannelCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLiveTvChannelCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLiveTvChannelCapabilitiesChannelsByProvider' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLiveTvChannelCapabilitiesChannelsByProvider.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLiveTvChannelCapabilitiesLiveTvChannel' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLiveTvChannelCapabilitiesLiveTvChannel.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLiveTvProvider' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLiveTvProvider.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLocationCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLocationCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiLoggingOnlyData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiLoggingOnlyData.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiMediaControlSupport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiMediaControlSupport.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiMessageCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiMessageCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiMessageSummarySupport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiMessageSummarySupport.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiMovementCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiMovementCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiNotificationOutputRestrictions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiNotificationOutputRestrictions.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiNotificationOutputRestrictionsOptOutState' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiNotificationOutputRestrictionsOptOutState.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiNotificationOutputRestrictionsOptOutStateCategoryGroupState' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiNotificationOutputRestrictionsOptOutStateCategoryGroupState.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiNotificationOutputRestrictionsOptOutStateCategoryState' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiNotificationOutputRestrictionsOptOutStateCategoryState.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiOemCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiOemCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiOnDeviceAssistantCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiOnDeviceAssistantCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiOnDeviceSmartHomeCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiOnDeviceSmartHomeCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiOnDeviceStorageCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiOnDeviceStorageCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiOutputRestrictions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiOutputRestrictions.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiProactiveOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiProactiveOutput.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiProtobuf' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiProtobuf.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiRecurrence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiRecurrence.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiRecurrenceDatetimeRange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiRecurrenceDatetimeRange.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiRobinCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiRobinCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiRobinCapabilitiesRobinStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiRobinCapabilitiesRobinStatus.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiRobinCapabilitiesRobinStatusRobinStatusAvailable' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiRobinCapabilitiesRobinStatusRobinStatusAvailable.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiRobinCapabilitiesRobinStatusRobinStatusNotAvailable' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiRobinCapabilitiesRobinStatusRobinStatusNotAvailable.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiRobinCapabilitiesRobinStatusRobinStatusOptedIn' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiRobinCapabilitiesRobinStatusRobinStatusOptedIn.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiRobinCapabilitiesRobinStatusRobinStatusOptedOut' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiRobinCapabilitiesRobinStatusRobinStatusOptedOut.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiScreenCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiScreenCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiScreenCapabilitiesMask' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiScreenCapabilitiesMask.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiScreenCapabilitiesProtoLayoutVersion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiScreenCapabilitiesProtoLayoutVersion.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiScreenCapabilitiesResolution' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiScreenCapabilitiesResolution.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSelinaCapabilites' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSelinaCapabilites.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsAmbientSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsAmbientSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsAppCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsAppCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsAutoFramingSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsAutoFramingSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsCarrierCallDeviceSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsCarrierCallDeviceSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsCommunicationsFilter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsCommunicationsFilter.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsDeviceDowntimeSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsDeviceDowntimeSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsDeviceFeatureFilters' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsDeviceFeatureFilters.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsDeviceLogsOptIn' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsDeviceLogsOptIn.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsDeviceSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsDeviceSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsDeviceSettingsCrossSurfaceAvailability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsDeviceSettingsCrossSurfaceAvailability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsDeviceSupervisionSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsDeviceSupervisionSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsDowntimePeriod' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsDowntimePeriod.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsDowntimeSchedule' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsDowntimeSchedule.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsDuoCallDeviceSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsDuoCallDeviceSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsFeatureFilters' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsFeatureFilters.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsGcmSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsGcmSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsHomeGraphData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsHomeGraphData.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsHospitalityCardSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsHospitalityCardSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsHospitalityCardSettingsCardConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsHospitalityCardSettingsCardConfig.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsHospitalityCardSettingsYouTubeCardConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsHospitalityCardSettingsYouTubeCardConfig.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsHospitalityMode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsHospitalityMode.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsHospitalityModeBranding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsHospitalityModeBranding.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsHotwordThresholdAdjustmentFactor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsHotwordThresholdAdjustmentFactor.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsInternalAncillaryDeviceId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsInternalAncillaryDeviceId.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsInternalVersion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsInternalVersion.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsKidsMode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsKidsMode.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsLabeledDowntimeSchedule' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsLabeledDowntimeSchedule.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsLinkedUser' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsLinkedUser.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsMarketplaceDisclosure' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsMarketplaceDisclosure.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsMasqueradeMode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsMasqueradeMode.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsMusicFilter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsMusicFilter.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsNewsFilter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsNewsFilter.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsNotificationProfile' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsNotificationProfile.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsNotificationProfileAlloNotificationProfile' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsNotificationProfileAlloNotificationProfile.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsOnDeviceAppSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsOnDeviceAppSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsPersonalizationMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsPersonalizationMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsPodcastFilter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsPodcastFilter.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsPoliteMode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsPoliteMode.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsReauthTrustedDeviceSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsReauthTrustedDeviceSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsReauthTrustedDeviceSettingsTrustSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsReauthTrustedDeviceSettingsTrustSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsSearchFilter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsSearchFilter.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsSpeechOutputSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsSpeechOutputSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsSpeechSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsSpeechSettings.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsTetheredInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsTetheredInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsThirdPartyAppsFilter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsThirdPartyAppsFilter.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsVideoFilter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsVideoFilter.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSettingsWebviewFilter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSettingsWebviewFilter.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSignInMethod' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSignInMethod.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSodaCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSodaCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSoftwareCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSoftwareCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSpeechCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSpeechCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSuggestionsSupport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSuggestionsSupport.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSuggestionsSupportDisplayTargetSupport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSuggestionsSupportDisplayTargetSupport.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSunriseFeaturesSupport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSunriseFeaturesSupport.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSupportedClientOp' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSupportedClientOp.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSupportedClientOpSupportedExecution' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSupportedClientOpSupportedExecution.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSupportedConversationVersion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSupportedConversationVersion.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSupportedFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSupportedFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSupportedProtocolVersion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSupportedProtocolVersion.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSupportedProtocolVersionMessageVersionPair' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSupportedProtocolVersionMessageVersionPair.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSupportedProviderTypes' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSupportedProviderTypes.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSurfaceProperties' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSurfaceProperties.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSurfacePropertiesExecutionCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSurfacePropertiesExecutionCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSystemNotificationRestrictions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSystemNotificationRestrictions.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSystemNotificationRestrictionsNotificationCategoryState' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSystemNotificationRestrictionsNotificationCategoryState.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiSystemNotificationRestrictionsNotificationChannelState' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiSystemNotificationRestrictionsNotificationChannelState.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiThirdPartyActionConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiThirdPartyActionConfig.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiThirdPartyActionConfigProjectConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiThirdPartyActionConfigProjectConfig.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiThirdPartyCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiThirdPartyCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiTimeOfDay' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiTimeOfDay.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiTimeZone' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiTimeZone.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiTimestamp' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiTimestamp.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiTransactionFeaturesSupport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiTransactionFeaturesSupport.php',
+        'Google\\Service\\Contentwarehouse\\AssistantApiVolumeProperties' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantApiVolumeProperties.php',
+        'Google\\Service\\Contentwarehouse\\AssistantContextAppProviderId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantContextAppProviderId.php',
+        'Google\\Service\\Contentwarehouse\\AssistantContextMediaProviderId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantContextMediaProviderId.php',
+        'Google\\Service\\Contentwarehouse\\AssistantContextProviderId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantContextProviderId.php',
+        'Google\\Service\\Contentwarehouse\\AssistantContextProviderIdNaturalProviderId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantContextProviderIdNaturalProviderId.php',
+        'Google\\Service\\Contentwarehouse\\AssistantContextProviderSelectionPolicy' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantContextProviderSelectionPolicy.php',
+        'Google\\Service\\Contentwarehouse\\AssistantContextProviderSelectionResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantContextProviderSelectionResult.php',
+        'Google\\Service\\Contentwarehouse\\AssistantContextProviderVariant' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantContextProviderVariant.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDeviceTargetingDeviceTargetingError' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDeviceTargetingDeviceTargetingError.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoAlarmCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoAlarmCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoArgSpec' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoArgSpec.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoCallCallCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoCallCallCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoClientReconnectCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoClientReconnectCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoCloudCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoCloudCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoCloudEndpoint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoCloudEndpoint.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoCoreDismissAssistantCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoCoreDismissAssistantCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoDeviceActionCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoDeviceActionCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoDeviceModifySettingCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoDeviceModifySettingCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoDeviceTakePhotoCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoDeviceTakePhotoCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoExecutionConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoExecutionConfig.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoExecutionWaitCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoExecutionWaitCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoGetHealthObservationCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoGetHealthObservationCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoInlinedActionCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoInlinedActionCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoIntValueSpec' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoIntValueSpec.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoIntent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoIntent.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoInternalCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoInternalCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoInternalCapabilityStadiaAssistantConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoInternalCapabilityStadiaAssistantConfig.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoMediaNextCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoMediaNextCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoMediaPauseCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoMediaPauseCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoMediaPlayMediaCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoMediaPlayMediaCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoMediaPreviousCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoMediaPreviousCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoMediaResumeCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoMediaResumeCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoMediaShowControlsCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoMediaShowControlsCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoMediaStopCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoMediaStopCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoOptionValueSpec' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoOptionValueSpec.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoProvidedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoProvidedData.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoProviderFulfillCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoProviderFulfillCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoProviderOpenCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoProviderOpenCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoResponseLimits' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoResponseLimits.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoSecurityConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoSecurityConfig.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoSendChatMessageCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoSendChatMessageCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoSupportedDeviceOps' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoSupportedDeviceOps.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoTimerCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoTimerCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoTriggerCondition' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoTriggerCondition.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoTtsOutputCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoTtsOutputCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoUiShowInterpreterCapability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoUiShowInterpreterCapability.php',
+        'Google\\Service\\Contentwarehouse\\AssistantDevicesPlatformProtoUnderstandingConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantDevicesPlatformProtoUnderstandingConfig.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingProviderProviderSignalResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingProviderProviderSignalResult.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerAssistantInteractionFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerAssistantInteractionFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerContactGroundingProviderFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerContactGroundingProviderFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerDeviceContactAffinityFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerDeviceContactAffinityFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerDeviceGroundingProviderFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerDeviceGroundingProviderFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerDeviceTargetingFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerDeviceTargetingFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerDeviceTargetingFeaturesProperties' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerDeviceTargetingFeaturesProperties.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerDeviceTargetingFeaturesStates' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerDeviceTargetingFeaturesStates.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerDeviceTargetingLabels' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerDeviceTargetingLabels.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerEndpointGroundingProviderFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerEndpointGroundingProviderFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerGroundingProviderFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerGroundingProviderFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerLaaFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerLaaFeature.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerLaaFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerLaaFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerLaaFeaturesBindingSet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerLaaFeaturesBindingSet.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerLaaFeaturesCommunicationEndpoint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerLaaFeaturesCommunicationEndpoint.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerLaaFeaturesContact' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerLaaFeaturesContact.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerLaaFeaturesProvider' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerLaaFeaturesProvider.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerMediaGroundingProviderFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerMediaGroundingProviderFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerPodcastGroundingProviderFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerPodcastGroundingProviderFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantGroundingRankerProviderGroundingProviderFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantGroundingRankerProviderGroundingProviderFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsAllMediaStreamLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsAllMediaStreamLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsAmbiguousTargetDeviceLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsAmbiguousTargetDeviceLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsAmbiguousTargetDeviceLogPuntInfoLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsAmbiguousTargetDeviceLogPuntInfoLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsAvailableDeviceAndCtfContextDiffLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsAvailableDeviceAndCtfContextDiffLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsAvailableDevicesLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsAvailableDevicesLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsCommunicationDeviceContactInfoLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsCommunicationDeviceContactInfoLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsCommunicationFuzzyNgramMatchLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsCommunicationFuzzyNgramMatchLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsCommunicationGoogleAccountProvenance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsCommunicationGoogleAccountProvenance.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsCommunicationPersonMetadataLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsCommunicationPersonMetadataLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsCommunicationPersonalContactDataLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsCommunicationPersonalContactDataLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsCommunicationPhoneLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsCommunicationPhoneLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsCommunicationRawDeviceContactInfoLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsCommunicationRawDeviceContactInfoLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsDefaultDeviceLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsDefaultDeviceLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsDefaultDevicesLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsDefaultDevicesLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsDeviceAnnotationLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsDeviceAnnotationLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsDeviceInfoLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsDeviceInfoLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsDeviceMediaSessionLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsDeviceMediaSessionLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsDeviceSelectionLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsDeviceSelectionLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsDeviceSelectionResultLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsDeviceSelectionResultLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsDeviceTargetingTestCode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsDeviceTargetingTestCode.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsInputErrorLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsInputErrorLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsLowConfidenceTargetDeviceLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsLowConfidenceTargetDeviceLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsLumosProcessorInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsLumosProcessorInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsMediaCapabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsMediaCapabilities.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsMediaDeviceSelectionDecisionSummary' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsMediaDeviceSelectionDecisionSummary.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsMediaFocusInfoLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsMediaFocusInfoLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsMediaFocusesLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsMediaFocusesLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsMediaStreamLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsMediaStreamLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsNearbyDevicesLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsNearbyDevicesLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsProviderAnnotationLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsProviderAnnotationLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsQueryAnnotationLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsQueryAnnotationLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsReminderLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsReminderLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsRoomAnnotationLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsRoomAnnotationLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsSettingsDeviceIdLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsSettingsDeviceIdLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsStructureAnnotationLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsStructureAnnotationLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantLogsTargetDeviceLog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantLogsTargetDeviceLog.php',
+        'Google\\Service\\Contentwarehouse\\AssistantPfrDeviceRdMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantPfrDeviceRdMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantPfrSmartHomeIntentMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantPfrSmartHomeIntentMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantPfrTiebreakingMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantPfrTiebreakingMetadata.php',
+        'Google\\Service\\Contentwarehouse\\AssistantPrefulfillmentRankerPrefulfillmentSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantPrefulfillmentRankerPrefulfillmentSignals.php',
+        'Google\\Service\\Contentwarehouse\\AssistantProductivityListItem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantProductivityListItem.php',
+        'Google\\Service\\Contentwarehouse\\AssistantRemindersAttachment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantRemindersAttachment.php',
+        'Google\\Service\\Contentwarehouse\\AssistantRemindersAttachmentLink' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantRemindersAttachmentLink.php',
+        'Google\\Service\\Contentwarehouse\\AssistantRemindersMemoryPayload' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantRemindersMemoryPayload.php',
+        'Google\\Service\\Contentwarehouse\\AssistantRemindersNlgTemplateKey' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantRemindersNlgTemplateKey.php',
+        'Google\\Service\\Contentwarehouse\\AssistantTeleportTeleportNicknameSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantTeleportTeleportNicknameSignals.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsCommonContactMatchSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsCommonContactMatchSignal.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoActionProjectConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoActionProjectConfig.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoAgentDeviceId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoAgentDeviceId.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoAgentInformation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoAgentInformation.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoAttribute' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoAttribute.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoAttributes' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoAttributes.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoCommonEventTrigger' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoCommonEventTrigger.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoCommonStructureBasedRoutine' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoCommonStructureBasedRoutine.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoCommonStructureBasedRoutineTrigger' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoCommonStructureBasedRoutineTrigger.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoCommonVoiceTrigger' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoCommonVoiceTrigger.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoConciergeFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoConciergeFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoDeviceTargetingOutputQueryInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoDeviceTargetingOutputQueryInfo.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoHomeAutomationDevice' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoHomeAutomationDevice.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoHomeAutomationDeviceItem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoHomeAutomationDeviceItem.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoHomeAutomationMetaData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoHomeAutomationMetaData.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoHomeAutomationMetaDataSupportedTraits' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoHomeAutomationMetaDataSupportedTraits.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoMatterUniqueId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoMatterUniqueId.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoPhysicalLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoPhysicalLocation.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoRoleInformation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoRoleInformation.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoSmartDeviceManagementData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoSmartDeviceManagementData.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoSmartHomeFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoSmartHomeFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AssistantVerticalsHomeautomationProtoSupportedStructureFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AssistantVerticalsHomeautomationProtoSupportedStructureFeatures.php',
+        'Google\\Service\\Contentwarehouse\\AttentionalEntitiesMentionProperties' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AttentionalEntitiesMentionProperties.php',
+        'Google\\Service\\Contentwarehouse\\AttentionalEntitiesMentionPropertiesListEntryInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AttentionalEntitiesMentionPropertiesListEntryInfo.php',
+        'Google\\Service\\Contentwarehouse\\AttentionalEntitiesMentionPropertiesSource' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AttentionalEntitiesMentionPropertiesSource.php',
+        'Google\\Service\\Contentwarehouse\\AttentionalEntitiesMentionPropertiesSourceClient' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AttentionalEntitiesMentionPropertiesSourceClient.php',
+        'Google\\Service\\Contentwarehouse\\AttentionalEntitiesMentionPropertiesSourceSystem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AttentionalEntitiesMentionPropertiesSourceSystem.php',
+        'Google\\Service\\Contentwarehouse\\AttentionalEntitiesMentionPropertiesSourceUser' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AttentionalEntitiesMentionPropertiesSourceUser.php',
+        'Google\\Service\\Contentwarehouse\\AttentionalEntitiesSemanticRoleId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AttentionalEntitiesSemanticRoleId.php',
+        'Google\\Service\\Contentwarehouse\\AttentionalEntitiesSpatialProperties' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AttentionalEntitiesSpatialProperties.php',
+        'Google\\Service\\Contentwarehouse\\AttentionalEntitiesSurfaceForm' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/AttentionalEntitiesSurfaceForm.php',
+        'Google\\Service\\Contentwarehouse\\BiasingPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BiasingPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\BiasingPerDocData2' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BiasingPerDocData2.php',
+        'Google\\Service\\Contentwarehouse\\BiasingPerDocData2BiasingField' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BiasingPerDocData2BiasingField.php',
+        'Google\\Service\\Contentwarehouse\\BiasingPerDocDataBiasingField' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BiasingPerDocDataBiasingField.php',
+        'Google\\Service\\Contentwarehouse\\BlobstoreBlobRef' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BlobstoreBlobRef.php',
+        'Google\\Service\\Contentwarehouse\\BlogPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BlogPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\BlogPerDocDataOutlinks' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BlogPerDocDataOutlinks.php',
+        'Google\\Service\\Contentwarehouse\\BlogsearchConversationNode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BlogsearchConversationNode.php',
+        'Google\\Service\\Contentwarehouse\\BlogsearchConversationTree' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BlogsearchConversationTree.php',
+        'Google\\Service\\Contentwarehouse\\BlueGingerClientVisibleProtoBlueGingerSupportedServices' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BlueGingerClientVisibleProtoBlueGingerSupportedServices.php',
+        'Google\\Service\\Contentwarehouse\\BlueGingerClientVisibleProtoBlueGingerSupportedServicesBlueGingerModule' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BlueGingerClientVisibleProtoBlueGingerSupportedServicesBlueGingerModule.php',
+        'Google\\Service\\Contentwarehouse\\BookCitationPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BookCitationPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\BusinessHours' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BusinessHours.php',
+        'Google\\Service\\Contentwarehouse\\BusinessHoursInterval' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/BusinessHoursInterval.php',
+        'Google\\Service\\Contentwarehouse\\ChatBotPlatformBotSendToken' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ChatBotPlatformBotSendToken.php',
+        'Google\\Service\\Contentwarehouse\\ChatBotPlatformFireballId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ChatBotPlatformFireballId.php',
+        'Google\\Service\\Contentwarehouse\\ClassifierPornAggregatedUrlPornScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ClassifierPornAggregatedUrlPornScores.php',
+        'Google\\Service\\Contentwarehouse\\ClassifierPornClassifierData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ClassifierPornClassifierData.php',
+        'Google\\Service\\Contentwarehouse\\ClassifierPornClassifierDataClassification' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ClassifierPornClassifierDataClassification.php',
+        'Google\\Service\\Contentwarehouse\\ClassifierPornDocumentData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ClassifierPornDocumentData.php',
+        'Google\\Service\\Contentwarehouse\\ClassifierPornQueryClassifierOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ClassifierPornQueryClassifierOutput.php',
+        'Google\\Service\\Contentwarehouse\\ClassifierPornQueryMultiLabelClassifierOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ClassifierPornQueryMultiLabelClassifierOutput.php',
+        'Google\\Service\\Contentwarehouse\\ClassifierPornQueryStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ClassifierPornQueryStats.php',
+        'Google\\Service\\Contentwarehouse\\ClassifierPornReferrerCounts' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ClassifierPornReferrerCounts.php',
+        'Google\\Service\\Contentwarehouse\\ClassifierPornSiteData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ClassifierPornSiteData.php',
+        'Google\\Service\\Contentwarehouse\\ClassifierPornSiteDataVersionedScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ClassifierPornSiteDataVersionedScore.php',
+        'Google\\Service\\Contentwarehouse\\ClassifierPornSiteViolenceStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ClassifierPornSiteViolenceStats.php',
         'Google\\Service\\Contentwarehouse\\CloudAiPlatformTenantresourceCloudSqlInstanceConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CloudAiPlatformTenantresourceCloudSqlInstanceConfig.php',
         'Google\\Service\\Contentwarehouse\\CloudAiPlatformTenantresourceGcsBucketConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CloudAiPlatformTenantresourceGcsBucketConfig.php',
         'Google\\Service\\Contentwarehouse\\CloudAiPlatformTenantresourceIamPolicyBinding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CloudAiPlatformTenantresourceIamPolicyBinding.php',
@@ -18163,13 +18875,397 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Google\\Service\\Contentwarehouse\\CloudAiPlatformTenantresourceTenantProjectResource' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CloudAiPlatformTenantresourceTenantProjectResource.php',
         'Google\\Service\\Contentwarehouse\\CloudAiPlatformTenantresourceTenantResource' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CloudAiPlatformTenantresourceTenantResource.php',
         'Google\\Service\\Contentwarehouse\\CloudAiPlatformTenantresourceTenantServiceAccountIdentity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CloudAiPlatformTenantresourceTenantServiceAccountIdentity.php',
+        'Google\\Service\\Contentwarehouse\\CommerceDatastoreDeepTag' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CommerceDatastoreDeepTag.php',
+        'Google\\Service\\Contentwarehouse\\CommerceDatastoreImageDeepTags' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CommerceDatastoreImageDeepTags.php',
+        'Google\\Service\\Contentwarehouse\\CommerceDatastoreImageDeepTagsModelOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CommerceDatastoreImageDeepTagsModelOutput.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDoc' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDoc.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDocAdditionalChecksums' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDocAdditionalChecksums.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDocAlternateName' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDocAlternateName.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDocExtraDup' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDocExtraDup.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDocForwardingDup' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDocForwardingDup.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDocIncludedContent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDocIncludedContent.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDocIndexingInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDocIndexingInfo.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDocLiveExperimentInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDocLiveExperimentInfo.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDocLiveExperimentInfoPerLiveExperimentInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDocLiveExperimentInfoPerLiveExperimentInfo.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDocLocalizedVariations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDocLocalizedVariations.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDocPartialUpdateInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDocPartialUpdateInfo.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDocPartialUpdateInfoLastFullIndexingInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDocPartialUpdateInfoLastFullIndexingInfo.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDocQualitySignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDocQualitySignals.php',
+        'Google\\Service\\Contentwarehouse\\CompositeDocRobotsInfoList' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompositeDocRobotsInfoList.php',
+        'Google\\Service\\Contentwarehouse\\CompressedQualitySignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CompressedQualitySignals.php',
+        'Google\\Service\\Contentwarehouse\\ConceptsConceptId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ConceptsConceptId.php',
+        'Google\\Service\\Contentwarehouse\\ContentAttributions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ContentAttributions.php',
+        'Google\\Service\\Contentwarehouse\\ContentAttributionsOutgoingAttribution' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ContentAttributionsOutgoingAttribution.php',
+        'Google\\Service\\Contentwarehouse\\ContentAwareCropsIndexing' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ContentAwareCropsIndexing.php',
+        'Google\\Service\\Contentwarehouse\\CopleyLexicalMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CopleyLexicalMetadata.php',
+        'Google\\Service\\Contentwarehouse\\CopleyPersonalReference' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CopleyPersonalReference.php',
+        'Google\\Service\\Contentwarehouse\\CopleyPersonalReferenceMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CopleyPersonalReferenceMetadata.php',
+        'Google\\Service\\Contentwarehouse\\CopleySourceTypeList' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CopleySourceTypeList.php',
+        'Google\\Service\\Contentwarehouse\\CopleySourceTypeMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CopleySourceTypeMetadata.php',
+        'Google\\Service\\Contentwarehouse\\CopleySubreferenceMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CopleySubreferenceMetadata.php',
+        'Google\\Service\\Contentwarehouse\\CopleySubreferenceReference' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CopleySubreferenceReference.php',
+        'Google\\Service\\Contentwarehouse\\CopleySubreferenceResolution' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CopleySubreferenceResolution.php',
+        'Google\\Service\\Contentwarehouse\\CorpusSelectionInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CorpusSelectionInfo.php',
+        'Google\\Service\\Contentwarehouse\\CountryClickDistribution' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CountryClickDistribution.php',
+        'Google\\Service\\Contentwarehouse\\CountryClickDistributionItem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CountryClickDistributionItem.php',
+        'Google\\Service\\Contentwarehouse\\CountryCountryAttachment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CountryCountryAttachment.php',
+        'Google\\Service\\Contentwarehouse\\CountryGeoLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CountryGeoLocation.php',
+        'Google\\Service\\Contentwarehouse\\CountryGeoLocations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CountryGeoLocations.php',
+        'Google\\Service\\Contentwarehouse\\CountryLocationInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CountryLocationInfo.php',
+        'Google\\Service\\Contentwarehouse\\CountryMetroNBFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CountryMetroNBFeature.php',
+        'Google\\Service\\Contentwarehouse\\CountryProvinceGeotoken' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CountryProvinceGeotoken.php',
+        'Google\\Service\\Contentwarehouse\\CountrySalientCountry' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CountrySalientCountry.php',
+        'Google\\Service\\Contentwarehouse\\CrawlerChangerateMultipleComponentDistribution' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CrawlerChangerateMultipleComponentDistribution.php',
+        'Google\\Service\\Contentwarehouse\\CrawlerChangerateSingleComponentDistribution' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CrawlerChangerateSingleComponentDistribution.php',
+        'Google\\Service\\Contentwarehouse\\CrawlerChangerateUrlChange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CrawlerChangerateUrlChange.php',
+        'Google\\Service\\Contentwarehouse\\CrawlerChangerateUrlChangerate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CrawlerChangerateUrlChangerate.php',
+        'Google\\Service\\Contentwarehouse\\CrawlerChangerateUrlHistory' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CrawlerChangerateUrlHistory.php',
+        'Google\\Service\\Contentwarehouse\\CrawlerChangerateUrlVersion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CrawlerChangerateUrlVersion.php',
+        'Google\\Service\\Contentwarehouse\\CrowdingPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CrowdingPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\CrowdingPerDocDataNewsCluster' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/CrowdingPerDocDataNewsCluster.php',
+        'Google\\Service\\Contentwarehouse\\DeepCropIndexing' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DeepCropIndexing.php',
+        'Google\\Service\\Contentwarehouse\\DeepCropPixels' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DeepCropPixels.php',
+        'Google\\Service\\Contentwarehouse\\DocProperties' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DocProperties.php',
+        'Google\\Service\\Contentwarehouse\\DocPropertiesBadTitleInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DocPropertiesBadTitleInfo.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiCompressedFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiCompressedFeature.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiDenseFeatureData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiDenseFeatureData.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiDenseTokenData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiDenseTokenData.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiFeatureExtra' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiFeatureExtra.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiFeatureSetData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiFeatureSetData.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiFeatureSetDataFeatureSetElement' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiFeatureSetDataFeatureSetElement.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiFeatureSetDataSequence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiFeatureSetDataSequence.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiIndexedFeatureData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiIndexedFeatureData.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiLabelSetData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiLabelSetData.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiLabelSetElement' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiLabelSetElement.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiQuantizedByteDenseFeatureData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiQuantizedByteDenseFeatureData.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiQuantizedByteIndexedFeatureData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiQuantizedByteIndexedFeatureData.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiQuantizedDenseFeatureData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiQuantizedDenseFeatureData.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiSparseFeatureData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiSparseFeatureData.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiVesperEncodedThumbnail' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiVesperEncodedThumbnail.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiVesperMovingThumbnail' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiVesperMovingThumbnail.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiVesperMovingThumbnailScoreComponents' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiVesperMovingThumbnailScoreComponents.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiVesperThumbnail' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiVesperThumbnail.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiVesperThumbnailQualityScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiVesperThumbnailQualityScore.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiVesperUserReportHumanLabel' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiVesperUserReportHumanLabel.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiVesperUserReportModelScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiVesperUserReportModelScore.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiVesperUserReportUserReportedThumbnail' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiVesperUserReportUserReportedThumbnail.php',
+        'Google\\Service\\Contentwarehouse\\DrishtiVesperVideoThumbnail' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/DrishtiVesperVideoThumbnail.php',
+        'Google\\Service\\Contentwarehouse\\EmbedsDeepLinkData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/EmbedsDeepLinkData.php',
+        'Google\\Service\\Contentwarehouse\\EmbedsEmbedClientItem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/EmbedsEmbedClientItem.php',
+        'Google\\Service\\Contentwarehouse\\EmbedsPackagingServiceClient' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/EmbedsPackagingServiceClient.php',
+        'Google\\Service\\Contentwarehouse\\EmbedsProvenance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/EmbedsProvenance.php',
+        'Google\\Service\\Contentwarehouse\\EmbedsTransientData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/EmbedsTransientData.php',
+        'Google\\Service\\Contentwarehouse\\EntitySignalsClassificationOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/EntitySignalsClassificationOutput.php',
+        'Google\\Service\\Contentwarehouse\\EntitySignalsEntityClassification' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/EntitySignalsEntityClassification.php',
+        'Google\\Service\\Contentwarehouse\\EntitySignalsEntityFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/EntitySignalsEntityFeature.php',
+        'Google\\Service\\Contentwarehouse\\EntitySignalsWeightedRelevanceRating' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/EntitySignalsWeightedRelevanceRating.php',
+        'Google\\Service\\Contentwarehouse\\EventIdMessage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/EventIdMessage.php',
+        'Google\\Service\\Contentwarehouse\\ExtraSnippetInfoResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ExtraSnippetInfoResponse.php',
+        'Google\\Service\\Contentwarehouse\\ExtraSnippetInfoResponseMatchInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ExtraSnippetInfoResponseMatchInfo.php',
+        'Google\\Service\\Contentwarehouse\\ExtraSnippetInfoResponseQuerySubitem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ExtraSnippetInfoResponseQuerySubitem.php',
+        'Google\\Service\\Contentwarehouse\\ExtraSnippetInfoResponseTidbit' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ExtraSnippetInfoResponseTidbit.php',
+        'Google\\Service\\Contentwarehouse\\ExtraSnippetInfoResponseTidbitAnchorInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ExtraSnippetInfoResponseTidbitAnchorInfo.php',
+        'Google\\Service\\Contentwarehouse\\FaceIndexing' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FaceIndexing.php',
+        'Google\\Service\\Contentwarehouse\\FatcatCompactBinaryClassification' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FatcatCompactBinaryClassification.php',
+        'Google\\Service\\Contentwarehouse\\FatcatCompactDocClassification' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FatcatCompactDocClassification.php',
+        'Google\\Service\\Contentwarehouse\\FatcatCompactRephilClusters' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FatcatCompactRephilClusters.php',
+        'Google\\Service\\Contentwarehouse\\FatcatCompactRephilClustersCluster' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FatcatCompactRephilClustersCluster.php',
+        'Google\\Service\\Contentwarehouse\\FatcatCompactTaxonomicClassification' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FatcatCompactTaxonomicClassification.php',
+        'Google\\Service\\Contentwarehouse\\FatcatCompactTaxonomicClassificationCategory' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FatcatCompactTaxonomicClassificationCategory.php',
+        'Google\\Service\\Contentwarehouse\\FocusBackendContactDetailHash' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FocusBackendContactDetailHash.php',
+        'Google\\Service\\Contentwarehouse\\FocusBackendContactPointer' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FocusBackendContactPointer.php',
+        'Google\\Service\\Contentwarehouse\\FocusBackendDeviceContactId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FocusBackendDeviceContactId.php',
+        'Google\\Service\\Contentwarehouse\\FocusBackendDeviceId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FocusBackendDeviceId.php',
+        'Google\\Service\\Contentwarehouse\\FocusBackendDeviceRawContactId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FocusBackendDeviceRawContactId.php',
+        'Google\\Service\\Contentwarehouse\\FocusBackendOtherContactId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FocusBackendOtherContactId.php',
+        'Google\\Service\\Contentwarehouse\\FocusBackendSecondaryContactId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FocusBackendSecondaryContactId.php',
+        'Google\\Service\\Contentwarehouse\\FreebaseCitation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FreebaseCitation.php',
+        'Google\\Service\\Contentwarehouse\\FreebaseId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FreebaseId.php',
+        'Google\\Service\\Contentwarehouse\\FreebaseLatLong' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FreebaseLatLong.php',
+        'Google\\Service\\Contentwarehouse\\FreebaseMeasurement' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FreebaseMeasurement.php',
+        'Google\\Service\\Contentwarehouse\\FreebaseMeasurementUnit' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FreebaseMeasurementUnit.php',
+        'Google\\Service\\Contentwarehouse\\FreebaseNestedStruct' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FreebaseNestedStruct.php',
+        'Google\\Service\\Contentwarehouse\\FreebasePropertyValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FreebasePropertyValue.php',
+        'Google\\Service\\Contentwarehouse\\FreebaseTopic' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FreebaseTopic.php',
+        'Google\\Service\\Contentwarehouse\\FreebaseValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/FreebaseValue.php',
+        'Google\\Service\\Contentwarehouse\\GDocumentBase' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GDocumentBase.php',
+        'Google\\Service\\Contentwarehouse\\GDocumentBaseContent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GDocumentBaseContent.php',
+        'Google\\Service\\Contentwarehouse\\GDocumentBaseDirectory' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GDocumentBaseDirectory.php',
+        'Google\\Service\\Contentwarehouse\\GDocumentBaseOriginalContent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GDocumentBaseOriginalContent.php',
+        'Google\\Service\\Contentwarehouse\\GenericSnippetResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GenericSnippetResponse.php',
+        'Google\\Service\\Contentwarehouse\\GeoOndemandAssistantSupportedActions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeoOndemandAssistantSupportedActions.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreAccessPointProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreAccessPointProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreAddressComponentProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreAddressComponentProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreAddressLinesProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreAddressLinesProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreAddressProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreAddressProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreAddressRangeProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreAddressRangeProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreAnchoredGeometryProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreAnchoredGeometryProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreAppliedSpeedLimitProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreAppliedSpeedLimitProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreAttachmentsAttachmentProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreAttachmentsAttachmentProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreAttributeIdProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreAttributeIdProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreAttributeProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreAttributeProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreAttributeValueDisplayProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreAttributeValueDisplayProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreBarrierLogicalMaterialProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreBarrierLogicalMaterialProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreBestLocaleProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreBestLocaleProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreBizBuilderReferenceProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreBizBuilderReferenceProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreBorderProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreBorderProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreBoundingMarkerProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreBoundingMarkerProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreBuildingProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreBuildingProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreBusinessChainProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreBusinessChainProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreBusinessHoursProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreBusinessHoursProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCallToActionProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCallToActionProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCanonicalGConceptProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCanonicalGConceptProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCellCoveringProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCellCoveringProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoAppearance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoAppearance.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoAppearanceMaterial' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoAppearanceMaterial.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoAppearanceMaterialRgbColor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoAppearanceMaterialRgbColor.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoCityObject' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoCityObject.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoCityObjectGeometry' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoCityObjectGeometry.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoCityObjectGeometryMaterialSpec' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoCityObjectGeometryMaterialSpec.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoCityObjectGeometryMultiPoint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoCityObjectGeometryMultiPoint.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoCityObjectGeometryMultiSurface' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoCityObjectGeometryMultiSurface.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoCityObjectGeometrySemantic' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoCityObjectGeometrySemantic.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoCityObjectGeometrySolid' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoCityObjectGeometrySolid.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoCityObjectGeometrySurface' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoCityObjectGeometrySurface.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoTransform' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoTransform.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoTransformTranslate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoTransformTranslate.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCityJsonProtoTransformXyzVector' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCityJsonProtoTransformXyzVector.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreComposableItemProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreComposableItemProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCountComparisonProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCountComparisonProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCrossingStripePatternProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCrossingStripePatternProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCurvatureProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCurvatureProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCurveConnectionProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCurveConnectionProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCurveConnectionProtoBezierParams' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCurveConnectionProtoBezierParams.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCurveConnectionProtoBezierParamsControlPoint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCurveConnectionProtoBezierParamsControlPoint.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreCurveConnectionProtoCircleParams' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreCurveConnectionProtoCircleParams.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreDataSourceProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreDataSourceProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreDateTimeProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreDateTimeProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreDimensionComparisonProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreDimensionComparisonProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreDimensionProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreDimensionProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreDisplayDataProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreDisplayDataProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreDisputedAreaProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreDisputedAreaProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreDoodleProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreDoodleProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreDurationBasedRateProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreDurationBasedRateProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreElevationModelProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreElevationModelProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreElevationProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreElevationProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreEntranceProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreEntranceProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreEntranceReferenceProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreEntranceReferenceProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreEstablishmentProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreEstablishmentProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreExceptionalHoursProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreExceptionalHoursProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreExistenceProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreExistenceProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFeatureFieldMetadataProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFeatureFieldMetadataProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFeatureFieldMetadataProtoFieldProvenance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFeatureFieldMetadataProtoFieldProvenance.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFeatureHistoryMetadataProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFeatureHistoryMetadataProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFeatureIdForwardingsProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFeatureIdForwardingsProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFeatureIdListProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFeatureIdListProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFeatureIdProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFeatureIdProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFeatureMetadataProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFeatureMetadataProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFeaturePropertyIdProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFeaturePropertyIdProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFeatureProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFeatureProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFeatureReplacementInfoProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFeatureReplacementInfoProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFieldMetadataProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFieldMetadataProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFieldWithRightsProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFieldWithRightsProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFlowLineProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFlowLineProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFoodMenuItemOptionProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFoodMenuItemOptionProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFoodMenuItemOptionProtoIngredient' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFoodMenuItemOptionProtoIngredient.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFoodMenuItemOptionProtoPortionSize' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFoodMenuItemOptionProtoPortionSize.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreFoodMenuItemProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreFoodMenuItemProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreGConceptInstanceProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreGConceptInstanceProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreGeometryComposition' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreGeometryComposition.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreGeometryStoreReferenceProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreGeometryStoreReferenceProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreGeopoliticalGeometryProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreGeopoliticalGeometryProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreGeopoliticalProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreGeopoliticalProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreGeopoliticalProtoRegionalPolygonAdjustmentProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreGeopoliticalProtoRegionalPolygonAdjustmentProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreGeopoliticalProtoRegionalPolygonComposingClaimsProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreGeopoliticalProtoRegionalPolygonComposingClaimsProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreGradeLevelProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreGradeLevelProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreHtmlTextProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreHtmlTextProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreInferredGeometryProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreInferredGeometryProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreInternalFeatureProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreInternalFeatureProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreInternalFieldMetadataProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreInternalFieldMetadataProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreInternalSegmentProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreInternalSegmentProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreInternalSegmentProtoLaneConnectionReference' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreInternalSegmentProtoLaneConnectionReference.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreInternalSourceSummaryProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreInternalSourceSummaryProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreIntersectionGroupProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreIntersectionGroupProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreIntersectionProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreIntersectionProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreJobMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreJobMetadata.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreJobRelatedCategory' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreJobRelatedCategory.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreKnowledgeGraphReferenceProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreKnowledgeGraphReferenceProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreLandmarkReferenceProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreLandmarkReferenceProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreLaneMarkerProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreLaneMarkerProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreLaneProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreLaneProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreLaneProtoLaneConnection' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreLaneProtoLaneConnection.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreLanguageTaggedTextProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreLanguageTaggedTextProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreLevelProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreLevelProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreLinearStripePatternProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreLinearStripePatternProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreLocaleLanguageProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreLocaleLanguageProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreLocaleProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreLocaleProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreLogicalBorderProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreLogicalBorderProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreMediaItemProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreMediaItemProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreMediaItemProtoMediaSize' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreMediaItemProtoMediaSize.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreNameProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreNameProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreOntologyRawGConceptInstanceContainerProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreOntologyRawGConceptInstanceContainerProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreOntologyRawGConceptInstanceProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreOntologyRawGConceptInstanceProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreOpeningHoursProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreOpeningHoursProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreOperationsProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreOperationsProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreOverrideBorderStatusProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreOverrideBorderStatusProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePaintedElementLogicalColorProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePaintedElementLogicalColorProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreParkingAllowanceProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreParkingAllowanceProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreParkingProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreParkingProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreParkingRestrictionProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreParkingRestrictionProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePeakProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePeakProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePedestrianCrossingProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePedestrianCrossingProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePhysicalLineProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePhysicalLineProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePointCurvatureProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePointCurvatureProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePointProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePointProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePointWithHeightProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePointWithHeightProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePoliticalProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePoliticalProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePolyLineProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePolyLineProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePolygonProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePolygonProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePoseProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePoseProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePriceInfoFoodNutritionFacts' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePriceInfoFoodNutritionFacts.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePriceInfoFoodNutritionFactsCaloriesFact' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePriceInfoFoodNutritionFactsCaloriesFact.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePriceInfoFoodNutritionFactsNutritionFact' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePriceInfoFoodNutritionFactsNutritionFact.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePriceInfoProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePriceInfoProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePriceInfoSourceDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePriceInfoSourceDetails.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePriceInfoSourceDetailsSourceData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePriceInfoSourceDetailsSourceData.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePriceInfoStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePriceInfoStatus.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePriceListNameInfoProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePriceListNameInfoProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePriceListProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePriceListProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePriceListSectionProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePriceListSectionProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePriceRangeProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePriceRangeProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostorePropertyValueStatusProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostorePropertyValueStatusProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreProvenanceProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreProvenanceProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRankDetailsProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRankDetailsProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRankSignalProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRankSignalProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRawDataProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRawDataProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRawMetadataProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRawMetadataProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRectProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRectProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRegionSpecificNameProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRegionSpecificNameProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRegulatedAreaProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRegulatedAreaProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRelationProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRelationProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRestrictionGroupProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRestrictionGroupProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRestrictionProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRestrictionProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRightsStatusProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRightsStatusProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRoadConditionalProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRoadConditionalProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRoadMonitorProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRoadMonitorProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRoadSignComponentProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRoadSignComponentProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRoadSignProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRoadSignProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRouteAssociationProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRouteAssociationProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreRouteProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreRouteProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSchoolDistrictProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSchoolDistrictProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSegmentPathProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSegmentPathProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSegmentProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSegmentProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSegmentProtoRampProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSegmentProtoRampProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreServiceAreaProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreServiceAreaProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreServicedStopProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreServicedStopProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSkiBoundaryProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSkiBoundaryProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSkiLiftProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSkiLiftProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSkiTrailProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSkiTrailProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSlopeProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSlopeProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSocialReferenceProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSocialReferenceProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSourceInfoProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSourceInfoProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSourceTrustProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSourceTrustProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSpeedLimitProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSpeedLimitProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSpeedProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSpeedProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreStableFieldPathProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreStableFieldPathProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreStableFieldPathProtoStableFieldSelector' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreStableFieldPathProtoStableFieldSelector.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreSweepProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreSweepProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTelephoneProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTelephoneProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTemporaryClosureProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTemporaryClosureProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTextAffixProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTextAffixProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreThreeDimensionalModelProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreThreeDimensionalModelProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTimeBasedRateProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTimeBasedRateProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTimeComponentProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTimeComponentProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTimeEndpointProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTimeEndpointProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTimeIntervalProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTimeIntervalProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTimeScheduleProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTimeScheduleProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTimezoneProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTimezoneProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTollClusterProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTollClusterProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTollPathProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTollPathProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTollPathProtoIndexedTollCluster' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTollPathProtoIndexedTollCluster.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTollPathProtoTollClusterSequence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTollPathProtoTollClusterSequence.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTrackProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTrackProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTransitLineProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTransitLineProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTransitLineVariantProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTransitLineVariantProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTransitStationProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTransitStationProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTransitStationProtoTransitAgencyAssociationProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTransitStationProtoTransitAgencyAssociationProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreTrustSignalsProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreTrustSignalsProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreUnlimitedSpeedProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreUnlimitedSpeedProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreUrlListProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreUrlListProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreUrlProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreUrlProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreUserProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreUserProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreVariableSpeedProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreVariableSpeedProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreVehicleAttributeFilterProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreVehicleAttributeFilterProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreVerticalOrderingProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreVerticalOrderingProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreWeightComparisonProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreWeightComparisonProto.php',
+        'Google\\Service\\Contentwarehouse\\GeostoreWeightProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GeostoreWeightProto.php',
+        'Google\\Service\\Contentwarehouse\\GoodocAnchorLabel' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocAnchorLabel.php',
+        'Google\\Service\\Contentwarehouse\\GoodocBoundingBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocBoundingBox.php',
+        'Google\\Service\\Contentwarehouse\\GoodocBoxPartitions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocBoxPartitions.php',
+        'Google\\Service\\Contentwarehouse\\GoodocBreakLabel' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocBreakLabel.php',
+        'Google\\Service\\Contentwarehouse\\GoodocCharLabel' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocCharLabel.php',
+        'Google\\Service\\Contentwarehouse\\GoodocDocument' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocDocument.php',
+        'Google\\Service\\Contentwarehouse\\GoodocDocumentHeader' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocDocumentHeader.php',
+        'Google\\Service\\Contentwarehouse\\GoodocDocumentHeaderFont' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocDocumentHeaderFont.php',
+        'Google\\Service\\Contentwarehouse\\GoodocDocumentPage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocDocumentPage.php',
+        'Google\\Service\\Contentwarehouse\\GoodocDocumentPageBlock' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocDocumentPageBlock.php',
+        'Google\\Service\\Contentwarehouse\\GoodocDocumentPageMergedPageInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocDocumentPageMergedPageInfo.php',
+        'Google\\Service\\Contentwarehouse\\GoodocFontSizeStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocFontSizeStats.php',
+        'Google\\Service\\Contentwarehouse\\GoodocLabel' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocLabel.php',
+        'Google\\Service\\Contentwarehouse\\GoodocLanguageCombinationLanguage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocLanguageCombinationLanguage.php',
+        'Google\\Service\\Contentwarehouse\\GoodocLanguageLabel' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocLanguageLabel.php',
+        'Google\\Service\\Contentwarehouse\\GoodocLogicalEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocLogicalEntity.php',
+        'Google\\Service\\Contentwarehouse\\GoodocLogicalEntityLink' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocLogicalEntityLink.php',
+        'Google\\Service\\Contentwarehouse\\GoodocOrdinal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocOrdinal.php',
+        'Google\\Service\\Contentwarehouse\\GoodocOrientationLabel' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocOrientationLabel.php',
+        'Google\\Service\\Contentwarehouse\\GoodocOverrides' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocOverrides.php',
+        'Google\\Service\\Contentwarehouse\\GoodocOverridesStyle' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocOverridesStyle.php',
+        'Google\\Service\\Contentwarehouse\\GoodocParagraph' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocParagraph.php',
+        'Google\\Service\\Contentwarehouse\\GoodocParagraphDroppedCap' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocParagraphDroppedCap.php',
+        'Google\\Service\\Contentwarehouse\\GoodocParagraphRoute' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocParagraphRoute.php',
+        'Google\\Service\\Contentwarehouse\\GoodocRotatedBoundingBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocRotatedBoundingBox.php',
+        'Google\\Service\\Contentwarehouse\\GoodocRoutePoint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocRoutePoint.php',
+        'Google\\Service\\Contentwarehouse\\GoodocSemanticLabel' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocSemanticLabel.php',
+        'Google\\Service\\Contentwarehouse\\GoodocSemanticLabelColumnDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocSemanticLabelColumnDetails.php',
+        'Google\\Service\\Contentwarehouse\\GoodocSemanticLabelContentLink' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocSemanticLabelContentLink.php',
+        'Google\\Service\\Contentwarehouse\\GoodocSemanticLabelContentLinkCitationTarget' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocSemanticLabelContentLinkCitationTarget.php',
+        'Google\\Service\\Contentwarehouse\\GoodocSemanticLabelContentLinkInVolumeTarget' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocSemanticLabelContentLinkInVolumeTarget.php',
+        'Google\\Service\\Contentwarehouse\\GoodocSemanticLabelEditCorrectionCandidate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocSemanticLabelEditCorrectionCandidate.php',
+        'Google\\Service\\Contentwarehouse\\GoodocSemanticLabelSnippetFilter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocSemanticLabelSnippetFilter.php',
+        'Google\\Service\\Contentwarehouse\\GoodocSemanticLabelTableCellDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocSemanticLabelTableCellDetails.php',
+        'Google\\Service\\Contentwarehouse\\GoodocSemanticLabelTableDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocSemanticLabelTableDetails.php',
+        'Google\\Service\\Contentwarehouse\\GoodocSummaryStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocSummaryStats.php',
+        'Google\\Service\\Contentwarehouse\\GoodocSymbol' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocSymbol.php',
+        'Google\\Service\\Contentwarehouse\\GoodocSymbolSymbolVariant' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocSymbolSymbolVariant.php',
+        'Google\\Service\\Contentwarehouse\\GoodocWord' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocWord.php',
+        'Google\\Service\\Contentwarehouse\\GoodocWordAlternates' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocWordAlternates.php',
+        'Google\\Service\\Contentwarehouse\\GoodocWordAlternatesAlternate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoodocWordAlternatesAlternate.php',
         'Google\\Service\\Contentwarehouse\\GoogleApiServiceconsumermanagementV1BillingConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleApiServiceconsumermanagementV1BillingConfig.php',
         'Google\\Service\\Contentwarehouse\\GoogleApiServiceconsumermanagementV1PolicyBinding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleApiServiceconsumermanagementV1PolicyBinding.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantAccessoryV1AudioOutConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantAccessoryV1AudioOutConfig.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantAccessoryV1DeviceConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantAccessoryV1DeviceConfig.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantAccessoryV1DeviceState' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantAccessoryV1DeviceState.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantAccessoryV1DeviceStateInstalledAppsState' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantAccessoryV1DeviceStateInstalledAppsState.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantAccessoryV1ResponseConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantAccessoryV1ResponseConfig.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantAccessoryV1ScreenOutConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantAccessoryV1ScreenOutConfig.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantAccessoryV1ScreenOutConfigDimensions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantAccessoryV1ScreenOutConfigDimensions.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantEmbeddedV1Alarm' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantEmbeddedV1Alarm.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantEmbeddedV1AlarmRecurrence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantEmbeddedV1AlarmRecurrence.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantEmbeddedV1Alarms' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantEmbeddedV1Alarms.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantEmbeddedV1DeviceBuild' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantEmbeddedV1DeviceBuild.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantEmbeddedV1DeviceModelCapabilitiesOverride' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantEmbeddedV1DeviceModelCapabilitiesOverride.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantEmbeddedV1FitnessActivities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantEmbeddedV1FitnessActivities.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantEmbeddedV1FitnessActivity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantEmbeddedV1FitnessActivity.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantEmbeddedV1SurfaceIdentity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantEmbeddedV1SurfaceIdentity.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantEmbeddedV1Timer' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantEmbeddedV1Timer.php',
+        'Google\\Service\\Contentwarehouse\\GoogleAssistantEmbeddedV1Timers' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleAssistantEmbeddedV1Timers.php',
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1AccessControlAction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1AccessControlAction.php',
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1Action' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1Action.php',
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1ActionExecutorOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1ActionExecutorOutput.php',
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1ActionOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1ActionOutput.php',
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1AddToFolderAction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1AddToFolderAction.php',
+        'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1ClassifySplitAndExtractPipeline' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1ClassifySplitAndExtractPipeline.php',
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1CloudAIDocumentOption' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1CloudAIDocumentOption.php',
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1CreateDocumentLinkRequest' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1CreateDocumentLinkRequest.php',
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1CreateDocumentMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1CreateDocumentMetadata.php',
@@ -18220,6 +19316,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1MapProperty' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1MapProperty.php',
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1MapTypeOptions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1MapTypeOptions.php',
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1MergeFieldsOptions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1MergeFieldsOptions.php',
+        'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1ProcessWithDocAi' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1ProcessWithDocAi.php',
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1ProcessWithDocAiPipeline' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1ProcessWithDocAiPipeline.php',
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1ProcessorInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1ProcessorInfo.php',
         'Google\\Service\\Contentwarehouse\\GoogleCloudContentwarehouseV1ProjectStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleCloudContentwarehouseV1ProjectStatus.php',
@@ -18330,6 +19427,29 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Google\\Service\\Contentwarehouse\\GoogleIamV1AuditLogConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleIamV1AuditLogConfig.php',
         'Google\\Service\\Contentwarehouse\\GoogleIamV1Binding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleIamV1Binding.php',
         'Google\\Service\\Contentwarehouse\\GoogleIamV1Policy' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleIamV1Policy.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaAvailabilityPeriod' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaAvailabilityPeriod.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaCalendarBusy' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaCalendarBusy.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaCustomLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaCustomLocation.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaDoNotDisturb' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaDoNotDisturb.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaHomeLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaHomeLocation.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaInMeeting' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaInMeeting.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaInactive' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaInactive.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaLocalTimeContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaLocalTimeContext.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaOfficeLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaOfficeLocation.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaOutOfOffice' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaOutOfOffice.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaOutsideWorkingHours' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaOutsideWorkingHours.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaTimeRange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaTimeRange.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaUpcomingCommitmentContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaUpcomingCommitmentContext.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaUpcomingOooContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaUpcomingOooContext.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaUserAvailabilities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaUserAvailabilities.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaUserAvailability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaUserAvailability.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaUserContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaUserContext.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaUserLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaUserLocation.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaUserStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaUserStatus.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaWorkingElsewhereContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaWorkingElsewhereContext.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalAppsWaldoV1alphaWorkingHours' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalAppsWaldoV1alphaWorkingHours.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalCommunicationsInstantmessagingV1Id' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalCommunicationsInstantmessagingV1Id.php',
+        'Google\\Service\\Contentwarehouse\\GoogleInternalCommunicationsInstantmessagingV1LocationHint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleInternalCommunicationsInstantmessagingV1LocationHint.php',
         'Google\\Service\\Contentwarehouse\\GoogleLongrunningOperation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleLongrunningOperation.php',
         'Google\\Service\\Contentwarehouse\\GoogleProtobufEmpty' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleProtobufEmpty.php',
         'Google\\Service\\Contentwarehouse\\GoogleRpcStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleRpcStatus.php',
@@ -18338,9 +19458,1136 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Google\\Service\\Contentwarehouse\\GoogleTypeDateTime' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleTypeDateTime.php',
         'Google\\Service\\Contentwarehouse\\GoogleTypeExpr' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleTypeExpr.php',
         'Google\\Service\\Contentwarehouse\\GoogleTypeInterval' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleTypeInterval.php',
+        'Google\\Service\\Contentwarehouse\\GoogleTypeLatLng' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleTypeLatLng.php',
         'Google\\Service\\Contentwarehouse\\GoogleTypeMoney' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleTypeMoney.php',
         'Google\\Service\\Contentwarehouse\\GoogleTypePostalAddress' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleTypePostalAddress.php',
+        'Google\\Service\\Contentwarehouse\\GoogleTypeTimeOfDay' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleTypeTimeOfDay.php',
         'Google\\Service\\Contentwarehouse\\GoogleTypeTimeZone' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GoogleTypeTimeZone.php',
+        'Google\\Service\\Contentwarehouse\\GroupsPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/GroupsPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\HomeGraphCommonRoute' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HomeGraphCommonRoute.php',
+        'Google\\Service\\Contentwarehouse\\HomeGraphCommonRoutingTable' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HomeGraphCommonRoutingTable.php',
+        'Google\\Service\\Contentwarehouse\\HomeGraphCommonTraitRoutingHints' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HomeGraphCommonTraitRoutingHints.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoAnonTimingStatPair' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoAnonTimingStatPair.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoBox.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoChromiumTrace' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoChromiumTrace.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoConsoleLogEntry' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoConsoleLogEntry.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoCookie' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoCookie.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoDOMStorageItem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoDOMStorageItem.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoDOMTreeNode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoDOMTreeNode.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoDOMTreeNodeAttribute' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoDOMTreeNodeAttribute.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoDocument' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoDocument.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoFrameResizeEvent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoFrameResizeEvent.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoImage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoImage.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoInitialLoadEvent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoInitialLoadEvent.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoModalDialogEvent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoModalDialogEvent.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoOffset' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoOffset.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoPartialRender' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoPartialRender.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoPdf' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoPdf.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoRectangle' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoRectangle.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoRedirectEvent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoRedirectEvent.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoRedirectHop' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoRedirectHop.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoReferencedResource' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoReferencedResource.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoReferencedResourceFetchTiming' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoReferencedResourceFetchTiming.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoReferencedResourceHttpHeader' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoReferencedResourceHttpHeader.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoRenderEvent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoRenderEvent.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoRenderExtensionResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoRenderExtensionResult.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoRenderResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoRenderResponse.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoRenderStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoRenderStats.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoRenderStatsCounter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoRenderStatsCounter.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoRenderTreeNode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoRenderTreeNode.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoRenderTreeNodeInlineTextBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoRenderTreeNodeInlineTextBox.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoResource' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoResource.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoResourceHttpHeader' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoResourceHttpHeader.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoScriptStackFrame' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoScriptStackFrame.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoStyle' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoStyle.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoWebKitFetchMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoWebKitFetchMetadata.php',
+        'Google\\Service\\Contentwarehouse\\HtmlrenderWebkitHeadlessProtoWindowOpenEvent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HtmlrenderWebkitHeadlessProtoWindowOpenEvent.php',
+        'Google\\Service\\Contentwarehouse\\HumanSensingFaceAttribute' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/HumanSensingFaceAttribute.php',
+        'Google\\Service\\Contentwarehouse\\I18nPhonenumbersPhoneNumber' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/I18nPhonenumbersPhoneNumber.php',
+        'Google\\Service\\Contentwarehouse\\ImageBaseThumbnailMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageBaseThumbnailMetadata.php',
+        'Google\\Service\\Contentwarehouse\\ImageBaseVideoPreviewMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageBaseVideoPreviewMetadata.php',
+        'Google\\Service\\Contentwarehouse\\ImageContentFlowProtoProd' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageContentFlowProtoProd.php',
+        'Google\\Service\\Contentwarehouse\\ImageContentQueryBoost' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageContentQueryBoost.php',
+        'Google\\Service\\Contentwarehouse\\ImageContentQueryBoostQueryBoost' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageContentQueryBoostQueryBoost.php',
+        'Google\\Service\\Contentwarehouse\\ImageContentStarburstVersionGroup' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageContentStarburstVersionGroup.php',
+        'Google\\Service\\Contentwarehouse\\ImageData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageData.php',
+        'Google\\Service\\Contentwarehouse\\ImageDataMultibangEntities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageDataMultibangEntities.php',
+        'Google\\Service\\Contentwarehouse\\ImageDataMultibangEntitiesMultibangEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageDataMultibangEntitiesMultibangEntity.php',
+        'Google\\Service\\Contentwarehouse\\ImageDataThumbnail' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageDataThumbnail.php',
+        'Google\\Service\\Contentwarehouse\\ImageDataVerticalIndexingInfoImage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageDataVerticalIndexingInfoImage.php',
+        'Google\\Service\\Contentwarehouse\\ImageExactBoost' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageExactBoost.php',
+        'Google\\Service\\Contentwarehouse\\ImageExactBoostNavQuery' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageExactBoostNavQuery.php',
+        'Google\\Service\\Contentwarehouse\\ImageExifIPTCMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageExifIPTCMetadata.php',
+        'Google\\Service\\Contentwarehouse\\ImageExifIPTCMetadataArtwork' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageExifIPTCMetadataArtwork.php',
+        'Google\\Service\\Contentwarehouse\\ImageExifIPTCMetadataContactInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageExifIPTCMetadataContactInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageExifIPTCMetadataLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageExifIPTCMetadataLocation.php',
+        'Google\\Service\\Contentwarehouse\\ImageExifIPTCMetadataLocationInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageExifIPTCMetadataLocationInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageExifImageEmbeddedMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageExifImageEmbeddedMetadata.php',
+        'Google\\Service\\Contentwarehouse\\ImageMonetizationFeaturedImageProperties' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageMonetizationFeaturedImageProperties.php',
+        'Google\\Service\\Contentwarehouse\\ImageMoosedogCrawlState' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageMoosedogCrawlState.php',
+        'Google\\Service\\Contentwarehouse\\ImageMustangImageLinkSelectionInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageMustangImageLinkSelectionInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageMustangShoppingOffer' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageMustangShoppingOffer.php',
+        'Google\\Service\\Contentwarehouse\\ImagePerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImagePerDocData.php',
+        'Google\\Service\\Contentwarehouse\\ImagePornDebugInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImagePornDebugInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageQualityNavboostImageQualityClickSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageQualityNavboostImageQualityClickSignals.php',
+        'Google\\Service\\Contentwarehouse\\ImageQualitySensitiveMediaOrPeopleEntities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageQualitySensitiveMediaOrPeopleEntities.php',
+        'Google\\Service\\Contentwarehouse\\ImageRegionsImageRegion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRegionsImageRegion.php',
+        'Google\\Service\\Contentwarehouse\\ImageRegionsImageRegions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRegionsImageRegions.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryAmarnaCloudSpeechSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryAmarnaCloudSpeechSignals.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryAmarnaSignalsBlob' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryAmarnaSignalsBlob.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryAmarnaSignalsBlobInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryAmarnaSignalsBlobInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryAmarnaStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryAmarnaStatus.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryAnimatedImagePerdocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryAnimatedImagePerdocData.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryApiItagSpecificMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryApiItagSpecificMetadata.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryApiXtag' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryApiXtag.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryApiXtagList' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryApiXtagList.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryContentBasedVideoMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryContentBasedVideoMetadata.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryCrawlStatusInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryCrawlStatusInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryDeepImageEngagingnessOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryDeepImageEngagingnessOutput.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryFileTruncationInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryFileTruncationInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryFrameIdentifier' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryFrameIdentifier.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryFrameIdentifierMultiThumbnailVariant' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryFrameIdentifierMultiThumbnailVariant.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryFrameIdentifierPreviewFrameZeroVariant' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryFrameIdentifierPreviewFrameZeroVariant.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryFrameIdentifierThumbnailVariant' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryFrameIdentifierThumbnailVariant.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryFrameLevelStarburstEmbeddings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryFrameLevelStarburstEmbeddings.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryFramePerdoc' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryFramePerdoc.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryFramePerdocs' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryFramePerdocs.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryGeneratedImageLikelihoodSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryGeneratedImageLikelihoodSignal.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryLanguageIdentificationResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryLanguageIdentificationResult.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryNimaOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryNimaOutput.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryS3LangIdDebuggingInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryS3LangIdDebuggingInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryS3LangIdSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryS3LangIdSignals.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryS3RecognizerMetadataResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryS3RecognizerMetadataResponse.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositorySUPFrameLevelEmbedding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositorySUPFrameLevelEmbedding.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositorySUPFrameLevelEmbeddings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositorySUPFrameLevelEmbeddings.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryShoppingProductInformation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryShoppingProductInformation.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryShoppingProductInformationBoundingBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryShoppingProductInformationBoundingBox.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryShoppingProductInformationEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryShoppingProductInformationEntity.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryShoppingProductInformationProductInformation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryShoppingProductInformationProductInformation.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryShoppingProductInformationProductInformationTokenGroup' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryShoppingProductInformationProductInformationTokenGroup.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryShoppingProductInformationVersionedProductInformationSet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryShoppingProductInformationVersionedProductInformationSet.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositorySpeechRecognitionAlternative' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositorySpeechRecognitionAlternative.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositorySpeechRecognitionResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositorySpeechRecognitionResult.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryUnwantedContent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryUnwantedContent.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryVenomProcessingInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryVenomProcessingInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryVenomStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryVenomStatus.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryVideoIndexingInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryVideoIndexingInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryVideoLinkIndexingInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryVideoLinkIndexingInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryVideoPreviewsDebuggingInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryVideoPreviewsDebuggingInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryVideoPreviewsVideoPreview' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryVideoPreviewsVideoPreview.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryVideoProperties' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryVideoProperties.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryVideoPropertiesVerticalIndexingInfoVideo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryVideoPropertiesVerticalIndexingInfoVideo.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryWordInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryWordInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageRepositoryYoutubeProcessingFilter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageRepositoryYoutubeProcessingFilter.php',
+        'Google\\Service\\Contentwarehouse\\ImageSafesearchContentBrainPornAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageSafesearchContentBrainPornAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\ImageSafesearchContentOCRAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageSafesearchContentOCRAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\ImageSafesearchContentOffensiveSymbolDetection' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageSafesearchContentOffensiveSymbolDetection.php',
+        'Google\\Service\\Contentwarehouse\\ImageSafesearchContentOffensiveSymbolMatch' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageSafesearchContentOffensiveSymbolMatch.php',
+        'Google\\Service\\Contentwarehouse\\ImageSearchImageIndexingInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageSearchImageIndexingInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageSearchImageLicenseInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageSearchImageLicenseInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageSearchImageSelectionInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageSearchImageSelectionInfo.php',
+        'Google\\Service\\Contentwarehouse\\ImageSearchUnindexedImageLink' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageSearchUnindexedImageLink.php',
+        'Google\\Service\\Contentwarehouse\\ImageUnderstandingIndexingAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageUnderstandingIndexingAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\ImageUnderstandingIndexingAnnotationGroup' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageUnderstandingIndexingAnnotationGroup.php',
+        'Google\\Service\\Contentwarehouse\\ImageUnderstandingIndexingFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageUnderstandingIndexingFeature.php',
+        'Google\\Service\\Contentwarehouse\\ImageUnderstandingIndexingImageRegion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageUnderstandingIndexingImageRegion.php',
+        'Google\\Service\\Contentwarehouse\\ImageUnderstandingIndexingLabel' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageUnderstandingIndexingLabel.php',
+        'Google\\Service\\Contentwarehouse\\ImageUnderstandingIndexingLabelGroup' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageUnderstandingIndexingLabelGroup.php',
+        'Google\\Service\\Contentwarehouse\\ImageUnderstandingIndexingMetaData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ImageUnderstandingIndexingMetaData.php',
+        'Google\\Service\\Contentwarehouse\\IndexingBadSSLCertificate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingBadSSLCertificate.php',
+        'Google\\Service\\Contentwarehouse\\IndexingConverterLocalizedAlternateName' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingConverterLocalizedAlternateName.php',
+        'Google\\Service\\Contentwarehouse\\IndexingConverterRawRedirectInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingConverterRawRedirectInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingConverterRedirectChain' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingConverterRedirectChain.php',
+        'Google\\Service\\Contentwarehouse\\IndexingConverterRedirectChainHop' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingConverterRedirectChainHop.php',
+        'Google\\Service\\Contentwarehouse\\IndexingConverterRedirectParams' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingConverterRedirectParams.php',
+        'Google\\Service\\Contentwarehouse\\IndexingConverterRichContentData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingConverterRichContentData.php',
+        'Google\\Service\\Contentwarehouse\\IndexingConverterRichContentDataRange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingConverterRichContentDataRange.php',
+        'Google\\Service\\Contentwarehouse\\IndexingConverterRobotsInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingConverterRobotsInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingConverterShingleFingerprint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingConverterShingleFingerprint.php',
+        'Google\\Service\\Contentwarehouse\\IndexingCrawlerIdServingDocumentIdentifier' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingCrawlerIdServingDocumentIdentifier.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDocjoinerAnchorPhraseSpamInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDocjoinerAnchorPhraseSpamInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDocjoinerAnchorSpamInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDocjoinerAnchorSpamInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDocjoinerAnchorStatistics' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDocjoinerAnchorStatistics.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDocjoinerAnchorStatisticsPerDupStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDocjoinerAnchorStatisticsPerDupStats.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDocjoinerAnchorStatisticsRedundantAnchorInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDocjoinerAnchorStatisticsRedundantAnchorInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDocjoinerAnchorStatisticsRedundantAnchorInfoForPhraseCap' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDocjoinerAnchorStatisticsRedundantAnchorInfoForPhraseCap.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDocjoinerAnchorTrustedInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDocjoinerAnchorTrustedInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDocjoinerCDocBuildInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDocjoinerCDocBuildInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDocjoinerDataVersion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDocjoinerDataVersion.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDocjoinerDataVersionVersionInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDocjoinerDataVersionVersionInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDocjoinerServingTimeClusterId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDocjoinerServingTimeClusterId.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDocjoinerServingTimeClusterIds' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDocjoinerServingTimeClusterIds.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDupsComputedLocalizedAlternateNamesLocaleEntry' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDupsComputedLocalizedAlternateNamesLocaleEntry.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDupsLocalizedLocalizedCluster' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDupsLocalizedLocalizedCluster.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDupsLocalizedLocalizedClusterCluster' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDupsLocalizedLocalizedClusterCluster.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDupsLocalizedLocalizedClusterLinkBasedClusterInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDupsLocalizedLocalizedClusterLinkBasedClusterInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDupsLocalizedLocalizedClusterLinkBasedClusterInfoLinkData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDupsLocalizedLocalizedClusterLinkBasedClusterInfoLinkData.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDupsLocalizedLocalizedClusterLinkBasedClusterInfoLinkMember' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDupsLocalizedLocalizedClusterLinkBasedClusterInfoLinkMember.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDupsLocalizedLocalizedClusterTargetLink' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDupsLocalizedLocalizedClusterTargetLink.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDupsLocalizedLocalizedClusterTargetLinkLink' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDupsLocalizedLocalizedClusterTargetLinkLink.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDupsLocalizedLocalizedClusterTargetLinkLinkAnnotationSourceInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDupsLocalizedLocalizedClusterTargetLinkLinkAnnotationSourceInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDupsLocalizedLocalizedClusterTargetLinkMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDupsLocalizedLocalizedClusterTargetLinkMetadata.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDupsLocalizedLocalizedClusterTargetLinkSets' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDupsLocalizedLocalizedClusterTargetLinkSets.php',
+        'Google\\Service\\Contentwarehouse\\IndexingDupsLocalizedLocalizedClusterTargetLinkTargetDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingDupsLocalizedLocalizedClusterTargetLinkTargetDocData.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentEmbeddedContentInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentEmbeddedContentInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentEmbeddedLinksInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentEmbeddedLinksInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentEmbedderInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentEmbedderInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentFetchHostCount' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentFetchHostCount.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentFetchHostCountCounter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentFetchHostCountCounter.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentFetchUrlResponseMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentFetchUrlResponseMetadata.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentLinkInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentLinkInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentOutputGenerationTimestamps' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentOutputGenerationTimestamps.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentPageSizeInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentPageSizeInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentRenderCacheStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentRenderCacheStats.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentRenderRequestConfigConfigParams' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentRenderRequestConfigConfigParams.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentRenderingFetchStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentRenderingFetchStats.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentRenderingOutputMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentRenderingOutputMetadata.php',
+        'Google\\Service\\Contentwarehouse\\IndexingEmbeddedContentSelectionResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingEmbeddedContentSelectionResult.php',
+        'Google\\Service\\Contentwarehouse\\IndexingMlVerticalVerticalItem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingMlVerticalVerticalItem.php',
+        'Google\\Service\\Contentwarehouse\\IndexingMobileInterstitialsProtoDesktopInterstitials' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingMobileInterstitialsProtoDesktopInterstitials.php',
+        'Google\\Service\\Contentwarehouse\\IndexingMobileInterstitialsProtoDesktopInterstitialsDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingMobileInterstitialsProtoDesktopInterstitialsDetails.php',
+        'Google\\Service\\Contentwarehouse\\IndexingMobileInterstitialsProtoInterstitialBasicInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingMobileInterstitialsProtoInterstitialBasicInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingMobileVoltCoreWebVitals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingMobileVoltCoreWebVitals.php',
+        'Google\\Service\\Contentwarehouse\\IndexingMobileVoltVoltPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingMobileVoltVoltPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\IndexingPrivacyAccessAccessRequirements' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingPrivacyAccessAccessRequirements.php',
+        'Google\\Service\\Contentwarehouse\\IndexingSignalAggregatorAdaptiveIntervalData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingSignalAggregatorAdaptiveIntervalData.php',
+        'Google\\Service\\Contentwarehouse\\IndexingSignalAggregatorAgeWeightedCoverageData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingSignalAggregatorAgeWeightedCoverageData.php',
+        'Google\\Service\\Contentwarehouse\\IndexingSignalAggregatorAggregatedScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingSignalAggregatorAggregatedScore.php',
+        'Google\\Service\\Contentwarehouse\\IndexingSignalAggregatorRunningMeanAndVarianceInternalState' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingSignalAggregatorRunningMeanAndVarianceInternalState.php',
+        'Google\\Service\\Contentwarehouse\\IndexingSignalAggregatorSccData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingSignalAggregatorSccData.php',
+        'Google\\Service\\Contentwarehouse\\IndexingSignalAggregatorSccSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingSignalAggregatorSccSignal.php',
+        'Google\\Service\\Contentwarehouse\\IndexingSignalAggregatorUrlPatternSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingSignalAggregatorUrlPatternSignals.php',
+        'Google\\Service\\Contentwarehouse\\IndexingSignalAggregatorUrlPatternSignalsPriorSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingSignalAggregatorUrlPatternSignalsPriorSignal.php',
+        'Google\\Service\\Contentwarehouse\\IndexingSignalAggregatorUrlScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingSignalAggregatorUrlScore.php',
+        'Google\\Service\\Contentwarehouse\\IndexingSpeechSpeechPropertiesProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingSpeechSpeechPropertiesProto.php',
+        'Google\\Service\\Contentwarehouse\\IndexingUrlPatternUrlTreeBigTreeBranch' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingUrlPatternUrlTreeBigTreeBranch.php',
+        'Google\\Service\\Contentwarehouse\\IndexingUrlPatternUrlTreeUrlFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingUrlPatternUrlTreeUrlFeature.php',
+        'Google\\Service\\Contentwarehouse\\IndexingUrlPatternUrlTreeUrlFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingUrlPatternUrlTreeUrlFeatures.php',
+        'Google\\Service\\Contentwarehouse\\IndexingUrlPatternUrlTreeUrlTree' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingUrlPatternUrlTreeUrlTree.php',
+        'Google\\Service\\Contentwarehouse\\IndexingUrlPatternUrlTreeUrlTreeDebugInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingUrlPatternUrlTreeUrlTreeDebugInfo.php',
+        'Google\\Service\\Contentwarehouse\\IndexingUrlPatternUrlTreeUrlTreeKey' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingUrlPatternUrlTreeUrlTreeKey.php',
+        'Google\\Service\\Contentwarehouse\\IndexingUrlPatternUrlTreeUrlTreeNode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingUrlPatternUrlTreeUrlTreeNode.php',
+        'Google\\Service\\Contentwarehouse\\IndexingVideosAsrTranscriptRepairAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/IndexingVideosAsrTranscriptRepairAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\KaltixPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KaltixPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\KeGovernanceTypedRegions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KeGovernanceTypedRegions.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersAnyType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersAnyType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersAttributeType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersAttributeType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersBooleanType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersBooleanType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersCollectionType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersCollectionType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersCompoundType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersCompoundType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersContainerType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersContainerType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersDateType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersDateType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersDependencyType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersDependencyType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersDialogReferentialResolution' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersDialogReferentialResolution.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersDurationType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersDurationType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersEntityType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersEntityType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersFacetParsing' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersFacetParsing.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentModifiers' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentModifiers.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryAnnotationLayerSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryAnnotationLayerSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgPath' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgPath.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgPathComponent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgPathComponent.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgument' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgument.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentProvenance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentProvenance.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentProvenanceAttentionalEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentProvenanceAttentionalEntity.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentProvenanceCurrentQuery' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentProvenanceCurrentQuery.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentProvenanceInjectedContextualSchema' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentProvenanceInjectedContextualSchema.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentProvenanceNeuralLocationAnnotator' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentProvenanceNeuralLocationAnnotator.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentProvenancePreviousQuery' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentProvenancePreviousQuery.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentProvenancePreviousQueryRole' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentProvenancePreviousQueryRole.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentProvenancePreviousResponseMeaning' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentProvenancePreviousResponseMeaning.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentProvenancePreviousTaskState' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentProvenancePreviousTaskState.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentProvenancePreviousTaskStateListCandidate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentProvenancePreviousTaskStateListCandidate.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentProvenancePreviousTaskStatePreviousFunctionCall' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentProvenancePreviousTaskStatePreviousFunctionCall.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentProvenanceQueryAnaphor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentProvenanceQueryAnaphor.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentProvenanceSearchAnswerValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentProvenanceSearchAnswerValue.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryArgumentValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryArgumentValue.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryAttributeSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryAttributeSignal.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryCollectionMembership' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryCollectionMembership.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryCollectionScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryCollectionScore.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryConceptInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryConceptInfo.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryConceptSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryConceptSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryCoreference' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryCoreference.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryCustomVehicleActionArgumentAnnotatorSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryCustomVehicleActionArgumentAnnotatorSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryEntityCardSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryEntityCardSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryFreetextAnnotationSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryFreetextAnnotationSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryFunctionCall' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryFunctionCall.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryFunctionCallSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryFunctionCallSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryGroundingSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryGroundingSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryIdentifier' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryIdentifier.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryImpliedEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryImpliedEntity.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryIndexingIQLAttachment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryIndexingIQLAttachment.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryLocalResultSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryLocalResultSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryLocalSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryLocalSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryLocationMarkersSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryLocationMarkersSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryMediaEntitySignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryMediaEntitySignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryMuninSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryMuninSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryNTPRAnnotationSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryNTPRAnnotationSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryNimbleAnnotationSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryNimbleAnnotationSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryOnDeviceAnnotationSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryOnDeviceAnnotationSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryParsingSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryParsingSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryPersonalEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryPersonalEntity.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryPersonalEntityEntityRelationship' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryPersonalEntityEntityRelationship.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryQrefAnnotationSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryQrefAnnotationSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryRelatednessSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryRelatednessSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryResponseMeaningSignalsAnswersHeaderSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryResponseMeaningSignalsAnswersHeaderSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryResponseMeaningSignalsResponseMeaningSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryResponseMeaningSignalsResponseMeaningSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQuerySaftSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQuerySaftSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryScalarValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryScalarValue.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQuerySemanticAnnotationSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQuerySemanticAnnotationSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQuerySemanticAnnotationSignalsFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQuerySemanticAnnotationSignalsFeature.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQuerySensitiveArgumentValueGuard' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQuerySensitiveArgumentValueGuard.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryShoppingIds' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryShoppingIds.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryShoppingIdsMeasureValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryShoppingIdsMeasureValue.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQuerySignalComputationFallbackIntent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQuerySignalComputationFallbackIntent.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQuerySimpleValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQuerySimpleValue.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQuerySupportTransferSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQuerySupportTransferSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryTeleportArgumentAnnotatorSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryTeleportArgumentAnnotatorSignals.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryToken' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryToken.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryTokenSynonym' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryTokenSynonym.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntentQueryTokens' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntentQueryTokens.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersIntersectType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersIntersectType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersMarker' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersMarker.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersMarkerCommand' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersMarkerCommand.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersMarkerOpenQuestion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersMarkerOpenQuestion.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersMarkerPolarQuestion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersMarkerPolarQuestion.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersMarkerStateOfAffairs' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersMarkerStateOfAffairs.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersMeaningSchemaKey' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersMeaningSchemaKey.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersMeaningSchemaSlotKey' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersMeaningSchemaSlotKey.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersMeasurementType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersMeasurementType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersNormalizedStringType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersNormalizedStringType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersNumberType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersNumberType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueAogType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueAogType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueAppAnnotationType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueAppAnnotationType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueAudioType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueAudioType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueCalendarEventType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueCalendarEventType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueCalendarEventWrapperType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueCalendarEventWrapperType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueCalendarReferenceType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueCalendarReferenceType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueComplexQueriesRewriteType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueComplexQueriesRewriteType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueComponentReferenceIndexType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueComponentReferenceIndexType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueDeviceIdType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueDeviceIdType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueDeviceType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueDeviceType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueDeviceUserIdentityType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueDeviceUserIdentityType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueHomeAutomationDeviceType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueHomeAutomationDeviceType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueLocationType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueLocationType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueMediaType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueMediaType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueMessageNotificationType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueMessageNotificationType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueMoneyType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueMoneyType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueNewsProviderType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueNewsProviderType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueOnDeviceType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueOnDeviceType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaquePersonType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaquePersonType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaquePersonalIntelligenceEntityType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaquePersonalIntelligenceEntityType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueProductivityListItemType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueProductivityListItemType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueRecurrenceType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueRecurrenceType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueReminderType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueReminderType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueShoppingMerchantType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueShoppingMerchantType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueShoppingOfferType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueShoppingOfferType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueShoppingProductExpressionType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueShoppingProductExpressionType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueShoppingProductType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueShoppingProductType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueShoppingStoreType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueShoppingStoreType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueTimerType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueTimerType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersOpaqueType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersOpaqueType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersPlexityRequirement' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersPlexityRequirement.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersPolarQuestionType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersPolarQuestionType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersRangeConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersRangeConstraint.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersRangeConstraintRangeEndpoint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersRangeConstraintRangeEndpoint.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersSameType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersSameType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersSemanticType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersSemanticType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersSensitivityArgumentEvalPolicy' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersSensitivityArgumentEvalPolicy.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersSensitivityInstruction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersSensitivityInstruction.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersSensitivityInstructionArgument' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersSensitivityInstructionArgument.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersSensitivityInstructionIntent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersSensitivityInstructionIntent.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersSensitivityInstructionPreviousQuery' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersSensitivityInstructionPreviousQuery.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersSensitivityIntentEvalPolicy' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersSensitivityIntentEvalPolicy.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersSensitivityLoggingPolicy' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersSensitivityLoggingPolicy.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersSensitivityMyActivityPolicy' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersSensitivityMyActivityPolicy.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersSensitivitySensitivity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersSensitivitySensitivity.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersSensitivityServingPolicy' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersSensitivityServingPolicy.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersSensitivityStoragePolicy' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersSensitivityStoragePolicy.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersStateOfAffairsType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersStateOfAffairsType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersStringType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersStringType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersTimeZoneType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersTimeZoneType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersTrackingNumberType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersTrackingNumberType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersTypeTrait' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersTypeTrait.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersUnionType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersUnionType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeAnswersValueType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeAnswersValueType.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeGraphDateTimeProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeGraphDateTimeProto.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeGraphNestedStruct' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeGraphNestedStruct.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeGraphNestedStructPredicateObjs' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeGraphNestedStructPredicateObjs.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeGraphQualifier' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeGraphQualifier.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeGraphQualifierSet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeGraphQualifierSet.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeGraphTriple' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeGraphTriple.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeGraphTripleObj' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeGraphTripleObj.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeGraphTripleObjProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeGraphTripleObjProto.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeGraphTripleProvenance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeGraphTripleProvenance.php',
+        'Google\\Service\\Contentwarehouse\\KnowledgeVerticalsWeatherProtoUserSpecifiedLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/KnowledgeVerticalsWeatherProtoUserSpecifiedLocation.php',
+        'Google\\Service\\Contentwarehouse\\LegalCitation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LegalCitation.php',
+        'Google\\Service\\Contentwarehouse\\LegalCitationCourtDocument' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LegalCitationCourtDocument.php',
+        'Google\\Service\\Contentwarehouse\\LegalCitationCourtDocumentCourt' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LegalCitationCourtDocumentCourt.php',
+        'Google\\Service\\Contentwarehouse\\LegalCitationCourtDocumentCourtNameComponent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LegalCitationCourtDocumentCourtNameComponent.php',
+        'Google\\Service\\Contentwarehouse\\LegalCitationCourtDocumentOpinionInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LegalCitationCourtDocumentOpinionInfo.php',
+        'Google\\Service\\Contentwarehouse\\LegalCitationCourtDocumentPerDocketInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LegalCitationCourtDocumentPerDocketInfo.php',
+        'Google\\Service\\Contentwarehouse\\LegalCitationCourtDocumentPub' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LegalCitationCourtDocumentPub.php',
+        'Google\\Service\\Contentwarehouse\\LegalCitationCourtDocumentUnknownDate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LegalCitationCourtDocumentUnknownDate.php',
+        'Google\\Service\\Contentwarehouse\\LegalCitationLaw' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LegalCitationLaw.php',
+        'Google\\Service\\Contentwarehouse\\LegalCitationLawCollectionName' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LegalCitationLawCollectionName.php',
+        'Google\\Service\\Contentwarehouse\\LegalCitationLawLevel' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LegalCitationLawLevel.php',
+        'Google\\Service\\Contentwarehouse\\LegalDate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LegalDate.php',
+        'Google\\Service\\Contentwarehouse\\LegalPerson' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LegalPerson.php',
+        'Google\\Service\\Contentwarehouse\\LensDiscoveryStyleAestheticsScoreSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LensDiscoveryStyleAestheticsScoreSignals.php',
+        'Google\\Service\\Contentwarehouse\\LensDiscoveryStyleBoundingBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LensDiscoveryStyleBoundingBox.php',
+        'Google\\Service\\Contentwarehouse\\LensDiscoveryStylePersonAttributes' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LensDiscoveryStylePersonAttributes.php',
+        'Google\\Service\\Contentwarehouse\\LensDiscoveryStylePersonAttributesPersonVisibilityScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LensDiscoveryStylePersonAttributesPersonVisibilityScores.php',
+        'Google\\Service\\Contentwarehouse\\LensDiscoveryStylePersonAttributesPersonVisibilityScoresPersonVisibilityPrediction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LensDiscoveryStylePersonAttributesPersonVisibilityScoresPersonVisibilityPrediction.php',
+        'Google\\Service\\Contentwarehouse\\LensDiscoveryStylePersonDetectionSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LensDiscoveryStylePersonDetectionSignals.php',
+        'Google\\Service\\Contentwarehouse\\LensDiscoveryStylePersonDetectionSignalsDetectedPerson' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LensDiscoveryStylePersonDetectionSignalsDetectedPerson.php',
+        'Google\\Service\\Contentwarehouse\\LensDiscoveryStyleStyleImageTypeSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LensDiscoveryStyleStyleImageTypeSignals.php',
+        'Google\\Service\\Contentwarehouse\\LensDiscoveryStyleStyleImageTypeSignalsStyleImageTypePrediction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LensDiscoveryStyleStyleImageTypeSignalsStyleImageTypePrediction.php',
+        'Google\\Service\\Contentwarehouse\\ListSnippetResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ListSnippetResponse.php',
+        'Google\\Service\\Contentwarehouse\\ListSnippetResponseRow' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ListSnippetResponseRow.php',
+        'Google\\Service\\Contentwarehouse\\LocalWWWInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LocalWWWInfo.php',
+        'Google\\Service\\Contentwarehouse\\LocalWWWInfoAddress' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LocalWWWInfoAddress.php',
+        'Google\\Service\\Contentwarehouse\\LocalWWWInfoCluster' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LocalWWWInfoCluster.php',
+        'Google\\Service\\Contentwarehouse\\LocalWWWInfoOpeningHours' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LocalWWWInfoOpeningHours.php',
+        'Google\\Service\\Contentwarehouse\\LocalWWWInfoPhone' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LocalWWWInfoPhone.php',
+        'Google\\Service\\Contentwarehouse\\LocalWWWInfoWrapptorItem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LocalWWWInfoWrapptorItem.php',
+        'Google\\Service\\Contentwarehouse\\LocalsearchChainId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LocalsearchChainId.php',
+        'Google\\Service\\Contentwarehouse\\LocalsearchDocInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LocalsearchDocInfo.php',
+        'Google\\Service\\Contentwarehouse\\LocalsearchProtoInternalFoodOrderingActionMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LocalsearchProtoInternalFoodOrderingActionMetadata.php',
+        'Google\\Service\\Contentwarehouse\\LocalsearchProtoInternalFoodOrderingActionMetadataAvailablePartnerInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LocalsearchProtoInternalFoodOrderingActionMetadataAvailablePartnerInfo.php',
+        'Google\\Service\\Contentwarehouse\\LocalsearchProtoInternalFoodOrderingActionMetadataServiceInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LocalsearchProtoInternalFoodOrderingActionMetadataServiceInfo.php',
+        'Google\\Service\\Contentwarehouse\\LogsProtoIndexingCrawlerIdCrawlerIdProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LogsProtoIndexingCrawlerIdCrawlerIdProto.php',
+        'Google\\Service\\Contentwarehouse\\LogsSemanticInterpretationIntentQueryEntityLinkMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LogsSemanticInterpretationIntentQueryEntityLinkMetadata.php',
+        'Google\\Service\\Contentwarehouse\\LogsSemanticInterpretationIntentQueryLinkKindFlags' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LogsSemanticInterpretationIntentQueryLinkKindFlags.php',
+        'Google\\Service\\Contentwarehouse\\LogsSemanticInterpretationIntentQueryLinkKindInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LogsSemanticInterpretationIntentQueryLinkKindInfo.php',
+        'Google\\Service\\Contentwarehouse\\LogsSemanticInterpretationIntentQuerySupportTransferRule' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LogsSemanticInterpretationIntentQuerySupportTransferRule.php',
+        'Google\\Service\\Contentwarehouse\\LogsSemanticInterpretationIntentQueryWebrefEntityRelationship' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LogsSemanticInterpretationIntentQueryWebrefEntityRelationship.php',
+        'Google\\Service\\Contentwarehouse\\LongStructuredSnippet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LongStructuredSnippet.php',
+        'Google\\Service\\Contentwarehouse\\LongStructuredSnippetEntry' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/LongStructuredSnippetEntry.php',
+        'Google\\Service\\Contentwarehouse\\MajelContactInformationShortcutInformation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MajelContactInformationShortcutInformation.php',
+        'Google\\Service\\Contentwarehouse\\ManyboxData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ManyboxData.php',
+        'Google\\Service\\Contentwarehouse\\MapsQualitySpecialWordsFlags' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MapsQualitySpecialWordsFlags.php',
+        'Google\\Service\\Contentwarehouse\\MapsQualitySpecialWordsProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MapsQualitySpecialWordsProto.php',
+        'Google\\Service\\Contentwarehouse\\MediaIndexBoundingbox' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MediaIndexBoundingbox.php',
+        'Google\\Service\\Contentwarehouse\\MediaIndexEntityField' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MediaIndexEntityField.php',
+        'Google\\Service\\Contentwarehouse\\MediaIndexFrameIdentifier' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MediaIndexFrameIdentifier.php',
+        'Google\\Service\\Contentwarehouse\\MediaIndexFrameIdentifierPreviewFrameZeroVariant' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MediaIndexFrameIdentifierPreviewFrameZeroVariant.php',
+        'Google\\Service\\Contentwarehouse\\MediaIndexRegion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MediaIndexRegion.php',
+        'Google\\Service\\Contentwarehouse\\MediaIndexSparseFloatVector' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MediaIndexSparseFloatVector.php',
+        'Google\\Service\\Contentwarehouse\\MediaIndexVideoCentroid' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MediaIndexVideoCentroid.php',
+        'Google\\Service\\Contentwarehouse\\MediaIndexVideoCentroidDomainScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MediaIndexVideoCentroidDomainScore.php',
+        'Google\\Service\\Contentwarehouse\\MediaIndexVideoCoreSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MediaIndexVideoCoreSignals.php',
+        'Google\\Service\\Contentwarehouse\\MediaIndexVideoFrame' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MediaIndexVideoFrame.php',
+        'Google\\Service\\Contentwarehouse\\MediaIndexVideoFrames' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MediaIndexVideoFrames.php',
+        'Google\\Service\\Contentwarehouse\\MediaIndexXtag' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MediaIndexXtag.php',
+        'Google\\Service\\Contentwarehouse\\MediaIndexXtagList' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MediaIndexXtagList.php',
+        'Google\\Service\\Contentwarehouse\\MobilePerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MobilePerDocData.php',
+        'Google\\Service\\Contentwarehouse\\MultiscaleFieldPresence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MultiscaleFieldPresence.php',
+        'Google\\Service\\Contentwarehouse\\MultiscaleLayerPresence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MultiscaleLayerPresence.php',
+        'Google\\Service\\Contentwarehouse\\MultiscalePointerIndex' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MultiscalePointerIndex.php',
+        'Google\\Service\\Contentwarehouse\\MultiscalePointerSpan' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MultiscalePointerSpan.php',
+        'Google\\Service\\Contentwarehouse\\MustangReposWwwSnippetsCandidateFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MustangReposWwwSnippetsCandidateFeature.php',
+        'Google\\Service\\Contentwarehouse\\MustangReposWwwSnippetsOrganicListSnippetResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MustangReposWwwSnippetsOrganicListSnippetResponse.php',
+        'Google\\Service\\Contentwarehouse\\MustangReposWwwSnippetsSnippetCandidate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MustangReposWwwSnippetsSnippetCandidate.php',
+        'Google\\Service\\Contentwarehouse\\MustangReposWwwSnippetsSnippetsRanklabFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MustangReposWwwSnippetsSnippetsRanklabFeatures.php',
+        'Google\\Service\\Contentwarehouse\\MustangSnippetsRenderedToken' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/MustangSnippetsRenderedToken.php',
+        'Google\\Service\\Contentwarehouse\\NSRVersionedItem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NSRVersionedItem.php',
+        'Google\\Service\\Contentwarehouse\\NetFabricRpcVirtualNetworkId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NetFabricRpcVirtualNetworkId.php',
+        'Google\\Service\\Contentwarehouse\\NewsReconServiceLrsQ2lrs2EntryPayload' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NewsReconServiceLrsQ2lrs2EntryPayload.php',
+        'Google\\Service\\Contentwarehouse\\NewsReconServiceLrsQ2lrs2QueryToLrsDataset' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NewsReconServiceLrsQ2lrs2QueryToLrsDataset.php',
+        'Google\\Service\\Contentwarehouse\\NewsReconServiceLrsQ2lrs2QueryToLrsEntry' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NewsReconServiceLrsQ2lrs2QueryToLrsEntry.php',
+        'Google\\Service\\Contentwarehouse\\NewsReconServiceLrsQ2lrs2QueryToLrsEntryEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NewsReconServiceLrsQ2lrs2QueryToLrsEntryEntity.php',
+        'Google\\Service\\Contentwarehouse\\NewsReconServiceLrsQ2lrs2QueryToLrsEntryLocaleRestrict' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NewsReconServiceLrsQ2lrs2QueryToLrsEntryLocaleRestrict.php',
+        'Google\\Service\\Contentwarehouse\\NewsReconServiceLrsQ2lrs2QueryToLrsEntryPattern' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NewsReconServiceLrsQ2lrs2QueryToLrsEntryPattern.php',
+        'Google\\Service\\Contentwarehouse\\NlpLoggingQRewriteClientCallPathInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpLoggingQRewriteClientCallPathInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpLoggingQusClientCallPathInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpLoggingQusClientCallPathInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpMeaningComponentSpecificContracts' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpMeaningComponentSpecificContracts.php',
+        'Google\\Service\\Contentwarehouse\\NlpMeaningMeaningRemodeling' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpMeaningMeaningRemodeling.php',
+        'Google\\Service\\Contentwarehouse\\NlpMeaningMeaningRemodelingControl' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpMeaningMeaningRemodelingControl.php',
+        'Google\\Service\\Contentwarehouse\\NlpMeaningMeaningRemodelings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpMeaningMeaningRemodelings.php',
+        'Google\\Service\\Contentwarehouse\\NlpMeaningSemanticTypeNameComponentSpecificContracts' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpMeaningSemanticTypeNameComponentSpecificContracts.php',
+        'Google\\Service\\Contentwarehouse\\NlpMeaningSemanticTypeNameMeaningRemodelings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpMeaningSemanticTypeNameMeaningRemodelings.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftAnnotatedPhrase' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftAnnotatedPhrase.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftConstituencyNode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftConstituencyNode.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftDocument' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftDocument.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftDocumentTopic' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftDocumentTopic.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftEntity.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftEntityProfile' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftEntityProfile.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftEntityProfileAlternate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftEntityProfileAlternate.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftEntityProfileAttribute' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftEntityProfileAttribute.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftEntityProfileKeyword' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftEntityProfileKeyword.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftEntityProfileReference' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftEntityProfileReference.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftEntityProfileRelated' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftEntityProfileRelated.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftEntityType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftEntityType.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftHyperlink' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftHyperlink.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftIdentifier' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftIdentifier.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftLabeledSpan' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftLabeledSpan.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftLabeledSpans' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftLabeledSpans.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftMeasure' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftMeasure.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftMention' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftMention.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftMentionResolution' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftMentionResolution.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftMorphology' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftMorphology.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftPhrase' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftPhrase.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftReferent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftReferent.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftRelation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftRelation.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftRelationMention' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftRelationMention.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftSemanticNode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftSemanticNode.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftSemanticNodeArc' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftSemanticNodeArc.php',
+        'Google\\Service\\Contentwarehouse\\NlpSaftToken' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSaftToken.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitArticleData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitArticleData.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitArticleId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitArticleId.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitArticleMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitArticleMetadata.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitAuthor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitAuthor.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitCitationData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitCitationData.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitDataset' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitDataset.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitMeshHeading' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitMeshHeading.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitPubDate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitPubDate.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitPublicationType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitPublicationType.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitReferencedBlock' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitReferencedBlock.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitRetrievalQueryEncodingDebugInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitRetrievalQueryEncodingDebugInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitRetrievalSearchResultDebugInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitRetrievalSearchResultDebugInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitRetrievalSearchResultSetDebugInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitRetrievalSearchResultSetDebugInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitRetrievalSnippetDebugInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitRetrievalSnippetDebugInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitSubjectHeading' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitSubjectHeading.php',
+        'Google\\Service\\Contentwarehouse\\NlpSciencelitTokenizedText' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSciencelitTokenizedText.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingAnnotationEvalData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingAnnotationEvalData.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingAppAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingAppAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDateTimeAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDateTimeAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeAbsoluteDateTime' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeAbsoluteDateTime.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeDateTime' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeDateTime.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeDateTimeProperty' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeDateTimeProperty.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeDuration' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeDuration.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeEvent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeEvent.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeFetchedRelativeDateTime' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeFetchedRelativeDateTime.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeHoliday' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeHoliday.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeMoonEventInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeMoonEventInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeNonGregorianDate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeNonGregorianDate.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeQuantity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeQuantity.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeRange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeRange.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeRecurrent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeRecurrent.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeRelativeDateTime' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeRelativeDateTime.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeResolutionProperties' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeResolutionProperties.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeShiftedRelativeDateTime' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeShiftedRelativeDateTime.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeSpan' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeSpan.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeTargetToFetch' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeTargetToFetch.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingDatetimeTimeZone' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingDatetimeTimeZone.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingEntitySourceData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingEntitySourceData.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingExpressionStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingExpressionStatus.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalAmenities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalAmenities.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalBasicLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalBasicLocation.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalBusinessType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalBusinessType.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalChainMemberConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalChainMemberConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalCompoundLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalCompoundLocation.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalContactLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalContactLocation.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalCuisineConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalCuisineConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalEvChargingStationConnectorConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalEvChargingStationConnectorConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalEvChargingStationPaymentConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalEvChargingStationPaymentConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalEvChargingStationSpeedConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalEvChargingStationSpeedConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalExtent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalExtent.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalGcidConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalGcidConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalHealthInsuranceConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalHealthInsuranceConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalHotelType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalHotelType.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalHyperReliableData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalHyperReliableData.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalHyperReliableDataGCIDSynsOverride' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalHyperReliableDataGCIDSynsOverride.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalImplicitLocalCategory' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalImplicitLocalCategory.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalJoiner' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalJoiner.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalLocalResultId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalLocalResultId.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalLocation.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalLocationConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalLocationConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalLocationElement' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalLocationElement.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalMenuItem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalMenuItem.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalPriceConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalPriceConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalQualityConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalQualityConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalRoomConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalRoomConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalScalableAttribute' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalScalableAttribute.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalServiceConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalServiceConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalStarRatings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalStarRatings.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalVicinityLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalVicinityLocation.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingLocalVisitHistoryConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingLocalVisitHistoryConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsCommunicationPhoneType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsCommunicationPhoneType.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsCommunicationRecipient' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsCommunicationRecipient.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsCommunicationRelationshipArgument' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsCommunicationRelationshipArgument.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsDevice' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsDevice.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsDeviceName' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsDeviceName.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsDialogReferentsDialogReferents' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsDialogReferentsDialogReferents.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsDialogReferentsListSelection' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsDialogReferentsListSelection.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaAlbumTitle' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaAlbumTitle.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaAudio' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaAudio.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaAudiobookInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaAudiobookInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaBook' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaBook.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaCastDeviceAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaCastDeviceAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaCost' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaCost.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaDeeplinkInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaDeeplinkInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaDeeplinkInfoTimeWindow' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaDeeplinkInfoTimeWindow.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaDescription' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaDescription.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaEpisodeConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaEpisodeConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaFrequency' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaFrequency.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaGame' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaGame.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaGenericMusic' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaGenericMusic.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaLatLng' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaLatLng.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaMediaAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaMediaAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaMediaAnnotationList' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaMediaAnnotationList.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaMediaProviderInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaMediaProviderInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaMovie' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaMovie.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaMusicArtist' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaMusicArtist.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaMusicGenre' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaMusicGenre.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaMusicPlaylist' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaMusicPlaylist.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaNewsInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaNewsInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaNewsTopic' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaNewsTopic.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaPaidOfferDetail' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaPaidOfferDetail.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaPodcast' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaPodcast.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaPodcastInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaPodcastInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaProviderMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaProviderMetadata.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaPurchaseInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaPurchaseInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaQuantification' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaQuantification.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaRadio' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaRadio.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaRadioInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaRadioInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaRadioNetwork' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaRadioNetwork.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaRentalInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaRentalInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaSeasonConstraint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaSeasonConstraint.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaSong' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaSong.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaTVShow' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaTVShow.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaYouTubeDeeplinkInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaYouTubeDeeplinkInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMediaYouTubePlaylistInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMediaYouTubePlaylistInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMoneyCurrency' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMoneyCurrency.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsMoneyMoney' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsMoneyMoney.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsNarrativeNewsNewsProvider' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsNarrativeNewsNewsProvider.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsOnDevice' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsOnDevice.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsPersonPerson' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsPersonPerson.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsRecurrence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsRecurrence.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsRecurrenceDailyPattern' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsRecurrenceDailyPattern.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsRecurrenceMonthlyPattern' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsRecurrenceMonthlyPattern.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsRecurrenceRecurrenceEnd' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsRecurrenceRecurrenceEnd.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsRecurrenceRecurrenceStart' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsRecurrenceRecurrenceStart.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsRecurrenceWeeklyPattern' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsRecurrenceWeeklyPattern.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsRecurrenceYearlyPattern' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsRecurrenceYearlyPattern.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantBrandPhrase' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantBrandPhrase.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantMerchant' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantMerchant.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantMerchantMerchantCenterId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantMerchantMerchantCenterId.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantOffer' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantOffer.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantPhrase' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantPhrase.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantProduct' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantProduct.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantProductClassification' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantProductClassification.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantProductExpression' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantProductExpression.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantProductMediaProduct' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantProductMediaProduct.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantProductMediaProductMediaAttributeValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantProductMediaProductMediaAttributeValue.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantProductPhrase' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantProductPhrase.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantShoppingListItemInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantShoppingListItemInfo.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantStore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantStore.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingModelsShoppingAssistantUnrecognizedPhrase' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingModelsShoppingAssistantUnrecognizedPhrase.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingNumberFractionNumber' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingNumberFractionNumber.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingNumberNumber' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingNumberNumber.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingNumberSimpleNumber' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingNumberSimpleNumber.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingPersonalIntelligenceEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingPersonalIntelligenceEntity.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingPersonalReferenceAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingPersonalReferenceAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingProtoActionsOnGoogleAogSlot' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingProtoActionsOnGoogleAogSlot.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingProtoActionsOnGoogleDateTime' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingProtoActionsOnGoogleDateTime.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingProtoActionsOnGoogleDateTimeProperty' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingProtoActionsOnGoogleDateTimeProperty.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingProtoActionsOnGoogleSlotList' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingProtoActionsOnGoogleSlotList.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingProtoActionsOnGoogleSlotMap' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingProtoActionsOnGoogleSlotMap.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingProtoActionsOnGoogleSlotValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingProtoActionsOnGoogleSlotValue.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingProtoActionsOnGoogleSlotValueSingleValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingProtoActionsOnGoogleSlotValueSingleValue.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingProtoActionsOnGoogleTypedValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingProtoActionsOnGoogleTypedValue.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingQRefAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingQRefAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingQRefAnnotationCollectionMembership' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingQRefAnnotationCollectionMembership.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingQRefAnnotationEntityRelationship' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingQRefAnnotationEntityRelationship.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingQRefAnnotationMerlotCategoryData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingQRefAnnotationMerlotCategoryData.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingQRefAnnotationSubCluster' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingQRefAnnotationSubCluster.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingRelatedEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingRelatedEntity.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingSaftCoreference' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingSaftCoreference.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingSaftMeasure' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingSaftMeasure.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingSaftMentionAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingSaftMentionAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\NlpSemanticParsingSaftSpan' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlpSemanticParsingSaftSpan.php',
+        'Google\\Service\\Contentwarehouse\\NlxDataSchemaByte' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlxDataSchemaByte.php',
+        'Google\\Service\\Contentwarehouse\\NlxDataSchemaCharacter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlxDataSchemaCharacter.php',
+        'Google\\Service\\Contentwarehouse\\NlxDataSchemaDocument' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlxDataSchemaDocument.php',
+        'Google\\Service\\Contentwarehouse\\NlxDataSchemaEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlxDataSchemaEntity.php',
+        'Google\\Service\\Contentwarehouse\\NlxDataSchemaLanguageSpan' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlxDataSchemaLanguageSpan.php',
+        'Google\\Service\\Contentwarehouse\\NlxDataSchemaMention' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlxDataSchemaMention.php',
+        'Google\\Service\\Contentwarehouse\\NlxDataSchemaParagraph' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlxDataSchemaParagraph.php',
+        'Google\\Service\\Contentwarehouse\\NlxDataSchemaScaleSet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlxDataSchemaScaleSet.php',
+        'Google\\Service\\Contentwarehouse\\NlxDataSchemaSentence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlxDataSchemaSentence.php',
+        'Google\\Service\\Contentwarehouse\\NlxDataSchemaToken' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlxDataSchemaToken.php',
+        'Google\\Service\\Contentwarehouse\\NlxDataSchemaTokenDependencyEdge' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/NlxDataSchemaTokenDependencyEdge.php',
+        'Google\\Service\\Contentwarehouse\\OceanDataDocinfoWoodwingItemMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanDataDocinfoWoodwingItemMetadata.php',
+        'Google\\Service\\Contentwarehouse\\OceanDocInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanDocInfo.php',
+        'Google\\Service\\Contentwarehouse\\OceanDocTag' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanDocTag.php',
+        'Google\\Service\\Contentwarehouse\\OceanDocTagBookSpecific' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanDocTagBookSpecific.php',
+        'Google\\Service\\Contentwarehouse\\OceanDocTagBookSpecificNumberingRange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanDocTagBookSpecificNumberingRange.php',
+        'Google\\Service\\Contentwarehouse\\OceanDocTagCatalogSpecific' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanDocTagCatalogSpecific.php',
+        'Google\\Service\\Contentwarehouse\\OceanDocTagContributor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanDocTagContributor.php',
+        'Google\\Service\\Contentwarehouse\\OceanDocTagMagazineSpecific' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanDocTagMagazineSpecific.php',
+        'Google\\Service\\Contentwarehouse\\OceanDocTagNewspaperSpecific' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanDocTagNewspaperSpecific.php',
+        'Google\\Service\\Contentwarehouse\\OceanDocTagPatentSpecific' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanDocTagPatentSpecific.php',
+        'Google\\Service\\Contentwarehouse\\OceanDocTagWorkCluster' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanDocTagWorkCluster.php',
+        'Google\\Service\\Contentwarehouse\\OceanGEMoney' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanGEMoney.php',
+        'Google\\Service\\Contentwarehouse\\OceanGEPrice' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanGEPrice.php',
+        'Google\\Service\\Contentwarehouse\\OceanGEPriceLocale' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanGEPriceLocale.php',
+        'Google\\Service\\Contentwarehouse\\OceanImageSize' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanImageSize.php',
+        'Google\\Service\\Contentwarehouse\\OceanLocaleViewability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanLocaleViewability.php',
+        'Google\\Service\\Contentwarehouse\\OceanLocaleViewabilityDates' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanLocaleViewabilityDates.php',
+        'Google\\Service\\Contentwarehouse\\OceanLocaleViewabilitySourceDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanLocaleViewabilitySourceDetails.php',
+        'Google\\Service\\Contentwarehouse\\OceanPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\OceanVolumeAccessRights' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanVolumeAccessRights.php',
+        'Google\\Service\\Contentwarehouse\\OceanVolumeComputedAccessRights' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanVolumeComputedAccessRights.php',
+        'Google\\Service\\Contentwarehouse\\OceanVolumeDisplayDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanVolumeDisplayDetails.php',
+        'Google\\Service\\Contentwarehouse\\OceanVolumeImprint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanVolumeImprint.php',
+        'Google\\Service\\Contentwarehouse\\OceanVolumeViewability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanVolumeViewability.php',
+        'Google\\Service\\Contentwarehouse\\OceanVolumeViewabilityLocale' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OceanVolumeViewabilityLocale.php',
+        'Google\\Service\\Contentwarehouse\\OcrPhotoBoundingBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OcrPhotoBoundingBox.php',
+        'Google\\Service\\Contentwarehouse\\OcrPhotoCurve' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OcrPhotoCurve.php',
+        'Google\\Service\\Contentwarehouse\\OcrPhotoCurvePoint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OcrPhotoCurvePoint.php',
+        'Google\\Service\\Contentwarehouse\\OcrPhotoCurvedBoundingBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OcrPhotoCurvedBoundingBox.php',
+        'Google\\Service\\Contentwarehouse\\OcrPhotoTextBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OcrPhotoTextBox.php',
+        'Google\\Service\\Contentwarehouse\\OfficialPagesOfficialKey' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OfficialPagesOfficialKey.php',
+        'Google\\Service\\Contentwarehouse\\OfficialPagesQuerySet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OfficialPagesQuerySet.php',
+        'Google\\Service\\Contentwarehouse\\OrionDocEntitiesProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/OrionDocEntitiesProto.php',
+        'Google\\Service\\Contentwarehouse\\PairwiseQScoringData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PairwiseQScoringData.php',
+        'Google\\Service\\Contentwarehouse\\PairwiseQVersionedItem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PairwiseQVersionedItem.php',
+        'Google\\Service\\Contentwarehouse\\PeoplestackFlexorgsProtoInternalExternal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PeoplestackFlexorgsProtoInternalExternal.php',
+        'Google\\Service\\Contentwarehouse\\PeoplestackFlexorgsProtoInternalExternalStateStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PeoplestackFlexorgsProtoInternalExternalStateStatus.php',
+        'Google\\Service\\Contentwarehouse\\PerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PerDocData.php',
+        'Google\\Service\\Contentwarehouse\\PerDocDebugEvent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PerDocDebugEvent.php',
+        'Google\\Service\\Contentwarehouse\\PersonalizationMapsAliasAliasId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PersonalizationMapsAliasAliasId.php',
+        'Google\\Service\\Contentwarehouse\\PersonalizationMapsAliasIcon' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PersonalizationMapsAliasIcon.php',
+        'Google\\Service\\Contentwarehouse\\PersonalizationSettingsApiProtoLocalDiscoveryLocalDiscoverySettingsMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PersonalizationSettingsApiProtoLocalDiscoveryLocalDiscoverySettingsMetadata.php',
+        'Google\\Service\\Contentwarehouse\\PersonalizationSettingsApiProtoLocalDiscoveryOpaRecipesContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PersonalizationSettingsApiProtoLocalDiscoveryOpaRecipesContext.php',
+        'Google\\Service\\Contentwarehouse\\PhilPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhilPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\PhotosAnimationMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosAnimationMetadata.php',
+        'Google\\Service\\Contentwarehouse\\PhotosDynamicDepthMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosDynamicDepthMetadata.php',
+        'Google\\Service\\Contentwarehouse\\PhotosFourCMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosFourCMetadata.php',
+        'Google\\Service\\Contentwarehouse\\PhotosGDepthMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosGDepthMetadata.php',
+        'Google\\Service\\Contentwarehouse\\PhotosHdrMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosHdrMetadata.php',
+        'Google\\Service\\Contentwarehouse\\PhotosHdrMetadataBaseFormat' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosHdrMetadataBaseFormat.php',
+        'Google\\Service\\Contentwarehouse\\PhotosHdrMetadataGainmap' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosHdrMetadataGainmap.php',
+        'Google\\Service\\Contentwarehouse\\PhotosImageMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosImageMetadata.php',
+        'Google\\Service\\Contentwarehouse\\PhotosPanoramaMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosPanoramaMetadata.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionGroundtruthdbNormalizedBoundingBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionGroundtruthdbNormalizedBoundingBox.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionObjectrecFeatureVector' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionObjectrecFeatureVector.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionObjectrecGeoLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionObjectrecGeoLocation.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionObjectrecGlobalFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionObjectrecGlobalFeature.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionObjectrecImageTemplate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionObjectrecImageTemplate.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionObjectrecImageTemplateSubSet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionObjectrecImageTemplateSubSet.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionObjectrecLocalDescriptor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionObjectrecLocalDescriptor.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionObjectrecMatrix2D' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionObjectrecMatrix2D.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionObjectrecQuantizedFeatureVector' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionObjectrecQuantizedFeatureVector.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionObjectrecROI' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionObjectrecROI.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionServiceFaceFaceParams' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionServiceFaceFaceParams.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionServiceFaceFaceParamsBoundingBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionServiceFaceFaceParamsBoundingBox.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionServiceFaceFaceParamsExtendedLandmark' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionServiceFaceFaceParamsExtendedLandmark.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionServiceFaceFaceParamsFaceCropV8' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionServiceFaceFaceParamsFaceCropV8.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionServiceFaceFaceParamsLandmarkPosition' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionServiceFaceFaceParamsLandmarkPosition.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionServiceFaceFaceParamsPoseMatrix' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionServiceFaceFaceParamsPoseMatrix.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionServiceFaceImageParams' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionServiceFaceImageParams.php',
+        'Google\\Service\\Contentwarehouse\\PhotosVisionServiceFaceVersionedFaceSignature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PhotosVisionServiceFaceVersionedFaceSignature.php',
+        'Google\\Service\\Contentwarehouse\\PornFlagData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PornFlagData.php',
+        'Google\\Service\\Contentwarehouse\\PornStatsImage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PornStatsImage.php',
+        'Google\\Service\\Contentwarehouse\\PornStatsText' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PornStatsText.php',
+        'Google\\Service\\Contentwarehouse\\PostalAddress' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PostalAddress.php',
+        'Google\\Service\\Contentwarehouse\\PrecomputedRestricts' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PrecomputedRestricts.php',
+        'Google\\Service\\Contentwarehouse\\PremiumPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PremiumPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\Proto2BridgeMessageSet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/Proto2BridgeMessageSet.php',
+        'Google\\Service\\Contentwarehouse\\PseudoVideoData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PseudoVideoData.php',
+        'Google\\Service\\Contentwarehouse\\PseudoVideoDataTranscript' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PseudoVideoDataTranscript.php',
+        'Google\\Service\\Contentwarehouse\\PseudoVideoDataTranscriptTimestamp' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PseudoVideoDataTranscriptTimestamp.php',
+        'Google\\Service\\Contentwarehouse\\PtokenPToken' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/PtokenPToken.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsAppInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsAppInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsAppInfoSourceData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsAppInfoSourceData.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsAppInfoSourceDataAllowListSourceData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsAppInfoSourceDataAllowListSourceData.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsAppInfoSourceDataMediaProviderSourceData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsAppInfoSourceDataMediaProviderSourceData.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsAppUnderstandingCategory' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsAppUnderstandingCategory.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsCustomizedNotification' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsCustomizedNotification.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsCustomizedNotificationButton' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsCustomizedNotificationButton.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsCustomizedNotificationPayload' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsCustomizedNotificationPayload.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsNewsProviderAnnotationData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsNewsProviderAnnotationData.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsNewsProviderAnnotationDataProvider' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsNewsProviderAnnotationDataProvider.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsReminder' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsReminder.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsReminderDocument' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsReminderDocument.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsReminderDynamiteGroup' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsReminderDynamiteGroup.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsReminderLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsReminderLocation.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsReminderLocationCategoryInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsReminderLocationCategoryInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsReminderLocationChainInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsReminderLocationChainInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsReminderPerson' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsReminderPerson.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsReminderRecurrenceInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsReminderRecurrenceInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsRingtone' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsRingtone.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsRoom' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsRoom.php',
+        'Google\\Service\\Contentwarehouse\\QualityActionsTimer' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityActionsTimer.php',
+        'Google\\Service\\Contentwarehouse\\QualityAuthorityTopicEmbeddingsVersionedItem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityAuthorityTopicEmbeddingsVersionedItem.php',
+        'Google\\Service\\Contentwarehouse\\QualityCalypsoAppsLink' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityCalypsoAppsLink.php',
+        'Google\\Service\\Contentwarehouse\\QualityCalypsoAppsUniversalAuLiveOpDetail' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityCalypsoAppsUniversalAuLiveOpDetail.php',
+        'Google\\Service\\Contentwarehouse\\QualityCalypsoAppsUniversalAuLiveOpEvent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityCalypsoAppsUniversalAuLiveOpEvent.php',
+        'Google\\Service\\Contentwarehouse\\QualityCalypsoAppsUniversalAuLiveOpFormat' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityCalypsoAppsUniversalAuLiveOpFormat.php',
+        'Google\\Service\\Contentwarehouse\\QualityCalypsoAppsUniversalAuLiveOpsDetailInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityCalypsoAppsUniversalAuLiveOpsDetailInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityCalypsoAppsUniversalImage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityCalypsoAppsUniversalImage.php',
+        'Google\\Service\\Contentwarehouse\\QualityCalypsoAppsUniversalImageData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityCalypsoAppsUniversalImageData.php',
+        'Google\\Service\\Contentwarehouse\\QualityCopiaFireflySiteSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityCopiaFireflySiteSignal.php',
+        'Google\\Service\\Contentwarehouse\\QualityDialogManagerExternalIds' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityDialogManagerExternalIds.php',
+        'Google\\Service\\Contentwarehouse\\QualityDialogManagerLocalIntentOptions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityDialogManagerLocalIntentOptions.php',
+        'Google\\Service\\Contentwarehouse\\QualityDialogManagerLocalResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityDialogManagerLocalResult.php',
+        'Google\\Service\\Contentwarehouse\\QualityDialogManagerReminderClientType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityDialogManagerReminderClientType.php',
+        'Google\\Service\\Contentwarehouse\\QualityDniDocPreviewRestrictions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityDniDocPreviewRestrictions.php',
+        'Google\\Service\\Contentwarehouse\\QualityDniExtendedNewsPreviews' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityDniExtendedNewsPreviews.php',
+        'Google\\Service\\Contentwarehouse\\QualityFringeFringeQueryPriorPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityFringeFringeQueryPriorPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\QualityGenieComplexQueriesComplexQueriesOutputRewrite' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityGenieComplexQueriesComplexQueriesOutputRewrite.php',
+        'Google\\Service\\Contentwarehouse\\QualityGenieComplexQueriesComplexQueriesOutputRewriteEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityGenieComplexQueriesComplexQueriesOutputRewriteEntity.php',
+        'Google\\Service\\Contentwarehouse\\QualityGeoBrainlocBrainlocAttachment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityGeoBrainlocBrainlocAttachment.php',
+        'Google\\Service\\Contentwarehouse\\QualityLabelsGoogleLabelData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityLabelsGoogleLabelData.php',
+        'Google\\Service\\Contentwarehouse\\QualityLabelsGoogleLabelDataLabel' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityLabelsGoogleLabelDataLabel.php',
+        'Google\\Service\\Contentwarehouse\\QualityLabelsGoogleLabelDataLabelProvider' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityLabelsGoogleLabelDataLabelProvider.php',
+        'Google\\Service\\Contentwarehouse\\QualityNavboostCrapsAgingData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNavboostCrapsAgingData.php',
+        'Google\\Service\\Contentwarehouse\\QualityNavboostCrapsAgingDataAgingAgeBucket' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNavboostCrapsAgingDataAgingAgeBucket.php',
+        'Google\\Service\\Contentwarehouse\\QualityNavboostCrapsCrapsClickSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNavboostCrapsCrapsClickSignals.php',
+        'Google\\Service\\Contentwarehouse\\QualityNavboostCrapsCrapsData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNavboostCrapsCrapsData.php',
+        'Google\\Service\\Contentwarehouse\\QualityNavboostCrapsCrapsDevice' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNavboostCrapsCrapsDevice.php',
+        'Google\\Service\\Contentwarehouse\\QualityNavboostCrapsFeatureCrapsData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNavboostCrapsFeatureCrapsData.php',
+        'Google\\Service\\Contentwarehouse\\QualityNavboostCrapsStatsWithWeightsProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNavboostCrapsStatsWithWeightsProto.php',
+        'Google\\Service\\Contentwarehouse\\QualityNavboostGlueVoterTokenBitmapMessage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNavboostGlueVoterTokenBitmapMessage.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrExperimentalNsrTeamData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrExperimentalNsrTeamData.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrExperimentalNsrTeamScoringSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrExperimentalNsrTeamScoringSignal.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrExperimentalNsrTeamWSJData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrExperimentalNsrTeamWSJData.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrKetoKetoVersionedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrKetoKetoVersionedData.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrNSRVersionedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrNSRVersionedData.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrNsrChunksProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrNsrChunksProto.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrNsrChunksWithSourceInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrNsrChunksWithSourceInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrNsrData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrNsrData.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrNsrDataClusterUplift' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrNsrDataClusterUplift.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrNsrDataEmbedding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrNsrDataEmbedding.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrNsrDataEncodedEmbedding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrNsrDataEncodedEmbedding.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrNsrDataMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrNsrDataMetadata.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrPQData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrPQData.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrPQDataSubchunkData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrPQDataSubchunkData.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrVersionedFloatSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrVersionedFloatSignal.php',
+        'Google\\Service\\Contentwarehouse\\QualityNsrVersionedIntSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityNsrVersionedIntSignal.php',
+        'Google\\Service\\Contentwarehouse\\QualityOrbitAsteroidBeltDocumentIntentScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityOrbitAsteroidBeltDocumentIntentScores.php',
+        'Google\\Service\\Contentwarehouse\\QualityOrbitAsteroidBeltImageIntentScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityOrbitAsteroidBeltImageIntentScores.php',
+        'Google\\Service\\Contentwarehouse\\QualityOrbitOrbitImageIntent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityOrbitOrbitImageIntent.php',
+        'Google\\Service\\Contentwarehouse\\QualityOrbitOrbitImageIntents' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityOrbitOrbitImageIntents.php',
+        'Google\\Service\\Contentwarehouse\\QualityPreviewChosenSnippetInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityPreviewChosenSnippetInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityPreviewChosenSnippetInfoTidbitInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityPreviewChosenSnippetInfoTidbitInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityPreviewRanklabSnippet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityPreviewRanklabSnippet.php',
+        'Google\\Service\\Contentwarehouse\\QualityPreviewRanklabTitle' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityPreviewRanklabTitle.php',
+        'Google\\Service\\Contentwarehouse\\QualityPreviewSnippetBrainFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityPreviewSnippetBrainFeatures.php',
+        'Google\\Service\\Contentwarehouse\\QualityPreviewSnippetDocumentFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityPreviewSnippetDocumentFeatures.php',
+        'Google\\Service\\Contentwarehouse\\QualityPreviewSnippetExperimentalFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityPreviewSnippetExperimentalFeatures.php',
+        'Google\\Service\\Contentwarehouse\\QualityPreviewSnippetQualityFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityPreviewSnippetQualityFeatures.php',
+        'Google\\Service\\Contentwarehouse\\QualityPreviewSnippetQueryFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityPreviewSnippetQueryFeatures.php',
+        'Google\\Service\\Contentwarehouse\\QualityPreviewSnippetQueryTermCoverageFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityPreviewSnippetQueryTermCoverageFeatures.php',
+        'Google\\Service\\Contentwarehouse\\QualityPreviewSnippetRadishFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityPreviewSnippetRadishFeatures.php',
+        'Google\\Service\\Contentwarehouse\\QualityProductProductSiteData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityProductProductSiteData.php',
+        'Google\\Service\\Contentwarehouse\\QualityProductProductSiteDataLocaleData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityProductProductSiteDataLocaleData.php',
+        'Google\\Service\\Contentwarehouse\\QualityProseCSEUrlInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityProseCSEUrlInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityQrewriteAccountProvenance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityQrewriteAccountProvenance.php',
+        'Google\\Service\\Contentwarehouse\\QualityQrewriteAccountProvenanceGoogleAccount' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityQrewriteAccountProvenanceGoogleAccount.php',
+        'Google\\Service\\Contentwarehouse\\QualityQrewriteAccountProvenanceThirdPartyAccount' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityQrewriteAccountProvenanceThirdPartyAccount.php',
+        'Google\\Service\\Contentwarehouse\\QualityQrewriteAlternativeNameInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityQrewriteAlternativeNameInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityQrewriteCalendarReference' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityQrewriteCalendarReference.php',
+        'Google\\Service\\Contentwarehouse\\QualityQrewriteCandidateId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityQrewriteCandidateId.php',
+        'Google\\Service\\Contentwarehouse\\QualityQrewriteCandidateIdField' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityQrewriteCandidateIdField.php',
+        'Google\\Service\\Contentwarehouse\\QualityQrewriteContactCalendarName' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityQrewriteContactCalendarName.php',
+        'Google\\Service\\Contentwarehouse\\QualityQrewriteFamilyCalendarAlias' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityQrewriteFamilyCalendarAlias.php',
+        'Google\\Service\\Contentwarehouse\\QualityQrewritePersonalContactData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityQrewritePersonalContactData.php',
+        'Google\\Service\\Contentwarehouse\\QualityQrewritePrimaryCalendarAlias' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityQrewritePrimaryCalendarAlias.php',
+        'Google\\Service\\Contentwarehouse\\QualityQrewriteQRewriteAccountAwareCalendarAliasWrapper' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityQrewriteQRewriteAccountAwareCalendarAliasWrapper.php',
+        'Google\\Service\\Contentwarehouse\\QualityQrewriteRelationshipMemoryData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityQrewriteRelationshipMemoryData.php',
+        'Google\\Service\\Contentwarehouse\\QualityRankembedMustangMustangRankEmbedInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityRankembedMustangMustangRankEmbedInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityRankembedMustangMustangRankEmbedInfoCompressedEmbedding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityRankembedMustangMustangRankEmbedInfoCompressedEmbedding.php',
+        'Google\\Service\\Contentwarehouse\\QualityRichsnippetsAppsProtosLaunchAppInfoPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityRichsnippetsAppsProtosLaunchAppInfoPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\QualityRichsnippetsAppsProtosLaunchableAppPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityRichsnippetsAppsProtosLaunchableAppPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\QualitySalientCountriesSalientCountry' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySalientCountriesSalientCountry.php',
+        'Google\\Service\\Contentwarehouse\\QualitySalientCountriesSalientCountrySet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySalientCountriesSalientCountrySet.php',
+        'Google\\Service\\Contentwarehouse\\QualitySalientTermsDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySalientTermsDocData.php',
+        'Google\\Service\\Contentwarehouse\\QualitySalientTermsSalientTerm' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySalientTermsSalientTerm.php',
+        'Google\\Service\\Contentwarehouse\\QualitySalientTermsSalientTermSet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySalientTermsSalientTermSet.php',
+        'Google\\Service\\Contentwarehouse\\QualitySalientTermsSignalData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySalientTermsSignalData.php',
+        'Google\\Service\\Contentwarehouse\\QualitySalientTermsSignalTermData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySalientTermsSignalTermData.php',
+        'Google\\Service\\Contentwarehouse\\QualitySherlockKnexAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySherlockKnexAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\QualitySherlockKnexAnnotationItem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySherlockKnexAnnotationItem.php',
+        'Google\\Service\\Contentwarehouse\\QualityShoppingShoppingAttachment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityShoppingShoppingAttachment.php',
+        'Google\\Service\\Contentwarehouse\\QualityShoppingShoppingAttachmentLocale' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityShoppingShoppingAttachmentLocale.php',
+        'Google\\Service\\Contentwarehouse\\QualityShoppingShoppingAttachmentMokaFacetValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityShoppingShoppingAttachmentMokaFacetValue.php',
+        'Google\\Service\\Contentwarehouse\\QualityShoppingShoppingAttachmentOffer' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityShoppingShoppingAttachmentOffer.php',
+        'Google\\Service\\Contentwarehouse\\QualityShoppingShoppingAttachmentPBlock' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityShoppingShoppingAttachmentPBlock.php',
+        'Google\\Service\\Contentwarehouse\\QualityShoppingShoppingAttachmentPBlockImageInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityShoppingShoppingAttachmentPBlockImageInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityShoppingShoppingAttachmentProduct' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityShoppingShoppingAttachmentProduct.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapBreadcrumbTarget' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapBreadcrumbTarget.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapBreadcrumbTargetDoc' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapBreadcrumbTargetDoc.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapCoClickTarget' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapCoClickTarget.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapCoClickTargetDoc' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapCoClickTargetDoc.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapCoClickTargetDocCoClickByLocale' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapCoClickTargetDocCoClickByLocale.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapScoringSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapScoringSignals.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapSporcSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapSporcSignals.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapSubresult' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapSubresult.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapSubresultList' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapSubresultList.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapTarget' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapTarget.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapTargetGroup' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapTargetGroup.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapThirdPartyCarouselsListItemMuppetMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapThirdPartyCarouselsListItemMuppetMetadata.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapTopURL' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapTopURL.php',
+        'Google\\Service\\Contentwarehouse\\QualitySitemapTwoLevelTarget' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySitemapTwoLevelTarget.php',
+        'Google\\Service\\Contentwarehouse\\QualitySnippetsTruncationSnippetBoldedRange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySnippetsTruncationSnippetBoldedRange.php',
+        'Google\\Service\\Contentwarehouse\\QualitySnippetsTruncationSnippetBoldedRangePosition' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualitySnippetsTruncationSnippetBoldedRangePosition.php',
+        'Google\\Service\\Contentwarehouse\\QualityTimebasedDateReliability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTimebasedDateReliability.php',
+        'Google\\Service\\Contentwarehouse\\QualityTimebasedDateUnreliability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTimebasedDateUnreliability.php',
+        'Google\\Service\\Contentwarehouse\\QualityTimebasedLastSignificantUpdate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTimebasedLastSignificantUpdate.php',
+        'Google\\Service\\Contentwarehouse\\QualityTimebasedLastSignificantUpdateAdjustments' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTimebasedLastSignificantUpdateAdjustments.php',
+        'Google\\Service\\Contentwarehouse\\QualityTimebasedOldnessInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTimebasedOldnessInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityTimebasedPageType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTimebasedPageType.php',
+        'Google\\Service\\Contentwarehouse\\QualityTimebasedPetacatDateReliability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTimebasedPetacatDateReliability.php',
+        'Google\\Service\\Contentwarehouse\\QualityTimebasedPetacatDateUnreliability' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTimebasedPetacatDateUnreliability.php',
+        'Google\\Service\\Contentwarehouse\\QualityTimebasedSyntacticDate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTimebasedSyntacticDate.php',
+        'Google\\Service\\Contentwarehouse\\QualityTimebasedSyntacticDateDateRange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTimebasedSyntacticDateDateRange.php',
+        'Google\\Service\\Contentwarehouse\\QualityTimebasedSyntacticDatePosition' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTimebasedSyntacticDatePosition.php',
+        'Google\\Service\\Contentwarehouse\\QualityTravelGoodSitesData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTravelGoodSitesData.php',
+        'Google\\Service\\Contentwarehouse\\QualityTravelGoodSitesDataI18n' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTravelGoodSitesDataI18n.php',
+        'Google\\Service\\Contentwarehouse\\QualityTravelGoodSitesDataSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityTravelGoodSitesDataSignal.php',
+        'Google\\Service\\Contentwarehouse\\QualityVidyaVideoLanguageVideoLanguage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityVidyaVideoLanguageVideoLanguage.php',
+        'Google\\Service\\Contentwarehouse\\QualityViewsExtractionClusterInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityViewsExtractionClusterInfo.php',
+        'Google\\Service\\Contentwarehouse\\QualityWebanswersTranscriptAnnotations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityWebanswersTranscriptAnnotations.php',
+        'Google\\Service\\Contentwarehouse\\QualityWebanswersVideoTranscriptAnnotations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityWebanswersVideoTranscriptAnnotations.php',
+        'Google\\Service\\Contentwarehouse\\QualityWebanswersVideoYouTubeCaptionTimingInfoAnnotations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityWebanswersVideoYouTubeCaptionTimingInfoAnnotations.php',
+        'Google\\Service\\Contentwarehouse\\QualityWebanswersVideoYouTubeCaptionTimingInfoAnnotationsInstance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/QualityWebanswersVideoYouTubeCaptionTimingInfoAnnotationsInstance.php',
+        'Google\\Service\\Contentwarehouse\\RegistrationInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RegistrationInfo.php',
+        'Google\\Service\\Contentwarehouse\\ReneEmbedding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ReneEmbedding.php',
+        'Google\\Service\\Contentwarehouse\\ReneEmbeddingCluster' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ReneEmbeddingCluster.php',
+        'Google\\Service\\Contentwarehouse\\ReneEmbeddingClusterList' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ReneEmbeddingClusterList.php',
+        'Google\\Service\\Contentwarehouse\\ReneFaceResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ReneFaceResponse.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryAnnotationsGeoTopic' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryAnnotationsGeoTopic.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryAnnotationsGeoTopicality' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryAnnotationsGeoTopicality.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryAnnotationsGeoTopicalityScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryAnnotationsGeoTopicalityScore.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryAnnotationsMustangSentimentSnippetAnnotations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryAnnotationsMustangSentimentSnippetAnnotations.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryAnnotationsRdfaBreadcrumbs' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryAnnotationsRdfaBreadcrumbs.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryAnnotationsRdfaCrumb' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryAnnotationsRdfaCrumb.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryAnnotationsRdfaRdfaRichSnippetsApplication' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryAnnotationsRdfaRdfaRichSnippetsApplication.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryAnnotationsRdfaRdfaRichSnippetsApplicationAppTypeData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryAnnotationsRdfaRdfaRichSnippetsApplicationAppTypeData.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryAnnotationsRdfaRdfaRichSnippetsApplicationCountryPrice' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryAnnotationsRdfaRdfaRichSnippetsApplicationCountryPrice.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryAnnotationsRdfaRdfaRichSnippetsApplicationLocalizedTrustedGenome' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryAnnotationsRdfaRdfaRichSnippetsApplicationLocalizedTrustedGenome.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryAnnotationsRdfaRdfaRichSnippetsApplicationRank' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryAnnotationsRdfaRdfaRichSnippetsApplicationRank.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryAnnotationsRdfaRdfaRichSnippetsApplicationRankData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryAnnotationsRdfaRdfaRichSnippetsApplicationRankData.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefAbsoluteLegacyId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefAbsoluteLegacyId.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefAggregatedEntityNameScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefAggregatedEntityNameScores.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefAnchorIndices' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefAnchorIndices.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefAnnotatedCategoryInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefAnnotatedCategoryInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefAnnotationDebugInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefAnnotationDebugInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefAnnotationRatings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefAnnotationRatings.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefAnnotationStatsPerType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefAnnotationStatsPerType.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefAnnotatorCheckpointFprint' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefAnnotatorCheckpointFprint.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefAnnotatorProfile' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefAnnotatorProfile.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefBookEditionMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefBookEditionMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefBootstrappingScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefBootstrappingScore.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefCategoryAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefCategoryAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefCategoryAnnotationBrowsyTopic' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefCategoryAnnotationBrowsyTopic.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefCategoryAnnotationHitCatSource' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefCategoryAnnotationHitCatSource.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefCategoryAnnotationShoppingSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefCategoryAnnotationShoppingSignals.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefCategoryInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefCategoryInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefClusterMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefClusterMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefClusterProtoMidListRule' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefClusterProtoMidListRule.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefClusterProtoMidListRuleInstance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefClusterProtoMidListRuleInstance.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefClusterProtoRelationRule' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefClusterProtoRelationRule.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefClusterProtoRelationRuleInstance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefClusterProtoRelationRuleInstance.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefClusterProtoRuleInstance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefClusterProtoRuleInstance.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefCompactFlatPropertyValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefCompactFlatPropertyValue.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefCompactKgPropertyValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefCompactKgPropertyValue.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefCompactKgTopic' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefCompactKgTopic.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefCompactKgValue' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefCompactKgValue.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefComponentReference' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefComponentReference.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefConceptNameMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefConceptNameMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefDetailedEntityScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefDetailedEntityScores.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefDetailedMentionScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefDetailedMentionScores.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefDisplayInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefDisplayInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefDisplayName' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefDisplayName.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefDocLevelRelevanceRatings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefDocLevelRelevanceRatings.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefDocumentMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefDocumentMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefDomainSpecificRepresentation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefDomainSpecificRepresentation.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefEnricherDebugData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefEnricherDebugData.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefEntityAnnotations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefEntityAnnotations.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefEntityDebugInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefEntityDebugInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefEntityJoin' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefEntityJoin.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefEntityLinkMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefEntityLinkMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefEntityLinkSource' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefEntityLinkSource.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefEntityNameRatings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefEntityNameRatings.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefEntityNameRatingsEntityNameRating' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefEntityNameRatingsEntityNameRating.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefEntityNameScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefEntityNameScore.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefEntityNameSource' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefEntityNameSource.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefEntityScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefEntityScores.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefExplainedRangeInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefExplainedRangeInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefExplainedRangeInfoExplainedRange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefExplainedRangeInfoExplainedRange.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefExtendedEntityNameScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefExtendedEntityNameScore.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefExtraMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefExtraMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefFatcatCategory' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefFatcatCategory.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefForwardingUrls' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefForwardingUrls.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefFprintModifierProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefFprintModifierProto.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefFreebaseType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefFreebaseType.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefGenericIndices' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefGenericIndices.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefGeoMetadataProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefGeoMetadataProto.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefGeoMetadataProtoAddressSynonym' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefGeoMetadataProtoAddressSynonym.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefGlobalLinkInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefGlobalLinkInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefGlobalNameInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefGlobalNameInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefHumanRatings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefHumanRatings.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefImageMention' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefImageMention.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefImageQueryIndices' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefImageQueryIndices.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefJuggernautIndices' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefJuggernautIndices.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefKCAttributeMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefKCAttributeMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefKGCollection' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefKGCollection.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefLatentEntities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefLatentEntities.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefLatentEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefLatentEntity.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefLexicalAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefLexicalAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefLexicalRange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefLexicalRange.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefLightweightTokensMatchedLightweightToken' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefLightweightTokensMatchedLightweightToken.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefLightweightTokensPerMentionLightweightToken' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefLightweightTokensPerMentionLightweightToken.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefLightweightTokensPerNameLightweightToken' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefLightweightTokensPerNameLightweightToken.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefLinkInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefLinkInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefLinkKindFlags' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefLinkKindFlags.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefLinkKindInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefLinkKindInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefLocalizedString' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefLocalizedString.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefMdvcMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefMdvcMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefMdvcMetadataPerVertical' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefMdvcMetadataPerVertical.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefMention' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefMention.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefMentionAdditionalExplainedRange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefMentionAdditionalExplainedRange.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefMentionComponent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefMentionComponent.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefMentionCompoundMention' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefMentionCompoundMention.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefMentionDebugInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefMentionDebugInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefMentionEvalInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefMentionEvalInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefMentionRatings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefMentionRatings.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefMentionRatingsSingleMentionRating' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefMentionRatingsSingleMentionRating.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefMetaTagIndices' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefMetaTagIndices.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefNameDebugInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefNameDebugInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefNameDebugInfoCandidateInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefNameDebugInfoCandidateInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefNameInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefNameInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefNameScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefNameScores.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefNgramContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefNgramContext.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefNgramMention' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefNgramMention.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefOysterType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefOysterType.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPatternInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPatternInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPerDocRelevanceRating' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPerDocRelevanceRating.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPerDocRelevanceRatings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPerDocRelevanceRatings.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPersonalizationContextOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPersonalizationContextOutput.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPersonalizationContextOutputs' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPersonalizationContextOutputs.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPreprocessingNameEntityMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPreprocessingNameEntityMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPreprocessingNameEntityScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPreprocessingNameEntityScores.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPreprocessingNameSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPreprocessingNameSignals.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPreprocessingNameVariantData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPreprocessingNameVariantData.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPreprocessingNameVariantSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPreprocessingNameVariantSignals.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPreprocessingNormalizedNameData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPreprocessingNormalizedNameData.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPreprocessingOriginalNames' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPreprocessingOriginalNames.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPreprocessingOriginalNamesOriginalName' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPreprocessingOriginalNamesOriginalName.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPreprocessingUrlMatchingMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPreprocessingUrlMatchingMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPreprocessingUrlSourceInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPreprocessingUrlSourceInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPreprocessingUrlSourceInfoNewSchema' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPreprocessingUrlSourceInfoNewSchema.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefPreprocessingUrlSourceInfoOldSchema' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefPreprocessingUrlSourceInfoOldSchema.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefProcessorCounter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefProcessorCounter.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefProcessorTiming' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefProcessorTiming.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefProductMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefProductMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefQueryIndices' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefQueryIndices.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefRangeAnnotations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefRangeAnnotations.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefRangeMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefRangeMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefRefconDocumentMentionSpans' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefRefconDocumentMentionSpans.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefRefconMentionSpans' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefRefconMentionSpans.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefRefconQueryStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefRefconQueryStats.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefRefconRefconDocumentMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefRefconRefconDocumentMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefRefconRefconNameInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefRefconRefconNameInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefReferencePageScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefReferencePageScores.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefSegmentMention' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefSegmentMention.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefSegmentMentions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefSegmentMentions.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefSemanticDateRange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefSemanticDateRange.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefSimplifiedAnchor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefSimplifiedAnchor.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefSimplifiedAnchors' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefSimplifiedAnchors.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefSimplifiedCompositeDoc' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefSimplifiedCompositeDoc.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefSimplifiedForwardingDup' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefSimplifiedForwardingDup.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefSubSegmentIndex' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefSubSegmentIndex.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefSupportTransferRule' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefSupportTransferRule.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefTaskData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefTaskData.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefTaskDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefTaskDetails.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefToprefListMembership' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefToprefListMembership.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefToprefListMembershipListMember' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefToprefListMembershipListMember.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefToprefPageClassification' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefToprefPageClassification.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefToprefPageClassificationRatedTitle' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefToprefPageClassificationRatedTitle.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefTripleAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefTripleAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefTripleAnnotations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefTripleAnnotations.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefTripleMention' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefTripleMention.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefUniversalNgramData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefUniversalNgramData.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWebrefAnnotationStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWebrefAnnotationStats.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWebrefAttachmentMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWebrefAttachmentMetadata.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWebrefDocumentInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWebrefDocumentInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWebrefEntities' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWebrefEntities.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWebrefEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWebrefEntity.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWebrefEntityCollections' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWebrefEntityCollections.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWebrefEntityId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWebrefEntityId.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWebrefEntityRelationship' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWebrefEntityRelationship.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWebrefMustangAttachment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWebrefMustangAttachment.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWebrefMustangAttachmentUndermergedMembers' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWebrefMustangAttachmentUndermergedMembers.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWebrefOutlinkInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWebrefOutlinkInfo.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWebrefOutlinkInfos' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWebrefOutlinkInfos.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWebrefStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWebrefStatus.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWikipediaCategory' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWikipediaCategory.php',
+        'Google\\Service\\Contentwarehouse\\RepositoryWebrefWikipediaGeocode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RepositoryWebrefWikipediaGeocode.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamCoscamConjunction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamCoscamConjunction.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamCoscamDisjunction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamCoscamDisjunction.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamCoscamEasyConjunction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamCoscamEasyConjunction.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamCoscamEasyDisjunction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamCoscamEasyDisjunction.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamCoscamEasyRestrictDefinition' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamCoscamEasyRestrictDefinition.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamCoscamRestrictDefinition' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamCoscamRestrictDefinition.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamCoscamRestrictTokensV2' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamCoscamRestrictTokensV2.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamCoscamTokenGroup' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamCoscamTokenGroup.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamCustomRestrictEvaluationStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamCustomRestrictEvaluationStats.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamCustomRestrictNamespace' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamCustomRestrictNamespace.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamGenericFeatureVector' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamGenericFeatureVector.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamGenericFeatureVectorCrowding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamGenericFeatureVectorCrowding.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamGenericFeatureVectorFixedPointMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamGenericFeatureVectorFixedPointMetadata.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamGenericFeatureVectorRestrictTokens' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamGenericFeatureVectorRestrictTokens.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamNearestNeighbors' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamNearestNeighbors.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamNearestNeighborsNeighbor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamNearestNeighborsNeighbor.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamNeighborSelectionOverride' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamNeighborSelectionOverride.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamNumericRestrictNamespace' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamNumericRestrictNamespace.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamOnlineSearchLatencyStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamOnlineSearchLatencyStats.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamQueryMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamQueryMetadata.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamQueryResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamQueryResponse.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamRestrictEvaluationInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamRestrictEvaluationInfo.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamRestrictEvaluationInfoApplyTokenStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamRestrictEvaluationInfoApplyTokenStats.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamRestrictEvaluationInfoDirectLookupStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamRestrictEvaluationInfoDirectLookupStats.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamRestrictStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamRestrictStats.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamScoringExtensionMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamScoringExtensionMetadata.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamTokenNamespace' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamTokenNamespace.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScamV3Restrict' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScamV3Restrict.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchCatalog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchCatalog.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchCitation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchCitation.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchDataDownload' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchDataDownload.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchDataSize' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchDataSize.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchDate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchDate.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchFieldOfStudyInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchFieldOfStudyInfo.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchLicense' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchLicense.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchLocation.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchNavboostQueryInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchNavboostQueryInfo.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchOrganization' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchOrganization.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchReconciledMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchReconciledMetadata.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchReplica' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchReplica.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchScholarlyArticle' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchScholarlyArticle.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchSourceUrlDocjoinInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchSourceUrlDocjoinInfo.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchSourceUrlDocjoinInfoWebrefEntityInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchSourceUrlDocjoinInfoWebrefEntityInfo.php',
+        'Google\\Service\\Contentwarehouse\\ResearchScienceSearchVersionClusterInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchScienceSearchVersionClusterInfo.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonAgeClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonAgeClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonChinLengthClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonChinLengthClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonEyeColorClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonEyeColorClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonEyeEyebrowDistanceClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonEyeEyebrowDistanceClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonEyeShapeClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonEyeShapeClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonEyeSlantClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonEyeSlantClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonEyeVerticalPositionClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonEyeVerticalPositionClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonEyebrowShapeClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonEyebrowShapeClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonEyebrowThicknessClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonEyebrowThicknessClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonEyebrowWidthClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonEyebrowWidthClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonFace2CartoonResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonFace2CartoonResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonFaceWidthClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonFaceWidthClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonFacialHairClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonFacialHairClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonGenderClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonGenderClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonGlassesClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonGlassesClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonHairColorClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonHairColorClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonHairStyleClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonHairStyleClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonInterEyeDistanceClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonInterEyeDistanceClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonJawShapeClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonJawShapeClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonLipThicknessClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonLipThicknessClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonMouthVerticalPositionClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonMouthVerticalPositionClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonMouthWidthClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonMouthWidthClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonNoseVerticalPositionClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonNoseVerticalPositionClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonNoseWidthClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonNoseWidthClassifierResults.php',
+        'Google\\Service\\Contentwarehouse\\ResearchVisionFace2cartoonSkinToneClassifierResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ResearchVisionFace2cartoonSkinToneClassifierResults.php',
         'Google\\Service\\Contentwarehouse\\Resource\\Projects' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/Resource/Projects.php',
         'Google\\Service\\Contentwarehouse\\Resource\\ProjectsLocations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/Resource/ProjectsLocations.php',
         'Google\\Service\\Contentwarehouse\\Resource\\ProjectsLocationsDocumentSchemas' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/Resource/ProjectsLocationsDocumentSchemas.php',
@@ -18350,6 +20597,452 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Google\\Service\\Contentwarehouse\\Resource\\ProjectsLocationsOperations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/Resource/ProjectsLocationsOperations.php',
         'Google\\Service\\Contentwarehouse\\Resource\\ProjectsLocationsRuleSets' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/Resource/ProjectsLocationsRuleSets.php',
         'Google\\Service\\Contentwarehouse\\Resource\\ProjectsLocationsSynonymSets' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/Resource/ProjectsLocationsSynonymSets.php',
+        'Google\\Service\\Contentwarehouse\\RichsnippetsDataObject' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RichsnippetsDataObject.php',
+        'Google\\Service\\Contentwarehouse\\RichsnippetsDataObjectAttribute' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RichsnippetsDataObjectAttribute.php',
+        'Google\\Service\\Contentwarehouse\\RichsnippetsPageMap' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RichsnippetsPageMap.php',
+        'Google\\Service\\Contentwarehouse\\RichsnippetsPageMapTemplateType' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/RichsnippetsPageMapTemplateType.php',
+        'Google\\Service\\Contentwarehouse\\S3AudioLanguageS3AudioLanguage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/S3AudioLanguageS3AudioLanguage.php',
+        'Google\\Service\\Contentwarehouse\\SafesearchImageOffensiveAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SafesearchImageOffensiveAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\SafesearchInternalImageSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SafesearchInternalImageSignals.php',
+        'Google\\Service\\Contentwarehouse\\SafesearchVideoClassifierOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SafesearchVideoClassifierOutput.php',
+        'Google\\Service\\Contentwarehouse\\SafesearchVideoContentSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SafesearchVideoContentSignals.php',
+        'Google\\Service\\Contentwarehouse\\SafesearchVideoContentSignalsMultiLabelClassificationInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SafesearchVideoContentSignalsMultiLabelClassificationInfo.php',
+        'Google\\Service\\Contentwarehouse\\SafesearchVideoContentSignalsMultiLabelOutput' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SafesearchVideoContentSignalsMultiLabelOutput.php',
+        'Google\\Service\\Contentwarehouse\\ScholarCitationPredictionSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScholarCitationPredictionSignal.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitation.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitationAccessURL' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitationAccessURL.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitationAlternateAbstract' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitationAlternateAbstract.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitationAlternateTitle' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitationAlternateTitle.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitationAnchor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitationAnchor.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitationAuthor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitationAuthor.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitationCategory' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitationCategory.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitationDownloadURL' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitationDownloadURL.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitationFunding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitationFunding.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitationFundingExtractionInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitationFundingExtractionInfo.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitationReferenceDiscussion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitationReferenceDiscussion.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitationSubject' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitationSubject.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitationTranslatedAuthor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitationTranslatedAuthor.php',
+        'Google\\Service\\Contentwarehouse\\ScienceCitationUnionCatalog' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceCitationUnionCatalog.php',
+        'Google\\Service\\Contentwarehouse\\ScienceIndexSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceIndexSignal.php',
+        'Google\\Service\\Contentwarehouse\\ScienceIndexSignalAuthor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceIndexSignalAuthor.php',
+        'Google\\Service\\Contentwarehouse\\ScienceOceanView' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceOceanView.php',
+        'Google\\Service\\Contentwarehouse\\ScienceOceanViewCountryView' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ScienceOceanViewCountryView.php',
+        'Google\\Service\\Contentwarehouse\\SciencePerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SciencePerDocData.php',
+        'Google\\Service\\Contentwarehouse\\SciencePerDocDataAuthor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SciencePerDocDataAuthor.php',
+        'Google\\Service\\Contentwarehouse\\SciencePerDocDataReferenceDiscussion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SciencePerDocDataReferenceDiscussion.php',
+        'Google\\Service\\Contentwarehouse\\SciencePerDocDataSection' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SciencePerDocDataSection.php',
+        'Google\\Service\\Contentwarehouse\\SciencePerDocDataSignal' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SciencePerDocDataSignal.php',
+        'Google\\Service\\Contentwarehouse\\SdrEmbedding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SdrEmbedding.php',
+        'Google\\Service\\Contentwarehouse\\SdrPageAnchorsDocInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SdrPageAnchorsDocInfo.php',
+        'Google\\Service\\Contentwarehouse\\SdrPageAnchorsSitelink' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SdrPageAnchorsSitelink.php',
+        'Google\\Service\\Contentwarehouse\\SdrPageAnchorsSitelinkWrapper' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SdrPageAnchorsSitelinkWrapper.php',
+        'Google\\Service\\Contentwarehouse\\SdrScrollTo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SdrScrollTo.php',
+        'Google\\Service\\Contentwarehouse\\SdrScrollToOnPageMatches' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SdrScrollToOnPageMatches.php',
+        'Google\\Service\\Contentwarehouse\\SearchPolicyRankableSensitivity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SearchPolicyRankableSensitivity.php',
+        'Google\\Service\\Contentwarehouse\\SearchPolicyRankableSensitivityAttentionalEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SearchPolicyRankableSensitivityAttentionalEntity.php',
+        'Google\\Service\\Contentwarehouse\\SearchPolicyRankableSensitivityFollowOn' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SearchPolicyRankableSensitivityFollowOn.php',
+        'Google\\Service\\Contentwarehouse\\SearchPolicyRankableSensitivityFulfillment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SearchPolicyRankableSensitivityFulfillment.php',
+        'Google\\Service\\Contentwarehouse\\SearchPolicyRankableSensitivityGroundingProvider' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SearchPolicyRankableSensitivityGroundingProvider.php',
+        'Google\\Service\\Contentwarehouse\\SearchPolicyRankableSensitivityPrefilter' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SearchPolicyRankableSensitivityPrefilter.php',
+        'Google\\Service\\Contentwarehouse\\SearchPolicyRankableSensitivityQueryUnderstanding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SearchPolicyRankableSensitivityQueryUnderstanding.php',
+        'Google\\Service\\Contentwarehouse\\SearchPolicyRankableSensitivitySyntheticIntent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SearchPolicyRankableSensitivitySyntheticIntent.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsAllAuthenticatedUsersProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsAllAuthenticatedUsersProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsCapTokenHolderProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsCapTokenHolderProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsChatProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsChatProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsCircleProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsCircleProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsCloudPrincipalProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsCloudPrincipalProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsContactGroupProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsContactGroupProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsEmailOwnerProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsEmailOwnerProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsEventProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsEventProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsGaiaGroupProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsGaiaGroupProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsGaiaUserProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsGaiaUserProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsHostProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsHostProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsLdapGroupProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsLdapGroupProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsLdapUserProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsLdapUserProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsMdbGroupProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsMdbGroupProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsMdbUserProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsMdbUserProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsOAuthConsumerProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsOAuthConsumerProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsPostiniUserProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsPostiniUserProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsPrincipalProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsPrincipalProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsRbacRoleProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsRbacRoleProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsRbacSubjectProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsRbacSubjectProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsResourceRoleProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsResourceRoleProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsSigningKeyPossessorProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsSigningKeyPossessorProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsSimpleSecretHolderProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsSimpleSecretHolderProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsSimpleSecretLabelProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsSimpleSecretLabelProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsSocialGraphNodeProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsSocialGraphNodeProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsSquareProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsSquareProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsYoutubeUserProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsYoutubeUserProto.php',
+        'Google\\Service\\Contentwarehouse\\SecurityCredentialsZwiebackSessionProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SecurityCredentialsZwiebackSessionProto.php',
+        'Google\\Service\\Contentwarehouse\\SentenceBoundaryAnnotations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SentenceBoundaryAnnotations.php',
+        'Google\\Service\\Contentwarehouse\\SentenceBoundaryAnnotationsInstance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SentenceBoundaryAnnotationsInstance.php',
+        'Google\\Service\\Contentwarehouse\\SentimentSentiment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SentimentSentiment.php',
+        'Google\\Service\\Contentwarehouse\\SentimentSentimentBehaviors' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SentimentSentimentBehaviors.php',
+        'Google\\Service\\Contentwarehouse\\SentimentSentimentEmotions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SentimentSentimentEmotions.php',
+        'Google\\Service\\Contentwarehouse\\ShingleInfoPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ShingleInfoPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\ShingleSource' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ShingleSource.php',
+        'Google\\Service\\Contentwarehouse\\ShoppingWebentityShoppingAnnotationInferredImage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ShoppingWebentityShoppingAnnotationInferredImage.php',
+        'Google\\Service\\Contentwarehouse\\ShoppingWebentityShoppingAnnotationInferredImageNeardupInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ShoppingWebentityShoppingAnnotationInferredImageNeardupInfo.php',
+        'Google\\Service\\Contentwarehouse\\ShoppingWebentityShoppingAnnotationOfferAvailabilityInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ShoppingWebentityShoppingAnnotationOfferAvailabilityInfo.php',
+        'Google\\Service\\Contentwarehouse\\ShoppingWebentityShoppingAnnotationProductImage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ShoppingWebentityShoppingAnnotationProductImage.php',
+        'Google\\Service\\Contentwarehouse\\ShoppingWebentityShoppingAnnotationProductRating' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ShoppingWebentityShoppingAnnotationProductRating.php',
+        'Google\\Service\\Contentwarehouse\\ShoppingWebentityShoppingAnnotationSoriVersionId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ShoppingWebentityShoppingAnnotationSoriVersionId.php',
+        'Google\\Service\\Contentwarehouse\\Sitemap' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/Sitemap.php',
+        'Google\\Service\\Contentwarehouse\\SitemapDEPRECATEDTarget' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SitemapDEPRECATEDTarget.php',
+        'Google\\Service\\Contentwarehouse\\SmartphonePerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SmartphonePerDocData.php',
+        'Google\\Service\\Contentwarehouse\\SmearedWebLandingPageEntry' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SmearedWebLandingPageEntry.php',
+        'Google\\Service\\Contentwarehouse\\SnapshotBox' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SnapshotBox.php',
+        'Google\\Service\\Contentwarehouse\\SnapshotImageNode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SnapshotImageNode.php',
+        'Google\\Service\\Contentwarehouse\\SnapshotSnapshotDocument' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SnapshotSnapshotDocument.php',
+        'Google\\Service\\Contentwarehouse\\SnapshotSnapshotMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SnapshotSnapshotMetadata.php',
+        'Google\\Service\\Contentwarehouse\\SnapshotTextNode' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SnapshotTextNode.php',
+        'Google\\Service\\Contentwarehouse\\SnippetExtraInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SnippetExtraInfo.php',
+        'Google\\Service\\Contentwarehouse\\SnippetExtraInfoSnippetCandidateInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SnippetExtraInfoSnippetCandidateInfo.php',
+        'Google\\Service\\Contentwarehouse\\SnippetExtraInfoSnippetCandidateInfoExtendedSnippet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SnippetExtraInfoSnippetCandidateInfoExtendedSnippet.php',
+        'Google\\Service\\Contentwarehouse\\SnippetExtraInfoSnippetScoringInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SnippetExtraInfoSnippetScoringInfo.php',
+        'Google\\Service\\Contentwarehouse\\SnippetExtraInfoSnippetsBrainModelInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SnippetExtraInfoSnippetsBrainModelInfo.php',
+        'Google\\Service\\Contentwarehouse\\SnippetsLeadingtextLeadingTextAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SnippetsLeadingtextLeadingTextAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\SnippetsLeadingtextLeadingTextAnnotationPiece' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SnippetsLeadingtextLeadingTextAnnotationPiece.php',
+        'Google\\Service\\Contentwarehouse\\SnippetsLeadingtextLeadingTextInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SnippetsLeadingtextLeadingTextInfo.php',
+        'Google\\Service\\Contentwarehouse\\SocialCommonAttachmentAttachment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialCommonAttachmentAttachment.php',
+        'Google\\Service\\Contentwarehouse\\SocialCommonFormatting' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialCommonFormatting.php',
+        'Google\\Service\\Contentwarehouse\\SocialCommonHashtagData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialCommonHashtagData.php',
+        'Google\\Service\\Contentwarehouse\\SocialCommonLinkData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialCommonLinkData.php',
+        'Google\\Service\\Contentwarehouse\\SocialCommonSearchLinkData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialCommonSearchLinkData.php',
+        'Google\\Service\\Contentwarehouse\\SocialCommonSegment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialCommonSegment.php',
+        'Google\\Service\\Contentwarehouse\\SocialCommonSegments' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialCommonSegments.php',
+        'Google\\Service\\Contentwarehouse\\SocialCommonUserMentionData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialCommonUserMentionData.php',
+        'Google\\Service\\Contentwarehouse\\SocialDiscoveryExternalEntityKey' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialDiscoveryExternalEntityKey.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiAppContactData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiAppContactData.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiDataColumn' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiDataColumn.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoAndroidDeviceInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoAndroidDeviceInfo.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoBirthdayDecoration' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoBirthdayDecoration.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoContactCreateContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoContactCreateContext.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoContactDeletionContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoContactDeletionContext.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoContactEditContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoContactEditContext.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoContactMutationContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoContactMutationContext.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoContactPromptSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoContactPromptSettings.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoContactState' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoContactState.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoDailyRecurrence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoDailyRecurrence.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoDecorationOverlay' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoDecorationOverlay.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoDelegatedGroupId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoDelegatedGroupId.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoDisplayNameSource' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoDisplayNameSource.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoHostAppInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoHostAppInfo.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoImageReference' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoImageReference.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoLimitedProfileNameSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoLimitedProfileNameSettings.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoLimitedProfilePictureSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoLimitedProfilePictureSettings.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoLimitedProfileSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoLimitedProfileSettings.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoMonthlyDayRecurrence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoMonthlyDayRecurrence.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoMonthlyRecurrence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoMonthlyRecurrence.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoMonthlyWeekdayRecurrence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoMonthlyWeekdayRecurrence.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoNamePronunciationAudioMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoNamePronunciationAudioMetadata.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoNotificationTrigger' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoNotificationTrigger.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoPartialNameOptions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoPartialNameOptions.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoPartialNameOptionsNamePartSpec' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoPartialNameOptionsNamePartSpec.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoPartialNameOptionsParsedDisplayNameSpec' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoPartialNameOptionsParsedDisplayNameSpec.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoPartialNameOptionsTwoPartNameSpec' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoPartialNameOptionsTwoPartNameSpec.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoPhotoOverlay' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoPhotoOverlay.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoPrompt' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoPrompt.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoPromptContent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoPromptContent.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoPronounData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoPronounData.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoPronounEntry' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoPronounEntry.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoPronunciation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoPronunciation.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoPronunciations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoPronunciations.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoRecurrence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoRecurrence.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoRecurrenceRepeatForever' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoRecurrenceRepeatForever.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoRelativePosition' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoRelativePosition.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoRelativeScale' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoRelativeScale.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoSearchProfileData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoSearchProfileData.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoSearchProfileEducation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoSearchProfileEducation.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoSearchProfileEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoSearchProfileEntity.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoSearchProfileLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoSearchProfileLocation.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoSearchProfileLocationInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoSearchProfileLocationInfo.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoSearchProfileMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoSearchProfileMetadata.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoSearchProfileSocialLink' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoSearchProfileSocialLink.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoSearchProfileState' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoSearchProfileState.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoSearchProfileWorkplace' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoSearchProfileWorkplace.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoSingleRecurrence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoSingleRecurrence.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoSyncInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoSyncInfo.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoThirdPartyInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoThirdPartyInfo.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoUsageInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoUsageInfo.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoWeeklyRecurrence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoWeeklyRecurrence.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphApiProtoYearlyRecurrence' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphApiProtoYearlyRecurrence.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphWireProtoPeopleapiAffinityMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphWireProtoPeopleapiAffinityMetadata.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphWireProtoPeopleapiAffinityMetadataClientInteractionInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphWireProtoPeopleapiAffinityMetadataClientInteractionInfo.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphWireProtoPeopleapiAffinityMetadataCloudDeviceDataInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphWireProtoPeopleapiAffinityMetadataCloudDeviceDataInfo.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphWireProtoPeopleapiExtensionAppsWaldoExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphWireProtoPeopleapiExtensionAppsWaldoExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphWireProtoPeopleapiExtensionCorpDeskbookingLocationExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphWireProtoPeopleapiExtensionCorpDeskbookingLocationExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphWireProtoPeopleapiExtensionDynamiteExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphWireProtoPeopleapiExtensionDynamiteExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphWireProtoPeopleapiExtensionPaisaExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphWireProtoPeopleapiExtensionPaisaExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphWireProtoPeopleapiExtensionPeopleStackExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphWireProtoPeopleapiExtensionPeopleStackExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\SocialGraphWireProtoPeopleapiExtensionPeopleStackPersonExtendedData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialGraphWireProtoPeopleapiExtensionPeopleStackPersonExtendedData.php',
+        'Google\\Service\\Contentwarehouse\\SocialPersonalizationKnexAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialPersonalizationKnexAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\SocialPersonalizationKnexAnnotationItem' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialPersonalizationKnexAnnotationItem.php',
+        'Google\\Service\\Contentwarehouse\\SocialPersonalizationKnexAnnotationItemTopic' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialPersonalizationKnexAnnotationItemTopic.php',
+        'Google\\Service\\Contentwarehouse\\SocialStanzaDeliveryRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialStanzaDeliveryRestriction.php',
+        'Google\\Service\\Contentwarehouse\\SocialStanzaModerationInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialStanzaModerationInfo.php',
+        'Google\\Service\\Contentwarehouse\\SocialStanzaStanzaRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SocialStanzaStanzaRestriction.php',
+        'Google\\Service\\Contentwarehouse\\SpamBrainData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SpamBrainData.php',
+        'Google\\Service\\Contentwarehouse\\SpamBrainScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SpamBrainScore.php',
+        'Google\\Service\\Contentwarehouse\\SpamCookbookAction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SpamCookbookAction.php',
+        'Google\\Service\\Contentwarehouse\\SpamMuppetjoinsMuppetSignals' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SpamMuppetjoinsMuppetSignals.php',
+        'Google\\Service\\Contentwarehouse\\SpeechS3LanguageIdentificationResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SpeechS3LanguageIdentificationResult.php',
+        'Google\\Service\\Contentwarehouse\\SpeechS3Locale' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SpeechS3Locale.php',
+        'Google\\Service\\Contentwarehouse\\SpeechWaveHeader' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SpeechWaveHeader.php',
+        'Google\\Service\\Contentwarehouse\\StorageGraphBfgAuthorityFeedbackMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/StorageGraphBfgAuthorityFeedbackMetadata.php',
+        'Google\\Service\\Contentwarehouse\\StorageGraphBfgLegalRequestMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/StorageGraphBfgLegalRequestMetadata.php',
+        'Google\\Service\\Contentwarehouse\\StorageGraphBfgLivegraphProvenanceMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/StorageGraphBfgLivegraphProvenanceMetadata.php',
+        'Google\\Service\\Contentwarehouse\\StorageGraphBfgLlmPolicyMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/StorageGraphBfgLlmPolicyMetadata.php',
+        'Google\\Service\\Contentwarehouse\\StorageGraphBfgLmsPolicyMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/StorageGraphBfgLmsPolicyMetadata.php',
+        'Google\\Service\\Contentwarehouse\\StorageGraphBfgPolicyMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/StorageGraphBfgPolicyMetadata.php',
+        'Google\\Service\\Contentwarehouse\\StorageGraphBfgPublicInformationMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/StorageGraphBfgPublicInformationMetadata.php',
+        'Google\\Service\\Contentwarehouse\\StorageGraphBfgRwjPolicyMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/StorageGraphBfgRwjPolicyMetadata.php',
+        'Google\\Service\\Contentwarehouse\\StorageGraphBfgSpiiCertification' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/StorageGraphBfgSpiiCertification.php',
+        'Google\\Service\\Contentwarehouse\\StorageGraphBfgTripleProvenance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/StorageGraphBfgTripleProvenance.php',
+        'Google\\Service\\Contentwarehouse\\StorageGraphBfgUmpPolicyMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/StorageGraphBfgUmpPolicyMetadata.php',
+        'Google\\Service\\Contentwarehouse\\SuperrootPodcastsRecommendationsPodcastRecsFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SuperrootPodcastsRecommendationsPodcastRecsFeatures.php',
+        'Google\\Service\\Contentwarehouse\\SuperrootPodcastsRecommendationsPodcastRecsFeaturesUserLanguage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/SuperrootPodcastsRecommendationsPodcastRecsFeaturesUserLanguage.php',
+        'Google\\Service\\Contentwarehouse\\TelephoneNumber' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TelephoneNumber.php',
+        'Google\\Service\\Contentwarehouse\\TeragoogleDocumentInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TeragoogleDocumentInfo.php',
+        'Google\\Service\\Contentwarehouse\\TeragoogleDocumentInfoAttachment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TeragoogleDocumentInfoAttachment.php',
+        'Google\\Service\\Contentwarehouse\\TeragoogleDocumentInfoSection' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TeragoogleDocumentInfoSection.php',
+        'Google\\Service\\Contentwarehouse\\TeragoogleRepositoryAttachmentOptions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TeragoogleRepositoryAttachmentOptions.php',
+        'Google\\Service\\Contentwarehouse\\TitleSizeParams' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TitleSizeParams.php',
+        'Google\\Service\\Contentwarehouse\\ToolBarPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/ToolBarPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\TravelFlightsAirlineConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TravelFlightsAirlineConfig.php',
+        'Google\\Service\\Contentwarehouse\\TravelFlightsAirlineConfigContactInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TravelFlightsAirlineConfigContactInfo.php',
+        'Google\\Service\\Contentwarehouse\\TravelFlightsAirlineConfigCountryContactInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TravelFlightsAirlineConfigCountryContactInfo.php',
+        'Google\\Service\\Contentwarehouse\\TravelFlightsAirlineConfigGreenFaresInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TravelFlightsAirlineConfigGreenFaresInfo.php',
+        'Google\\Service\\Contentwarehouse\\TravelFlightsAirlineConfigLocalizedContactInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TravelFlightsAirlineConfigLocalizedContactInfo.php',
+        'Google\\Service\\Contentwarehouse\\TravelFlightsNameCatalogEntry' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TravelFlightsNameCatalogEntry.php',
+        'Google\\Service\\Contentwarehouse\\TravelFlightsNameCatalogProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TravelFlightsNameCatalogProto.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerClientServiceInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerClientServiceInfo.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerClientServiceInfoClientLabels' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerClientServiceInfoClientLabels.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerClientServiceInfoClientLabelsClientLabelValues' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerClientServiceInfoClientLabelsClientLabelValues.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerContentRangeInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerContentRangeInfo.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerCrawlTimes' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerCrawlTimes.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerEvent' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerEvent.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerFetchBodyData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerFetchBodyData.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerFetchReplyData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerFetchReplyData.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerFetchReplyDataCrawlDates' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerFetchReplyDataCrawlDates.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerFetchReplyDataDeliveryReport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerFetchReplyDataDeliveryReport.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerFetchReplyDataFetchStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerFetchReplyDataFetchStats.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerFetchReplyDataFetchStatsClientStateStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerFetchReplyDataFetchStatsClientStateStats.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerFetchReplyDataFetchStatsStateStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerFetchReplyDataFetchStatsStateStats.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerFetchReplyDataHTTPHeader' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerFetchReplyDataHTTPHeader.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerFetchReplyDataPartialResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerFetchReplyDataPartialResponse.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerFetchReplyDataProtocolResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerFetchReplyDataProtocolResponse.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerFetchReplyDataRedirects' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerFetchReplyDataRedirects.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerFetchReplyDataWebIOInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerFetchReplyDataWebIOInfo.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerFetchStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerFetchStatus.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerHostBucketData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerHostBucketData.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerHostBucketDataUrlList' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerHostBucketDataUrlList.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerLoggedVPCDestination' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerLoggedVPCDestination.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerMultiverseClientIdentifier' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerMultiverseClientIdentifier.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerOriginalClientParams' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerOriginalClientParams.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerPolicyData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerPolicyData.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerSSLCertificateInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerSSLCertificateInfo.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerTCPIPInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerTCPIPInfo.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerThrottleClientData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerThrottleClientData.php',
+        'Google\\Service\\Contentwarehouse\\TrawlerTrawlerPrivateFetchReplyData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/TrawlerTrawlerPrivateFetchReplyData.php',
+        'Google\\Service\\Contentwarehouse\\UniversalsearchNewPackerKnowledgeResultSupport' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/UniversalsearchNewPackerKnowledgeResultSupport.php',
+        'Google\\Service\\Contentwarehouse\\UniversalsearchNewPackerKnowledgeResultSupportProvenance' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/UniversalsearchNewPackerKnowledgeResultSupportProvenance.php',
+        'Google\\Service\\Contentwarehouse\\UrlPoisoningData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/UrlPoisoningData.php',
+        'Google\\Service\\Contentwarehouse\\UtilStatusProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/UtilStatusProto.php',
+        'Google\\Service\\Contentwarehouse\\VendingConsumerProtoTrustedGenomeAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VendingConsumerProtoTrustedGenomeAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\VendingConsumerProtoTrustedGenomeEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VendingConsumerProtoTrustedGenomeEntity.php',
+        'Google\\Service\\Contentwarehouse\\VendingConsumerProtoTrustedGenomeHierarchy' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VendingConsumerProtoTrustedGenomeHierarchy.php',
+        'Google\\Service\\Contentwarehouse\\VendingConsumerProtoTrustedGenomePolicy' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VendingConsumerProtoTrustedGenomePolicy.php',
+        'Google\\Service\\Contentwarehouse\\VendingConsumerProtoTrustedGenomePolicyTargetRegion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VendingConsumerProtoTrustedGenomePolicyTargetRegion.php',
+        'Google\\Service\\Contentwarehouse\\VideoAmbisonicsAmbisonicsMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoAmbisonicsAmbisonicsMetadata.php',
+        'Google\\Service\\Contentwarehouse\\VideoAssetsVenomACL' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoAssetsVenomACL.php',
+        'Google\\Service\\Contentwarehouse\\VideoAssetsVenomSettings' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoAssetsVenomSettings.php',
+        'Google\\Service\\Contentwarehouse\\VideoAssetsVenomTransition' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoAssetsVenomTransition.php',
+        'Google\\Service\\Contentwarehouse\\VideoAssetsVenomVideoId' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoAssetsVenomVideoId.php',
+        'Google\\Service\\Contentwarehouse\\VideoAudioStream' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoAudioStream.php',
+        'Google\\Service\\Contentwarehouse\\VideoClipInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoClipInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoClosedCaptions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoClosedCaptions.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchAnchorCommonFeatureSet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchAnchorCommonFeatureSet.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchAnchorCommonFeatureSetLabelSpanTimestamp' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchAnchorCommonFeatureSetLabelSpanTimestamp.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchAnchorThumbnail' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchAnchorThumbnail.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchAnchorThumbnailInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchAnchorThumbnailInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchAnchorsCommonFeatureSet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchAnchorsCommonFeatureSet.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchAnchorsThumbnailInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchAnchorsThumbnailInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchAspect' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchAspect.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchAsrCaption' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchAsrCaption.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchBleurtFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchBleurtFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchCaptionEntityAnchorFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchCaptionEntityAnchorFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchCaptionEntityAnchorSetFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchCaptionEntityAnchorSetFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchCaptionEntityDocInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchCaptionEntityDocInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchCaptionInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchCaptionInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchCaptionLabelFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchCaptionLabelFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchCaptionSpanAnchorFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchCaptionSpanAnchorFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchCaptionSpanAnchorSetFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchCaptionSpanAnchorSetFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchCommentAnchorSetFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchCommentAnchorSetFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchCommentAnchorSetFeaturesComment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchCommentAnchorSetFeaturesComment.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchDescriptionAnchorFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchDescriptionAnchorFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchDescriptionAnchorSetFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchDescriptionAnchorSetFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchDescriptionSpanInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchDescriptionSpanInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchDolphinEnsembleScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchDolphinEnsembleScore.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchDolphinFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchDolphinFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchDolphinScoringConfig' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchDolphinScoringConfig.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchEntityAnnotations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchEntityAnnotations.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchEntityGroupInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchEntityGroupInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchFrameSimilarityInterval' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchFrameSimilarityInterval.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchFrameStarburstData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchFrameStarburstData.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchGenerativePredictionFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchGenerativePredictionFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchGenerativeTopicPredictionFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchGenerativeTopicPredictionFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchInstructionAnchorFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchInstructionAnchorFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchInstructionTrainingDataAnchorFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchInstructionTrainingDataAnchorFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchListAnchorFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchListAnchorFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchListAnchorSetFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchListAnchorSetFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchListTrainingDataAnchorFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchListTrainingDataAnchorFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchListTrainingDataSetFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchListTrainingDataSetFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchMatchScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchMatchScores.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchMetricStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchMetricStats.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchMultimodalTopicFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchMultimodalTopicFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchMultimodalTopicTrainingFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchMultimodalTopicTrainingFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchNamedEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchNamedEntity.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchNavboostAnchorFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchNavboostAnchorFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchOCRText' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchOCRText.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchOcrAsrFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchOcrAsrFeature.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchOcrAsrSetFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchOcrAsrSetFeature.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchOcrDescriptionTrainingDataAnchorFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchOcrDescriptionTrainingDataAnchorFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchOcrDescriptionTrainingDataSetFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchOcrDescriptionTrainingDataSetFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchOcrVideoFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchOcrVideoFeature.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchOnScreenTextClusterFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchOnScreenTextClusterFeature.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchOnScreenTextFeature' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchOnScreenTextFeature.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchQbstTermsOverlapFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchQbstTermsOverlapFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchQnaAnchorFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchQnaAnchorFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchQnaAnchorSetFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchQnaAnchorSetFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchRankEmbedNearestNeighborsFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchRankEmbedNearestNeighborsFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchSaftEntityInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchSaftEntityInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchShoppingOpinionsAnchorFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchShoppingOpinionsAnchorFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchSimilarityMatchInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchSimilarityMatchInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchSpanDolphinFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchSpanDolphinFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchSpanDolphinScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchSpanDolphinScores.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchSpanDolphinScoresSpanCandidate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchSpanDolphinScoresSpanCandidate.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchSpanDolphinScoresSpanToken' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchSpanDolphinScoresSpanToken.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchSportsKeyMomentsAnchorSetFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchSportsKeyMomentsAnchorSetFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchTextMatchInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchTextMatchInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchTextSimilarityFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchTextSimilarityFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchTokenAlignment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchTokenAlignment.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchTokenTimingInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchTokenTimingInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoActions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoActions.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoAnchor' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoAnchor.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoAnchorRatingScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoAnchorRatingScore.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoAnchorScoreInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoAnchorScoreInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoAnchorScoreInfoLabelTransformation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoAnchorScoreInfoLabelTransformation.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoAnchorSetRatingScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoAnchorSetRatingScore.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoAnchorSets' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoAnchorSets.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoAnchors' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoAnchors.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoAnchorsScoreInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoAnchorsScoreInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoCommonFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoCommonFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoGeneratedQueryFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoGeneratedQueryFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoIntroduction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoIntroduction.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoMultimodalTopicFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoMultimodalTopicFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVideoScoreInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVideoScoreInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoContentSearchVisualFeatures' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoContentSearchVisualFeatures.php',
+        'Google\\Service\\Contentwarehouse\\VideoCrawlVideoInlinePlaybackMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoCrawlVideoInlinePlaybackMetadata.php',
+        'Google\\Service\\Contentwarehouse\\VideoDoViDecoderConfiguration' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoDoViDecoderConfiguration.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileColorInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileColorInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileContentLightLevel' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileContentLightLevel.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileFramePackingArrangement' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileFramePackingArrangement.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileHDR10PlusStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileHDR10PlusStats.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileMasteringDisplayMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileMasteringDisplayMetadata.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileMasteringDisplayMetadataCIE1931Coordinate' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileMasteringDisplayMetadataCIE1931Coordinate.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileSphericalMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileSphericalMetadata.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileSphericalMetadataCroppedArea' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileSphericalMetadataCroppedArea.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileSphericalMetadataCubemapProjection' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileSphericalMetadataCubemapProjection.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileSphericalMetadataEquirectProjection' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileSphericalMetadataEquirectProjection.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileSphericalMetadataFOVBounds' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileSphericalMetadataFOVBounds.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileSphericalMetadataMeshProjection' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileSphericalMetadataMeshProjection.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileSphericalMetadataPose' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileSphericalMetadataPose.php',
+        'Google\\Service\\Contentwarehouse\\VideoFileSphericalMetadataViewDirection' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoFileSphericalMetadataViewDirection.php',
+        'Google\\Service\\Contentwarehouse\\VideoGoogleVideoClipInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoGoogleVideoClipInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoLegosLegosAnnotationsSet' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoLegosLegosAnnotationsSet.php',
+        'Google\\Service\\Contentwarehouse\\VideoLegosLegosAnnotationsSets' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoLegosLegosAnnotationsSets.php',
+        'Google\\Service\\Contentwarehouse\\VideoMediaInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoMediaInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoMediaOverview' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoMediaOverview.php',
+        'Google\\Service\\Contentwarehouse\\VideoMediaOverviewAudioOverview' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoMediaOverviewAudioOverview.php',
+        'Google\\Service\\Contentwarehouse\\VideoMediaOverviewDataOverview' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoMediaOverviewDataOverview.php',
+        'Google\\Service\\Contentwarehouse\\VideoMediaOverviewMediaClipInfoOverview' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoMediaOverviewMediaClipInfoOverview.php',
+        'Google\\Service\\Contentwarehouse\\VideoMediaOverviewTimedTextOverview' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoMediaOverviewTimedTextOverview.php',
+        'Google\\Service\\Contentwarehouse\\VideoMediaOverviewVideoOverview' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoMediaOverviewVideoOverview.php',
+        'Google\\Service\\Contentwarehouse\\VideoPerDocData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoPerDocData.php',
+        'Google\\Service\\Contentwarehouse\\VideoPipelineViperThumbnailerColumnData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoPipelineViperThumbnailerColumnData.php',
+        'Google\\Service\\Contentwarehouse\\VideoPipelineViperVSIColumnData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoPipelineViperVSIColumnData.php',
+        'Google\\Service\\Contentwarehouse\\VideoPipelineViperVSIColumnDataVsiStats' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoPipelineViperVSIColumnDataVsiStats.php',
+        'Google\\Service\\Contentwarehouse\\VideoRational32' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoRational32.php',
+        'Google\\Service\\Contentwarehouse\\VideoSEIMessage' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoSEIMessage.php',
+        'Google\\Service\\Contentwarehouse\\VideoStorageLoudnessData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoStorageLoudnessData.php',
+        'Google\\Service\\Contentwarehouse\\VideoThumbnailsFrameFile' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoThumbnailsFrameFile.php',
+        'Google\\Service\\Contentwarehouse\\VideoThumbnailsFrameFileList' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoThumbnailsFrameFileList.php',
+        'Google\\Service\\Contentwarehouse\\VideoThumbnailsThumbnailScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoThumbnailsThumbnailScore.php',
+        'Google\\Service\\Contentwarehouse\\VideoTimedtextS4ALIResults' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoTimedtextS4ALIResults.php',
+        'Google\\Service\\Contentwarehouse\\VideoTimedtextS4LangScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoTimedtextS4LangScore.php',
+        'Google\\Service\\Contentwarehouse\\VideoUserDataRegisteredItuTT35' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoUserDataRegisteredItuTT35.php',
+        'Google\\Service\\Contentwarehouse\\VideoUserDataUnregistered' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoUserDataUnregistered.php',
+        'Google\\Service\\Contentwarehouse\\VideoVideoClipInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoVideoClipInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoVideoGeoLocation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoVideoGeoLocation.php',
+        'Google\\Service\\Contentwarehouse\\VideoVideoStream' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoVideoStream.php',
+        'Google\\Service\\Contentwarehouse\\VideoVideoStreamInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoVideoStreamInfo.php',
+        'Google\\Service\\Contentwarehouse\\VideoVideoStreamInfoAudioStream' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoVideoStreamInfoAudioStream.php',
+        'Google\\Service\\Contentwarehouse\\VideoVideoStreamInfoDataStream' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoVideoStreamInfoDataStream.php',
+        'Google\\Service\\Contentwarehouse\\VideoVideoStreamInfoMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoVideoStreamInfoMetadata.php',
+        'Google\\Service\\Contentwarehouse\\VideoVideoStreamInfoMetadataLutAttachments' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoVideoStreamInfoMetadataLutAttachments.php',
+        'Google\\Service\\Contentwarehouse\\VideoVideoStreamInfoMetadataLutAttachmentsLut3D' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoVideoStreamInfoMetadataLutAttachmentsLut3D.php',
+        'Google\\Service\\Contentwarehouse\\VideoVideoStreamInfoTimedTextStream' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoVideoStreamInfoTimedTextStream.php',
+        'Google\\Service\\Contentwarehouse\\VideoVideoStreamInfoVideoStream' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoVideoStreamInfoVideoStream.php',
+        'Google\\Service\\Contentwarehouse\\VideoVideoStreamInfoVideoStreamCleanAperture' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoVideoStreamInfoVideoStreamCleanAperture.php',
+        'Google\\Service\\Contentwarehouse\\VideoVideoStreamInfoVideoStreamStatistics' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoVideoStreamInfoVideoStreamStatistics.php',
+        'Google\\Service\\Contentwarehouse\\VideoYoutubeCommentsClassificationProtoSmartSuggestion' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoYoutubeCommentsClassificationProtoSmartSuggestion.php',
+        'Google\\Service\\Contentwarehouse\\VideoYoutubeCommentsClassificationProtoYouTubeCommentSmartReply' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoYoutubeCommentsClassificationProtoYouTubeCommentSmartReply.php',
+        'Google\\Service\\Contentwarehouse\\VideoYoutubeCommentsRankingCTRMetrics' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/VideoYoutubeCommentsRankingCTRMetrics.php',
+        'Google\\Service\\Contentwarehouse\\WWWDocInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WWWDocInfo.php',
+        'Google\\Service\\Contentwarehouse\\WWWDocInfoRelatedImages' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WWWDocInfoRelatedImages.php',
+        'Google\\Service\\Contentwarehouse\\WWWDocInfoThumbnail' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WWWDocInfoThumbnail.php',
+        'Google\\Service\\Contentwarehouse\\WWWMetaTag' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WWWMetaTag.php',
+        'Google\\Service\\Contentwarehouse\\WWWResultInfoMinimalAestheticsAdjusterInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WWWResultInfoMinimalAestheticsAdjusterInfo.php',
+        'Google\\Service\\Contentwarehouse\\WWWResultInfoSubImageDocInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WWWResultInfoSubImageDocInfo.php',
+        'Google\\Service\\Contentwarehouse\\WWWSnippetResponse' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WWWSnippetResponse.php',
+        'Google\\Service\\Contentwarehouse\\WWWSnippetResponseBitmapPB' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WWWSnippetResponseBitmapPB.php',
+        'Google\\Service\\Contentwarehouse\\WatchpageLanguageWatchPageLanguageModelPredictions' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WatchpageLanguageWatchPageLanguageModelPredictions.php',
+        'Google\\Service\\Contentwarehouse\\WatchpageLanguageWatchPageLanguageModelPredictionsLanguageScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WatchpageLanguageWatchPageLanguageModelPredictionsLanguageScore.php',
+        'Google\\Service\\Contentwarehouse\\WatchpageLanguageWatchPageLanguageResult' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WatchpageLanguageWatchPageLanguageResult.php',
+        'Google\\Service\\Contentwarehouse\\WeboftrustLiveResultDocBoostData' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WeboftrustLiveResultDocBoostData.php',
+        'Google\\Service\\Contentwarehouse\\WeboftrustLiveResultProviderDocAttachment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WeboftrustLiveResultProviderDocAttachment.php',
+        'Google\\Service\\Contentwarehouse\\WeboftrustLiveResultsDocAttachments' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WeboftrustLiveResultsDocAttachments.php',
+        'Google\\Service\\Contentwarehouse\\WeboftrustTimeRange' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WeboftrustTimeRange.php',
+        'Google\\Service\\Contentwarehouse\\WebutilHtmlTypesSafeHtmlProto' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WebutilHtmlTypesSafeHtmlProto.php',
+        'Google\\Service\\Contentwarehouse\\WirelessTranscoderFetchFetchMetadata' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WirelessTranscoderFetchFetchMetadata.php',
+        'Google\\Service\\Contentwarehouse\\WirelessTranscoderFetchFetchSourceInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/WirelessTranscoderFetchFetchSourceInfo.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeBackstageSuperVodCommentInfo' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeBackstageSuperVodCommentInfo.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsApiCommentEnforcementStatus' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsApiCommentEnforcementStatus.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsApiCommentEnforcementStatusUserModerationDecision' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsApiCommentEnforcementStatusUserModerationDecision.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsApiCommentModeratedRestriction' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsApiCommentModeratedRestriction.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsApiCommentModeratedRestrictionAutoModDecisionEnforcement' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsApiCommentModeratedRestrictionAutoModDecisionEnforcement.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsApiCommentRestrictionIssuer' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsApiCommentRestrictionIssuer.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsApiCommentRestrictionIssuerChannelModeratorDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsApiCommentRestrictionIssuerChannelModeratorDetails.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsApiCommentRestrictionIssuerChannelOwnerDetails' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsApiCommentRestrictionIssuerChannelOwnerDetails.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsApiCommentRestrictionReason' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsApiCommentRestrictionReason.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsClusteringMiniStanza' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsClusteringMiniStanza.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsRankingYouTubeCommentTextEmbedding' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsRankingYouTubeCommentTextEmbedding.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsRankingYouTubeCommentTextQualityAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsRankingYouTubeCommentTextQualityAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsSentimentSentiment' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsSentimentSentiment.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsSentimentSentimentEntitySentimentAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsSentimentSentimentEntitySentimentAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeCommentsSentimentSentimentEntitySentimentAnnotationMentionSentimentAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeCommentsSentimentSentimentEntitySentimentAnnotationMentionSentimentAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeDiscoveryLegosLegosAnnotation' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeDiscoveryLegosLegosAnnotation.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeDiscoveryLegosLegosAnnotations' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeDiscoveryLegosLegosAnnotations.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeDiscoveryLegosLegosEntity' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeDiscoveryLegosLegosEntity.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeDiscoveryLegosLegosFormatRelationship' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeDiscoveryLegosLegosFormatRelationship.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeDiscoveryLegosLegosPresentRelationship' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeDiscoveryLegosLegosPresentRelationship.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeDiscoveryLegosLegosSemanticRelationship' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeDiscoveryLegosLegosSemanticRelationship.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeDiscoveryLegosLegosSemanticRelationshipContext' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeDiscoveryLegosLegosSemanticRelationshipContext.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeDiscoveryLegosLegosTaxonomicRelationship' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeDiscoveryLegosLegosTaxonomicRelationship.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeDistillerBlarneyStoneScores' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeDistillerBlarneyStoneScores.php',
+        'Google\\Service\\Contentwarehouse\\YoutubeDistillerModelScore' => __DIR__ . '/..' . '/google/apiclient-services/src/Contentwarehouse/YoutubeDistillerModelScore.php',
         'Google\\Service\\Css' => __DIR__ . '/..' . '/google/apiclient-services/src/Css.php',
         'Google\\Service\\Css\\Account' => __DIR__ . '/..' . '/google/apiclient-services/src/Css/Account.php',
         'Google\\Service\\Css\\AccountLabel' => __DIR__ . '/..' . '/google/apiclient-services/src/Css/AccountLabel.php',
@@ -40329,11 +43022,13 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Spatie\\Backtrace\\Arguments\\Reducers\\StringableArgumentReducer' => __DIR__ . '/..' . '/spatie/backtrace/src/Arguments/Reducers/StringableArgumentReducer.php',
         'Spatie\\Backtrace\\Arguments\\Reducers\\SymphonyRequestArgumentReducer' => __DIR__ . '/..' . '/spatie/backtrace/src/Arguments/Reducers/SymphonyRequestArgumentReducer.php',
         'Spatie\\Backtrace\\Backtrace' => __DIR__ . '/..' . '/spatie/backtrace/src/Backtrace.php',
+        'Spatie\\Backtrace\\CodeSnippet' => __DIR__ . '/..' . '/spatie/backtrace/src/CodeSnippet.php',
         'Spatie\\Backtrace\\CodeSnippets\\CodeSnippet' => __DIR__ . '/..' . '/spatie/backtrace/src/CodeSnippets/CodeSnippet.php',
         'Spatie\\Backtrace\\CodeSnippets\\FileSnippetProvider' => __DIR__ . '/..' . '/spatie/backtrace/src/CodeSnippets/FileSnippetProvider.php',
         'Spatie\\Backtrace\\CodeSnippets\\LaravelSerializableClosureSnippetProvider' => __DIR__ . '/..' . '/spatie/backtrace/src/CodeSnippets/LaravelSerializableClosureSnippetProvider.php',
         'Spatie\\Backtrace\\CodeSnippets\\NullSnippetProvider' => __DIR__ . '/..' . '/spatie/backtrace/src/CodeSnippets/NullSnippetProvider.php',
         'Spatie\\Backtrace\\CodeSnippets\\SnippetProvider' => __DIR__ . '/..' . '/spatie/backtrace/src/CodeSnippets/SnippetProvider.php',
+        'Spatie\\Backtrace\\File' => __DIR__ . '/..' . '/spatie/backtrace/src/File.php',
         'Spatie\\Backtrace\\Frame' => __DIR__ . '/..' . '/spatie/backtrace/src/Frame.php',
         'Spatie\\CalendarLinks\\Exceptions\\InvalidLink' => __DIR__ . '/..' . '/spatie/calendar-links/src/Exceptions/InvalidLink.php',
         'Spatie\\CalendarLinks\\Generator' => __DIR__ . '/..' . '/spatie/calendar-links/src/Generator.php',
@@ -42253,6 +44948,16 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Twilio\\Rest\\Api\\V2010\\Account\\Call\\EventInstance' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/EventInstance.php',
         'Twilio\\Rest\\Api\\V2010\\Account\\Call\\EventList' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/EventList.php',
         'Twilio\\Rest\\Api\\V2010\\Account\\Call\\EventPage' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/EventPage.php',
+        'Twilio\\Rest\\Api\\V2010\\Account\\Call\\FeedbackContext' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/FeedbackContext.php',
+        'Twilio\\Rest\\Api\\V2010\\Account\\Call\\FeedbackInstance' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/FeedbackInstance.php',
+        'Twilio\\Rest\\Api\\V2010\\Account\\Call\\FeedbackList' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/FeedbackList.php',
+        'Twilio\\Rest\\Api\\V2010\\Account\\Call\\FeedbackOptions' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/FeedbackOptions.php',
+        'Twilio\\Rest\\Api\\V2010\\Account\\Call\\FeedbackPage' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/FeedbackPage.php',
+        'Twilio\\Rest\\Api\\V2010\\Account\\Call\\FeedbackSummaryContext' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryContext.php',
+        'Twilio\\Rest\\Api\\V2010\\Account\\Call\\FeedbackSummaryInstance' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryInstance.php',
+        'Twilio\\Rest\\Api\\V2010\\Account\\Call\\FeedbackSummaryList' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryList.php',
+        'Twilio\\Rest\\Api\\V2010\\Account\\Call\\FeedbackSummaryOptions' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryOptions.php',
+        'Twilio\\Rest\\Api\\V2010\\Account\\Call\\FeedbackSummaryPage' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryPage.php',
         'Twilio\\Rest\\Api\\V2010\\Account\\Call\\NotificationContext' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/NotificationContext.php',
         'Twilio\\Rest\\Api\\V2010\\Account\\Call\\NotificationInstance' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/NotificationInstance.php',
         'Twilio\\Rest\\Api\\V2010\\Account\\Call\\NotificationList' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/Call/NotificationList.php',
@@ -42866,6 +45571,16 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Twilio\\Rest\\FlexApi\\V1\\InsightsAssessmentsCommentList' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsAssessmentsCommentList.php',
         'Twilio\\Rest\\FlexApi\\V1\\InsightsAssessmentsCommentOptions' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsAssessmentsCommentOptions.php',
         'Twilio\\Rest\\FlexApi\\V1\\InsightsAssessmentsCommentPage' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsAssessmentsCommentPage.php',
+        'Twilio\\Rest\\FlexApi\\V1\\InsightsConversationalAiContext' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsConversationalAiContext.php',
+        'Twilio\\Rest\\FlexApi\\V1\\InsightsConversationalAiInstance' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsConversationalAiInstance.php',
+        'Twilio\\Rest\\FlexApi\\V1\\InsightsConversationalAiList' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsConversationalAiList.php',
+        'Twilio\\Rest\\FlexApi\\V1\\InsightsConversationalAiOptions' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsConversationalAiOptions.php',
+        'Twilio\\Rest\\FlexApi\\V1\\InsightsConversationalAiPage' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsConversationalAiPage.php',
+        'Twilio\\Rest\\FlexApi\\V1\\InsightsConversationalAiReportInsightsContext' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsConversationalAiReportInsightsContext.php',
+        'Twilio\\Rest\\FlexApi\\V1\\InsightsConversationalAiReportInsightsInstance' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsConversationalAiReportInsightsInstance.php',
+        'Twilio\\Rest\\FlexApi\\V1\\InsightsConversationalAiReportInsightsList' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsConversationalAiReportInsightsList.php',
+        'Twilio\\Rest\\FlexApi\\V1\\InsightsConversationalAiReportInsightsOptions' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsConversationalAiReportInsightsOptions.php',
+        'Twilio\\Rest\\FlexApi\\V1\\InsightsConversationalAiReportInsightsPage' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsConversationalAiReportInsightsPage.php',
         'Twilio\\Rest\\FlexApi\\V1\\InsightsConversationsInstance' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsConversationsInstance.php',
         'Twilio\\Rest\\FlexApi\\V1\\InsightsConversationsList' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsConversationsList.php',
         'Twilio\\Rest\\FlexApi\\V1\\InsightsConversationsOptions' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/FlexApi/V1/InsightsConversationsOptions.php',
@@ -43187,6 +45902,28 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Twilio\\Rest\\Lookups\\V2\\PhoneNumberOptions' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Lookups/V2/PhoneNumberOptions.php',
         'Twilio\\Rest\\Lookups\\V2\\PhoneNumberPage' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Lookups/V2/PhoneNumberPage.php',
         'Twilio\\Rest\\Media' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media.php',
+        'Twilio\\Rest\\MediaBase' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/MediaBase.php',
+        'Twilio\\Rest\\Media\\V1' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1.php',
+        'Twilio\\Rest\\Media\\V1\\MediaProcessorContext' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/MediaProcessorContext.php',
+        'Twilio\\Rest\\Media\\V1\\MediaProcessorInstance' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/MediaProcessorInstance.php',
+        'Twilio\\Rest\\Media\\V1\\MediaProcessorList' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/MediaProcessorList.php',
+        'Twilio\\Rest\\Media\\V1\\MediaProcessorOptions' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/MediaProcessorOptions.php',
+        'Twilio\\Rest\\Media\\V1\\MediaProcessorPage' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/MediaProcessorPage.php',
+        'Twilio\\Rest\\Media\\V1\\MediaRecordingContext' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/MediaRecordingContext.php',
+        'Twilio\\Rest\\Media\\V1\\MediaRecordingInstance' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/MediaRecordingInstance.php',
+        'Twilio\\Rest\\Media\\V1\\MediaRecordingList' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/MediaRecordingList.php',
+        'Twilio\\Rest\\Media\\V1\\MediaRecordingOptions' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/MediaRecordingOptions.php',
+        'Twilio\\Rest\\Media\\V1\\MediaRecordingPage' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/MediaRecordingPage.php',
+        'Twilio\\Rest\\Media\\V1\\PlayerStreamerContext' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/PlayerStreamerContext.php',
+        'Twilio\\Rest\\Media\\V1\\PlayerStreamerInstance' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/PlayerStreamerInstance.php',
+        'Twilio\\Rest\\Media\\V1\\PlayerStreamerList' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/PlayerStreamerList.php',
+        'Twilio\\Rest\\Media\\V1\\PlayerStreamerOptions' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/PlayerStreamerOptions.php',
+        'Twilio\\Rest\\Media\\V1\\PlayerStreamerPage' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/PlayerStreamerPage.php',
+        'Twilio\\Rest\\Media\\V1\\PlayerStreamer\\PlaybackGrantContext' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/PlayerStreamer/PlaybackGrantContext.php',
+        'Twilio\\Rest\\Media\\V1\\PlayerStreamer\\PlaybackGrantInstance' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/PlayerStreamer/PlaybackGrantInstance.php',
+        'Twilio\\Rest\\Media\\V1\\PlayerStreamer\\PlaybackGrantList' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/PlayerStreamer/PlaybackGrantList.php',
+        'Twilio\\Rest\\Media\\V1\\PlayerStreamer\\PlaybackGrantOptions' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/PlayerStreamer/PlaybackGrantOptions.php',
+        'Twilio\\Rest\\Media\\V1\\PlayerStreamer\\PlaybackGrantPage' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Media/V1/PlayerStreamer/PlaybackGrantPage.php',
         'Twilio\\Rest\\Messaging' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Messaging.php',
         'Twilio\\Rest\\MessagingBase' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/MessagingBase.php',
         'Twilio\\Rest\\Messaging\\V1' => __DIR__ . '/..' . '/twilio/sdk/src/Twilio/Rest/Messaging/V1.php',
@@ -44602,6 +47339,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Vonage\\Account\\Price' => __DIR__ . '/..' . '/vonage/client-core/src/Account/Price.php',
         'Vonage\\Account\\SmsPrice' => __DIR__ . '/..' . '/vonage/client-core/src/Account/SmsPrice.php',
         'Vonage\\Account\\VoicePrice' => __DIR__ . '/..' . '/vonage/client-core/src/Account/VoicePrice.php',
+        'Vonage\\ApiErrorHandler' => __DIR__ . '/..' . '/vonage/client-core/src/ApiErrorHandler.php',
         'Vonage\\Application\\Application' => __DIR__ . '/..' . '/vonage/client-core/src/Application/Application.php',
         'Vonage\\Application\\ApplicationInterface' => __DIR__ . '/..' . '/vonage/client-core/src/Application/ApplicationInterface.php',
         'Vonage\\Application\\Client' => __DIR__ . '/..' . '/vonage/client-core/src/Application/Client.php',
@@ -44681,6 +47419,11 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Vonage\\Conversation\\Filter\\ListUserConversationsFilter' => __DIR__ . '/..' . '/vonage/client-core/src/Conversation/Filter/ListUserConversationsFilter.php',
         'Vonage\\Conversion\\Client' => __DIR__ . '/..' . '/vonage/client-core/src/Conversion/Client.php',
         'Vonage\\Conversion\\ClientFactory' => __DIR__ . '/..' . '/vonage/client-core/src/Conversion/ClientFactory.php',
+        'Vonage\\Entity\\ArrayAccessTrait' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/ArrayAccessTrait.php',
+        'Vonage\\Entity\\CollectionAwareInterface' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/CollectionAwareInterface.php',
+        'Vonage\\Entity\\CollectionAwareTrait' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/CollectionAwareTrait.php',
+        'Vonage\\Entity\\CollectionInterface' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/CollectionInterface.php',
+        'Vonage\\Entity\\CollectionTrait' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/CollectionTrait.php',
         'Vonage\\Entity\\EntityInterface' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/EntityInterface.php',
         'Vonage\\Entity\\Factory\\FactoryInterface' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/Factory/FactoryInterface.php',
         'Vonage\\Entity\\Filter\\DateFilter' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/Filter/DateFilter.php',
@@ -44697,6 +47440,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Vonage\\Entity\\JsonSerializableInterface' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/JsonSerializableInterface.php',
         'Vonage\\Entity\\JsonSerializableTrait' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/JsonSerializableTrait.php',
         'Vonage\\Entity\\JsonUnserializableInterface' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/JsonUnserializableInterface.php',
+        'Vonage\\Entity\\ModernCollectionTrait' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/ModernCollectionTrait.php',
         'Vonage\\Entity\\NoRequestResponseTrait' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/NoRequestResponseTrait.php',
         'Vonage\\Entity\\Psr7Trait' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/Psr7Trait.php',
         'Vonage\\Entity\\RequestArrayTrait' => __DIR__ . '/..' . '/vonage/client-core/src/Entity/RequestArrayTrait.php',
@@ -44708,6 +47452,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Vonage\\Insights\\CnamTrait' => __DIR__ . '/..' . '/vonage/client-core/src/Insights/CnamTrait.php',
         'Vonage\\Insights\\Standard' => __DIR__ . '/..' . '/vonage/client-core/src/Insights/Standard.php',
         'Vonage\\Insights\\StandardCnam' => __DIR__ . '/..' . '/vonage/client-core/src/Insights/StandardCnam.php',
+        'Vonage\\InvalidResponseException' => __DIR__ . '/..' . '/vonage/client-core/src/InvalidResponseException.php',
         'Vonage\\JWT\\Exception\\InvalidJTIException' => __DIR__ . '/..' . '/vonage/jwt/src/JWT/Exception/InvalidJTIException.php',
         'Vonage\\JWT\\TokenGenerator' => __DIR__ . '/..' . '/vonage/jwt/src/JWT/TokenGenerator.php',
         'Vonage\\Laravel\\Facade\\Vonage' => __DIR__ . '/..' . '/vonage/vonage-laravel/src/Facade/Vonage.php',
@@ -44777,6 +47522,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Vonage\\Messages\\Webhook\\InboundSMS' => __DIR__ . '/..' . '/vonage/client-core/src/Messages/Webhook/InboundSMS.php',
         'Vonage\\Messages\\Webhook\\InboundViber' => __DIR__ . '/..' . '/vonage/client-core/src/Messages/Webhook/InboundViber.php',
         'Vonage\\Messages\\Webhook\\InboundWhatsApp' => __DIR__ . '/..' . '/vonage/client-core/src/Messages/Webhook/InboundWhatsApp.php',
+        'Vonage\\Network' => __DIR__ . '/..' . '/vonage/client-core/src/Network.php',
         'Vonage\\Network\\Number\\Callback' => __DIR__ . '/..' . '/vonage/client-core/src/Network/Number/Callback.php',
         'Vonage\\Network\\Number\\Request' => __DIR__ . '/..' . '/vonage/client-core/src/Network/Number/Request.php',
         'Vonage\\Network\\Number\\Response' => __DIR__ . '/..' . '/vonage/client-core/src/Network/Number/Response.php',
@@ -44797,6 +47543,8 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'Vonage\\ProactiveConnect\\Objects\\SalesforceList' => __DIR__ . '/..' . '/vonage/client-core/src/ProactiveConnect/Objects/SalesforceList.php',
         'Vonage\\Redact\\Client' => __DIR__ . '/..' . '/vonage/client-core/src/Redact/Client.php',
         'Vonage\\Redact\\ClientFactory' => __DIR__ . '/..' . '/vonage/client-core/src/Redact/ClientFactory.php',
+        'Vonage\\Response' => __DIR__ . '/..' . '/vonage/client-core/src/Response.php',
+        'Vonage\\Response\\Message' => __DIR__ . '/..' . '/vonage/client-core/src/Response/Message.php',
         'Vonage\\SMS\\Client' => __DIR__ . '/..' . '/vonage/client-core/src/SMS/Client.php',
         'Vonage\\SMS\\ClientFactory' => __DIR__ . '/..' . '/vonage/client-core/src/SMS/ClientFactory.php',
         'Vonage\\SMS\\Collection' => __DIR__ . '/..' . '/vonage/client-core/src/SMS/Collection.php',
@@ -46234,7 +48982,7 @@ class ComposerStaticInit24555a3758f2a9153a4f961df97f992e
         'setasign\\Fpdi\\Tfpdf\\FpdfTpl' => __DIR__ . '/..' . '/setasign/fpdi/src/Tfpdf/FpdfTpl.php',
         'setasign\\Fpdi\\Tfpdf\\Fpdi' => __DIR__ . '/..' . '/setasign/fpdi/src/Tfpdf/Fpdi.php',
         'voku\\helper\\ASCII' => __DIR__ . '/..' . '/voku/portable-ascii/src/voku/helper/ASCII.php',
-        'ï¿½' => __DIR__ . '/..' . '/symfony/cache/Traits/ValueWrapper.php',
+        '©' => __DIR__ . '/..' . '/symfony/cache/Traits/ValueWrapper.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

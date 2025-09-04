@@ -12,7 +12,7 @@ Route::group([], function () {
     Route::get('/csrf-token', function () {
         return response()->json(['csrf_token' => csrf_token()]);
     })->middleware("web");
-
+/*
     Route::group(['prefix' => '/comments'], function () {
         Route::get('/', ['uses' => 'CommentsController@list']);
         Route::post('/', ['uses' => 'CommentsController@store', 'middleware' => 'api.request.type']);
@@ -22,7 +22,9 @@ Route::group([], function () {
         Route::post('/{id}/report', ['uses' => 'CommentsController@report', 'middleware' => 'api.request.type']);
 
     });
+    */
     Route::get('/quick-info', ['uses' => 'SummaryController@list']);
+    /*
     Route::post('/webinars/{id}/free', ['uses' => 'WebinarsController@free']);
     Route::group(['prefix' => 'subscribe'], function () {
         Route::get('/', ['uses' => 'SubscribesController@index']);
@@ -41,6 +43,7 @@ Route::group([], function () {
         Route::delete('/{id}', ['uses' => 'WebinarReviewController@destroy']);
         //  Route::put('/{id}', ['uses' => 'CommentsController@update', 'middleware' => 'format']);
     });
+    */
     Route::group(['prefix' => '/support'], function () {
 
         Route::get('/class_support', ['uses' => 'SupportsController@classSupport']);
@@ -66,6 +69,7 @@ Route::group([], function () {
         Route::post('/{id}/seen', ['uses' => 'NotificationsController@seen']);
     });
     /***** Favorites ******/
+    /*
     Route::group(['prefix' => 'favorites'], function () {
         Route::get('/', ['uses' => 'FavoritesController@list']);
         Route::post('/toggle/{id}', ['uses' => 'FavoritesController@toggle']);
@@ -75,14 +79,18 @@ Route::group([], function () {
     Route::group(['prefix' => '/classes'], function () {
         Route::get('/', ['uses' => 'WebinarsController@list', 'middleware' => ['api.level-access:teacher']]);
     });
+    */
     Route::group(['prefix' => '/meetings'], function () {
         Route::post('/{id}/finish', ['uses' => 'ReserveMeetingsController@finish']);
         Route::get('reservations', ['uses' => 'ReserveMeetingsController@reservation']);
         Route::get('requests', ['uses' => 'ReserveMeetingsController@requests']);
         Route::get('/', ['uses' => 'ReserveMeetingsController@index']);
         Route::get('/{id}', ['uses' => 'ReserveMeetingsController@show']);
+        Route::post('/meetings/{id}/create-session', 'ReserveMeetingsController@createLiveSession');
+
 
     });
+    /*
     Route::group(['prefix' => '/rewards'], function () {
 
         Route::get('/', ['uses' => 'RewardsController@index']);
@@ -122,19 +130,24 @@ Route::group([], function () {
     Route::get('certificates/achievements', ['uses' => 'CertificatesController@achievements']);
     Route::get('certificates/created', ['uses' => 'CertificatesController@created', 'middleware' => ['api.level-access:teacher']]);
     Route::get('certificates/students', ['uses' => 'CertificatesController@students', 'middleware' => ['api.level-access:teacher']]);
+       */
     Route::post('/become_instructor', ['uses' => 'UsersController@store']);
     Route::post('/users/{id}/follow', ['uses' => 'UsersController@followToggle']);
-    Route::group(['prefix' => '/cart'], function () {
+    Route::group(['prefix' => '/cart', 'middleware' => 'api.auth'], function () {
         Route::get('list', ['uses' => 'CartController@index']);
         Route::delete('{id}', ['uses' => 'CartController@destroy']);
         Route::post('coupon/validate', ['uses' => 'CartController@validateCoupon']);
-        Route::post('checkout', ['uses' => 'CartController@checkout']);
+        Route::post('checkout', ['uses' => 'CartController@checkout'])->name('api_checkout');
         Route::post('store', ['uses' => 'CartController@store']);
         Route::post('/', ['uses' => 'AddCartController@store']);
-        Route::post('web_checkout', ['uses' => 'CartController@webCheckoutGenerator']);
-
+        Route::post('web_checkout', ['uses' => 'CartController@webCheckoutGenerator'])->name('web_checkout');
+       // Route::get('direct_checkout', 'CartController@directCheckout')->middleware('signed')->name('direct_checkout');
+        Route::post('direct_checkout_link', 'CartController@directCheckoutLink')->withoutMiddleware(['api.identify'])->name('direct_checkout_link');
 
     });
+
+
+
     Route::group(['prefix' => 'financial'], function () {
 
         Route::get('sales', ['uses' => 'SalesController@index']);
@@ -160,11 +173,13 @@ Route::group([], function () {
         });
 
     });
+
     Route::group(['prefix' => 'payments'], function () {
-        Route::post('/request', 'PaymentsController@paymentRequest');
-        Route::post('/credit', 'PaymentsController@paymentByCredit');
-        Route::get('/verify/{gateway}', ['as' => 'payment_verify', 'uses' => 'PaymentController@paymentVerify']);
-        Route::post('/verify/{gateway}', ['as' => 'payment_verify_post', 'uses' => 'PaymentController@paymentVerify']);
+        Route::post('/request', 'PaymentsController@paymentRequest')->withoutMiddleware('api.identify');//, 'api.auth']);
+        Route::post('/credit', 'PaymentsController@paymentByCredit')->withoutMiddleware('api.identify');
+        Route::get('/verify/{gateway}', ['as' => 'payment_verify', 'uses' => 'PaymentsController@paymentVerify'])->withoutMiddleware(['api.identify', 'api.auth']);
+        Route::post('/verify/{gateway}', ['as' => 'payment_verify_post', 'uses' => 'PaymentsController@paymentVerify'])->withoutMiddleware(['api.identify', 'api.auth']);
+        Route::post('/status', ['as' => 'payment_status', 'uses' => 'PaymentsController@payStatus'])->withoutMiddleware(['api.identify', 'api.auth']);
     });
     Route::group(['prefix' => 'profile-setting'], function () {
         Route::get('/', ['uses' => 'UsersController@setting']);
@@ -172,7 +187,7 @@ Route::group([], function () {
         Route::put('/', ['uses' => 'UsersController@update']);
         Route::post('/images', ['uses' => 'UsersController@updateImages']);
     });
-
+/*
     Route::group(['prefix' => 'store'], function () {
         Route::group(['middleware' => ['api.level-access:teacher']], function () {
             Route::get('/products', ['uses' => 'ProductController@index']);
@@ -196,29 +211,34 @@ Route::group([], function () {
     });
     Route::get('assignments/{assignment}/messages', ['uses' => 'AssignmentHistoryMessageController@index']);
     Route::post('assignments/{assignment}/messages', ['uses' => 'AssignmentHistoryMessageController@store']);
-
+*/
 
     /***** blogs *****/
+    /*
     Route::apiResource('blogs/comments', BlogCommentController::class)->middleware('api.level-access:teacher');
     Route::apiResource('blogs', BlogController::class)->middleware('api.level-access:teacher');
-
+*/
 
     /***** delete account request *****/
     Route::post('/delete-account', 'DeleteAccountRequestController@store');
 
     /***** webinar certificate  *****/
+    /*
     Route::get('webinars/certificates', ['uses' => 'WebinarCertificateController@index']);
     Route::get('webinars/certificates/{id}', ['uses' => 'WebinarCertificateController@show'])->name('webinar.certificate');
     Route::get('webinars/{id}/statistic', ['uses' => 'WebinarStatisticController@index'])->middleware('api.level-access:teacher');
-
+*/
     /***** Bundles  *****/
+    /*
     Route::group(['prefix' => 'bundles'], function () {
 
         Route::post('{id}/buyWithPoint', ['uses' => 'BundleController@buyWithPoint']);
         Route::post('{id}/free', ['uses' => 'BundleController@free']);
 
     });
+    */
     /***** Reviews  *****/
+    /*
     Route::group(['prefix' => '/reviews3'], function () {
         Route::get('/', ['uses' => 'WebinarReviewController@list']);
         Route::post('/', ['uses' => 'ReviewController@store', 'middleware' => 'api.request.type']);
@@ -249,16 +269,16 @@ Route::group([], function () {
             Route::post('/answers/{answer}/resolve', ['uses' => 'CourseForumAnswerController@resolve']);
         });
     });
-
+*/
     Route::get('/files/{file}', ['uses' => 'FileController@show'])->name('file.show');
     Route::get('/sessions/{session}', ['uses' => 'SessionController@show'])->name('session.show');;
     Route::get('/text-lessons/{lesson}', ['uses' => 'TextLessonController@show'])->name('text_lesson.show');
-    Route::get('/text-lessons/{lesson}/navigation', ['uses' => 'WebinarTextLessonController@index']);
-    Route::get('/assignments/{assignment}', ['uses' => 'WebinarAssignmentController@show'])->name('assignment.show');
-    Route::get('/quizzes/{quiz}', ['uses' => 'QuizzesController@show'])->name('quiz.show');
+  //  Route::get('/text-lessons/{lesson}/navigation', ['uses' => 'WebinarTextLessonController@index']);
+  //  Route::get('/assignments/{assignment}', ['uses' => 'WebinarAssignmentController@show'])->name('webinarassignment.show');
+  //  Route::get('/quizzes/{quiz}', ['uses' => 'QuizzesController@show'])->name('quiz.show');
 //New Api
     //goToAgora Session
-    Route::get('/webinars/session/agora/{id}', ['uses' => 'SessionController@agora'])->name("agora.api.join");
+    Route::get('/webinars/session/agora/{id}', ['uses' => 'SessionController@agora'])->name("agora.api.join")->withoutMiddleware('api.identify');
     //End New API
     Route::put('/users/fcm', [UsersController::class, "fcm"]);
     Route::get('/users/login/history', [UsersController::class, "loginHistory"]);

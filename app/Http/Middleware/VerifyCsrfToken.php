@@ -26,6 +26,8 @@ class VerifyCsrfToken extends Middleware
         '/payments/verify/PayFast',
         '/payments/verify/Ozow',
         '/admin/login',
-        '/admin/settings/sms_channels'
+        '/admin/settings/sms_channels',
+        '/my_api/checkout/*',
+        'panel/payments/request',
     ];
 }

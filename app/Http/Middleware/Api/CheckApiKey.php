@@ -16,8 +16,8 @@ class CheckApiKey
     public function handle($request, Closure $next)
     {
 
-        if ( !env('API_KEY') || $request->header('x-api-key') !== env('API_KEY')) {
-
+        //if ( !env('API_KEY') || $request->header('x-api-key') !== env('API_KEY')) {
+        if ( !config('api.key') || $request->header('x-api-key') !== config('api.key')) {
             return apiResponse2(0, 'client_identity_error', 'client identification failed.check the api key');
         }
         return $next($request);

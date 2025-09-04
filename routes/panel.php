@@ -22,7 +22,7 @@ Route::group(['namespace' => 'Panel', 'prefix' => 'panel', 'middleware' => ['imp
 
         Route::get('/login-history/{session_id}/end-session', 'UserLoginHistoryController@endSession');
     });
-
+/*
     Route::group(['prefix' => 'webinars'], function () {
         Route::group(['middleware' => 'user.not.access'], function () {
             Route::get('/', 'WebinarController@index');
@@ -134,7 +134,7 @@ Route::group(['namespace' => 'Panel', 'prefix' => 'panel', 'middleware' => ['imp
         Route::post('/{id}/update', 'QuizQuestionController@update');
         Route::get('/{id}/delete', 'QuizQuestionController@destroy');
     });
-
+*/
     Route::group(['prefix' => 'filters'], function () {
         Route::get('/get-by-category-id/{categoryId}', 'FilterController@getByCategoryId');
     });
@@ -155,7 +155,7 @@ Route::group(['namespace' => 'Panel', 'prefix' => 'panel', 'middleware' => ['imp
         Route::get('/{id}/toggleUsersJoinToAgora', 'SessionController@toggleUsersJoinToAgora');
         Route::get('/{id}/joinToJitsi', 'SessionController@joinToJitsi');
     });
-
+/*
     Route::group(['prefix' => 'chapters'], function () {
         Route::get('/{id}', 'ChapterController@getChapter');
         Route::get('/getAllByWebinarId/{webinar_id}', 'ChapterController@getAllByWebinarId');
@@ -164,13 +164,13 @@ Route::group(['namespace' => 'Panel', 'prefix' => 'panel', 'middleware' => ['imp
         Route::get('/{id}/delete', 'ChapterController@destroy');
         Route::post('/change', 'ChapterController@change');
     });
-
+*/
     Route::group(['prefix' => 'files'], function () {
         Route::post('/store', 'FileController@store');
         Route::post('/{id}/update', 'FileController@update');
         Route::get('/{id}/delete', 'FileController@destroy');
     });
-
+/*
     Route::group(['prefix' => 'assignments'], function () {
         Route::post('/store', 'AssignmentController@store');
         Route::post('/{id}/update', 'AssignmentController@update');
@@ -227,7 +227,7 @@ Route::group(['namespace' => 'Panel', 'prefix' => 'panel', 'middleware' => ['imp
             Route::get('/{certificateId}/show', 'WebinarCertificateController@showBundleCertificate');
         });
     });
-
+*/
 
     Route::get('/tutors', 'UserController@tutors');
     Route::get('/tutorlist', 'UserController@tutorlist');
@@ -309,7 +309,7 @@ Route::group(['namespace' => 'Panel', 'prefix' => 'panel', 'middleware' => ['imp
             Route::get('{id}/conversations', 'SupportsController@tickets');
         });
     });
-
+/*
     Route::group(['prefix' => 'marketing', 'middleware' => 'user.not.access'], function () {
         Route::get('/special_offers', 'SpecialOfferController@index')->name('special_offer_index');
         Route::post('/special_offers/store', 'SpecialOfferController@store');
@@ -321,10 +321,8 @@ Route::group(['namespace' => 'Panel', 'prefix' => 'panel', 'middleware' => ['imp
     Route::group(['prefix' => 'marketing'], function () {
         Route::get('/affiliates', 'AffiliateController@affiliates');
 
-        /* Registration Bonus */
         Route::get('/registration_bonus', 'RegistrationBonusController@index');
 
-        /* Discounts */
         Route::group(['prefix' => 'discounts'], function () {
             Route::get('/', 'DiscountController@index');
             Route::get('/new', 'DiscountController@create');
@@ -335,7 +333,7 @@ Route::group(['namespace' => 'Panel', 'prefix' => 'panel', 'middleware' => ['imp
         });
 
     });
-
+*/
     Route::group(['prefix' => 'noticeboard'], function () {
         Route::get('/', 'NoticeboardController@index');
         Route::get('/new', 'NoticeboardController@create');
@@ -361,7 +359,7 @@ Route::group(['namespace' => 'Panel', 'prefix' => 'panel', 'middleware' => ['imp
         Route::get('/{user_type}/{user_id}/edit/step/{step?}', 'UserController@editUser');
         Route::get('/{user_type}/{user_id}/delete', 'UserController@deleteUser');
     });
-
+/*
     Route::group(['prefix' => 'rewards'], function () {
         Route::get('/', 'RewardController@index');
         Route::post('/exchange', 'RewardController@exchange');
@@ -494,7 +492,7 @@ Route::group(['namespace' => 'Panel', 'prefix' => 'panel', 'middleware' => ['imp
             Route::get('/', 'BlogCommentsController@index');
         });
     });
-
+*/
     Route::group(['prefix' => 'ai-contents'], function () {
         Route::get('/', 'AiContentController@index');
         Route::post('/generate', 'AiContentController@generate');

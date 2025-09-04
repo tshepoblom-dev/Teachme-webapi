@@ -204,7 +204,10 @@
                                         <td class="font-weight-500 align-middle">{{ handlePrice($ReserveMeeting->paid_amount) }}
                                             @if(empty($ReserveMeeting->sale_id))
                                                 <span class="badge badge-warning ml-2">Pending</span>
-                                            @endif</td>
+                                            @elseif(!empty($ReserveMeeting->sale_id))
+                                                <span class="badge badge-primary ml-2">Paid</span>
+                                            @endif
+                                        </td>
 
                                         <td class="align-middle font-weight-500">
                                             {{ $ReserveMeeting->student_count ?? 1 }}
@@ -257,12 +260,12 @@
                                                                         class="js-join-meeting-session btn-transparent webinar-actions d-block mt-10 text-primary">Join Session</button>
                                                             @endif
                                                         @endif
-
+{{--
 
                                                         @if($ReserveMeeting->meeting_type != 'in_person' and !empty($ReserveMeeting->link) and $ReserveMeeting->status == \App\Models\ReserveMeeting::$open)
                                                             <button type="button" data-reserve-id="{{ $ReserveMeeting->id }}"
                                                                     class="js-join-reserve btn-transparent webinar-actions d-block mt-10">{{ trans('footer.join') }}</button>
-                                                        @endif
+                                                        @endif --}}
 {{--
                                                         @if($ReserveMeeting->meeting_type != 'in_person')
                                                             <button type="button" data-item-id="{{ $ReserveMeeting->id }}"

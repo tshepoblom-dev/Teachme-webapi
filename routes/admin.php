@@ -393,7 +393,7 @@ Route::group(['prefix' => $prefix, 'namespace' => 'Admin', 'middleware' => ['web
             Route::post('/{id}/update', 'TextLessonsController@update');
             Route::get('/{id}/delete', 'TextLessonsController@destroy');
         });
-
+/*
         Route::group(['prefix' => 'assignments'], function () {
             Route::get('/', 'AssignmentController@index');
             Route::get('/{id}/students', 'AssignmentController@students');
@@ -466,7 +466,7 @@ Route::group(['prefix' => $prefix, 'namespace' => 'Admin', 'middleware' => ['web
                 Route::post('/', 'CertificateController@storeSettings');
             });
         });
-
+*/
         Route::group(['prefix' => 'reviews'], function () {
             Route::get('/', 'ReviewsController@index');
             Route::get('/{id}/toggleStatus', 'ReviewsController@toggleStatus');
@@ -479,7 +479,7 @@ Route::group(['prefix' => $prefix, 'namespace' => 'Admin', 'middleware' => ['web
             Route::get('/excel', 'ConsultantsController@exportExcel');
 
         });
-
+/*
         Route::group(['prefix' => 'appointments'], function () {
             Route::get('/', 'AppointmentsController@index');
             Route::get('/{id}/join', 'AppointmentsController@join');
@@ -505,7 +505,7 @@ Route::group(['prefix' => $prefix, 'namespace' => 'Admin', 'middleware' => ['web
                 Route::get('/{id}/delete', 'BlogCategoriesController@delete');
             });
         });
-
+*/
         Route::group(['prefix' => 'financial'], function () {
 
             Route::group(['prefix' => 'sales'], function () {
@@ -748,7 +748,7 @@ Route::group(['prefix' => $prefix, 'namespace' => 'Admin', 'middleware' => ['web
 
             Route::post('/custom_css_js/store', 'SettingsController@storeCustomCssJs');
         });
-
+/*
         Route::group(['prefix' => 'testimonials'], function () {
             Route::get('/', 'TestimonialsController@index');
             Route::get('/create', 'TestimonialsController@create');
@@ -757,7 +757,7 @@ Route::group(['prefix' => $prefix, 'namespace' => 'Admin', 'middleware' => ['web
             Route::post('/{id}/update', 'TestimonialsController@update');
             Route::get('/{id}/delete', 'TestimonialsController@delete');
         });
-
+*/
         Route::group(['prefix' => 'contacts'], function () {
             Route::get('/', 'ContactController@index');
             Route::get('/{id}/reply', 'ContactController@reply');
@@ -1106,6 +1106,7 @@ Route::group(['prefix' => $prefix, 'namespace' => 'Admin', 'middleware' => ['web
 
 
         /* Forms */
+        
         Route::group(['prefix' => 'forms'], function () {
             Route::get('/', 'FormsController@index');
             Route::get('/create', 'FormsController@create');

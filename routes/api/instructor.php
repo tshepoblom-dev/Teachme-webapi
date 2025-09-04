@@ -7,6 +7,7 @@ Route::group([], function () {
 
 
     /***** bundles *****/
+    /*
     Route::get('bundles/{bundle}/export', ['uses' => 'BundleController@export'])->middleware('api.level-access:teacher');
     Route::apiResource('bundles', BundleController::class)->middleware('api.level-access:teacher');
     Route::apiResource('bundles.webinars', BundleWebinarController::class)->middleware('api.level-access:teacher')->only(['index']);
@@ -24,6 +25,7 @@ Route::group([], function () {
         Route::delete('/{id}', ['uses' => 'QuizzesController@destroy']);
 
     });
+    */
 //  Route::get('sales', ['uses' => 'SalesController@list']);
     Route::group(['prefix' => 'meetings'], function () {
         Route::get('/', function () {
@@ -42,6 +44,7 @@ Route::group([], function () {
         Route::post('/temporaryDisableMeetings', [MeetingController::class, 'temporaryDisableMeetings']);
 
     });
+    /*
     Route::group(['prefix' => 'comments'], function () {
         Route::get('/', ['uses' => 'CommentsController@myClassComments']);
         Route::post('/{id}/reply', ['uses' => 'CommentsController@reply']);
@@ -52,7 +55,7 @@ Route::group([], function () {
         Route::get('/', ['uses' => 'AssignmentController@index']);
         Route::post('/histories/{assignment_history}/rate', ['uses' => 'AssignmentController@setGrade']);
     });
-
+*/
 
 });
 

@@ -19,6 +19,7 @@ use App\Models\PaymentChannel;
 use App\Models\OrderItem;
 use App\Models\Order;
 use Illuminate\Support\Facades\URL;
+use Exception;
 
 
 class CartController extends Controller
@@ -173,8 +174,6 @@ class CartController extends Controller
 
             }
         }
-
-
     }
 
     public function createOrderAndOrderItems($carts, $calculate, $user, $discountCoupon = null)
@@ -266,7 +265,7 @@ class CartController extends Controller
 
         return $order;
     }
-
+/*
     public function webCheckoutGenerator(Request $request)
     {
         return apiResponse2(1, 'generated', trans('api.link.generated'),
@@ -284,11 +283,88 @@ class CartController extends Controller
 
         return view('api.checkout', compact('discount_id'));
     }
+*/
 
+  public function webCheckoutRender(Request $request, User $user)
+    {
+         // Only allow if the signed URL is valid
+        if (!$request->hasValidSignature()) {
+            abort(403, 'Invalid or expired link.');
+        }
+
+        Auth::login($user, true);
+        $discount_id = $request->input('discount_id');
+
+        return view('api.checkout', compact('discount_id'));
+
+    }
+/*
+    public function webCheckoutRender(Request $request, User $user)
+    {
+        try{
+
+        if (!$request->hasValidSignature()) {
+            abort(403, 'Invalid or expired link.');
+        }
+
+        Auth::login($user, true);
+
+        $discountId = $request->input('discount_id');
+
+            // Call the same logic directly instead of redirecting to `api_checkout`
+            $discountCoupon = Discount::where('id', $discountId)->first();
+            if (empty($discountCoupon) or !$discountCoupon->checkValidDiscount()) {
+                $discountCoupon = null;
+            }
+
+
+//        $user = auth()->user(); // Session-based
+        $carts = Cart::where('creator_id', $user->id)->get();
+
+        if (!empty($carts) and !$carts->isEmpty()) {
+            $calculate = app(CartController::class)->calculatePrice($carts, $user, $discountCoupon);
+            $order = app(CartController::class)->createOrderAndOrderItems($carts, $calculate, $user, $discountCoupon);
+
+            if (!empty($order) && $order->total_amount > 0) {
+                $paymentChannels = PaymentChannel::where('status', 'active')->get();
+                $razorpay = $paymentChannels->contains('class_name', 'Razorpay');
+
+                $data = [
+                    'paymentChannels' => $paymentChannels,
+                    'carts' => $carts->map(fn($cart) => $cart->details),
+                    'discount_id' => $discountId,
+                    'user_group' => $user->userGroup->group ?? null,
+                    'order' => $order,
+                    'count' => $carts->count(),
+                    'userCharge' => $user->getAccountingCharge(),
+                    'razorpay' => $razorpay,
+                    'amounts' => $calculate,
+                    'total' => $calculate["total"],
+                    'subTotal' => $calculate["sub_total"],
+                    'totalDiscount' => $calculate["total_discount"],
+                    'tax' => $calculate["tax"],
+                    'taxPrice' => $calculate["tax_price"],
+                ];
+
+                return apiResponse2(1, 'checkout', trans('api.cart.checkout'), $data);
+               // return view(getTemplate() . '.cart.payment', $data);
+
+            } else {
+                return app(CartController::class)->handlePaymentOrderWithZeroTotalAmount($order);
+            }
+        }
+
+        }
+        catch(Exception $ex){
+            dd($ex->getMessage());
+        }
+        return response()->view('errors.empty_cart'); // or custom view
+    }
+*/
 
     public function checkout(Request $request)
     {
-
+    try{
         $discountId = $request->input('discount_id');
 
         $paymentChannels = PaymentChannel::where('status', 'active')->get();
@@ -317,7 +393,7 @@ class CartController extends Controller
                 }
 
                 $data = [
-                    //      'pageTitle' => trans('public.checkout_page_title'),
+                  'pageTitle' => trans('public.checkout_page_title'),
                     'paymentChannels' => $paymentChannels,
                     'carts' => $carts->map(function ($cart) {
                         return $cart->details;
@@ -326,7 +402,7 @@ class CartController extends Controller
                     // 'totalDiscount' => $calculate["total_discount"],
                     //  'tax' => $calculate["tax"],
                     //   'taxPrice' => $calculate["tax_price"],
-                    //     'total' => $calculate["total"],
+                    'total' => $calculate["total"],
                     'user_group' => $user->userGroup ? $user->userGroup->group : null,
                     'order' => $order,
                     'count' => $carts->count(),
@@ -342,10 +418,84 @@ class CartController extends Controller
                 return $this->handlePaymentOrderWithZeroTotalAmount($order);
             }
         }
-
+    }
+    catch(Exception $ex){
+        dd($ex);
+    }
         return apiResponse2(0, 'empty_cart', trans('api.payment.empty_cart'));
 
     }
+
+    public function webCheckoutGenerator(Request $request)
+    {
+        try{
+            $user = apiAuth();
+
+            $discountId = $request->input('discount_id');
+
+            //$link = URL::signedRoute('my_api.web.direct_checkout', ['user_id' => $user->id,'discount_id' => $discountId]);
+            $link = URL::signedRoute('my_api.web.checkout', ['user' => $user,'discount_id' => $discountId]);
+
+            return apiResponse2(1, 'generated', trans('api.link.generated'), [
+                'link' => $link
+            ]);
+        }
+        catch(\Exception $ex){
+            dd($ex->getMessage());
+        }
+    }
+
+   public function directCheckout(Request $request)
+    {
+        if (! $request->hasValidSignature()) {
+            abort(403, 'Invalid or expired link.');
+        }
+
+        $userId = $request->input('user_id');
+        $discountId = $request->input('discount_id');
+
+        $user = \App\User::find($userId);
+        if (!$user) {
+            return apiResponse2(0, 'user_not_found', 'User not found.');
+        }
+
+        $paymentChannels = \App\Models\PaymentChannel::where('status', 'active')->get();
+        $discountCoupon = \App\Models\Discount::where('id', $discountId)->first();
+
+        if (empty($discountCoupon) || !$discountCoupon->checkValidDiscount()) {
+            $discountCoupon = null;
+        }
+
+        $carts = \App\Models\Cart::where('creator_id', $user->id)->get();
+
+        if ($carts->isEmpty()) {
+            return apiResponse2(0, 'empty_cart', trans('api.payment.empty_cart'));
+        }
+
+        $calculate = $this->calculatePrice($carts, $user, $discountCoupon);
+        $order = $this->createOrderAndOrderItems($carts, $calculate, $user, $discountCoupon);
+
+        if ($order && $order->total_amount > 0) {
+            $razorpay = $paymentChannels->contains(fn($ch) => $ch->class_name == 'Razorpay');
+
+            $data = [
+                'pageTitle' => trans('public.checkout_page_title'),
+                'paymentChannels' => $paymentChannels,
+                'carts' => $carts->map(fn($cart) => $cart->details),
+                'user_group' => $user->userGroup?->group,
+                'order' => $order,
+                'count' => $carts->count(),
+                'userCharge' => $user->getAccountingCharge(),
+                'razorpay' => $razorpay,
+                'amounts' => $calculate,
+            ];
+
+            return apiResponse2(1, 'checkout', trans('api.cart.checkout'), $data);
+        }
+
+        return $this->handlePaymentOrderWithZeroTotalAmount($order);
+    }
+
 
     private function handlePaymentOrderWithZeroTotalAmount($order)
     {

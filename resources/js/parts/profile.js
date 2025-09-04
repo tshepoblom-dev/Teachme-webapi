@@ -132,6 +132,7 @@ $(function ($) {
 let [startTime, endTime] = time.split('-').map(t => t.trim());
 
 // Function to convert 12-hour format time to 24-hour format Date object
+/*
 function parseTime(timeString, dateString) {
     let date = new Date(dateString);
     let match = timeString.match(/(\d+):(\d+)(AM|PM)/);
@@ -150,6 +151,29 @@ function parseTime(timeString, dateString) {
 
         date.setHours(hours, minutes, 0, 0);
     }
+    return date;
+}*/
+//updated parseTime method: 2 Aug 2025
+function parseTime(timeString, dateString) {
+    let date = new Date(dateString);
+
+    // Accepts formats like "10:00AM", "10:00 AM", "10:00", "22:00"
+    let match = timeString.match(/(\d+):(\d+)\s*(AM|PM)?/i);
+
+    if (match) {
+        let hours = parseInt(match[1], 10);
+        let minutes = parseInt(match[2], 10);
+        let period = match[3] ? match[3].toUpperCase() : null;
+
+        if (period === "PM" && hours !== 12) {
+            hours += 12;
+        } else if (period === "AM" && hours === 12) {
+            hours = 0;
+        }
+
+        date.setHours(hours, minutes, 0, 0);
+    }
+
     return date;
 }
 
@@ -204,12 +228,16 @@ function updateEndTime(extraMinutes) {
             const $timeDescription = $this.parent().find('.js-time-description');
             const $timeDescriptionCard = $('.js-time-description-card');
 
-            if ($timeDescription && $timeDescription.val() && $timeDescription.val() !== 'null' && $timeDescription.val() !== 'undefined') {
+            const desc = $timeDescription.val();
+            if (desc && desc !== 'null' && desc !== 'undefined') {
+            //if ($timeDescription && $timeDescription.val() && $timeDescription.val() !== 'null' && $timeDescription.val() !== 'undefined') {
                 $timeDescriptionCard.removeClass('d-none');
                 $timeDescriptionCard.text($timeDescription.val());
             } else {
                 $timeDescriptionCard.addClass('d-none');
             }
+
+
 
 
         // Show time extension options
@@ -219,7 +247,7 @@ function updateEndTime(extraMinutes) {
         updateEndTime(0);
 
         // Handle adding extra time
-        $('.js-add-time-btn').off('click').on('click', function (e) {
+       /* $('.js-add-time-btn').off('click').on('click', function (e) {
               // Prevent form submission or other default behavior
     e.preventDefault(); // This stops the form from submitting if the button is inside a form
     e.stopPropagation(); // This stops the event from bubbling up, preventing unintended side effects
@@ -227,7 +255,47 @@ function updateEndTime(extraMinutes) {
             let extraTime = parseInt($(this).data('extra-time'), 10);
             updateEndTime(extraTime);
             return false;  // Exp
+        });*/
+       $(document).on('click', '.js-time-step', function (e) {
+            e.preventDefault();
+
+            const input = $('.js-extra-time-input');
+            let current = parseInt(input.val().trim(), 10) || 0;
+            const direction = $(this).data('direction');
+            const step = 30;
+            const min = 0;
+            const max = 120;
+
+            if (direction === 'increase' && current < max) {
+                current += step;
+            } else if (direction === 'decrease' && current > min) {
+                current -= step;
+            }
+
+            input.val(current); // set only the number, no unit
+            $('.js-extra-time-display').text(current + ' min');
+
+            updateEndTime(current);
+
+            // Update button states
+            updateTimeStepButtons(current, min, max);
         });
+
+        // Helper to enable/disable buttons based on current value
+        function updateTimeStepButtons(current, min, max) {
+            const $increaseBtn = $('.js-time-step[data-direction="increase"]');
+            const $decreaseBtn = $('.js-time-step[data-direction="decrease"]');
+
+            $increaseBtn.prop('disabled', current >= max);
+            $decreaseBtn.prop('disabled', current <= min);
+        }
+
+        // Initialize button states on page load (optional)
+        $(function () {
+            const initVal = parseInt($('.js-extra-time-input').val().trim(), 10) || 0;
+            updateTimeStepButtons(initVal, 0, 120);
+        });
+
 
             // Ensure js-reserve-btn and js-reserve-description are visible
             $('.js-reserve-btn').removeClass('d-none').addClass('d-flex');
