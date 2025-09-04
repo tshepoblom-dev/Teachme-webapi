@@ -108,6 +108,7 @@
                 <div id="availableTimes" class="d-flex flex-wrap align-items-center mt-25">
 
                 </div>
+                <!--
 
               <div class="js-add-time-options d-flex align-items-center gap-2">
                 <p class="mb-0 mr-3">Select Extra Time:</p>
@@ -118,6 +119,18 @@
 
                 <button type="button" class="btn btn-outline-secondary js-time-step" data-direction="increase">+</button>
             </div>
+
+
+                -->
+
+                <div class="js-add-time-options d-none mt-3">
+                    <p>Select Extra Time:</p>
+                    <div class="d-flex align-items-center">
+                        <button type="button" class="btn btn-outline-secondary js-time-decrease">−</button>
+                        <span class="mx-3 js-extra-time-display">0 min</span>
+                        <button type="button" class="btn btn-outline-secondary js-time-increase">+</button>
+                    </div>
+                </div>
 
 
                 <div class="js-time-description-card d-none mt-25 rounded-sm border p-10">
