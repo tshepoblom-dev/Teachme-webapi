@@ -393,6 +393,8 @@ class PaymentsController extends Controller
     // In PaymentsController.php
     public function api_charge(Request $request)
     {
+        try{
+            
         validateParam($request->all(), [
             'amount' => 'required|numeric|min:1',
             'gateway_id' => ['required',
@@ -440,17 +442,19 @@ class PaymentsController extends Controller
         $order->payment_method = Order::$paymentChannel;
         $order->save();
 
-        try {
-            $channelManager = ChannelManager::makeChannel($paymentChannel);
-            $redirect_url = $channelManager->paymentRequest($order);
+        
+        //    $channelManager = ChannelManager::makeChannel($paymentChannel);
+        //    $redirect_url = $channelManager->paymentRequest($order);
 
-            return Redirect::away($redirect_url);
+        //    return Redirect::away($redirect_url);
             // Return the redirect URL for webview
-         /*   return apiResponse2(1, 'payment_redirect', trans('api.payment.redirect_url'), [
-                'redirect_url' => $redirect_url,
+              return apiResponse2(1, 'payment_redirect', trans('api.payment.redirect_url'), [
+                //'redirect_url' => $redirect_url,
+                'gateway' => $paymentChannel->class_name,
                 'order_id' => $order->id,
-                'gateway' => $paymentChannel->class_name
-            ]);*/
+                'gateway_id' => $gateway_id,
+                'user_id' => $userAuth->id,
+            ]);
 
         } catch (\Exception $exception) {
             return apiResponse2(0, 'gateway_error', trans('api.payment.gateway_error'));
