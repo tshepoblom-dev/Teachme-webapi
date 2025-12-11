@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Validation\Rule;
 use Illuminate\Support\Facades\URL;
+use Illuminate\Support\Facades\Log;
 
 
 class PaymentsController extends Controller
@@ -33,47 +34,55 @@ class PaymentsController extends Controller
 
     public function paymentByCredit(Request $request)
     {
-        validateParam($request->all(), [
-            'order_id' => ['required',
-                Rule::exists('orders', 'id')->where('status', Order::$pending),
+        try
+        {            
+            validateParam($request->all(), [
+                'order_id' => ['required',
+                    Rule::exists('orders', 'id')->where('status', Order::$pending),
 
-            ],
-        ]);
+                ],
+            ]);
 
-        $user = apiAuth();
-        $orderId = $request->input('order_id');
+            $user = apiAuth();
+            $orderId = $request->input('order_id');
 
-        $order = Order::where('id', $orderId)
-            ->where('user_id', $user->id)
-            ->first();
+            $order = Order::where('id', $orderId)
+                ->where('user_id', $user->id)
+                ->first();
 
 
-        if ($order->type === Order::$meeting) {
-            $orderItem = OrderItem::where('order_id', $order->id)->first();
-            $reserveMeeting = ReserveMeeting::where('id', $orderItem->reserve_meeting_id)->first();
-            $reserveMeeting->update(['locked_at' => time()]);
+            if ($order->type === Order::$meeting) {
+                $orderItem = OrderItem::where('order_id', $order->id)->first();
+                $reserveMeeting = ReserveMeeting::where('id', $orderItem->reserve_meeting_id)->first();
+                $reserveMeeting->update(['locked_at' => time()]);
+            }
+
+            if ($user->getAccountingCharge() < $order->amount) {
+                $order->update(['status' => Order::$fail]);
+
+                return apiResponse2(0, 'not_enough_credit', trans('api.payment.not_enough_credit'));
+
+            }
+
+            $order->update([
+                'payment_method' => Order::$credit
+            ]);
+
+            $this->setPaymentAccounting($order, 'credit');
+
+            $order->update([
+                'status' => Order::$paid
+            ]);
+
+            if($reserveMeeting){
+                $session = createReserveMeetingLiveSession($reserveMeeting->id);
+            }
+            return apiResponse2(1, 'paid', trans('api.payment.paid'));
         }
+        catch(\Exception $ex){
 
-        if ($user->getAccountingCharge() < $order->amount) {
-            $order->update(['status' => Order::$fail]);
-
-            return apiResponse2(0, 'not_enough_credit', trans('api.payment.not_enough_credit'));
-
-
+            return apiResponse2(0, 'payment_error', $ex->getMessage());
         }
-
-        $order->update([
-            'payment_method' => Order::$credit
-        ]);
-
-        $this->setPaymentAccounting($order, 'credit');
-
-        $order->update([
-            'status' => Order::$paid
-        ]);
-
-        return apiResponse2(1, 'paid', trans('api.payment.paid'));
-
     }
 
 
@@ -134,9 +143,9 @@ class PaymentsController extends Controller
                 return $redirect_url;
             }
 
-            //return $redirect_url;
+            return $redirect_url;
             //      dd($redirect_url) ;
-            return Redirect::away($redirect_url);
+            //return Redirect::away($redirect_url);
 
         } catch (\Exception $exception) {
 
@@ -150,6 +159,8 @@ class PaymentsController extends Controller
 
     public function paymentVerify(Request $request, $gateway)
     {
+        
+        Log::info('Api\Panel\PaymentsController@paymentVerify() reached',[]);
         $paymentChannel = PaymentChannel::where('class_name', $gateway)
             ->where('status', 'active')
             ->first();
@@ -174,85 +185,69 @@ class PaymentsController extends Controller
                     $order->update(['status' => Order::$paid]);
                       // Create Live Session here: TBLOM 16JULY2025
                     if ($reserveMeeting) {
-                        $user = $reserveMeeting->user ?? apiAuth(); // fallback in case user is not set
-                        $agoraSettings = [
-                            'chat' => true,
-                            'record' => true,
-                            'users_join' => true
-                        ];
-
-                        $session = Session::updateOrCreate([
-                            //'creator_id' => $user->id,
-                            'creator_id' => $reserveMeeting->meeting->creator_id,
-                            'reserve_meeting_id' => $reserveMeeting->id,
-                        ], [
-                            'date' => $reserveMeeting->start_at,
-                            'duration' => (($reserveMeeting->end_at - $reserveMeeting->start_at) / 60),
-                            'link' => $this->getJoinLink(),
-                            'session_api' => 'agora',
-                            'agora_settings' => json_encode($agoraSettings),
-                            'check_previous_parts' => false,
-                            'status' => Session::$Active,
-                            'created_at' => time()
-                        ]);
-
-                        if ($session) {
-                            SessionTranslation::updateOrCreate([
-                                'session_id' => $session->id,
-                                'locale' => mb_strtolower(app()->getLocale()),
-                            ], [
-                                'title' => trans('update.new_in-app_call_session'),
-                                'description' => trans('update.new_in-app_call_session'),
-                            ]);
-
-                            $reserveMeeting->update([
-                                'status' => ReserveMeeting::$open,
-                                'link' => $session->getJoinLink(),
-                                'locked_at' => null,
-                            ]);
-
-                            // Clear cart entries linked to this reserve meeting
-                          /*  $orderItem = OrderItem::where('reserve_meeting_id', $reserveMeeting->id)->first();
-                            if ($orderItem) {
-                                Cart::where('order_item_id', $orderItem->id)->delete();
-                            }*/
-
-                            $notifyOptions = [
-                                '[link]' => $session->getJoinLink(),
-                                '[instructor.name]' => $user->full_name,
-                                '[time.date]' => dateTimeFormat($session->date, 'j M Y H:i'),
-                            ];
-                            sendNotification('new_appointment_session', $notifyOptions, $reserveMeeting->user_id);
-                            sendNotification('new_appointment_session', $notifyOptions, $reserveMeeting->meeting->creator_id);
-                        }
+                        $session = createReserveMeetingLiveSession(reserveMeetingId: $orderItem->reserve_meeting_id);
                     }
 
                 } else {
                     if ($order->type === Order::$meeting) {
                         $reserveMeeting->update(['locked_at' => null]);
                     }
+                    Log::log('Payment pending for order ID: '.$order->id, [
+                        'order_id' => $order->id,
+                        'user_id' => $order->user_id
+                    ]);
+                    return response()->json([
+                        'status' => 'pending',
+                        'message' => 'Payment still pending.',
+                        'order' => $order,
+                    ], 202);
                 }
 
                 //session()->put($this->order_session_key, $order->id);
 
                // return redirect('/payments/status');
+
+                     return response()->json([
+                        'status' => 'success',
+                        'message' => 'Payment verified successfully.',
+                        'order' => $order,
+                        //'session' => $session,
+                    ], 200);
+
             } else {
-                $toastData = [
+               /* $toastData = [
                     'title' => trans('cart.fail_purchase'),
                     'msg' => trans('cart.gateway_error'),
                     'status' => 'error'
-                ];
-
-                return redirect('cart')->with($toastData);
+                ];*/
+                Log::error('Payment verification failed: Order not found', [
+                    'gateway' => $gateway,
+                    'request_data' => $request->all()
+                ]);
+                //return redirect('cart')->with($toastData);
+                return response()->json([
+                    'status' => 'error',
+                    'message' => trans('cart.gateway_error'),
+                ], 400);    
             }
 
         } catch (\Exception $exception) {
-            $toastData = [
+         /*   $toastData = [
                 'title' => trans('cart.fail_purchase'),
                 'msg' => trans('cart.gateway_error'),
                 'status' => 'error'
             ];
             return redirect('cart')->with(['toast' => $toastData]);
+            */
+                Log::error('PayFast verification failed: '.$exception->getMessage(), [
+                'trace' => $exception->getTraceAsString()
+            ]);
+            //return redirect('cart')->with(['toast' => $toastData]);
+            return response()->json([
+                'status' => 'error',
+                'message' => trans('cart.gateway_error'),
+                'error' => $exception->getMessage(),
+            ], 500);
         }
     }
 
@@ -307,7 +302,12 @@ class PaymentsController extends Controller
                 'order' => $order,
             ];
 
-            return view('web.default.cart.status_pay', $data);
+            //return view('web.default.cart.status_pay', $data);
+            return response()->json([
+                'status' => 'success',
+                'message' => 'Order status retrieved successfully',
+                'data' => json_encode($data),
+            ], 200);
         }
 
         abort(404);

@@ -11,9 +11,11 @@ use App\Models\Role;
 use App\Models\Session;
 use App\Models\Translation\SessionTranslation;
 use App\User;
+use App\Helpers\helpers;
 use App\Models\Cart;
 use \Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Log;
 use App\Http\Controllers\Api\Panel\ReserveMeetingsController;
 
 class ReserveMeetingController extends Controller
@@ -95,8 +97,64 @@ class ReserveMeetingController extends Controller
         abort(404);
 
     }
+    public function cancel($id)
+    {
+        $user = apiAuth();
 
+        $meetingIds = Meeting::where('creator_id', $user->id)->pluck('id');
 
+        $ReserveMeeting = \App\Models\Api\ReserveMeeting::with(['user', 'meeting.creator'])
+           ->where(function ($query) use ($user, $meetingIds) {
+                $query->where('user_id', $user->id)
+                    ->orWhereIn('meeting_id', $meetingIds);
+            })
+            ->first();
+
+        if (!empty($ReserveMeeting)) {
+            $ReserveMeeting->update([
+                'status' => ReserveMeeting::$canceled
+            ]);
+
+        // Delete any related cart entry
+                \App\Models\Cart::where('reserve_meeting_id', $ReserveMeeting->id)->delete();
+
+            $notifyOptions = [
+                '[student.name]' => $ReserveMeeting->user->full_name,
+                '[instructor.name]' => $ReserveMeeting->meeting->creator->full_name,
+                '[time.date]' => $ReserveMeeting->day,
+            ];
+            sendNotification('meeting_canceled', $notifyOptions, $ReserveMeeting->user_id);
+            sendNotification('meeting_canceled', $notifyOptions, $ReserveMeeting->meeting->creator_id);
+
+            return apiResponse2(1, 'canceled',
+                trans('api.meeting.canceled'));
+        }
+        abort(404);
+    }
+    public function addLiveSession(Request $request, $reserveMeetingId)
+    {
+        try
+        {            
+            $user = apiAuth();
+            $session = createReserveMeetingLiveSession(reserveMeetingId: $reserveMeetingId, creatorId: $user->id);
+
+            if($session){                
+                    return response()->json([
+                            'code' => 200
+                ]);
+            }
+        }
+        catch(\Exception $ex){
+            Log::error('Error in addLiveSession: '.$ex->getMessage(), [
+                'file' => $ex->getFile(),
+                'line' => $ex->getLine(),
+                'trace' => $ex->getTraceAsString(),
+            ]);
+        }
+        return response()->json([], 422);
+    }
+
+/*
     public function addLiveSession(Request $request, $id)
     {
         $user = apiAuth();
@@ -157,14 +215,15 @@ class ReserveMeetingController extends Controller
         }
 
         return response()->json([], 422);
-    }
+    }*/
     public function acceptMeetingRequest($id)
     {
         try{
         $ReserveMeeting = ReserveMeeting::with(['meeting', 'user'])->find($id);
 
         if (!empty($ReserveMeeting)) {
-            $user = auth()->user();
+            //$user = auth()->user();
+                $user = apiAuth();
 
             // Ensure the authenticated user is the creator of the meeting
             if ($ReserveMeeting->meeting->creator_id != $user->id) {
@@ -195,6 +254,7 @@ class ReserveMeetingController extends Controller
 
             // Notify the student
             $notifyOptions = [
+                '[link]' => 'academyapp://cart',
                 '[student.name]' => $ReserveMeeting->user->full_name,
                 '[instructor.name]' => $user->full_name,
                 '[time.date]' => $ReserveMeeting->day,
@@ -216,6 +276,11 @@ class ReserveMeetingController extends Controller
         ], 404);
         }
         catch(\Exception $ex){
+            Log::error('Error in acceptMeetingRequest: '.$ex->getMessage(), [
+                'file' => $ex->getFile(),
+                'line' => $ex->getLine(),
+                'trace' => $ex->getTraceAsString(),
+            ]);
             return response()->json([
                 'code' => 404,
                 'title' => trans('public.error'),

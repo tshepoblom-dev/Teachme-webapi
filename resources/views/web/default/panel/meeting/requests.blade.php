@@ -251,6 +251,9 @@
                                                             @if($ReserveMeeting->status == \App\Models\ReserveMeeting::$pending)
                                                             <button type="button" data-item-id="{{ $ReserveMeeting->id }}" data-date="{{ dateTimeFormat($ReserveMeeting->start_at, 'j M Y H:i') }}"
                                                                 class="js-accept-meeting-request btn-transparent webinar-actions d-block mt-10 text-primary">Accept Request</button>
+                                                            @elseif(empty($ReserveMeeting->session->link) and !empty($ReserveMeeting->sale_id) and $ReserveMeeting->status == \App\Models\ReserveMeeting::$accepted)
+                                                                <button type="button" data-item-id="{{ $ReserveMeeting->id }}" data-date="{{ dateTimeFormat($ReserveMeeting->start_at, 'j M Y H:i') }}"
+                                                                        class="js-add-meeting-session btn-transparent webinar-actions d-block mt-10 text-primary">Create Live Session</button>
                                                         {{-- @elseif(empty($ReserveMeeting->session) and $ReserveMeeting->status == \App\Models\ReserveMeeting::$open) --}}
                                                         {{--    @elseif(empty($ReserveMeeting->session))
                                                                 <button type="button" data-item-id="{{ $ReserveMeeting->id }}" data-date="{{ dateTimeFormat($ReserveMeeting->start_at, 'j M Y H:i') }}"

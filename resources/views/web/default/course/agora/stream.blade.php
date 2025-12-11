@@ -50,7 +50,6 @@
         </span>
     </div>
 
-    @if($isHost)
         <button type="button" id="shareScreen" class="stream-bottom-actions btn-transparent d-flex flex-column align-items-center ">
             <i data-feather="airplay" width="24" height="24" class=""></i>
             <span class="mt-1 text-gray font-14">{{ trans('update.share_screen') }}</span>
@@ -63,17 +62,57 @@
             <span class="mt-1 text-gray font-14">{{ trans('update.end_share_screen') }}</span>
         </button>
 
+    @if($isHost)
         <button type="button" id="handleUsersJoin" class="stream-bottom-actions btn-transparent d-flex flex-column align-items-center {{ (!empty($session->agora_settings) and !empty($session->agora_settings->users_join) and $session->agora_settings->users_join) ? '' : 'dont-join-users' }}">
             <div class="icon-box">
                 <i data-feather="users" width="24" height="24" class=""></i>
             </div>
             <span class="mt-1 text-gray font-14">{{ (!empty($session->agora_settings) and !empty($session->agora_settings->users_join) and $session->agora_settings->users_join) ? trans('update.join_is_active') : trans('update.joining_is_disabled') }}</span>
         </button>
+    @endif
 
         <button type="button" class="stream-bottom-actions btn-transparent d-flex flex-column align-items-center text-danger" data-toggle="modal" data-target="#leaveModal">
             <i data-feather="x-square" width="24" height="24" class=" "></i>
             <span class="mt-1 font-14">{{ trans('update.end_live') }}</span>
         </button>
+
+          <button type="button" class="stream-bottom-actions btn-transparent d-flex flex-column align-items-center text-warning" data-toggle="modal" data-target="#reportModal">
+                <i data-feather="flag" width="24" height="24" class=""></i>
+                @if(!$isHost)
+                    <span class="mt-1 font-14">Report Tutor</span>
+                @else
+                    <span class="mt-1 font-14">Report Student</span>
+                @endif
+            </button>
+
+            <div class="modal fade" id="reportModal" tabindex="-1" role="dialog" aria-labelledby="reportModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-md">
+                    <div class="modal-content">
+                        <form id="reportForm">
+                            @csrf
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="reportModalLabel">Report</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span>&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group mt-15">
+                                    <label>Message</label>
+                                    <textarea name="message" rows="4" class="form-control" required minlength="2"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
 
         <div class="modal fade" id="leaveModal" tabindex="-1" role="dialog" aria-labelledby="leaveModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-sm">
@@ -95,7 +134,6 @@
                 </div>
             </div>
         </div>
-    @endif
 
 </div>
 
@@ -112,5 +150,27 @@
 
     <script src="/assets/vendors/agora/AgoraRTC_N.js"></script>
     <script src="/assets/default/agora/stream.min.js"></script>
+     <script>
+        $('#reportForm').on('submit', function(e) {
+            e.preventDefault();
+
+            $.ajax({
+                url: "{{ route('panel.store_support_json') }}",
+                method: 'POST',
+                data: $(this).serialize(),
+                success: function(response) {
+                    if (response.success) {
+                        alert(response.message);
+                        $('#reportModal').modal('hide');
+                        $('#reportForm')[0].reset();
+                    }
+                },
+                error: function(xhr) {
+                    alert('Something went wrong: ' + xhr.responseJSON.message);
+                }
+            });
+        });
+
+    </script>
 @endpush
 

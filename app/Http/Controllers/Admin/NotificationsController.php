@@ -17,6 +17,12 @@ use App\Models\Api\UserFirebaseSessions;
 use Kreait\Firebase\Messaging;
 use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\MulticastSendReport;
+use Illuminate\Support\Facades\Log;
+use Kreait\Firebase\Messaging\AndroidConfig;
+use Kreait\Firebase\Exception\MessagingException;
+use Kreait\Firebase\Factory;
+use GuzzleHttp\Client;
+
 
 class NotificationsController extends Controller
 {
@@ -125,7 +131,141 @@ class NotificationsController extends Controller
 
         return redirect(getAdminPanelUrl() . '/notifications/posted');
     }
+        
+    private function handleFirebaseMessages($data, $user_id, $group_id, $webinar_id)
+    {
+        $fcmTokensQuery = UserFirebaseSessions::query();
 
+        // --- Target selection ---
+        switch ($data['type']) {
+            case 'single':
+                if (empty($user_id)) return true;
+                $fcmTokensQuery->where('user_id', $user_id);
+                break;
+
+            case 'all_users':
+                $fcmTokensQuery->whereNotNull('fcm_token');
+                break;
+
+            case 'students':
+                $ids = User::where("role_id", Role::getUserRoleId())->pluck("id");
+                $fcmTokensQuery->whereIn('user_id', $ids);
+                break;
+
+            case 'instructors':
+                $ids = User::where("role_id", Role::getTeacherRoleId())->pluck("id");
+                $fcmTokensQuery->whereIn('user_id', $ids);
+                break;
+
+            case 'organizations':
+                $ids = User::where("role_id", Role::getOrganizationRoleId())->pluck("id");
+                $fcmTokensQuery->whereIn('user_id', $ids);
+                break;
+
+            case 'group':
+                if (empty($group_id)) return true;
+                $ids = GroupUser::where("group_id", $group_id)->pluck("user_id");
+                $fcmTokensQuery->whereIn('user_id', $ids);
+                break;
+
+            case 'course_students':
+                if (empty($webinar_id)) return true;
+                $ids = Sale::where('webinar_id', $webinar_id)
+                    ->whereNull('refund_at')
+                    ->pluck('buyer_id');
+                $fcmTokensQuery->whereIn('user_id', $ids);
+                break;
+        }
+
+        // --- Collect unique device tokens ---
+        $deviceTokens = $fcmTokensQuery
+            ->whereNotNull('fcm_token')
+            ->distinct()
+            ->pluck('fcm_token')
+            ->filter(fn($t) => strlen($t) > 0)
+            ->values()
+            ->toArray();
+
+        if (empty($deviceTokens)) {
+            Log::info("📭 No FCM tokens found for notification", ['type' => $data['type']]);
+            return true;
+        }
+
+        Log::info("📲 Sending FCM notification", [
+            'type' => $data['type'],
+            'title' => $data['title'] ?? '',
+            'message' => $data['message'] ?? '',
+            'recipients' => count($deviceTokens),
+        ]);
+
+        // --- Build base message ---
+        $baseMessage = CloudMessage::new()
+            ->withNotification(\Kreait\Firebase\Messaging\Notification::create(
+                $data["title"],
+                preg_replace('/<[^>]*>/', '', $data["message"])
+            ))
+            ->withData([
+                'user_id' => $user_id,
+                'group_id' => $group_id,
+                'webinar_id' => $webinar_id,
+                'sender_id' => auth()->id(),
+                'title' => $data['title'],
+                'message' => preg_replace('/<[^>]*>/', '', $data['message']),
+                'sender' => Notification::$AdminSender,
+                'type' => $data['type'],
+                'created_at' => time(),
+            ])
+            ->withAndroidConfig(AndroidConfig::fromArray([
+                'ttl' => '3600s',
+                'priority' => 'high',
+                'notification' => [
+                    'color' => '#f45342',
+                    'sound' => 'default',
+                ],
+            ]));
+
+            // --- Use Firebase Factory with custom CA bundle ---
+    /* $factory = (new Factory)->withHttpClient(new Client([
+            'verify' => base_path('cacert.pem'), // make sure certs/cacert.pem exists
+        ]));
+
+        $messaging = $factory->createMessaging();*/
+        $messaging = app('firebase.messaging');
+
+        // --- Batch sending in chunks of 500 ---
+        foreach (array_chunk($deviceTokens, 500) as $chunk) {
+            try {
+                $report = $messaging->sendMulticast($baseMessage, $chunk);
+
+                Log::info("FCM batch sent", [
+                    'success' => $report->successes()->count(),
+                    'failures' => $report->failures()->count(),
+                ]);
+
+                foreach ($report->failures()->getItems() as $failure) {
+                    $token = $failure->target()->value();
+                    $error = $failure->error()->getMessage();
+                    $code = $failure->error()->getCode();
+
+                    Log::warning("FCM send failure", [
+                        'token' => $token,
+                        'error' => $error,
+                        'code' => $code,
+                        'payload' => $data,
+                    ]);
+
+                    // Optionally remove invalid tokens
+                    UserFirebaseSessions::where('fcm_token', $token)->delete();
+                }
+            } catch (\Kreait\Firebase\Exception\MessagingException $e) {
+                Log::error("FCM MessagingException", ['error' => $e->getMessage()]);
+            } catch (\Exception $e) {
+                Log::error("FCM Unexpected Exception", ['error' => $e->getMessage()]);
+            }
+        }
+    }
+
+/*
     private function handleFirebaseMessages($data, $user_id, $group_id, $webinar_id)
     {
         $fcmTokensQuery = UserFirebaseSessions::query();
@@ -139,7 +279,7 @@ class NotificationsController extends Controller
         }
 
         if ($data["type"] === "all_users") {
-            /**/
+            
         }
 
         if ($data["type"] === "students") {
@@ -235,7 +375,7 @@ class NotificationsController extends Controller
             }
         }
     }
-
+*/
     public function edit($id)
     {
         $this->authorize('admin_notifications_edit');

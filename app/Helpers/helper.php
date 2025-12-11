@@ -3,6 +3,265 @@
 use App\Mixins\Financial\MultiCurrency;
 use Illuminate\Support\Facades\Cookie;
 use App\Http\Controllers\Api\UploadFileManager;
+use Illuminate\Support\Facades\Auth;
+use App\Models\Translation\SessionTranslation;
+use App\Models\Api\User, App\Models\ReserveMeeting, App\Models\Api\Meeting;
+use Bigbluebutton\Bigbluebutton;
+use App\Integrations\Zoom\OAuth as ZoomOAuth;
+use Illuminate\Support\Facades\Log;
+use App\Models\Session;
+use Illuminate\Support\Str;
+
+    function createReserveMeetingLiveSession($reserveMeetingId, $platform = 'big_blue_button', $creatorId = null)
+    {
+        try
+        {            
+            Log::info('createReserveMeeting reached', []);
+            $user = User::find($creatorId) ?? ReserveMeeting::find($reserveMeetingId)->meeting->creator;
+            if (!$user) {
+                Log::info('createReserveMeetingLiveSession()::user not found... exit createLiveSession()',[]);
+                return null;
+            }
+            else
+            {
+                Log::info('createReserveMeetingLiveSession()::user found: '.$user->id, [
+                    'user_name' => $user->full_name,
+                    'user_email' => $user->email,
+                ]);
+            }
+
+            $meetingIds = Meeting::where('creator_id', $user->id)->pluck('id');
+
+            $reserveMeeting = ReserveMeeting::where('id', $reserveMeetingId)
+                ->whereIn('meeting_id', $meetingIds)
+                ->first();
+
+            if (empty($reserveMeeting)) {
+                Log::info('createReserveMeetingLiveSession()::ReserveMeeting not found... exit createLiveSession()',[]);
+                return null;
+            }
+
+         /*   if($reserveMeeting->status != ReserveMeeting::$open){
+                return null;
+            }  */
+            
+            // Default session API
+            $sessionApi = in_array($platform, ['agora', 'big_blue_button']) ? $platform : 'agora';
+            
+            //$session = \App\Models\Api\Session::create([
+            $session = Session::query()->updateOrCreate([
+                'creator_id' => $user->id,
+                'reserve_meeting_id' => $reserveMeeting->id,
+                'duration' => (($reserveMeeting->end_at - $reserveMeeting->start_at) / 60),
+                'date' => $reserveMeeting->start_at,
+                'link' => null,
+                'session_api' => $sessionApi,
+                'moderator_secret' => mb_strtolower(Str::random(16)),
+                'api_secret' => mb_strtolower(Str::random(16)),
+                'agora_settings' => $sessionApi == 'agora' ? json_encode([
+                    'chat' => true,
+                    'record' => false,
+                    'users_join' => true
+                ]) : null,
+                'check_previous_parts' => false,
+                'access_after_day' => true,
+                'created_at' => time(),
+            ]);
+
+            if(!$session){
+                Log::error('Failed to create session for Reserve Meeting #'.$reserveMeeting->id, [
+                    'success' => false,
+                    'errors' => ['session' => ['Failed to create session']],
+                    'code' => 500
+                ]);
+                return null;
+            }
+
+            Log::info('Session created', [
+                'session_id' => $session->id,
+                'reserve_meeting_id' => $session->reserve_meeting_id,
+                'creator_id' => $session->creator_id,
+                'session_api' => $session->session_api,
+            ]);
+            // Create session translation
+            SessionTranslation::updateOrCreate([
+                'session_id' => $session->id,
+                'locale' => mb_strtolower(app()->getLocale()),
+            ], [
+                'title' => 'Reserve Meeting #' . $reserveMeeting->id,
+                'description' => 'Live session for Reserve Meeting #' . $reserveMeeting->id ?? null,
+            ]);
+
+            // Handle API-specific setup
+            $apiResult = handleSessionApiSetup($session);
+
+            if ($apiResult !== true) {
+                Log::error('Session API setup failed for Reserve Meeting #'.$reserveMeeting->id, ['apiResult' => json_encode($apiResult)]);
+                $session->delete();
+                return null;
+            }
+            $reserveMeeting->update([
+                'status' => ReserveMeeting::$open,
+                'link' => $session->getJoinLink(), // This should use the updated session link
+                'locked_at' => null,
+            ]);
+            //Log::info('ReserveMeeting ' . $reserveMeeting->id . ' created', json_encode($reserveMeeting));
+            // Delete any related cart entry
+            //\App\Models\Cart::where('reserve_meeting_id', $reserveMeeting->id)->delete();
+
+            $creatorName = User::find($reserveMeeting->meeting->creator_id)->full_name ?? '';
+            
+            $notifyOptions = [
+               '[link]' => $session->getJoinLink(),
+               '[instructor.name]' => $user->full_name ?? $creatorName,
+               '[time.date]' => dateTimeFormat($session->date, 'j M Y H:i'),
+            ];
+            
+            sendNotification('new_appointment_session', $notifyOptions, $reserveMeeting->user_id);
+            sendNotification('new_appointment_session', $notifyOptions, $reserveMeeting->meeting->creator_id);
+           
+            return $session;  
+        }
+        catch(Exception $ex){
+            Log::error('Error creating live session for Reserve Meeting #'.$reserveMeetingId.': '.$ex->getMessage(), [
+                'file' => $ex->getFile(),
+                'line' => $ex->getLine(),
+                'trace' => $ex->getTraceAsString(),
+            ]);
+            return null;
+        }
+    }
+
+    function handleSessionApiSetup($session)
+    {
+        switch ($session->session_api) {
+            case 'big_blue_button':
+                return handleBigBlueButtonApi($session);
+        
+            case 'agora':
+                  $agoraSettings = [
+                    'chat' => true,
+                    'record' => false,
+                    'users_join' => true
+                ];
+                $session->agora_settings = json_encode($agoraSettings);
+                $session->save();
+                return true;                
+            case 'zoom':
+              //  return handleZoomApi($session, $userId);            
+            case 'local':
+            case 'jitsi':
+                // No additional setup needed for these APIs
+                //return true;
+            
+            default:
+                return [
+                    'success' => false,
+                    'errors' => ['session_api' => ['Unsupported session API']],
+                    'code' => 422
+                ];
+        }
+    }
+    function handleZoomApi($session, $user)
+    {
+        try {
+            if (!empty(getFeaturesSettings('zoom_client_id')) and !empty(getFeaturesSettings('zoom_client_secret'))) {
+
+                $meeting = (new ZoomOAuth())->makeMeeting($session);
+
+                if ($meeting) {
+                    return "ok";
+                } else {
+                    $session->delete();
+                }
+            }
+        } catch (\Exception $exception) {
+            $session->delete();
+            //dd($exception);
+        }
+
+        return response()->json([
+            'code' => 422,
+            'status' => 'zoom_token_invalid',
+            'zoom_error_msg' => trans('update.zoom_error_msg')
+        ], 422);
+    }
+
+    function handleBigBlueButtonConfigs()
+    {
+        $settings = getFeaturesSettings();
+
+        \Config::set("bigbluebutton.BBB_SECURITY_SALT", !empty($settings['bigbluebutton_security_salt']) ? $settings['bigbluebutton_security_salt'] : '');
+        \Config::set("bigbluebutton.BBB_SERVER_BASE_URL", !empty($settings['bigbluebutton_server_base_url']) ? $settings['bigbluebutton_server_base_url'] : '');
+    }
+
+    function handleBigBlueButtonApi($session)
+    {
+        try
+        {
+            
+        handleBigBlueButtonConfigs();
+
+        $createMeeting = \Bigbluebutton::initCreateMeeting([
+            'meetingID' => $session->id,
+            'meetingName' => $session->title,
+            'attendeePW' => $session->api_secret,
+            'moderatorPW' => $session->moderator_secret,
+            'is_persistent' => true,
+        ]);
+
+        //$createMeeting->setDuration($session->duration);
+        $createMeeting->setDuration(0);
+        
+        // IMPORTANT: Prevent auto-end when last user leaves
+        $createMeeting->setEndWhenNoModerator(false);
+        $createMeeting->setEndWhenNoModeratorDelayInMinutes(1);
+        
+        // Set meta parameters to control behavior
+        $createMeeting->addMeta('bbb-meeting-expire-when-last-user-left', 'false');
+        $createMeeting->addMeta('bbb-meeting-expire-when-no-moderator', 'false');
+        $createMeeting->addMeta('bbb-meeting-duration', '0'); // No time limit
+
+        $response = \Bigbluebutton::create($createMeeting);
+
+        Log::info('BigBlueButton create meeting response: '.json_encode($response), []);
+
+        return true;
+        
+        }
+        catch(\Exception $ex){
+            $session->delete();
+            Log::error('BigBlueButton API error: '.$ex->getMessage(), [
+                'file' => $ex->getFile(),
+                'line' => $ex->getLine(),
+                'trace' => $ex->getTraceAsString(),
+            ]);
+            return false;
+        }
+    }
+
+    
+function isMeetingRunning($meetingId)
+{
+    try {
+        $response = \Bigbluebutton::isMeetingRunning($meetingId);
+        return $response->isRunning();
+    } catch (\Exception $e) {
+        \Log::error('BBB IsMeetingRunning Error: ' . $e->getMessage());
+        return false;
+    }
+}
+
+function keepMeetingAlive($meetingId)
+{
+    // This can be called periodically to prevent meeting expiration
+    try {
+        $meetingInfo = \Bigbluebutton::getMeetingInfo($meetingId);
+        return $meetingInfo->success();
+    } catch (\Exception $e) {
+        return false;
+    }
+}
 
 function getTemplate()
 {
@@ -2105,7 +2364,7 @@ function sendNotification($template, $options, $user_id = null, $group_id = null
                 'created_at' => time()
             ]);
 
-            if (env('APP_ENV') == 'production') {
+           // if (env('APP_ENV') == 'production') {
                 $user = \App\User::where('id', $user_id)->first();
 
                 if (!empty($user) and !empty($user->email)) {
@@ -2118,7 +2377,7 @@ function sendNotification($template, $options, $user_id = null, $group_id = null
 
                 // Send Firebase Messages
                 handleSendFirebaseMessages($user_id, $group_id, $sender, $type, $title, $message);
-            }
+          //  }
         }
 
         return true;
@@ -2787,7 +3046,7 @@ function handleFileUploads($request, $user)
     }
     catch(Exception $ex)
     {
-        \Log::error("File upload failed: " . $ex->getMessage());
+        Log::error("File upload failed: " . $ex->getMessage());
     }
 }
 
@@ -2851,3 +3110,4 @@ function sluggablemethod($string, $separator = '-') {
         unset($_transliteration);
         return preg_replace(array_keys($map), array_values($map), $string);
     }
+

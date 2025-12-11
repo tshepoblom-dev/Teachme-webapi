@@ -52,15 +52,27 @@ class AgoraController extends Controller
         $currentTimestamp = now()->getTimestamp();
         $privilegeExpiredTs = $currentTimestamp + $expireTimeInSeconds;
 
-        return RtcTokenBuilder::buildTokenWithUserAccount($this->appId, $this->appCertificate, $channelName, null, $role, $privilegeExpiredTs);
+        return RtcTokenBuilder::buildTokenWithUserAccount(
+            $this->appId,
+            $this->appCertificate, 
+            $channelName, 
+            null, 
+            $role, 
+            $privilegeExpiredTs);
     }
 
+   // public function getRTMToken($accountName): string
     public function getRTMToken($channelName): string
     {
         $expireTimeInSeconds = 3600;
         $currentTimestamp = now()->getTimestamp();
         $privilegeExpiredTs = $currentTimestamp + $expireTimeInSeconds;
 
-        return RtmTokenBuilder::buildToken($this->appId, $this->appCertificate, $channelName, null, $privilegeExpiredTs);
+        return RtmTokenBuilder::buildToken(
+            $this->appId, 
+            $this->appCertificate, 
+            $channelName, //$accountName, 
+            null, 
+            $privilegeExpiredTs);
     }
 }

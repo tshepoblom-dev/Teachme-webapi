@@ -300,6 +300,7 @@ Route::group(['namespace' => 'Panel', 'prefix' => 'panel', 'middleware' => ['imp
         Route::get('/', 'SupportsController@index');
         Route::get('/new', 'SupportsController@create');
         Route::post('/store', 'SupportsController@store');
+        Route::post('/store-json', 'SupportsController@storeJson')->name('panel.store_support_json')->withoutMiddleware(['api.auth', 'impersonate', 'panel', 'share', 'check_maintenance', 'check_restriction', 'verified.user']);
         Route::get('{id}/conversations', 'SupportsController@index');
         Route::post('{id}/conversations', 'SupportsController@storeConversations');
         Route::get('{id}/close', 'SupportsController@close');

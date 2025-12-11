@@ -4,6 +4,8 @@ use App\Api\Response;
 use App\Api\Request;
 use App\Models\Api\UserFirebaseSessions;
 use Kreait\Firebase\Messaging\CloudMessage;
+use Illuminate\Support\Facades\Log;
+use Kreait\Firebase\Messaging\AndroidConfig;
 
 function validateParam($request_input, $rules, $somethingElseIsInvalid = null)
 {
@@ -61,7 +63,7 @@ function nicePriceWithTax($price)
     return $nice;
 }
 
-
+/*
 function handleSendFirebaseMessages($user_id, $group_id, $sender, $type, $title, $message)
 {
     $fcmTokens = UserFirebaseSessions::where('user_id', $user_id)
@@ -111,6 +113,76 @@ function handleSendFirebaseMessages($user_id, $group_id, $sender, $type, $title,
 
         }
 
+    }
+}
+*/
+
+function handleSendFirebaseMessages($user_id, $group_id, $sender, $type, $title, $message)
+{
+    try {
+        $fcmTokens = UserFirebaseSessions::where('user_id', $user_id)
+            ->select('fcm_token')
+            ->pluck('fcm_token')
+            ->filter()
+            ->toArray();
+
+        if (count($fcmTokens) === 0) {
+            Log::warning('No FCM tokens found for user', ['user_id' => $user_id]);
+            return;
+        }
+
+        $messaging = app('firebase.messaging');
+        $cleanMessage = preg_replace('/<[^>]*>/', '', $message);
+
+        foreach ($fcmTokens as $fcmToken) {
+            $fcmMessage = CloudMessage::withTarget('token', $fcmToken)
+                ->withNotification([
+                    'title' => $title,
+                    'body' => $cleanMessage,
+                ])
+                ->withData([
+                    'user_id'   => $user_id,
+                    'group_id'  => $group_id,
+                    'title'     => $title,
+                    'message'   => $cleanMessage,
+                    'sender'    => $sender,
+                    'type'      => $type,
+                    'created_at'=> time(),
+                ])
+                ->withAndroidConfig(AndroidConfig::fromArray([
+                    'ttl' => '3600s',
+                    'priority' => 'high',
+                    'notification' => [
+                        'color' => '#f45342',
+                        'sound' => 'default',
+                    ],
+                ]));
+
+            try {
+                $messaging->send($fcmMessage);
+
+                // ✅ Log successful send
+              /*  Log::info('FCM notification sent successfully', [
+                    'token'   => $fcmToken,
+                    'user_id' => $user_id,
+                    'title'   => $title,
+                    'body'    => $cleanMessage,
+                ]);*/
+            } catch (\Throwable $e) {
+                // ❌ Log failure with reason
+                Log::error('FCM send failed', [
+                    'token'   => $fcmToken,
+                    'user_id' => $user_id,
+                    'error'   => $e->getMessage(),
+                ]);
+            }
+        }
+    } catch (\Throwable $e) {
+        Log::critical('handleSendFirebaseMessages failed', [
+            'user_id' => $user_id,
+            'error'   => $e->getMessage(),
+            'trace'   => $e->getTraceAsString(),
+        ]);
     }
 }
 

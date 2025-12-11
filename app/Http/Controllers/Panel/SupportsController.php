@@ -335,6 +335,74 @@ class SupportsController extends Controller
         return redirect($url);
     }
 
+    public function storeJson(Request $request)
+    {
+        $this->authorize("panel_support_create");
+
+        $user = auth()->user();
+
+        $this->validate($request, [
+        // 'title' => 'nullable|min:2',
+        // 'type' => 'nullable',
+        //   'department_id' => 'nullable|exists:support_departments,id',
+        //  'webinar_id' => 'nullable|exists:webinars,id',
+            'message' => 'required|min:2',
+        // 'attach' => 'nullable|string',
+        ]);
+
+        try {
+            $data = $request->all();
+            unset($data['type']);
+
+            $support = Support::create([
+                'user_id' => $user->id,
+                'department_id' => null, //$data['department_id'] ?? null,
+                'webinar_id' => null, //$data['webinar_id'] ?? null,
+                'title' => "In-session complaint " . now()->toString(), //$data['title'] ?? null,
+                'status' => 'open',
+                'created_at' => time(),
+                'updated_at' => time(),
+            ]);
+
+            $conversation = SupportConversation::create([
+                'support_id' => $support->id,
+                'sender_id' => $user->id,
+                'message' => $data['message'],
+                'attach' => null,//$data['attach'] ?? null,
+                'created_at' => time(),
+            ]);
+
+            // Notifications
+            if (!empty($data['webinar_id'])) {
+                $webinar = Webinar::findOrFail($data['webinar_id']);
+                sendNotification('support_message', [
+                    '[c.title]' => $webinar->title,
+                    '[u.name]'  => $user->full_name,
+                ], $webinar->teacher_id);
+            }
+
+            if (!empty($data['department_id'])) {
+                sendNotification('support_message_admin', [
+                    '[s.t.title]' => $support->title,
+                ], 1); // for admin
+            }
+
+            return response()->json([
+                'success' => true,
+                'message' =>"report_submitted_successfully",
+                'data' => [
+                    'support' => $support,
+                    'conversation' => $conversation,
+                ]
+            ], 200);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => $e->getMessage(),
+            ], 500);
+        }
+    }
     public function storeConversations(Request $request, $id)
     {
         $this->validate($request, [

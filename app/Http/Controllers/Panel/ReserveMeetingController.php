@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Panel;
 use App\Http\Controllers\Controller;
 use App\Models\Meeting;
 use App\Models\MeetingTime;
+use Illuminate\Support\Facades\Auth;
 use App\Models\Quiz;
 use App\Models\ReserveMeeting;
 use App\Models\Role;
@@ -242,6 +243,8 @@ class ReserveMeetingController extends Controller
 
     public function finish(Request $request, $id)
     {
+         try
+        {   
         $user = auth()->user();
 
         $meetingIds = Meeting::where('creator_id', $user->id)->pluck('id');
@@ -310,6 +313,16 @@ class ReserveMeetingController extends Controller
         }
 
         return response()->json([], 422);
+          }
+        catch(\Exception $ex)
+        {
+            Log::error('Error in finish meeting: '.$ex->getMessage(), [
+                'file' => $ex->getFile(),
+                'line' => $ex->getLine(),
+                'trace' => $ex->getTraceAsString(),
+            ]);
+            dump($ex);
+        }   
     }
 
     public function createLink(Request $request)
@@ -367,67 +380,46 @@ class ReserveMeetingController extends Controller
         abort(403);
     }
 
-    public function addLiveSession(Request $request, $id)
+    //public function addLiveSession(Request $request, $id)
+    public function addLiveSession($id)
     {
-        $user = auth()->user();
+        try
+        {
+            Log::info('addLiveSession called for ReserveMeeting ID: '.$id, []);
+            $user = auth()->user() ?? Auth::user();
 
-        $meetingIds = Meeting::where('creator_id', $user->id)->pluck('id');
+            $meetingIds = Meeting::where('creator_id', $user->id)->pluck('id');
 
-        $ReserveMeeting = ReserveMeeting::where('id', $id)
-            ->whereIn('meeting_id', $meetingIds)
-            ->first();
+            $ReserveMeeting = ReserveMeeting::where('id', $id)
+                ->whereIn('meeting_id', $meetingIds)
+                ->first();
 
-        if (!empty($ReserveMeeting)) {
-            $agoraSettings = [
-                'chat' => true,
-                'record' => true,
-                'users_join' => true
-            ];
-
-            $session = Session::query()->updateOrCreate([
-                'creator_id' => $user->id,
-                'reserve_meeting_id' => $ReserveMeeting->id,
-            ], [
-                //'date' => time(), // can start now
-                'date' => $ReserveMeeting->start_at,
-                'duration' => (($ReserveMeeting->end_at - $ReserveMeeting->start_at) / 60),
-                'link' => null,
-                'session_api' => 'agora',
-                'agora_settings' => json_encode($agoraSettings),
-                'check_previous_parts' => false,
-                'status' => Session::$Active,
-                'created_at' => time()
-            ]);
-
-            if (!empty($session)) {
-                SessionTranslation::updateOrCreate([
-                    'session_id' => $session->id,
-                    'locale' => mb_strtolower(app()->getLocale()),
-                ], [
-                    'title' => trans('update.new_in-app_call_session'),
-                    'description' => trans('update.new_in-app_call_session'),
-                ]);
-                //meeting status will be set to open when a user pays
-
-                $ReserveMeeting->update([
-                    'status' => ReserveMeeting::$open,
-                ]);
-
-                $notifyOptions = [
-                    '[link]' => $session->getJoinLink(),
-                    '[instructor.name]' => $user->full_name,
-                    '[time.date]' => dateTimeFormat($session->date, 'j M Y H:i'),
-                ];
-                sendNotification('new_appointment_session', $notifyOptions, $ReserveMeeting->user_id);
-
-                return response()->json([
-                    'code' => 200
-                ]);
+            if (!empty($ReserveMeeting)) {
+                $session = createReserveMeetingLiveSession(reserveMeetingId: $ReserveMeeting->id, creatorId: $user->id);
+                if (!empty($session)) {
+                  
+                    return response()->json([
+                        'code' => 200
+                    ], 200);
+                }
             }
+        }
+        catch(\Exception $ex)
+        {
+            Log::error('Error in addLiveSession: '.$ex->getMessage(), [
+                'file' => $ex->getFile(),
+                'line' => $ex->getLine(),
+                'trace' => $ex->getTraceAsString(),
+            ]);
+            return response()->json([
+                'code' => 500,
+                'message' => 'An error occurred while creating the live session.' . $ex->getMessage(),
+            ], 500);
         }
 
         return response()->json([], 422);
     }
+    
     public function acceptMeetingRequest($id)
     {
         try{

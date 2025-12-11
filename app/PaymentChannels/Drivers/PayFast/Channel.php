@@ -10,6 +10,7 @@ use App\User;
 use App\Models\ReserveMeeting;
 use App\Models\Cart;
 use App\Models\OrderItem;
+use Illuminate\Support\Facades\Log;
 use Auth;
 use Exception;
 
@@ -51,7 +52,9 @@ class Channel extends BasePaymentChannel implements IChannel
         $passphrase = $this->test_mode ? 'Teachmeapp2024' : $this->passphrase;
 
         // Detect if request is for API or Web
+        //$isApi = request()->is('api/*') || request()->is('api/development/*');
         $isApi = request()->is('api/*') || request()->is('api/development/*');
+        Log::info('PayFast isApi: ' . ($isApi ? 'true' : 'false'),[]);
         $verifyPath = $isApi
                     ? "/api/development/panel/payments/verify/PayFast"
                     : "/payments/verify/PayFast";
