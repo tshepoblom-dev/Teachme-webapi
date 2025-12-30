@@ -6,6 +6,9 @@ use App\Models\Api\UserFirebaseSessions;
 use Kreait\Firebase\Messaging\CloudMessage;
 use Illuminate\Support\Facades\Log;
 use Kreait\Firebase\Messaging\AndroidConfig;
+use Kreait\Firebase\Exception\Messaging\NotFound;
+use Kreait\Firebase\Exception\Messaging\InvalidArgument;
+use Kreait\Firebase\Exception\Messaging\RegistrationTokenNotRegistered;
 
 function validateParam($request_input, $rules, $somethingElseIsInvalid = null)
 {
@@ -168,7 +171,21 @@ function handleSendFirebaseMessages($user_id, $group_id, $sender, $type, $title,
                     'title'   => $title,
                     'body'    => $cleanMessage,
                 ]);*/
-            } catch (\Throwable $e) {
+            } catch (
+                NotFound |
+                InvalidArgument |
+                \Exception $e
+            ) {
+                // 🧹 DELETE obsolete token
+                UserFirebaseSessions::where('fcm_token', $fcmToken)->delete();
+
+                Log::warning('Deleted obsolete FCM token', [
+                    'user_id' => $user_id,
+                    'token'   => $fcmToken,
+                    'reason'  => $e->getMessage(),
+                ]);
+
+            }  catch (\Throwable $e) {
                 // ❌ Log failure with reason
                 Log::error('FCM send failed', [
                     'token'   => $fcmToken,

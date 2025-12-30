@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Api\Panel\PaymentsController;
 use App\Http\Controllers\Api\Panel\ReserveMeetingsController;
+use App\Http\Controllers\Api\Panel\SessionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,7 +34,8 @@ Route::group(['prefix' => '/development'], function () {
     Route::post('/panel/payments/charge-verify/{gateway}', [PaymentsController::class, 'chargeVerify'])->withoutMiddleware(['api.identify','api.auth']);
     Route::post('/panel/payments/api-charge/{gateway}', [PaymentsController::class, 'api_charge'])->withoutMiddleware(['api.identify']);
     Route::get('/panel/payments/payment-channels', [PaymentsController::class, 'getPaymentChannels'])->withoutMiddleware(['api.identify','api.auth']);
-
+    Route::post('/api_sessions/{sessionId}/big_blue_button', [SessionController::class,'bigBlueButton'])->withoutMiddleware(['api.identify', \App\Http\Middleware\VerifyCsrfToken::class]);
+   
     Route::prefix('panel')->middleware('api.auth')->namespace('Panel')->group(base_path('routes/api/user.php'));
 
     Route::group(['namespace' => 'Config', 'middleware' => []], function () {

@@ -9,7 +9,7 @@ use App\Models\Session;
 use \Illuminate\Http\Request;
 use App\Models\Api\Cart;
 use App\Models\Translation\SessionTranslation;
-
+use Illuminate\Support\Facades\Log;
 
 class ReserveMeetingsController extends Controller
 {
@@ -48,12 +48,14 @@ class ReserveMeetingsController extends Controller
             $reserveMeetingsQuery->isAgora = false;
             $reserveMeetingsQuery->agoraLink = null;
             $session = Session::where("reserve_meeting_id","=",$reserveMeetingsQuery->id)->first();
-            if ($session){
+            if ($session && $session->session_api=="agora"){                    
                 $reserveMeetingsQuery->isAgora = true;
-                $reserveMeetingsQuery->agoraLink = route('agora.api.join',$session->id);
+                $reserveMeetingsQuery->agoraLink = route('agora.api.join',$session->id);                                
             }
-
+            $reserveMeetingsQuery->password = $user->isTeacher() ? $reserveMeetingsQuery->moderator_secret : $reserveMeetingsQuery->api_secret;
+          
         }
+        Log::info("ReserveMeetingsController show reserveMeetingsQuery ", [json_encode($reserveMeetingsQuery)]);
         return apiResponse2(1, 'retrieved', trans('api.public.retrieved'), [
             'meeting' => $reserveMeetingsQuery
         ]);

@@ -438,64 +438,89 @@ class SessionController extends Controller
         $this->handleBigBlueButtonConfigs();
 
         // Ensure meeting exists (create if missing)
-        $this->ensureBigBlueButtonMeetingExists($session);
+        $meetingExists = $this->ensureBigBlueButtonMeetingExists($session);
 
-        // Retrieve meeting info from BBB
-        try {
-       
-            $internalMeetingID = $this->getInternalMeetingID($session);
-
-        } catch (\Exception $ex) {
-            Log::error("Failed to retrieve BBB internalMeetingID", [
-                'session_id' => $session->id,
-                'error' => $ex->getMessage()
+        if($meetingExists === false){
+            Log::warning("Meeting does not exist on BBB server. Attempt to recreate the meeting...", [
+                'session_id' => $session->id
             ]);
-            abort(500, "Cannot join BBB meeting at this time.");
+            $meetingExists = $this->createBigBlueButtonMeeting($session);
         }
+        if($meetingExists){            
+            // Retrieve meeting info from BBB
+        /* try {
+        
+                $internalMeetingID = $this->getInternalMeetingID($session);
+                if(!$internalMeetingID){
+                    Log::error("InternalMeetingID is null", [
+                        'session_id' => $session->id
+                    ]);
+                    abort(500, "Cannot join BBB meeting at this time.");
+                }
 
-        // Determine password
-        $password = $user->id === $session->creator_id
-            ? $session->moderator_secret
-            : $session->api_secret;
+            } catch (\Exception $ex) {
+                Log::error("Failed to retrieve BBB internalMeetingID", [
+                    'session_id' => $session->id,
+                    'error' => $ex->getMessage()
+                ]);
+                abort(500, "Cannot join BBB meeting at this time.");
+            }*/
 
-        // Build join URL manually
-        $fullNameEncoded = urlencode($user->full_name);        // For final URL
-        $meetingIDEncoded = urlencode($internalMeetingID);     // For final URL
-        //$meetingIDEncoded = urlencode($session->id);     // For final URL
+            // Determine password
+            $isModerator =
+                    $user->isTeacher() ||
+                    $user->isAdmin() ||
+                    $user->id === $session->creator_id;
 
-        $baseUrl = rtrim(config('bigbluebutton.BBB_SERVER_BASE_URL'), '/');
-        $secret  = config('bigbluebutton.BBB_SECURITY_SALT');
+                $password = $isModerator
+                    ? $session->moderator_secret
+                    : $session->api_secret;
 
-        // --- IMPORTANT PART ---
-        // Build the *raw* (UNENCODED) string for the checksum
-        $queryStringRaw =
-            "fullName={$user->full_name}" .
-            "&meetingID={$meetingIDEncoded}" .
-            "&password={$password}" .
-            "&redirect=true";
+            // Build join URL manually
+            $fullNameEncoded = urlencode($user->full_name);        // For final URL
+            $meetingIDEncoded = urlencode($session->id);     // For final URL
+            //$meetingIDEncoded = urlencode($session->id);     // For final URL
 
-        // BBB checksum rule
-        $checksum = sha1("join" . $queryStringRaw . $secret);
-        Log::info("BBB Join Checksum Computation", [
-            'session_id' => $session->id,
-            'user_id' => $user->id,
-            'query_string_raw' => $queryStringRaw,
-            'checksum' => $checksum,
-            'secret_used' => $secret    
-        ]);
-        // Build final URL using encoded params
-        $joinUrl = "{$baseUrl}/api/join"
-            . "?fullName={$fullNameEncoded}"
-            . "&meetingID={$meetingIDEncoded}"
-            . "&password={$password}"
-            . "&redirect=true"
-            . "&checksum={$checksum}";
-        Log::info("BBB Join URL", [
-            'session_id' => $session->id,
-            'join_url' => $joinUrl
-        ]);
-        //dd($joinUrl);
-        return redirect($joinUrl);
+            $baseUrl = rtrim(config('bigbluebutton.BBB_SERVER_BASE_URL'), '/');
+            $secret  = config('bigbluebutton.BBB_SECURITY_SALT');
+
+            // --- IMPORTANT PART ---
+            // Build the *raw* (UNENCODED) string for the checksum
+            $queryStringRaw =
+                "fullName={$user->full_name}" .
+                "&meetingID={$session->id}" .
+                "&password={$password}" .
+                "&redirect=true";
+
+            // BBB checksum rule
+            $checksum = sha1("join" . $queryStringRaw . $secret);
+            Log::info("BBB Join Checksum Computation", [
+                'session_id' => $session->id,
+                'user_id' => $user->id,
+                'query_string_raw' => $queryStringRaw,
+                'checksum' => $checksum,
+                'secret_used' => $secret    
+            ]);
+            // Build final URL using encoded params
+            $joinUrl = "{$baseUrl}/api/join"
+                . "?fullName={$fullNameEncoded}"
+                . "&meetingID={$meetingIDEncoded}"
+                . "&password={$password}"
+                . "&redirect=true"
+                . "&checksum={$checksum}";
+            Log::info("BBB Join URL", [
+                'session_id' => $session->id,
+                'join_url' => $joinUrl
+            ]);
+            //dd($joinUrl);
+            return redirect($joinUrl);
+        }
+        else{
+            Log::error("Meeting could not be created on BBB server...", [
+                'session_id' => $session->id
+            ]);
+            abort(500, "Cannot join BBB meeting at this time. Meeting could not be recreated");
+        }
     }
     
     private function getInternalMeetingID($session)
@@ -510,27 +535,31 @@ class SessionController extends Controller
 
             if (empty($response)) {
                 Log::warning("No response from BBB getMeetingInfo", [
-                    'session_id' => $session->id
+                    'session_id' => $session->id,
+                    "line" => __LINE__
                 ]);
-                throw new \Exception("Could not retrieve meeting info from BBB.");
+                return null;
+               // throw new \Exception("Could not retrieve meeting info from BBB.");
             }
                 Log::info("BBB getMeetingInfo raw", [
                     'session_id' => $session->id,
-                    'response' => $response
+                    'response' => $response,
+                    "line" => __LINE__
                 ]);
 
-                if (!$response || !is_object($response)) {
-                    throw new \Exception("Invalid response structure.");
-                }
+              /*  if (!$response || !is_object($response)) {
+                    //throw new \Exception("Invalid response structure.");
+                }*/
 
  // BBB Laravel package returns a Collection, so use array access
-        $internalId = $response->get('internalMeetingID')
+                $internalId = $response->get('internalMeetingID')
                     ?? $response->get('internalmeetingid')  // fallback just in case
                     ?? null;
                  if ($internalId) {
                     Log::info("Extracted internalMeetingID", [
                         'session_id' => $session->id,
-                        'internalMeetingID' => $internalId
+                        'internalMeetingID' => $internalId,
+                        "line" => __LINE__
                     ]);
 
                     return $internalId;
@@ -538,22 +567,50 @@ class SessionController extends Controller
 
                 Log::error("InternalMeetingID not found in BBB getMeetingInfo response", [
                     'session_id' => $session->id,
-                    'response' => $response
+                    'response' => json_encode($response),
+                    "line" => __LINE__
                 ]);
 
-                throw new \Exception("Could not retrieve internalMeetingID for session {$session->id}.");
+                //throw new \Exception("Could not retrieve internalMeetingID for session {$session->id}.");
+                //instead of throwing exception, reset the meeting status to paid accepted
 
             } catch (\Exception $ex) {
                 Log::error("Failed to get internalMeetingID from BBB", [
                     'session_id' => $session->id,
-                    'error' => $ex->getMessage()
+                    'error' => $ex->getMessage(),
+                    "line" => __LINE__
                 ]);
-                throw $ex;
+                //throw $ex;
             }
-
+            return null;
     }
+/*
+    private function getInternalMeetingID($session): string
+    {
+        $response = \Bigbluebutton::getMeetingInfo([
+            'meetingID' => $session->id,
+        ]);
 
-    private function ensureBigBlueButtonMeetingExists($session)
+        if (!$response || !is_object($response)) {
+            //throw new \Exception("Invalid BBB meeting info response");
+             Log::warning("Invalid BBB meeting info response", [
+                    'session_id' => $session->id
+                ]);
+        }
+
+        $internalId = $response->get('internalMeetingID');
+
+        if (!$internalId) {
+            Log::error("Failed to get internalMeetingID from BBB", [
+                    'session_id' => $session->id
+                ]);
+        }
+
+        return $internalId;
+    }
+*/
+
+    private function ensureBigBlueButtonMeetingExists($session):bool
     {
         try {
             // Get meeting info to check if it exists
@@ -561,29 +618,49 @@ class SessionController extends Controller
                 'meetingID' => $session->id,
                // 'moderatorPW' => $session->moderator_secret
             ]);
-            
-            Log::info('BBB Meeting Info', ['meeting_info' => $meetingInfo]);
+            /*
+            if($meetingInfo && is_object($meetingInfo)){        
+               Log::info('BBB Meeting Info', ['meeting_info' => $meetingInfo, "line" => __LINE__]);
+                return true;
+            }
+            */
+            if (
+                $meetingInfo instanceof \Illuminate\Support\Collection &&
+                $meetingInfo->isNotEmpty()
+            ) {
+                Log::info('BigBlueButton meeting exists', [
+                    'session_id' => $session->id,
+                    'meeting_info' => $meetingInfo,
+                    "line" => __LINE__
+                ]);
+                return true;
+            }
+
             // If we can't get meeting info, the meeting likely doesn't exist
+           /*
             if (!$meetingInfo) {
                 Log::info('BigBlueButton meeting not found, creating new meeting', [
-                    'session_id' => $session->id
+                    'session_id' => $session->id, "line" => __LINE__
                 ]);
                 return $this->createBigBlueButtonMeeting($session);
             }
-            
-            return true;
+            return $this->createBigBlueButtonMeeting($session);
+            */
         } catch (\Exception $ex) {
             Log::warning('Failed to get BigBlueButton meeting info, attempting to create', [
                 'session_id' => $session->id,
-                'error' => $ex->getMessage()
+                'error' => $ex->getMessage(),
+                'line' => __LINE__
             ]);
             
             // If we can't get meeting info, try to create the meeting
-            return $this->createBigBlueButtonMeeting($session);
+            //return $this->createBigBlueButtonMeeting($session);
         }
+        return false;
+        //return $this->createBigBlueButtonMeeting($session);
     }
 
-    private function createBigBlueButtonMeeting($session)
+    private function createBigBlueButtonMeeting($session):bool
     {
         try {
             $createMeeting = \Bigbluebutton::initCreateMeeting([
@@ -601,7 +678,8 @@ class SessionController extends Controller
             
             Log::info('BigBlueButton meeting created on join request', [
                 'session_id' => $session->id,
-                'response' => $response
+                'response' => $response,
+                'line' => __LINE__
             ]);
             
             return true;

@@ -271,7 +271,8 @@ Route::group([], function () {
     });
 */
     Route::get('/files/{file}', ['uses' => 'FileController@show'])->name('file.show');
-    Route::get('/sessions/{session}', ['uses' => 'SessionController@show'])->name('session.show');;
+    Route::get('/sessions/{session}', ['uses' => 'SessionController@show'])->name('session.show')->withoutMiddleware('api.identify');
+    //End New API;
     Route::get('/text-lessons/{lesson}', ['uses' => 'TextLessonController@show'])->name('text_lesson.show');
   //  Route::get('/text-lessons/{lesson}/navigation', ['uses' => 'WebinarTextLessonController@index']);
   //  Route::get('/assignments/{assignment}', ['uses' => 'WebinarAssignmentController@show'])->name('webinarassignment.show');
