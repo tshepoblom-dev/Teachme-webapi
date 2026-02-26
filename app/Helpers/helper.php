@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Log;
 use App\Models\Session;
 use Illuminate\Support\Str;
 
-    function createReserveMeetingLiveSession($reserveMeetingId, $platform = 'big_blue_button', $creatorId = null)
+    function createReserveMeetingLiveSession($reserveMeetingId, $platform = 'agora', $creatorId = null)
     {
         try
         {            
@@ -46,10 +46,10 @@ use Illuminate\Support\Str;
             }  */
             
             // Default session API
-            $sessionApi = in_array($platform, ['agora', 'big_blue_button']) ? $platform : 'agora';
-            
+            $sessionApi = in_array($platform, ['agora', 'big_blue_button', 'zoom', 'jitsi', 'local']) ? $platform : 'agora';
+
             //$session = \App\Models\Api\Session::create([
-            $session = Session::query()->updateOrCreate([
+           /* $session = Session::query()->updateOrCreate([
                 'creator_id' => $user->id,
                 'reserve_meeting_id' => $reserveMeeting->id,
                 'duration' => (($reserveMeeting->end_at - $reserveMeeting->start_at) / 60),
@@ -66,7 +66,23 @@ use Illuminate\Support\Str;
                 'check_previous_parts' => false,
                 'access_after_day' => true,
                 'created_at' => time(),
-            ]);
+            ]);*/
+            //24Jan2026 TBlom
+            $session = Session::updateOrCreate([
+                    'reserve_meeting_id' => $reserveMeeting->id,
+                ], [
+                    'creator_id' => $user->id,
+                    'duration' => (($reserveMeeting->end_at - $reserveMeeting->start_at) / 60),
+                    'date' => $reserveMeeting->start_at,
+                    'link' => null,
+                    'session_api' => $sessionApi,
+                    'moderator_secret' => mb_strtolower(Str::random(16)),
+                    'api_secret' => mb_strtolower(Str::random(16)),
+                    'agora_settings' => null,
+                    'check_previous_parts' => false,
+                    'access_after_day' => true,
+                ]);
+
 
             if(!$session){
                 Log::error('Failed to create session for Reserve Meeting #'.$reserveMeeting->id, [
@@ -139,14 +155,15 @@ use Illuminate\Support\Str;
                 return handleBigBlueButtonApi($session);
         
             case 'agora':
-                  $agoraSettings = [
+                return handleAgoraApi($session);
+              /*    $agoraSettings = [
                     'chat' => true,
                     'record' => false,
                     'users_join' => true
                 ];
                 $session->agora_settings = json_encode($agoraSettings);
                 $session->save();
-                return true;                
+                return true;   */             
             case 'zoom':
               //  return handleZoomApi($session, $userId);            
             case 'local':
@@ -186,6 +203,55 @@ use Illuminate\Support\Str;
             'zoom_error_msg' => trans('update.zoom_error_msg')
         ], 422);
     }
+    function handleAgoraConfigs()
+    {
+        $settings = getFeaturesSettings();
+
+        \Config::set('services.agora.app_id', $settings['agora_app_id'] ?? '');
+        \Config::set('services.agora.app_certificate', $settings['agora_app_certificate'] ?? '');
+        \Config::set('services.agora.token_expiry', $settings['agora_token_expiry'] ?? 3600);
+    }
+
+   function handleAgoraApi($session)
+    {
+        try {
+            handleAgoraConfigs();
+
+            $appId = config('services.agora.app_id');
+            $appCertificate = config('services.agora.app_certificate');
+
+            if (!$appId || !$appCertificate) {
+                throw new \Exception('Agora credentials not configured.');
+            }
+
+            // DO NOT generate/store tokens here — joinToAgora() handles that
+            $channelName = "session_{$session->id}";
+
+            $session->update([
+                'session_api' => 'agora',
+                'api_secret' => null, // tokens are generated dynamically
+                'agora_settings' => json_encode([
+                    'channel' => $channelName,
+                    'chat' => true,
+                    'record' => false,
+                    'users_join' => true,
+                ]),
+                'link' => route('agora.api.join', $session->id),
+            ]);
+
+            return true;
+        }
+        catch (\Exception $ex) {
+            Log::error('Agora setup error: '.$ex->getMessage(), [
+                'file' => $ex->getFile(),
+                'line' => $ex->getLine(),
+                'trace' => $ex->getTraceAsString(),
+            ]);
+            $session->delete();
+            return false;
+        }
+    }
+
 
     function handleBigBlueButtonConfigs()
     {
@@ -239,6 +305,7 @@ use Illuminate\Support\Str;
             return false;
         }
     }
+
 
     
 function isMeetingRunning($meetingId)

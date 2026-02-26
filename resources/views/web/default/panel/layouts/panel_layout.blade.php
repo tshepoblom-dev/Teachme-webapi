@@ -49,7 +49,7 @@
 
 <div id="panel_app">
 
-    @include('web.default.includes.navbar')
+    {{--@include('web.default.includes.navbar')--}}
 
     <div class="d-flex justify-content-end">
         @include('web.default.panel.includes.sidebar')

@@ -2,22 +2,22 @@
     $getPanelSidebarSettings = getPanelSidebarSettings();
     $group = Auth::user()->userGroup->group->name ?? "basic"; //
 @endphp
-
-<div class="xs-panel-nav d-flex d-lg-none justify-content-between py-5 px-15">
-    <div class="user-info d-flex align-items-center justify-content-between">
-        <div class="user-avatar bg-gray200">
-            <img src="{{ $authUser->getAvatar(100) }}" class="img-cover" alt="{{ $authUser->full_name }}">
-        </div>
-
-        <div class="user-name ml-15">
-            <h3 class="font-16 font-weight-bold">{{ $authUser->full_name }}</h3>
-        </div>
-    </div>
-
+<div class="xs-panel-nav d-flex d-lg-none justify-content-between py-5 px-15">    
+    <!-- Menu Button (Now on the Left) -->
     <button class="sidebar-toggler btn-transparent d-flex flex-column-reverse justify-content-center align-items-center p-5 rounded-sm sidebarNavToggle" type="button">
         <span>{{ trans('navbar.menu') }}</span>
         <i data-feather="menu" width="16" height="16"></i>
     </button>
+    <!-- User Info (Now on the Right) -->
+    <div class="user-info d-flex align-items-center justify-content-between">       
+        <div class="user-name ml-15">
+            <h3 class="font-16 font-weight-bold">{{ $authUser->full_name }}</h3>
+        </div> 
+        <div class="user-avatar bg-gray200">
+            <img src="{{ $authUser->getAvatar(100) }}" class="img-cover" alt="{{ $authUser->full_name }}">
+        </div>
+    </div>
+
 </div>
 
 <div class="panel-sidebar pt-50 pb-25 px-25 {{ strtolower($group) }}-group" id="panelSidebar">
@@ -42,12 +42,12 @@
     </div> --}}
 
     <div class="user-info d-flex align-items-center flex-row">
-        <a href="/panel" class="user-avatar bg-gray200" style="width: 50px; height: 50px; border-radius: 50%; overflow: hidden;">
+        <a href="/panel/setting" class="user-avatar bg-gray200" style="width: 50px; height: 50px; border-radius: 50%; overflow: hidden;">
             <img src="{{ $authUser->getAvatar(50) }}" class="img-cover" style="width: 100%; height: 100%;" alt="{{ $authUser->full_name }}">
         </a>
 
         <div class="d-flex flex-column ms-3 mx-3">
-            <a href="/panel" class="user-name">
+            <a href="/panel/setting" class="user-name">
                 <h3 class="font-14 font-weight-bold mb-0">{{ $authUser->full_name }}</h3>
             </a>
 
@@ -357,20 +357,20 @@
 
                         @can('panel_meetings_my_reservation')
                             <li class="mt-5 {{ (request()->is('panel/meetings/reservation')) ? 'active' : '' }}">
-                                <a href="/panel/meetings/reservation">{{ trans('public.my_reservation') }}</a>
+                                <a href="/panel/meetings/reservation">My Reservations</a>
                             </li>
                         @endcan
 
                         @if($authUser->isOrganization() || $authUser->isTeacher())
                             @can('panel_meetings_requests')
                                 <li class="mt-5 {{ (request()->is('panel/meetings/requests')) ? 'active' : '' }}">
-                                    <a href="/panel/meetings/requests">{{ trans('panel.requests') }}</a>
+                                    <a href="/panel/meetings/requests">My Requests</a>
                                 </li>
                             @endcan
 
                             @can('panel_meetings_settings')
                                 <li class="mt-5 {{ (request()->is('panel/meetings/settings')) ? 'active' : '' }}">
-                                    <a href="/panel/meetings/settings">{{ trans('panel.settings') }}</a>
+                                    <a href="/panel/meetings/settings">My Availability</a>
                                 </li>
                             @endcan
                         @endif

@@ -19,7 +19,8 @@ class SessionController extends Controller
     {
         $user = auth()->user();
         $data = $request->get('ajax')['new'];
-
+        $sessionApi = $data['session_api'] ?? 'agora';  //24Jan2026 default to Agora when no sessionApi exists
+        /*
         $validator = Validator::make($data, [
             'webinar_id' => 'required',
             'chapter_id' => 'required',
@@ -29,6 +30,17 @@ class SessionController extends Controller
             'link' => ($data['session_api'] == 'local') ? 'required|url' : 'nullable',
             'api_secret' => (in_array($data['session_api'], ['zoom', 'agora', 'jitsi'])) ? 'nullable' : 'required',
             'moderator_secret' => ($data['session_api'] == 'big_blue_button') ? 'required' : 'nullable',
+        ]);*/
+        
+        $validator = Validator::make($data, [
+            'webinar_id' => 'required',
+            'chapter_id' => 'required',
+            'title' => 'required|max:64',
+            'date' => 'required|date',
+            'duration' => 'required|numeric',
+            'link' => ($sessionApi == 'local') ? 'required|url' : 'nullable',
+            'api_secret' => in_array($sessionApi, ['big_blue_button']) ? 'required' : 'nullable',
+            'moderator_secret' => ($sessionApi == 'big_blue_button') ? 'required' : 'nullable',
         ]);
 
         if ($validator->fails()) {
@@ -80,7 +92,8 @@ class SessionController extends Controller
                 'date' => $sessionDate->getTimestamp(),
                 'duration' => $data['duration'],
                 'link' => $data['link'] ?? null,
-                'session_api' => $data['session_api'],
+                //'session_api' => $data['session_api'],
+                'session_api' => $sessionApi,
                 'api_secret' => $data['api_secret'] ?? null,
                 'moderator_secret' => $data['moderator_secret'] ?? null,
                 'check_previous_parts' => $data['check_previous_parts'],
@@ -114,9 +127,11 @@ class SessionController extends Controller
                     'record' => (!empty($data['agora_record']) and $data['agora_record'] == 'on'),
                     'users_join' => true
                 ];
-                $session->agora_settings = json_encode($agoraSettings);
-
-                $session->save();
+                //$session->agora_settings = json_encode($agoraSettings);
+                //$session->save();
+                 $session->update([
+                    'agora_settings' => json_encode($agoraSettings),
+                ]);
             }
 
             if (!empty($session)) {
@@ -148,7 +163,8 @@ class SessionController extends Controller
                 ->first();
 
             if (!empty($session)) {
-                $session_api = !empty($data['session_api']) ? $data['session_api'] : $session->session_api;
+                //$session_api = !empty($data['session_api']) ? $data['session_api'] : $session->session_api;
+                $session_api = !empty($data['session_api']) ? $data['session_api'] : ($session->session_api ?? 'agora');
 
                 $validator = Validator::make($data, [
                     'webinar_id' => 'required',
@@ -317,110 +333,6 @@ class SessionController extends Controller
         return true;
     }
 
-   /* public function joinToBigBlueButton($id)
-    {
-        $session = Session::where('id', $id)
-            ->where('session_api', 'big_blue_button')
-            ->where('status', Session::$Active)
-            ->first();
-
-        if (!empty($session)) {
-            $this->handleBigBlueButtonConfigs();
-
-            $user = auth()->user();
-
-            if ($user->id == $session->creator_id) {
-                $url = \Bigbluebutton::join([
-                    'meetingID' => $session->id,
-                    'userName' => $user->full_name,
-                    'password' => $session->moderator_secret
-                ]);
-
-                if ($url) {
-                    return redirect($url);
-                }
-            } else {
-                $webinar = Webinar::find($session->webinar_id);
-
-                if ($webinar->checkUserHasBought($user)) {
-
-                    $url = \Bigbluebutton::join([
-                        'meetingID' => $session->id,
-                        'userName' => $user->full_name,
-                        'password' => $session->api_secret
-                    ]);
-
-                    if ($url) {
-                        return redirect($url);
-                    }
-                }
-            }
-        }
-
-        abort(404);
-    }*/
-        /*
-    public function joinToBigBlueButton($id)
-    {
-        $session = Session::where('id', $id)
-            ->where('session_api', 'big_blue_button')
-            ->where('status', Session::$Active)
-            ->first();
-
-        if (!empty($session)) {
-            try{
-
-            $user = auth()->user();
-                
-            $this->handleBigBlueButtonConfigs();
-            // First, check if the meeting exists and create it if it doesn't
-            $this->ensureBigBlueButtonMeetingExists($session);
-
-            if ($user->id == $session->creator_id) {
-                $url = \Bigbluebutton::join([
-                    'meetingID' => $session->id,
-                    'userName' => $user->full_name,
-                    'password' => $session->moderator_secret
-                ]);
-                Log::info('BigBlueButton join URL generated for moderator', [
-                    'session_id' => $session->id,
-                    'user_id' => $user->id,
-                    'url' => $url
-                ]);
-                if ($url) {
-                    return redirect($url);
-                }
-            } else {
-                $webinar = Webinar::find($session->webinar_id);
-
-                if ($webinar->checkUserHasBought($user)) {
-
-                    $url = \Bigbluebutton::join([
-                        'meetingID' => $session->id,
-                        'userName' => $user->full_name,
-                        'password' => $session->api_secret
-                    ]);
-
-                    if ($url) {
-                        return redirect($url);
-                    }
-                }
-            }
-            
-            }
-            catch( \Exception $ex){
-                Log::error('Error joining BigBlueButton meeting', [
-                    'session_id' => $session->id,
-                    'user_id' => $user->id,
-                    'error' => $ex->getMessage(),
-                    'file' => $ex->getFile(),
-                    'line' => $ex->getLine()
-                ]);
-            }
-        }
-        abort(404);
-    }
-*/
     public function joinToBigBlueButton($id)
     {
         $session = Session::where('id', $id)
@@ -584,31 +496,6 @@ class SessionController extends Controller
             }
             return null;
     }
-/*
-    private function getInternalMeetingID($session): string
-    {
-        $response = \Bigbluebutton::getMeetingInfo([
-            'meetingID' => $session->id,
-        ]);
-
-        if (!$response || !is_object($response)) {
-            //throw new \Exception("Invalid BBB meeting info response");
-             Log::warning("Invalid BBB meeting info response", [
-                    'session_id' => $session->id
-                ]);
-        }
-
-        $internalId = $response->get('internalMeetingID');
-
-        if (!$internalId) {
-            Log::error("Failed to get internalMeetingID from BBB", [
-                    'session_id' => $session->id
-                ]);
-        }
-
-        return $internalId;
-    }
-*/
 
     private function ensureBigBlueButtonMeetingExists($session):bool
     {
@@ -618,12 +505,7 @@ class SessionController extends Controller
                 'meetingID' => $session->id,
                // 'moderatorPW' => $session->moderator_secret
             ]);
-            /*
-            if($meetingInfo && is_object($meetingInfo)){        
-               Log::info('BBB Meeting Info', ['meeting_info' => $meetingInfo, "line" => __LINE__]);
-                return true;
-            }
-            */
+            
             if (
                 $meetingInfo instanceof \Illuminate\Support\Collection &&
                 $meetingInfo->isNotEmpty()
@@ -636,16 +518,6 @@ class SessionController extends Controller
                 return true;
             }
 
-            // If we can't get meeting info, the meeting likely doesn't exist
-           /*
-            if (!$meetingInfo) {
-                Log::info('BigBlueButton meeting not found, creating new meeting', [
-                    'session_id' => $session->id, "line" => __LINE__
-                ]);
-                return $this->createBigBlueButtonMeeting($session);
-            }
-            return $this->createBigBlueButtonMeeting($session);
-            */
         } catch (\Exception $ex) {
             Log::warning('Failed to get BigBlueButton meeting info, attempting to create', [
                 'session_id' => $session->id,
@@ -721,7 +593,9 @@ class SessionController extends Controller
             $canAccess = false;
             $streamRole = 'audience'; // host | audience
             $channelName = "session_$session->id";
-            $accountName = "user {$user->id}";
+            //$accountName = "user {$user->id}";
+            $uid = (string) $user->id; 
+            $accountName = $uid;
             $userName = $user->full_name;
             $canAccessError = trans('update.you_cannot_enter_this_session');
 
@@ -775,8 +649,9 @@ class SessionController extends Controller
 
                 $isHost = ($streamRole === 'host');
                 $appId = $agoraController->appId;
-                $rtcToken = $agoraController->getRTCToken($channelName, $isHost);
-                $rtmToken = $agoraController->getRTMToken($accountName);
+                //$rtcToken = $agoraController->getRTCToken($channelName, $isHost);
+                $rtcToken = $agoraController->getRTCToken($channelName, $uid, $isHost);
+               // $rtmToken = $agoraController->getRTMToken($uid);
 
 
                 $data = [
@@ -788,7 +663,7 @@ class SessionController extends Controller
                     'userName' => $userName,
                     'channelName' => $channelName,
                     'rtcToken' => $rtcToken,
-                    'rtmToken' => $rtmToken,
+                 //   'rtmToken' => $rtmToken,
                     'streamRole' => $streamRole,
                     'notStarted' => (!$isHost and empty($agoraHistory)),
                     'streamStartAt' => (!$isHost and !empty($agoraHistory)) ? $agoraHistory->start_at : time(),

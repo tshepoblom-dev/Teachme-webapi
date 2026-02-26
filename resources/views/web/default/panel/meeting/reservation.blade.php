@@ -176,7 +176,9 @@
                                 <thead>
                                 <tr>
                                     <th>Tutor</th>
+                                    {{--
                                     <th class="text-center">{{ trans('update.meeting_type') }}</th>
+                                    --}}
                                     <th class="text-center">{{ trans('public.day') }}</th>
                                     <th class="text-center">{{ trans('public.date') }}</th>
                                     <th class="text-center">{{ trans('public.time') }}</th>
@@ -201,9 +203,11 @@
                                                 </div>
                                             </div>
                                         </td>
+                                        {{-- 
                                         <td class="align-middle">
                                             <span class="font-weight-500">{{ trans('update.'.$ReserveMeeting->meeting_type) }}</span>
                                         </td>
+                                         --}}
                                         <td class="align-middle">
                                             <span class="font-weight-500">{{ dateTimeFormat($ReserveMeeting->start_at, 'D') }}</span>
                                         </td>
@@ -293,7 +297,7 @@
                                                 </div>
                                             @elseif (in_array($ReserveMeeting->status, [\App\Models\ReserveMeeting::$finished, \App\Models\ReserveMeeting::$canceled]))
 
-                                                <div class="align-items-center rounded py-5 px-5 font-14 btn-primary font-weight-500">
+                                                <div class="text-center rounded py-5 px-5 font-14 btn-primary font-weight-500">
                                                     <a href="{{ $ReserveMeeting->meeting->creator->getProfileUrl() }}{{ '?tab=appointments' }}" class="text-white">Rebook Tutor</a>
                                                 </div>
 

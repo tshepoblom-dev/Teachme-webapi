@@ -33,13 +33,26 @@
 
                         <div class="form-group">
                             <label class="input-label" for="password">{{ trans('auth.password') }}:</label>
-                            <input name="password" type="password" class="form-control @error('password')  is-invalid @enderror" id="password" aria-describedby="passwordHelp">
-
-                            @error('password')
-                            <div class="invalid-feedback">
-                                {{ $message }}
+                            <div class="input-group">
+                                <input name="password" type="password"
+                                       class="form-control @error('password') is-invalid @enderror"
+                                       id="password"
+                                       aria-describedby="passwordHelp"
+                                       style="border-right: none;">
+                                <div class="input-group-append">
+                                    <button type="button"
+                                            id="togglePassword"
+                                            class="btn btn-outline-secondary"
+                                            style="border-left: none; border-color: #ced4da; background: transparent;height:40px;"
+                                            aria-label="Toggle password visibility"
+                                            tabindex="-1">
+                                        <i id="togglePasswordIcon" data-feather="eye" width="16" height="16"></i>
+                                    </button>
+                                </div>
+                                @error('password')
+                                    <div class="invalid-feedback">{{ $message }}</div>
+                                @enderror
                             </div>
-                            @enderror
                         </div>
 
                         @if(!empty(getGeneralSecuritySettings('captcha_for_login')))
@@ -96,4 +109,23 @@
 @push('scripts_bottom')
     <script src="/assets/default/vendors/select2/select2.min.js"></script>
     <script src="/assets/default/js/parts/forgot_password.min.js"></script>
+    <script>
+    (function () {
+        const toggle = document.getElementById('togglePassword');
+        const input  = document.getElementById('password');
+        const icon   = document.getElementById('togglePasswordIcon');
+
+        if (!toggle || !input) return;
+
+        toggle.addEventListener('click', function () {
+            const isHidden = input.type === 'password';
+            input.type = isHidden ? 'text' : 'password';
+            // Swap feather icon between eye and eye-off
+            icon.setAttribute('data-feather', isHidden ? 'eye-off' : 'eye');
+            feather.replace({ width: 16, height: 16 });
+            // Keep focus on the input for keyboard users
+            input.focus();
+        });
+    })();
+    </script>
 @endpush

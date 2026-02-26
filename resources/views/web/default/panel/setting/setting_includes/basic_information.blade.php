@@ -70,7 +70,7 @@
                     @enderror
                 </div>
             @endif
-
+{{-- 
             <div class="form-group">
                 <label class="input-label">{{ trans('update.timezone') }}</label>
                 <select name="timezone" class="form-control select2" data-allow-clear="false">
@@ -85,7 +85,7 @@
                 </div>
                 @enderror
             </div>
-
+ --}}
             @if(!empty($currencies) and count($currencies))
                 @php
                     $userCurrency = currency();

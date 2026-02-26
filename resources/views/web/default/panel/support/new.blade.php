@@ -30,6 +30,7 @@
                         <option selected disabled></option>
                         <option value="course_support" @if($errors->has('webinar_id')) selected @endif>{{ trans('panel.course_support') }}</option>
                         <option value="platform_support" @if($errors->has('department_id')) selected @endif>{{ trans('panel.platform_support') }}</option>
+                        <option value="customer_support">Customer Support</option>
                     </select>
 
                     @error('type')

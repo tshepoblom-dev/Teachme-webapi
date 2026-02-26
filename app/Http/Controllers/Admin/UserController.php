@@ -422,6 +422,28 @@ class UserController extends Controller
                         ->whereNotNull('ban_end_at')
                         ->where('ban_end_at', '>', time());
                     break;
+                case 'has_uploads':
+                    // Show users who have uploaded at least one verification document
+                    $query->where(function ($q) {
+                        $q->whereNotNull('identity_scan')
+                          ->orWhereNotNull('certificate')
+                          ->orWhereNotNull('cvdoc')
+                          ->orWhereNotNull('proofofaddress')
+                          ->orWhereNotNull('bankconfirmation');
+                    });
+                    break;
+                case 'pending_verification':
+                    // Active users who have uploads but are not yet verified
+                    $query->where('status', 'active')
+                        ->where('verified', false)
+                        ->where(function ($q) {
+                            $q->whereNotNull('identity_scan')
+                              ->orWhereNotNull('certificate')
+                              ->orWhereNotNull('cvdoc')
+                              ->orWhereNotNull('proofofaddress')
+                              ->orWhereNotNull('bankconfirmation');
+                        });
+                    break;
             }
         }
 

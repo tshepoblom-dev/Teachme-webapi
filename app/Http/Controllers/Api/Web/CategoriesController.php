@@ -12,12 +12,20 @@ class CategoriesController extends Controller
 {
     public function index(Request $request)
     {
-
+/*
         $categories = Category::whereNull('parent_id')->get()
         ->map(function($category){
             return $category->details ;
         }) ;
-        ;
+        ;*/
+
+        $categories = Category::with(['subCategories'])
+        ->whereNull('parent_id')
+        ->get()
+        ->map(function ($category) {
+            return $category->details;
+        });
+
          return apiResponse2(1, 'retrieved', trans('api.public.retrieved'),[
 
             'count'=>$categories->count() ,

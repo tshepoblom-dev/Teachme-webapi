@@ -37,7 +37,6 @@
 @push('scripts_bottom')
     @if($session->agora_settings->chat)
         <script>
-            var rtmToken = '{{ $rtmToken }}';
         </script>
 
         <script src="/assets/default/agora/message.min.js"></script>

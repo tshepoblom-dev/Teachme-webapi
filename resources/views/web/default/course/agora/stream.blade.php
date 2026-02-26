@@ -140,6 +140,7 @@
 @push('scripts_bottom')
     <script>
         var rtcToken = '{{ $rtcToken }}';
+        var uid = '{{ $accountName }}';  
         var joinIsActiveLang = '{{ trans('update.join_is_active') }}';
         var joiningIsDisabledLang = '{{ trans('update.joining_is_disabled') }}';
         var notStarted = false;
@@ -148,7 +149,8 @@
     </script>
     <script src="/assets/default/js/parts/time-counter-down.min.js"></script>
 
-    <script src="/assets/vendors/agora/AgoraRTC_N.js"></script>
+    <!--<script src="/assets/vendors/agora/AgoraRTC_N.js"></script>-->
+    <script src="https://download.agora.io/sdk/release/AgoraRTC_N-4.22.2.js"></script>
     <script src="/assets/default/agora/stream.min.js"></script>
      <script>
         $('#reportForm').on('submit', function(e) {

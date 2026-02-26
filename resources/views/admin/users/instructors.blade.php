@@ -160,6 +160,8 @@
                                     <option value="active_notVerified" @if(request()->get('status') == 'active_notVerified') selected @endif>{{ trans('admin/main.active_not_verified') }}</option>
                                     <option value="inactive" @if(request()->get('status') == 'inactive') selected @endif>{{ trans('admin/main.inactive') }}</option>
                                     <option value="ban" @if(request()->get('status') == 'ban') selected @endif>{{ trans('admin/main.banned') }}</option>
+                                    <option value="has_uploads" @if(request()->get('status') == 'has_uploads') selected @endif>Has Uploaded Documents</option>
+                                    <option value="pending_verification" @if(request()->get('status') == 'pending_verification') selected @endif>Pending Verification (active, not verified)</option>
                                 </select>
                             </div>
                         </div>
@@ -199,10 +201,31 @@
                         <th>{{ trans('admin/main.user_group') }}</th>
                         <th>{{ trans('admin/main.register_date') }}</th>
                         <th>{{ trans('admin/main.status') }}</th>
+                        <th>Documents</th>
                         <th width="120">{{ trans('admin/main.actions') }}</th>
                     </tr>
 
-                    @foreach($users as $user)
+                    @php
+    /**
+     * Convert the stored DB path to a working public URL.
+     *
+     * The upload manager stores paths like "/storage/store/1087//file.pdf"
+     * but files live under public/store/, so the correct URL is "/store/1087/file.pdf".
+     * Steps:
+     *   1. Strip a leading /storage prefix if present (artefact of the storage_path value)
+     *   2. Collapse any double slashes caused by path joining bugs
+     *   3. Build a full URL with url()
+     */
+    if (!function_exists('docFileUrl')) {
+        function docFileUrl(string $storedPath): string {
+            // Collapse any consecutive slashes (e.g. store/1087//file.pdf)
+            $path = preg_replace('#/+#', '/', $storedPath);
+            return url(ltrim($path, '/'));
+        }
+    }
+@endphp
+
+@foreach($users as $user)
 
                         <tr>
                             <td>{{ $user->id }}</td>
@@ -268,6 +291,47 @@
                                     @endif
                                 </div>
                             </td>
+                            {{-- Documents column --}}
+                            @php
+                                $docFields = [
+                                    'identity_scan'    => 'ID',
+                                    'certificate'      => 'Cert',
+                                    'cvdoc'            => 'CV',
+                                    'proofofaddress'   => 'PoA',
+                                    'bankconfirmation' => 'Bank',
+                                ];
+                                $uploadCount = collect($docFields)->filter(fn($label, $col) => !empty($user->$col))->count();
+                            @endphp
+                            <td class="text-center">
+                                <div class="d-flex flex-wrap justify-content-center gap-1 mb-1">
+                                    @foreach($docFields as $col => $label)
+                                        <span class="badge {{ !empty($user->$col) ? 'badge-success' : 'badge-secondary' }}"
+                                              title="{{ $col }}"
+                                              style="font-size:.65rem;">{{ $label }}</span>
+                                    @endforeach
+                                </div>
+                                @if($uploadCount > 0)
+                                    <button type="button"
+                                            class="btn btn-sm btn-outline-primary btn-view-docs mt-1"
+                                            data-user-id="{{ $user->id }}"
+                                            data-user-name="{{ $user->full_name }}"
+                                            data-institution="{{ $user->institution_name ?? '' }}"
+                                            data-course="{{ $user->study_course ?? '' }}"
+                                            data-idnumber="{{ $user->id_number ?? '' }}"
+                                            data-identity="{{ $user->identity_scan    ? docFileUrl($user->identity_scan)    : '' }}"
+                                            data-certificate="{{ $user->certificate   ? docFileUrl($user->certificate)      : '' }}"
+                                            data-cv="{{ $user->cvdoc                  ? docFileUrl($user->cvdoc)            : '' }}"
+                                            data-poa="{{ $user->proofofaddress        ? docFileUrl($user->proofofaddress)   : '' }}"
+                                            data-bank="{{ $user->bankconfirmation     ? docFileUrl($user->bankconfirmation) : '' }}"
+                                            data-toggle="modal"
+                                            data-target="#docsModal">
+                                        <i class="fa fa-folder-open mr-1"></i>{{ $uploadCount }}/{{ count($docFields) }}
+                                    </button>
+                                @else
+                                    <span class="text-muted text-small">None</span>
+                                @endif
+                            </td>
+
                             <td class="text-center mb-2" width="120">
                                 @can('admin_users_impersonate')
                                     <a href="{{ getAdminPanelUrl() }}/users/{{ $user->id }}/impersonate" target="_blank" class="btn-transparent  text-primary" data-toggle="tooltip" data-placement="top" title="{{ trans('admin/main.login') }}">
@@ -327,4 +391,126 @@
             </div>
         </div>
     </section>
+{{-- ================================================================ --}}
+{{-- Document viewer modal                                             --}}
+{{-- ================================================================ --}}
+<div class="modal fade" id="docsModal" tabindex="-1" role="dialog" aria-labelledby="docsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="docsModalLabel">Documents &mdash; <span id="docsModalName"></span></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                {{-- Registration profile fields --}}
+                <div class="row mb-3 pb-3 border-bottom">
+                    <div class="col-md-4">
+                        <p class="mb-1 text-muted text-small">Institution</p>
+                        <p class="font-weight-bold" id="docsInstitution">—</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="mb-1 text-muted text-small">Study Course</p>
+                        <p class="font-weight-bold" id="docsCourse">—</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="mb-1 text-muted text-small">ID Number</p>
+                        <p class="font-weight-bold" id="docsIdNumber">—</p>
+                    </div>
+                </div>
+
+                {{-- Document links --}}
+                <div class="row" id="docsFileList">
+                    {{-- Populated by JS --}}
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a id="docsEditLink" href="#" class="btn btn-primary btn-sm">
+                    <i class="fa fa-edit mr-1"></i> Edit User
+                </a>
+                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+(function () {
+    // Map data-* attribute names to human-readable labels and icon classes
+    const DOC_MAP = [
+        { key: 'identity',    label: 'ID Document',          icon: 'fa-id-card' },
+        { key: 'certificate', label: 'Qualification / Cert', icon: 'fa-graduation-cap' },
+        { key: 'cv',          label: 'CV / Résumé',          icon: 'fa-file-alt' },
+        { key: 'poa',         label: 'Proof of Address',     icon: 'fa-home' },
+        { key: 'bank',        label: 'Bank Account Letter',  icon: 'fa-university' },
+    ];
+
+    const adminBase = '{{ getAdminPanelUrl() }}';
+
+    document.addEventListener('click', function (e) {
+        const btn = e.target.closest('.btn-view-docs');
+        if (!btn) return;
+
+        const d = btn.dataset;
+
+        // Header
+        document.getElementById('docsModalName').textContent = d.userName || '—';
+
+        // Profile fields
+        document.getElementById('docsInstitution').textContent = d.institution || '—';
+        document.getElementById('docsCourse').textContent      = d.course      || '—';
+        document.getElementById('docsIdNumber').textContent    = d.idnumber    || '—';
+
+        // Edit link
+        document.getElementById('docsEditLink').href = adminBase + '/users/' + d.userId + '/edit';
+
+        // Build document cards
+        const list = document.getElementById('docsFileList');
+        list.innerHTML = '';
+
+        DOC_MAP.forEach(function (doc) {
+            const url = d[doc.key] || '';
+            const hasFile = url.length > 0;
+            const isPdf   = hasFile && url.toLowerCase().endsWith('.pdf');
+
+            const col = document.createElement('div');
+            col.className = 'col-md-4 mb-3';
+
+            if (hasFile) {
+                // For images render a thumbnail; for PDFs show an icon link
+                const preview = isPdf
+                    ? `<div class="text-center py-3"><i class="fa fa-file-pdf fa-3x text-danger"></i></div>`
+                    : `<img src="${url}" alt="${doc.label}" class="img-fluid rounded mb-2"
+                           style="max-height:140px;object-fit:cover;width:100%"
+                           onerror="this.style.display='none'">`;
+
+                col.innerHTML = `
+                    <div class="card border h-100">
+                        <div class="card-body p-2 text-center">
+                            ${preview}
+                            <p class="mb-1 font-weight-bold text-small">${doc.label}</p>
+                            <a href="${url}" target="_blank" class="btn btn-sm btn-outline-primary">
+                                <i class="fa fa-external-link-alt mr-1"></i>Open
+                            </a>
+                        </div>
+                    </div>`;
+            } else {
+                col.innerHTML = `
+                    <div class="card border border-dashed h-100 bg-light">
+                        <div class="card-body p-2 text-center text-muted">
+                            <i class="fa fa-${doc.icon} fa-2x mb-2 d-block opacity-50"></i>
+                            <p class="mb-0 text-small">${doc.label}</p>
+                            <small>Not uploaded</small>
+                        </div>
+                    </div>`;
+            }
+
+            list.appendChild(col);
+        });
+    });
+})();
+</script>
+
 @endsection

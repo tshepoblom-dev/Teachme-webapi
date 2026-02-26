@@ -13,7 +13,7 @@ class Session extends Model implements TranslatableContract
     use Translatable;
     use SequenceContent;
 
-    public $timestamps = false;
+    public $timestamps = true;
     protected $guarded = ['id'];
     protected $table = 'sessions';
     protected $dateFormat = 'U';

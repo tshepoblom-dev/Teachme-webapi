@@ -11,12 +11,12 @@
         </div>
     </div>`;
 
-    var featherIconsConf = {width: 20, height: 20};
+    var featherIconsConf = { width: 20, height: 20 };
     let maximizeIcon = feather.icons['maximize-2'].toSvg(featherIconsConf);
 
-    // create Agora client
+    // Create Agora client
     var client = AgoraRTC.createClient({
-        mode: "live",
+        mode: "rtc",
         codec: "vp8",
     });
 
@@ -30,32 +30,42 @@
 
     var remoteUsers = {};
 
-    // Agora client options
     var options = {
         appid: appId,
         channel: channelName,
-        uid: null,
+        uid: accountName,
         token: rtcToken,
-        role: 'host', //streamRole, // host or audience
+        role: 'host',
         audienceLatency: 2
     };
 
     var $remoteStreamPlayerEl = $('#remote-stream-player');
-    var $shareScreenButton = $('#shareScreen');
+
+   async function republishTracks() {
+        const tracks = [];
+        if (localTracks.videoTrack) tracks.push(localTracks.videoTrack);
+        if (localTracks.audioTrack) tracks.push(localTracks.audioTrack);
+        if (localTracks.screenVideoTrack) tracks.push(localTracks.screenVideoTrack);
+
+        // Only unpublish if something is actually published
+        const publishedTracks = client.localTracks || [];
+        if (publishedTracks.length > 0) {
+            await client.unpublish(publishedTracks);
+        }
+
+        if (tracks.length > 0) {
+            await client.publish(tracks);
+        }
+    }
+
 
     async function handleJoinOrCreateStream() {
         try {
+            client.on("user-published", handleUserPublished);
+            client.on("user-unpublished", handleUserUnpublished);
+            client.on("user-left", handleHostEndLive);
+            client.on("user-joined", handlePeerOnline);
 
-            if (streamRole === "audience") {
-                client.on("user-published", handleUserPublished);
-                client.on("user-unpublished", handleUserUnpublished);
-                client.on("user-left", handleHostEndLive);
-                client.on("user-joined", handlePeerOnline);
-            }
-
-            client.setClientRole(options.role);
-
-            // join the channel
             options.uid = await client.join(
                 options.appid,
                 options.channel,
@@ -64,50 +74,35 @@
             );
 
             if (streamRole === "host" || sessionStreamType === 'multiple') {
-                // create local audio and video tracks
                 localTracks.audioTrack = await AgoraRTC.createMicrophoneAudioTrack();
                 localTracks.videoTrack = await AgoraRTC.createCameraVideoTrack();
 
-                // play local video track
-                if (streamRole === "audience") {
+                if (streamRole === "host") {
+                    localTracks.videoTrack.play("stream-player");
+                } else {
                     const playerHtml = await getRemoteUserCardHtml(authUserId);
                     const player = $(playerHtml);
-
                     $remoteStreamPlayerEl.append(player);
                     localTracks.videoTrack.play(`remote-player-${authUserId}`);
-                } else {
-                    localTracks.videoTrack.play("stream-player");
                 }
 
-                // publish local tracks to channel
-                await client.publish([localTracks.videoTrack, localTracks.audioTrack]);
+                await republishTracks();
 
-                if (streamRole === "host") {
-                    client.on("user-published", handleUserPublished);
-                    client.on("user-unpublished", handleUserUnpublished);
-                    client.on("user-joined", handlePeerOnline);
-                    client.on("user-left", handleAudienceLeft);
-                }
-
-
-                const startAt = (streamStartAt && streamStartAt > 0) ? (new Date().getTime() / 1000) - streamStartAt : 0;
+                const startAt = (streamStartAt && streamStartAt > 0)
+                    ? (new Date().getTime() / 1000) - streamStartAt
+                    : 0;
                 handleTimer(startAt);
-
-                console.log("publish success");
 
                 $(".agora-stream-loading").addClass('d-none');
             }
         } catch (error) {
-            console.error(error);
+            console.error("Join stream failed:", error);
         }
     }
 
     handleJoinOrCreateStream();
 
-    function handlePeerOnline(evt) {
-        /*onsole.log('#################### Online')
-        console.log(evt)*/
-    }
+    function handlePeerOnline(evt) { }
 
     window.getUserInfoCache = {};
 
@@ -119,7 +114,6 @@
                 $.get(`/panel/users/${uid}/getInfo`, function (result) {
                     if (result && result.user) {
                         getUserInfoCache[uid] = result.user;
-
                         resolve(result.user)
                     } else {
                         reject(null)
@@ -130,19 +124,15 @@
     }
 
     async function subscribe(user, mediaType) {
-
         const uid = user.uid;
-
-        // subscribe to a remote user
         await client.subscribe(user, mediaType);
-        console.log("subscribe success");
+
         if (mediaType === 'video') {
             if (uid === hostUserId) {
                 user.videoTrack.play("stream-player");
             } else {
                 const playerHtml = await getRemoteUserCardHtml(uid);
                 const player = $(playerHtml);
-
                 $remoteStreamPlayerEl.append(player);
                 user.videoTrack.play(`remote-player-${uid}`);
             }
@@ -162,29 +152,21 @@
     async function leave() {
         for (let trackName in localTracks) {
             const track = localTracks[trackName];
-
             if (track) {
                 track.stop();
                 track.close();
-                localTracks[trackName] = undefined;
+                localTracks[trackName] = null;
             }
         }
 
-        // remove remote users and player views
-
-        // leave the channel
         await client.leave();
-
-        if (redirectAfterLeave) {
-            window.location = redirectAfterLeave;
-        }
+        if (redirectAfterLeave) window.location = redirectAfterLeave;
         console.log("client leaves channel success");
     }
 
     function handleUserPublished(user, mediaType) {
         const id = user.uid;
         remoteUsers[id] = user;
-
         subscribe(user, mediaType);
     }
 
@@ -192,197 +174,156 @@
         if (mediaType === 'video') {
             const id = user.uid;
             delete remoteUsers[id];
-            $(`#player-wrapper-${id}`).html('');
+            $(`#remote-player-${id}`).html('');
         }
     }
 
-    function handleHostEndLive(user, mediaType) {
+    function handleHostEndLive(user) {
         const id = user.uid;
-
-        $(`#player-wrapper-${id}`).html(liveEndedHtml);
-
+        $(`#remote-player-${id}`).html(liveEndedHtml);
         setTimeout(() => {
-            if (redirectAfterLeave) {
-                window.location = redirectAfterLeave;
-            }
+            if (redirectAfterLeave) window.location = redirectAfterLeave;
         }, 5000);
     }
 
-    function handleAudienceLeft(user, mediaType) {
-        const id = user.uid;
-
-        $(`#remote-player-${id}`).remove();
-    }
-
     async function handleShareScreen() {
-        if (!localTracks.shareScreenActived) {
-            let screenTrack;
+        if (localTracks.shareScreenActived) return;
 
-
-            // join a channel and create local tracks, we can use Promise.all to run them concurrently
-            [screenTrack] = await Promise.all([
-                AgoraRTC.createScreenVideoTrack({
-                    encoderConfig: {
-                        framerate: 30,
-                        height: 720,
-                        width: 1280
-                    }
-                }, "auto")
-            ]);
-
-            if (screenTrack instanceof Array) {
-                localTracks.screenVideoTrack = screenTrack[0];
-                localTracks.screenAudioTrack = screenTrack[1];
-            } else {
-                localTracks.screenVideoTrack = screenTrack;
-            }
-
-            // play local video track
-            if (localTracks.screenVideoTrack) {
-
-                localTracks.screenVideoTrack.play("stream-player");
-                // publish local tracks to channel
-
-                await handleCameraEffect(true);
-
-                await client.publish([localTracks.screenVideoTrack, localTracks.audioTrack]);
-
-                localTracks.shareScreenActived = true;
-
-                localTracks.screenVideoTrack.on("track-ended", () => {
-
-
-                    client.unpublish(localTracks.screenVideoTrack).then(() => {
-                        localTracks.screenVideoTrack.stop();
-                        localTracks.screenVideoTrack.close();
-
-                        localTracks.shareScreenActived = false;
-
-                        handleCameraEffect(false);
-                    });
-                });
-            }
+        if (localTracks.videoTrack) {
+            localTracks.videoTrack.stop();
+            localTracks.videoTrack.close();
+            localTracks.videoTrack = null;
         }
+
+        const screenTrack = await AgoraRTC.createScreenVideoTrack({
+            encoderConfig: { framerate: 30, height: 720, width: 1280 }
+        }, "auto");
+
+        if (screenTrack instanceof Array) {
+            localTracks.screenVideoTrack = screenTrack[0];
+            localTracks.screenAudioTrack = screenTrack[1];
+        } else {
+            localTracks.screenVideoTrack = screenTrack;
+        }
+
+        localTracks.screenVideoTrack.play("stream-player");
+        localTracks.shareScreenActived = true;
+
+        await republishTracks();
+
+        localTracks.screenVideoTrack.on("track-ended", async () => {
+            await handleEndShareScreen();
+        });
     }
 
     async function handleEndShareScreen() {
-        if (localTracks.shareScreenActived) {
+        if (!localTracks.shareScreenActived) return;
 
-            client.unpublish(localTracks.screenVideoTrack).then(() => {
-                localTracks.screenVideoTrack.stop();
-                localTracks.screenVideoTrack.close();
-
-                localTracks.shareScreenActived = false;
-
-                handleCameraEffect(false);
-            });
-
+        if (localTracks.screenVideoTrack) {
+            localTracks.screenVideoTrack.stop();
+            localTracks.screenVideoTrack.close();
+            localTracks.screenVideoTrack = null;
         }
+
+        localTracks.shareScreenActived = false;
+
+        localTracks.videoTrack = await AgoraRTC.createCameraVideoTrack();
+
+        if (streamRole === "host") {
+            localTracks.videoTrack.play("stream-player");
+        } else {
+            const playerHtml = await getRemoteUserCardHtml(authUserId);
+            const player = $(playerHtml);
+            $remoteStreamPlayerEl.append(player);
+            localTracks.videoTrack.play(`remote-player-${authUserId}`);
+        }
+
+        await republishTracks();
     }
 
-    $('body').on('click', '#leave', function (e) {
+    $('body').on('click', '#leave', async function () {
         const $this = $(this);
         const sessionId = $this.attr('data-id');
-
         $this.addClass('loadingbar primary').prop('disabled', true);
 
         const path = '/panel/sessions/' + sessionId + '/endAgora';
-
         $.get(path, function (result) {
-            if (result && result.code === 200) {
-                leave();
-            }
+            if (result && result.code === 200) leave();
         });
     });
 
-    $('body').on('click', '#shareScreen', function (e) {
+    $('body').on('click', '#shareScreen', function () {
         handleShareScreen();
-
         $(this).removeClass('d-flex').addClass('d-none')
         $('#endShareScreen').removeClass('d-none').addClass('d-flex')
     });
 
-    $('body').on('click', '#endShareScreen', function (e) {
+    $('body').on('click', '#endShareScreen', function () {
         handleEndShareScreen();
-
         $(this).removeClass('d-flex').addClass('d-none')
         $('#shareScreen').removeClass('d-none').addClass('d-flex')
     });
 
-    $('body').on('click', '#microphoneEffect', function (e) {
+    $('body').on('click', '#microphoneEffect', async function () {
         const $this = $(this);
-
         let icon = feather.icons['mic'].toSvg(featherIconsConf);
 
-        if (localTracks.audioTrack) {
-            if ($this.hasClass('active')) {
-                $this.removeClass('active');
-                $this.addClass('disabled');
-
-                icon = feather.icons['mic-off'].toSvg(featherIconsConf);
-
-                client.unpublish(localTracks.audioTrack);
-            } else {
-                $this.addClass('active');
-                $this.removeClass('disabled');
-
-                client.publish(localTracks.audioTrack);
+        if ($this.hasClass('active')) {
+            $this.removeClass('active').addClass('disabled');
+            icon = feather.icons['mic-off'].toSvg(featherIconsConf);
+            if (localTracks.audioTrack) {
+                localTracks.audioTrack.stop();
+                localTracks.audioTrack.close();
+                localTracks.audioTrack = null;
             }
+        } else {
+            $this.addClass('active').removeClass('disabled');
+            localTracks.audioTrack = await AgoraRTC.createMicrophoneAudioTrack();
         }
 
+        await republishTracks();
         $this.find('.icon').html(icon);
-    });
-
-    $('body').on('click', '#cameraEffect', function (e) {
-        const $this = $(this);
-
-        if (!localTracks.shareScreenActived) {
-            handleCameraEffect($this.hasClass('active'));
-        }
     });
 
     async function handleCameraEffect(isActive = false) {
         const $button = $('#cameraEffect');
-
         let icon = feather.icons['video'].toSvg(featherIconsConf);
 
         if (isActive) {
-            $button.removeClass('active');
-            $button.addClass('disabled');
-
+            $button.removeClass('active').addClass('disabled');
             icon = feather.icons['video-off'].toSvg(featherIconsConf);
+            if (localTracks.videoTrack) {
+                localTracks.videoTrack.stop();
+                localTracks.videoTrack.close();
+                localTracks.videoTrack = null;
+            }
+        } else {
+            $button.addClass('active').removeClass('disabled');
 
             if (localTracks.videoTrack) {
                 localTracks.videoTrack.stop();
                 localTracks.videoTrack.close();
-
-                client.unpublish(localTracks.videoTrack);
+                localTracks.videoTrack = null;
             }
-        } else {
-            $button.addClass('active');
-            $button.removeClass('disabled');
 
             localTracks.videoTrack = await AgoraRTC.createCameraVideoTrack();
 
-            if (authUserId === hostUserId) {
+            if (streamRole === "host") {
                 localTracks.videoTrack.play("stream-player");
             } else {
                 const playerHtml = await getRemoteUserCardHtml(authUserId);
                 const player = $(playerHtml);
-
                 $remoteStreamPlayerEl.append(player);
                 localTracks.videoTrack.play(`remote-player-${authUserId}`);
             }
-
-            client.publish(localTracks.videoTrack);
         }
 
+        await republishTracks();
         $button.find('.icon').html(icon);
     }
 
     async function getRemoteUserCardHtml(uid) {
         const userInfo = await getUserInfo(uid);
-
         return `<div id="remote-player-${uid}" class="remote-stream">
                     <span class="remote-stream-fullscreen">${maximizeIcon}</span>
                     ${userInfo ? `<span class="remote-stream-user-info">${userInfo.full_name}</span>` : ''}
@@ -391,11 +332,9 @@
 
     function handleTimer(startAt = 0) {
         const streamTimer = $('#streamTimer');
-
         const hoursLabel = streamTimer.find('.hours');
         const minutesLabel = streamTimer.find('.minutes');
         const secondsLabel = streamTimer.find('.seconds');
-
         let totalSeconds = startAt;
 
         setInterval(setTime, 1000);
@@ -413,39 +352,26 @@
 
         function pad(val) {
             var valString = val + "";
-            if (valString.length < 2) {
-                return "0" + valString;
-            } else {
-                return valString;
-            }
+            return valString.length < 2 ? "0" + valString : valString;
         }
     }
 
     $('body').on('click', '#collapseBtn', function () {
-        const $tabs = $('.agora-tabs');
-
-        $tabs.toggleClass('show');
+        $('.agora-tabs').toggleClass('show');
     });
 
     $('body').on('click', '.remote-stream-fullscreen', function () {
         const $parent = $(this).closest('.remote-stream');
-
         $parent.toggleClass('is-fullscreen');
         $remoteStreamPlayerEl.toggleClass('is-fullscreen');
     });
 
-    $('body').on('click', '#handleUsersJoin', function (e) {
+    $('body').on('click', '#handleUsersJoin', function () {
         const $this = $(this);
         const notActive = $this.hasClass('dont-join-users');
 
-        if (notActive) {
-            $this.find('span').text(joinIsActiveLang);
-        } else {
-            $this.find('span').text(joiningIsDisabledLang);
-        }
-
+        $this.find('span').text(notActive ? joinIsActiveLang : joiningIsDisabledLang);
         $this.toggleClass('dont-join-users');
-
         $this.prop('disabled', true);
 
         $.get(`/panel/sessions/${sessionId}/toggleUsersJoinToAgora`, function (result) {
@@ -460,7 +386,6 @@
                     icon: result.icon
                 });
             }
-
             $this.prop('disabled', false);
         });
     });

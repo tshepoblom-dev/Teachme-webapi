@@ -8,6 +8,7 @@ use App\Http\Controllers\Web\traits\UserFormFieldsTrait;
 use App\Mixins\RegistrationPackage\UserPackage;
 use App\Models\Category;
 use App\Models\DeleteAccountRequest;
+use AppModelsCurrency;
 use App\Models\Newsletter;
 use App\Models\Region;
 use App\Models\ReserveMeeting;
@@ -23,6 +24,7 @@ use App\Models\UserSelectedBank;
 use App\Models\UserSelectedBankSpecification;
 use App\Models\UserZoomApi;
 use App\User;
+use App\Models\Currency;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
@@ -75,8 +77,11 @@ class UserController extends Controller
             $userLanguages = getLanguages($userLanguages);
         } else {
             $userLanguages = [];
+
         }
 
+        // Add currencies for the consolidated view
+        $currencies = Currency::query()->get();
         $countries = null;
         $provinces = null;
         $cities = null;
@@ -142,6 +147,7 @@ class UserController extends Controller
             'occupations' => $occupations,
             'userLanguages' => $userLanguages,
             'currentStep' => $step,
+            'currencies' => $currencies,
             'countries' => $countries,
             'provinces' => $provinces,
             'cities' => $cities,
@@ -166,6 +172,11 @@ class UserController extends Controller
             $user = auth()->user();
         }
 
+
+        // NEW: Check if this is a consolidated submission
+        if (!empty($data['consolidated']) && $data['consolidated'] == '1') {
+            return $this->updateConsolidated($request, $user, $organization);
+        }
         $step = $data['step'] ?? 1;
         $nextStep = (!empty($data['next_step']) and $data['next_step'] == '1') ?? false;
 
@@ -981,8 +992,11 @@ class UserController extends Controller
                 $userLanguages = getLanguages($userLanguages);
             } else {
                 $userLanguages = [];
+
             }
 
+        // Add currencies for the consolidated view
+        $currencies = Currency::query()->get();
             $data = [
                 'pageTitle' => trans('public.new') . ' ' . trans('quiz.' . $user_type),
                 'new_user' => true,
@@ -1258,4 +1272,134 @@ class UserController extends Controller
 
         return response()->json([], 422);
     }
+
+    /**
+     * Handle consolidated settings update (all sections at once)
+     */
+    private function updateConsolidated(Request $request, $user, $organization = null)
+    {
+        $data = $request->all();
+        
+        // Combined validation rules for all sections
+        $registerMethod = getGeneralSettings('register_method') ?? 'mobile';
+        
+        $rules = [
+            // Profile Information
+            'full_name' => 'required|string|max:255',
+            'email' => (($registerMethod == 'email') ? 'required' : 'nullable') . '|email|max:255|unique:users,email,' . $user->id,
+            'mobile' => (($registerMethod == 'mobile') ? 'required' : 'nullable') . '|numeric|unique:users,mobile,' . $user->id,
+            'language' => 'nullable|string',
+            'currency' => 'nullable|string',
+            'password' => 'nullable|confirmed|min:6',
+            
+            // Image
+            'profile_image' => 'nullable|string',
+            
+            // About
+            'about' => 'nullable|string|max:5000',
+            'bio' => 'nullable|string|min:3|max:48',
+        ];
+
+        $this->validate($request, $rules);
+
+        if (!empty($user)) {
+            $updateData = [];
+
+            // Step 1: Basic Information
+            $joinNewsletter = (!empty($data['join_newsletter']) and $data['join_newsletter'] == 'on');
+
+            $updateData = [
+                'email' => $data['email'],
+                'full_name' => $data['full_name'],
+                'mobile' => $data['mobile'] ?? null,
+                'language' => $data['language'] ?? null,
+                'timezone' => $data['timezone'] ?? null,
+                'currency' => $data['currency'] ?? null,
+                'newsletter' => $joinNewsletter,
+                'public_message' => (!empty($data['public_messages']) and $data['public_messages'] == 'on'),
+            ];
+
+            $this->handleNewsletter($data['email'], $user->id, $joinNewsletter);
+
+            // Step 2: Profile Image
+            if (!empty($data['profile_image'])) {
+                try {
+                    $profileImage = $this->createImage($user, $data['profile_image']);
+                    $updateData['avatar'] = $profileImage;
+                } catch (\Exception $e) {
+                    \Log::error('Profile image creation failed: ' . $e->getMessage());
+                }
+            }
+
+            // Step 3: About Information
+            if (isset($data['about'])) {
+                $updateData['about'] = $data['about'];
+            }
+
+            if (isset($data['bio'])) {
+                $updateData['bio'] = $data['bio'];
+            }
+
+            // Handle password update if provided
+            if (!empty($data['password'])) {
+                $user->update([
+                    'password' => User::generatePassword($data['password'])
+                ]);
+            }
+
+            // Handle Occupations (teachers only)
+            if (!$user->isUser()) {
+                UserOccupation::where('user_id', $user->id)->delete();
+                if (!empty($data['occupations'])) {
+                    foreach ($data['occupations'] as $category_id) {
+                        UserOccupation::create([
+                            'user_id' => $user->id,
+                            'category_id' => $category_id
+                        ]);
+                    }
+                }
+            }
+
+            // Handle Identity and Financial
+            if (!empty($data['bank_id']) || !empty($data['identity_scan']) || !empty($data['certificate']) || !empty($data['address'])) {
+                $financialData = $this->handleUserIdentityAndFinancial($user, $data);
+                $updateData = array_merge($updateData, $financialData);
+            }
+
+            // Perform the update
+            if (!empty($updateData)) {
+                $user->update($updateData);
+            }
+
+            // Determine redirect URL
+            $url = '/panel/setting';
+            if (!empty($organization)) {
+                $userType = $user->isTeacher() ? 'instructors' : 'students';
+                $url = "/panel/manage/{$userType}/{$user->id}/edit";
+            }
+
+            // For AJAX requests, return JSON response
+            if ($request->ajax() || $request->wantsJson()) {
+                return response()->json([
+                    'success' => true,
+                    'message' => trans('panel.user_setting_success'),
+                    'redirect' => $url
+                ]);
+            }
+
+            // For regular requests, redirect with toast
+            $toastData = [
+                'title' => trans('public.request_success'),
+                'msg' => trans('panel.user_setting_success'),
+                'status' => 'success'
+            ];
+            
+            return redirect($url)->with(['toast' => $toastData]);
+        }
+
+        abort(404);
+    }
+
+   
+    
 }

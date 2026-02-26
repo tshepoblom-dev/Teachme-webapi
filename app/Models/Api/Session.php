@@ -55,11 +55,11 @@ class Session extends WebSession
 
         if ($this->session_api == 'agora') {
             //  $link = url('panel/sessions/' . $this->id . '/joinToAgora');
-            /* $link = route('agora', [
+             $link = route('agora', [
                  'user_id' => apiAuth()->id,
                  'session_id' => $this->id,
-             ]);*/
-            $link = null;
+             ]);
+            //$link = null;
         }
 
         return $link;

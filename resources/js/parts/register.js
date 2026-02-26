@@ -18,7 +18,7 @@
         let fieldsHtml = `
             <div class="teacher-fields">
                 <div class="form-group">
-                    <label class="js-instructor-label font-weight-500 text-dark-blue">Instructor Certificate and Documents</label>
+                    <label class="js-instructor-label font-weight-500 text-dark-blue">Tutor Certificate and Documents</label>
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <button type="button" class="input-group-text" data-input="certificate" data-preview="holder">
@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label class="js-instructor-label font-weight-500 text-dark-blue">Instructor Identity Scan</label>
+                    <label class="js-instructor-label font-weight-500 text-dark-blue">Tutor Identity Scan</label>
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <button type="button" class="input-group-text" data-input="identity_scan" data-preview="holder">
@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label class="js-instructor-label font-weight-500 text-dark-blue">Instructor CV</label>
+                    <label class="js-instructor-label font-weight-500 text-dark-blue">Tutor CV</label>
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <button type="button" class="input-group-text" data-input="cv" data-preview="holder">
@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label class="js-instructor-label font-weight-500 text-dark-blue">Instructor POA</label>
+                    <label class="js-instructor-label font-weight-500 text-dark-blue">Tutor Proof of Address</label>
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <button type="button" class="input-group-text" data-input="poa" data-preview="holder">
